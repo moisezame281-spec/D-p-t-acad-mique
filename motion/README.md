@@ -7,7 +7,7 @@ L'identité visuelle complète est décrite dans [`brand/CHARTE.md`](brand/CHART
 
 | Date | Projet | Format | Fichier |
 |---|---|---|---|
-| 19/11/2026 | Journée mondiale de la philosophie : « La foi s'oppose-t-elle à la raison ? » | 60 s · 1080×1920 · 30 i/s | [`exports/gexaa-philo-2026-9x16.mp4`](exports/gexaa-philo-2026-9x16.mp4) |
+| 19/11/2026 | Journée mondiale de la philosophie : « La foi s’oppose-t-elle à la raison ? » | 60 s · 1080×1920 · 30 i/s | [HD](exports/gexaa-philo-2026-9x16.mp4) · [WhatsApp](exports/gexaa-philo-2026-9x16-whatsapp.mp4) · [couverture](exports/gexaa-philo-2026-couverture.png) |
 
 ---
 
