@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<title>GEXAA — Journée mondiale de la philosophie 2026</title>
+<style>
+  @font-face { font-family: 'Montserrat'; font-weight: 500; src: url(/node_modules/@fontsource/montserrat/files/montserrat-latin-500-normal.woff2) format('woff2'); }
+  @font-face { font-family: 'Montserrat'; font-weight: 600; src: url(/node_modules/@fontsource/montserrat/files/montserrat-latin-600-normal.woff2) format('woff2'); }
+  @font-face { font-family: 'Montserrat'; font-weight: 700; src: url(/node_modules/@fontsource/montserrat/files/montserrat-latin-700-normal.woff2) format('woff2'); }
+  @font-face { font-family: 'Montserrat'; font-weight: 800; src: url(/node_modules/@fontsource/montserrat/files/montserrat-latin-800-normal.woff2) format('woff2'); }
+  @font-face { font-family: 'Cormorant'; font-weight: 500; src: url(/node_modules/@fontsource/cormorant-garamond/files/cormorant-garamond-latin-500-normal.woff2) format('woff2'); }
+  @font-face { font-family: 'Cormorant'; font-weight: 600; src: url(/node_modules/@fontsource/cormorant-garamond/files/cormorant-garamond-latin-600-normal.woff2) format('woff2'); }
+  @font-face { font-family: 'Cormorant'; font-weight: 500; font-style: italic; src: url(/node_modules/@fontsource/cormorant-garamond/files/cormorant-garamond-latin-500-italic.woff2) format('woff2'); }
+  @font-face { font-family: 'Cormorant'; font-weight: 600; font-style: italic; src: url(/node_modules/@fontsource/cormorant-garamond/files/cormorant-garamond-latin-600-italic.woff2) format('woff2'); }
+
+  html, body { margin: 0; padding: 0; background: #061733; }
+  #stage {
+    position: relative; width: 1080px; height: 1920px; overflow: hidden;
+    background: radial-gradient(ellipse 90% 60% at 50% 46%, #11306A 0%, #061733 58%, #020A1C 100%);
+    -webkit-font-smoothing: antialiased; font-kerning: normal;
+  }
+  .scene { position: absolute; inset: 0; overflow: hidden; }
+  .fill { position: absolute; inset: 0; transform-origin: 540px 960px; will-change: transform, opacity, filter; }
+  .t { position: absolute; left: 0; width: 1080px; text-align: center; white-space: nowrap; }
+  .mont { font-family: 'Montserrat', sans-serif; text-transform: uppercase; }
+  .corm { font-family: 'Cormorant', serif; }
+  .it { font-style: italic; }
+  .overlay { position: absolute; inset: 0; pointer-events: none; }
+  #vigDark { z-index: 85; background: radial-gradient(ellipse 75% 62% at 50% 48%, rgba(0,0,0,0) 55%, rgba(0,4,16,.55) 100%); }
+  #vigLight { z-index: 85; background: radial-gradient(ellipse 80% 65% at 50% 46%, rgba(0,0,0,0) 50%, rgba(110,78,30,.20) 100%); opacity: 0; }
+  #grain { z-index: 95; background: url(/assets/grain.png); mix-blend-mode: overlay; opacity: .09; }
+</style>
+</head>
+<body>
+<div id="stage"></div>
+<script src="/node_modules/opentype.js/dist/opentype.js"></script>
+<script src="/lib/engine.js"></script>
+<script src="scene.js"></script>
+</body>
+</html>
