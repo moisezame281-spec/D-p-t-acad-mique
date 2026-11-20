@@ -101,7 +101,7 @@ for ln in cfg['lines']:
         s, cached = take(ln['text'], k)
         heard, w = '', 0.0
         if asr is not None:
-            segs, _ = asr.transcribe(librosa.resample(s, orig_sr=SR, target_sr=16000), language='fr', beam_size=5)
+            segs, _ = asr.transcribe(librosa.resample(s, orig_sr=SR, target_sr=16000), language='fr', beam_size=5, temperature=0.0)
             heard = ' '.join(x.text.strip() for x in segs)
             w = wer(ln['text'], heard)
         over = 0.0 if WARP else max(0.0, len(s) / SR / room - MAXS)
