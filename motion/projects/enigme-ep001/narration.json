@@ -1,0 +1,197 @@
+{
+  "title": "L'Énigme humaine — Épisode pilote 001 — Tu sais. Tu recommences. Pourquoi ?",
+  "voice": "ff_siwis",
+  "lang": "fr-fr",
+  "speed": 0.9,
+  "note": "Texte officiel conservé à l'identique (display). 'say' = graphie phonétique pour la synthèse uniquement (chiffres en toutes lettres, akrasia prononcé avec un s comme en grec). 'pause' = silence après la phrase (s). Les sous-titres sont découpés en blocs 'chunks'.",
+  "lead_in": 0.55,
+  "tail": 3.1,
+  "sentences": [
+    {
+      "id": "s1a",
+      "scene": 1,
+      "pause": 0.45,
+      "chunks": [
+        [
+          "Tu te fais une promesse le soir."
+        ]
+      ]
+    },
+    {
+      "id": "s1b",
+      "scene": 1,
+      "pause": 0.5,
+      "chunks": [
+        [
+          "Le lendemain, tu la trahis."
+        ]
+      ]
+    },
+    {
+      "id": "s1c",
+      "scene": 1,
+      "pause": 0.4,
+      "chunks": [
+        [
+          "Et tu savais déjà",
+          ""
+        ],
+        [
+          "que tu recommencerais."
+        ]
+      ]
+    },
+    {
+      "id": "s1d",
+      "scene": 1,
+      "pause": 1.2,
+      "chunks": [
+        [
+          "Pourquoi ?"
+        ]
+      ]
+    },
+    {
+      "id": "s2a",
+      "scene": 2,
+      "pause": 0.85,
+      "chunks": [
+        [
+          "Dans Romains 7, Paul décrit ce conflit :",
+          "Dans Romains sept, Paul décrit ce conflit :"
+        ],
+        [
+          "vouloir le bien,"
+        ],
+        [
+          "mais faire ce qu’on désapprouve."
+        ]
+      ]
+    },
+    {
+      "id": "s3a",
+      "scene": 3,
+      "pause": 0.85,
+      "chunks": [
+        [
+          "Le Coran, en sourate 91,",
+          "Le Coran, en sourate quatre-vingt-onze,"
+        ],
+        [
+          "évoque l’âme,"
+        ],
+        [
+          "le discernement entre le mal et la piété,"
+        ],
+        [
+          "puis sa purification."
+        ]
+      ]
+    },
+    {
+      "id": "s4a",
+      "scene": 4,
+      "pause": 0.35,
+      "chunks": [
+        [
+          "Ces textes ne disent pas la même chose."
+        ]
+      ]
+    },
+    {
+      "id": "s4b",
+      "scene": 4,
+      "pause": 0.85,
+      "chunks": [
+        [
+          "Ils prennent pourtant au sérieux",
+          ""
+        ],
+        [
+          "la lutte intérieure."
+        ]
+      ]
+    },
+    {
+      "id": "s5a",
+      "scene": 5,
+      "pause": 0.85,
+      "chunks": [
+        [
+          "Aristote appelle “akrasia”",
+          "Aristote appelle « akrassia »"
+        ],
+        [
+          "le fait d’agir contre son meilleur jugement,"
+        ],
+        [
+          "sous l’effet du désir ou de l’émotion."
+        ]
+      ]
+    },
+    {
+      "id": "s6a",
+      "scene": 6,
+      "pause": 0.85,
+      "chunks": [
+        [
+          "La psychologie ajoute une piste :"
+        ],
+        [
+          "un lieu, une heure"
+        ],
+        [
+          "ou un déclencheur familier"
+        ],
+        [
+          "peut réactiver une habitude"
+        ],
+        [
+          "presque automatiquement."
+        ]
+      ]
+    },
+    {
+      "id": "s7a",
+      "scene": 7,
+      "pause": 0.35,
+      "chunks": [
+        [
+          "Alors, ce n’est pas toujours",
+          ""
+        ],
+        [
+          "une simple question de volonté."
+        ]
+      ]
+    },
+    {
+      "id": "s7b",
+      "scene": 7,
+      "pause": 2.4,
+      "chunks": [
+        [
+          "Il faut aussi comprendre",
+          ""
+        ],
+        [
+          "ce qui déclenche le geste."
+        ]
+      ]
+    },
+    {
+      "id": "s7c",
+      "scene": 7,
+      "pause": 0.0,
+      "chunks": [
+        [
+          "Et toi :",
+          ""
+        ],
+        [
+          "qu’est-ce qui te ramène au même choix ?"
+        ]
+      ]
+    }
+  ]
+}

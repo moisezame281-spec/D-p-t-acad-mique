@@ -1,0 +1,1190 @@
+{
+ "duration": 59.455,
+ "sentences": [
+  {
+   "id": "s1a",
+   "scene": 1,
+   "start": 0.55,
+   "end": 2.345,
+   "display": "Tu te fais une promesse le soir.",
+   "say": "Tu te fais une promesse le soir.",
+   "heard": "Tu  te  fais  une  promesse  le  soir.",
+   "match": 1.0,
+   "words": [
+    {
+     "w": "tu",
+     "start": 0.55,
+     "end": 0.67,
+     "chunk": 0
+    },
+    {
+     "w": "te",
+     "start": 0.67,
+     "end": 0.85,
+     "chunk": 0
+    },
+    {
+     "w": "fais",
+     "start": 0.85,
+     "end": 1.07,
+     "chunk": 0
+    },
+    {
+     "w": "une",
+     "start": 1.07,
+     "end": 1.23,
+     "chunk": 0
+    },
+    {
+     "w": "promesse",
+     "start": 1.23,
+     "end": 1.65,
+     "chunk": 0
+    },
+    {
+     "w": "le",
+     "start": 1.65,
+     "end": 1.77,
+     "chunk": 0
+    },
+    {
+     "w": "soir",
+     "start": 1.77,
+     "end": 2.01,
+     "chunk": 0
+    }
+   ],
+   "chunks": [
+    {
+     "text": "Tu te fais une promesse le soir.",
+     "start": 0.55,
+     "end": 2.345
+    }
+   ]
+  },
+  {
+   "id": "s1b",
+   "scene": 1,
+   "start": 2.795,
+   "end": 4.228,
+   "display": "Le lendemain, tu la trahis.",
+   "say": "Le lendemain, tu la trahis.",
+   "heard": "Le  lendemain,  tu  l 'as  trahi.",
+   "match": 0.6,
+   "words": [
+    {
+     "w": "le",
+     "start": 2.795,
+     "end": 2.995,
+     "chunk": 0
+    },
+    {
+     "w": "lendemain",
+     "start": 2.995,
+     "end": 3.475,
+     "chunk": 0
+    },
+    {
+     "w": "tu",
+     "start": 3.515,
+     "end": 3.575,
+     "chunk": 0
+    },
+    {
+     "w": "la",
+     "start": 3.575,
+     "end": 3.902,
+     "chunk": 0
+    },
+    {
+     "w": "trahis",
+     "start": 3.902,
+     "end": 4.228,
+     "chunk": 0
+    }
+   ],
+   "chunks": [
+    {
+     "text": "Le lendemain, tu la trahis.",
+     "start": 2.795,
+     "end": 4.228
+    }
+   ]
+  },
+  {
+   "id": "s1c",
+   "scene": 1,
+   "start": 4.728,
+   "end": 6.831,
+   "display": "Et tu savais déjà que tu recommencerais.",
+   "say": "Et tu savais déjà que tu recommencerais.",
+   "heard": "Et  tu  savais  déjà  que  tu  recommencerais.",
+   "match": 1.0,
+   "words": [
+    {
+     "w": "et",
+     "start": 4.728,
+     "end": 4.848,
+     "chunk": 0
+    },
+    {
+     "w": "tu",
+     "start": 4.848,
+     "end": 5.028,
+     "chunk": 0
+    },
+    {
+     "w": "savais",
+     "start": 5.028,
+     "end": 5.368,
+     "chunk": 0
+    },
+    {
+     "w": "deja",
+     "start": 5.368,
+     "end": 5.628,
+     "chunk": 0
+    },
+    {
+     "w": "que",
+     "start": 5.628,
+     "end": 5.828,
+     "chunk": 1
+    },
+    {
+     "w": "tu",
+     "start": 5.828,
+     "end": 5.968,
+     "chunk": 1
+    },
+    {
+     "w": "recommencerais",
+     "start": 5.968,
+     "end": 6.708,
+     "chunk": 1
+    }
+   ],
+   "chunks": [
+    {
+     "text": "Et tu savais déjà",
+     "start": 4.728,
+     "end": 5.628
+    },
+    {
+     "text": "que tu recommencerais.",
+     "start": 5.628,
+     "end": 6.831
+    }
+   ]
+  },
+  {
+   "id": "s1d",
+   "scene": 1,
+   "start": 7.231,
+   "end": 8.008,
+   "display": "Pourquoi ?",
+   "say": "Pourquoi ?",
+   "heard": "Pourquoi  ?",
+   "match": 1.0,
+   "words": [
+    {
+     "w": "pourquoi",
+     "start": 7.231,
+     "end": 7.591,
+     "chunk": 0
+    }
+   ],
+   "chunks": [
+    {
+     "text": "Pourquoi ?",
+     "start": 7.231,
+     "end": 8.008
+    }
+   ]
+  },
+  {
+   "id": "s2a",
+   "scene": 2,
+   "start": 9.208,
+   "end": 14.39,
+   "display": "Dans Romains 7, Paul décrit ce conflit : vouloir le bien, mais faire ce qu’on désapprouve.",
+   "say": "Dans Romains sept, Paul décrit ce conflit : vouloir le bien, mais faire ce qu’on désapprouve.",
+   "heard": "Dans  Romain  7,  Paul  décrit  ce  conflit,  vouloir  le  bien,  mais  faire  ce  qu 'on  désapprouve.",
+   "match": 0.875,
+   "words": [
+    {
+     "w": "dans",
+     "start": 9.208,
+     "end": 9.388,
+     "chunk": 0
+    },
+    {
+     "w": "romains",
+     "start": 9.388,
+     "end": 9.888,
+     "chunk": 0
+    },
+    {
+     "w": "sept",
+     "start": 9.888,
+     "end": 10.388,
+     "chunk": 0
+    },
+    {
+     "w": "paul",
+     "start": 10.388,
+     "end": 10.568,
+     "chunk": 0
+    },
+    {
+     "w": "decrit",
+     "start": 10.568,
+     "end": 10.968,
+     "chunk": 0
+    },
+    {
+     "w": "ce",
+     "start": 10.968,
+     "end": 11.088,
+     "chunk": 0
+    },
+    {
+     "w": "conflit",
+     "start": 11.088,
+     "end": 11.608,
+     "chunk": 0
+    },
+    {
+     "w": "vouloir",
+     "start": 11.748,
+     "end": 12.188,
+     "chunk": 1
+    },
+    {
+     "w": "le",
+     "start": 12.188,
+     "end": 12.288,
+     "chunk": 1
+    },
+    {
+     "w": "bien",
+     "start": 12.288,
+     "end": 12.528,
+     "chunk": 1
+    },
+    {
+     "w": "mais",
+     "start": 12.748,
+     "end": 12.928,
+     "chunk": 2
+    },
+    {
+     "w": "faire",
+     "start": 12.928,
+     "end": 13.168,
+     "chunk": 2
+    },
+    {
+     "w": "ce",
+     "start": 13.168,
+     "end": 13.348,
+     "chunk": 2
+    },
+    {
+     "w": "qu",
+     "start": 13.348,
+     "end": 13.428,
+     "chunk": 2
+    },
+    {
+     "w": "on",
+     "start": 13.428,
+     "end": 13.508,
+     "chunk": 2
+    },
+    {
+     "w": "desapprouve",
+     "start": 13.508,
+     "end": 14.188,
+     "chunk": 2
+    }
+   ],
+   "chunks": [
+    {
+     "text": "Dans Romains 7, Paul décrit ce conflit :",
+     "start": 9.208,
+     "end": 11.608
+    },
+    {
+     "text": "vouloir le bien,",
+     "start": 11.748,
+     "end": 12.528
+    },
+    {
+     "text": "mais faire ce qu’on désapprouve.",
+     "start": 12.748,
+     "end": 14.39
+    }
+   ]
+  },
+  {
+   "id": "s3a",
+   "scene": 3,
+   "start": 15.24,
+   "end": 22.52,
+   "display": "Le Coran, en sourate 91, évoque l’âme, le discernement entre le mal et la piété, puis sa purification.",
+   "say": "Le Coran, en sourate quatre-vingt-onze, évoque l’âme, le discernement entre le mal et la piété, puis sa purification.",
+   "heard": "Le  Coran  en  sourat  de  91  évoque  l 'âme,  le  discernement  d 'entre  le  mâle  et  la  pieté,  puis  sa  purification.",
+   "match": 0.762,
+   "words": [
+    {
+     "w": "le",
+     "start": 15.24,
+     "end": 15.4,
+     "chunk": 0
+    },
+    {
+     "w": "coran",
+     "start": 15.4,
+     "end": 15.86,
+     "chunk": 0
+    },
+    {
+     "w": "en",
+     "start": 15.86,
+     "end": 16.12,
+     "chunk": 0
+    },
+    {
+     "w": "sourate",
+     "start": 16.12,
+     "end": 16.355,
+     "chunk": 0
+    },
+    {
+     "w": "quatre",
+     "start": 16.355,
+     "end": 16.59,
+     "chunk": 0
+    },
+    {
+     "w": "vingt",
+     "start": 16.59,
+     "end": 16.825,
+     "chunk": 0
+    },
+    {
+     "w": "onze",
+     "start": 16.825,
+     "end": 17.06,
+     "chunk": 0
+    },
+    {
+     "w": "evoque",
+     "start": 17.06,
+     "end": 18.06,
+     "chunk": 1
+    },
+    {
+     "w": "l",
+     "start": 18.06,
+     "end": 18.16,
+     "chunk": 1
+    },
+    {
+     "w": "ame",
+     "start": 18.16,
+     "end": 18.5,
+     "chunk": 1
+    },
+    {
+     "w": "le",
+     "start": 18.86,
+     "end": 18.94,
+     "chunk": 2
+    },
+    {
+     "w": "discernement",
+     "start": 18.94,
+     "end": 19.56,
+     "chunk": 2
+    },
+    {
+     "w": "entre",
+     "start": 19.66,
+     "end": 19.8,
+     "chunk": 2
+    },
+    {
+     "w": "le",
+     "start": 19.8,
+     "end": 19.94,
+     "chunk": 2
+    },
+    {
+     "w": "mal",
+     "start": 19.94,
+     "end": 20.34,
+     "chunk": 2
+    },
+    {
+     "w": "et",
+     "start": 20.34,
+     "end": 20.46,
+     "chunk": 2
+    },
+    {
+     "w": "la",
+     "start": 20.46,
+     "end": 20.58,
+     "chunk": 2
+    },
+    {
+     "w": "piete",
+     "start": 20.58,
+     "end": 21.06,
+     "chunk": 2
+    },
+    {
+     "w": "puis",
+     "start": 21.2,
+     "end": 21.38,
+     "chunk": 3
+    },
+    {
+     "w": "sa",
+     "start": 21.38,
+     "end": 21.58,
+     "chunk": 3
+    },
+    {
+     "w": "purification",
+     "start": 21.58,
+     "end": 22.12,
+     "chunk": 3
+    }
+   ],
+   "chunks": [
+    {
+     "text": "Le Coran, en sourate 91,",
+     "start": 15.24,
+     "end": 17.06
+    },
+    {
+     "text": "évoque l’âme,",
+     "start": 17.06,
+     "end": 18.5
+    },
+    {
+     "text": "le discernement entre le mal et la piété,",
+     "start": 18.86,
+     "end": 21.06
+    },
+    {
+     "text": "puis sa purification.",
+     "start": 21.2,
+     "end": 22.52
+    }
+   ]
+  },
+  {
+   "id": "s4a",
+   "scene": 4,
+   "start": 23.37,
+   "end": 25.406,
+   "display": "Ces textes ne disent pas la même chose.",
+   "say": "Ces textes ne disent pas la même chose.",
+   "heard": "Ces  textes  ne  disent  pas  la  même  chose.",
+   "match": 1.0,
+   "words": [
+    {
+     "w": "ces",
+     "start": 23.37,
+     "end": 23.57,
+     "chunk": 0
+    },
+    {
+     "w": "textes",
+     "start": 23.57,
+     "end": 23.99,
+     "chunk": 0
+    },
+    {
+     "w": "ne",
+     "start": 23.99,
+     "end": 24.09,
+     "chunk": 0
+    },
+    {
+     "w": "disent",
+     "start": 24.09,
+     "end": 24.29,
+     "chunk": 0
+    },
+    {
+     "w": "pas",
+     "start": 24.29,
+     "end": 24.47,
+     "chunk": 0
+    },
+    {
+     "w": "la",
+     "start": 24.47,
+     "end": 24.57,
+     "chunk": 0
+    },
+    {
+     "w": "meme",
+     "start": 24.57,
+     "end": 24.71,
+     "chunk": 0
+    },
+    {
+     "w": "chose",
+     "start": 24.71,
+     "end": 25.03,
+     "chunk": 0
+    }
+   ],
+   "chunks": [
+    {
+     "text": "Ces textes ne disent pas la même chose.",
+     "start": 23.37,
+     "end": 25.406
+    }
+   ]
+  },
+  {
+   "id": "s4b",
+   "scene": 4,
+   "start": 25.756,
+   "end": 28.427,
+   "display": "Ils prennent pourtant au sérieux la lutte intérieure.",
+   "say": "Ils prennent pourtant au sérieux la lutte intérieure.",
+   "heard": "Ils  prennent  pourtant  au  sérieux  la  lutte  intérieure.",
+   "match": 1.0,
+   "words": [
+    {
+     "w": "ils",
+     "start": 25.756,
+     "end": 25.916,
+     "chunk": 0
+    },
+    {
+     "w": "prennent",
+     "start": 25.916,
+     "end": 26.316,
+     "chunk": 0
+    },
+    {
+     "w": "pourtant",
+     "start": 26.316,
+     "end": 26.576,
+     "chunk": 0
+    },
+    {
+     "w": "au",
+     "start": 26.576,
+     "end": 26.776,
+     "chunk": 0
+    },
+    {
+     "w": "serieux",
+     "start": 26.776,
+     "end": 27.236,
+     "chunk": 0
+    },
+    {
+     "w": "la",
+     "start": 27.236,
+     "end": 27.436,
+     "chunk": 1
+    },
+    {
+     "w": "lutte",
+     "start": 27.436,
+     "end": 27.736,
+     "chunk": 1
+    },
+    {
+     "w": "interieure",
+     "start": 27.736,
+     "end": 28.296,
+     "chunk": 1
+    }
+   ],
+   "chunks": [
+    {
+     "text": "Ils prennent pourtant au sérieux",
+     "start": 25.756,
+     "end": 27.236
+    },
+    {
+     "text": "la lutte intérieure.",
+     "start": 27.236,
+     "end": 28.427
+    }
+   ]
+  },
+  {
+   "id": "s5a",
+   "scene": 5,
+   "start": 29.277,
+   "end": 35.547,
+   "display": "Aristote appelle “akrasia” le fait d’agir contre son meilleur jugement, sous l’effet du désir ou de l’émotion.",
+   "say": "Aristote appelle « akrassia » le fait d’agir contre son meilleur jugement, sous l’effet du désir ou de l’émotion.",
+   "heard": "Aristot  appelle  Acracia  le  fait  d 'agir  contre  son  meilleur  jugement  sous  l 'effet  du  désir  ou  de  l 'émotion.",
+   "match": 0.9,
+   "words": [
+    {
+     "w": "aristote",
+     "start": 29.277,
+     "end": 29.917,
+     "chunk": 0
+    },
+    {
+     "w": "appelle",
+     "start": 29.917,
+     "end": 30.317,
+     "chunk": 0
+    },
+    {
+     "w": "akrassia",
+     "start": 30.317,
+     "end": 30.997,
+     "chunk": 0
+    },
+    {
+     "w": "le",
+     "start": 30.997,
+     "end": 31.137,
+     "chunk": 1
+    },
+    {
+     "w": "fait",
+     "start": 31.137,
+     "end": 31.337,
+     "chunk": 1
+    },
+    {
+     "w": "d",
+     "start": 31.337,
+     "end": 31.477,
+     "chunk": 1
+    },
+    {
+     "w": "agir",
+     "start": 31.477,
+     "end": 31.857,
+     "chunk": 1
+    },
+    {
+     "w": "contre",
+     "start": 31.857,
+     "end": 32.077,
+     "chunk": 1
+    },
+    {
+     "w": "son",
+     "start": 32.077,
+     "end": 32.337,
+     "chunk": 1
+    },
+    {
+     "w": "meilleur",
+     "start": 32.337,
+     "end": 32.617,
+     "chunk": 1
+    },
+    {
+     "w": "jugement",
+     "start": 32.617,
+     "end": 33.177,
+     "chunk": 1
+    },
+    {
+     "w": "sous",
+     "start": 33.177,
+     "end": 33.677,
+     "chunk": 2
+    },
+    {
+     "w": "l",
+     "start": 33.677,
+     "end": 33.797,
+     "chunk": 2
+    },
+    {
+     "w": "effet",
+     "start": 33.797,
+     "end": 34.037,
+     "chunk": 2
+    },
+    {
+     "w": "du",
+     "start": 34.037,
+     "end": 34.157,
+     "chunk": 2
+    },
+    {
+     "w": "desir",
+     "start": 34.157,
+     "end": 34.677,
+     "chunk": 2
+    },
+    {
+     "w": "ou",
+     "start": 34.677,
+     "end": 34.777,
+     "chunk": 2
+    },
+    {
+     "w": "de",
+     "start": 34.777,
+     "end": 34.857,
+     "chunk": 2
+    },
+    {
+     "w": "l",
+     "start": 34.857,
+     "end": 34.937,
+     "chunk": 2
+    },
+    {
+     "w": "emotion",
+     "start": 34.937,
+     "end": 35.317,
+     "chunk": 2
+    }
+   ],
+   "chunks": [
+    {
+     "text": "Aristote appelle “akrasia”",
+     "start": 29.277,
+     "end": 30.997
+    },
+    {
+     "text": "le fait d’agir contre son meilleur jugement,",
+     "start": 30.997,
+     "end": 33.177
+    },
+    {
+     "text": "sous l’effet du désir ou de l’émotion.",
+     "start": 33.177,
+     "end": 35.547
+    }
+   ]
+  },
+  {
+   "id": "s6a",
+   "scene": 6,
+   "start": 36.397,
+   "end": 44.21,
+   "display": "La psychologie ajoute une piste : un lieu, une heure ou un déclencheur familier peut réactiver une habitude presque automatiquement.",
+   "say": "La psychologie ajoute une piste : un lieu, une heure ou un déclencheur familier peut réactiver une habitude presque automatiquement.",
+   "heard": "La  psychologie  ajoute  une  piste,  un  lieu,  une  heure  ou  un  déclencheur  familier  peut  réactiver  une  habitude  presque  automatiquement.",
+   "match": 1.0,
+   "words": [
+    {
+     "w": "la",
+     "start": 36.397,
+     "end": 36.577,
+     "chunk": 0
+    },
+    {
+     "w": "psychologie",
+     "start": 36.577,
+     "end": 37.317,
+     "chunk": 0
+    },
+    {
+     "w": "ajoute",
+     "start": 37.317,
+     "end": 37.837,
+     "chunk": 0
+    },
+    {
+     "w": "une",
+     "start": 37.837,
+     "end": 38.017,
+     "chunk": 0
+    },
+    {
+     "w": "piste",
+     "start": 38.017,
+     "end": 38.457,
+     "chunk": 0
+    },
+    {
+     "w": "un",
+     "start": 38.757,
+     "end": 38.977,
+     "chunk": 1
+    },
+    {
+     "w": "lieu",
+     "start": 38.977,
+     "end": 39.197,
+     "chunk": 1
+    },
+    {
+     "w": "une",
+     "start": 39.537,
+     "end": 39.757,
+     "chunk": 1
+    },
+    {
+     "w": "heure",
+     "start": 39.757,
+     "end": 40.037,
+     "chunk": 1
+    },
+    {
+     "w": "ou",
+     "start": 40.037,
+     "end": 40.197,
+     "chunk": 2
+    },
+    {
+     "w": "un",
+     "start": 40.197,
+     "end": 40.317,
+     "chunk": 2
+    },
+    {
+     "w": "declencheur",
+     "start": 40.317,
+     "end": 40.917,
+     "chunk": 2
+    },
+    {
+     "w": "familier",
+     "start": 40.917,
+     "end": 41.537,
+     "chunk": 2
+    },
+    {
+     "w": "peut",
+     "start": 41.537,
+     "end": 41.697,
+     "chunk": 3
+    },
+    {
+     "w": "reactiver",
+     "start": 41.697,
+     "end": 42.357,
+     "chunk": 3
+    },
+    {
+     "w": "une",
+     "start": 42.357,
+     "end": 42.517,
+     "chunk": 3
+    },
+    {
+     "w": "habitude",
+     "start": 42.517,
+     "end": 42.937,
+     "chunk": 3
+    },
+    {
+     "w": "presque",
+     "start": 42.937,
+     "end": 43.177,
+     "chunk": 4
+    },
+    {
+     "w": "automatiquement",
+     "start": 43.177,
+     "end": 43.997,
+     "chunk": 4
+    }
+   ],
+   "chunks": [
+    {
+     "text": "La psychologie ajoute une piste :",
+     "start": 36.397,
+     "end": 38.457
+    },
+    {
+     "text": "un lieu, une heure",
+     "start": 38.757,
+     "end": 40.037
+    },
+    {
+     "text": "ou un déclencheur familier",
+     "start": 40.037,
+     "end": 41.537
+    },
+    {
+     "text": "peut réactiver une habitude",
+     "start": 41.537,
+     "end": 42.937
+    },
+    {
+     "text": "presque automatiquement.",
+     "start": 42.937,
+     "end": 44.21
+    }
+   ]
+  },
+  {
+   "id": "s7a",
+   "scene": 7,
+   "start": 45.06,
+   "end": 48.184,
+   "display": "Alors, ce n’est pas toujours une simple question de volonté.",
+   "say": "Alors, ce n’est pas toujours une simple question de volonté.",
+   "heard": "Alors,  ce  n 'est  pas  toujours  une  simple  question  de  volonté.",
+   "match": 1.0,
+   "words": [
+    {
+     "w": "alors",
+     "start": 45.06,
+     "end": 45.36,
+     "chunk": 0
+    },
+    {
+     "w": "ce",
+     "start": 45.66,
+     "end": 45.74,
+     "chunk": 0
+    },
+    {
+     "w": "n",
+     "start": 45.74,
+     "end": 45.82,
+     "chunk": 0
+    },
+    {
+     "w": "est",
+     "start": 45.82,
+     "end": 45.9,
+     "chunk": 0
+    },
+    {
+     "w": "pas",
+     "start": 45.9,
+     "end": 46.04,
+     "chunk": 0
+    },
+    {
+     "w": "toujours",
+     "start": 46.04,
+     "end": 46.38,
+     "chunk": 0
+    },
+    {
+     "w": "une",
+     "start": 46.38,
+     "end": 46.64,
+     "chunk": 1
+    },
+    {
+     "w": "simple",
+     "start": 46.64,
+     "end": 46.96,
+     "chunk": 1
+    },
+    {
+     "w": "question",
+     "start": 46.96,
+     "end": 47.3,
+     "chunk": 1
+    },
+    {
+     "w": "de",
+     "start": 47.3,
+     "end": 47.52,
+     "chunk": 1
+    },
+    {
+     "w": "volonte",
+     "start": 47.52,
+     "end": 48.06,
+     "chunk": 1
+    }
+   ],
+   "chunks": [
+    {
+     "text": "Alors, ce n’est pas toujours",
+     "start": 45.06,
+     "end": 46.38
+    },
+    {
+     "text": "une simple question de volonté.",
+     "start": 46.38,
+     "end": 48.184
+    }
+   ]
+  },
+  {
+   "id": "s7b",
+   "scene": 7,
+   "start": 48.534,
+   "end": 51.782,
+   "display": "Il faut aussi comprendre ce qui déclenche le geste.",
+   "say": "Il faut aussi comprendre ce qui déclenche le geste.",
+   "heard": "Il  faut  aussi  comprendre  ce  qui  déclenche  le  geste.",
+   "match": 1.0,
+   "words": [
+    {
+     "w": "il",
+     "start": 48.534,
+     "end": 48.714,
+     "chunk": 0
+    },
+    {
+     "w": "faut",
+     "start": 48.714,
+     "end": 48.914,
+     "chunk": 0
+    },
+    {
+     "w": "aussi",
+     "start": 48.914,
+     "end": 49.314,
+     "chunk": 0
+    },
+    {
+     "w": "comprendre",
+     "start": 49.314,
+     "end": 49.894,
+     "chunk": 0
+    },
+    {
+     "w": "ce",
+     "start": 49.894,
+     "end": 50.374,
+     "chunk": 1
+    },
+    {
+     "w": "qui",
+     "start": 50.374,
+     "end": 50.554,
+     "chunk": 1
+    },
+    {
+     "w": "declenche",
+     "start": 50.554,
+     "end": 51.014,
+     "chunk": 1
+    },
+    {
+     "w": "le",
+     "start": 51.014,
+     "end": 51.134,
+     "chunk": 1
+    },
+    {
+     "w": "geste",
+     "start": 51.134,
+     "end": 51.674,
+     "chunk": 1
+    }
+   ],
+   "chunks": [
+    {
+     "text": "Il faut aussi comprendre",
+     "start": 48.534,
+     "end": 49.894
+    },
+    {
+     "text": "ce qui déclenche le geste.",
+     "start": 49.894,
+     "end": 51.782
+    }
+   ]
+  },
+  {
+   "id": "s7c",
+   "scene": 7,
+   "start": 54.182,
+   "end": 56.355,
+   "display": "Et toi : qu’est-ce qui te ramène au même choix ?",
+   "say": "Et toi : qu’est-ce qui te ramène au même choix ?",
+   "heard": "Et  toi,  qu 'est -ce  qui  te  ramène  au  même  choix  ?",
+   "match": 1.0,
+   "words": [
+    {
+     "w": "et",
+     "start": 54.182,
+     "end": 54.302,
+     "chunk": 0
+    },
+    {
+     "w": "toi",
+     "start": 54.302,
+     "end": 54.562,
+     "chunk": 0
+    },
+    {
+     "w": "qu",
+     "start": 54.722,
+     "end": 54.762,
+     "chunk": 1
+    },
+    {
+     "w": "est",
+     "start": 54.762,
+     "end": 54.822,
+     "chunk": 1
+    },
+    {
+     "w": "ce",
+     "start": 54.822,
+     "end": 54.922,
+     "chunk": 1
+    },
+    {
+     "w": "qui",
+     "start": 54.922,
+     "end": 55.022,
+     "chunk": 1
+    },
+    {
+     "w": "te",
+     "start": 55.022,
+     "end": 55.122,
+     "chunk": 1
+    },
+    {
+     "w": "ramene",
+     "start": 55.122,
+     "end": 55.542,
+     "chunk": 1
+    },
+    {
+     "w": "au",
+     "start": 55.542,
+     "end": 55.662,
+     "chunk": 1
+    },
+    {
+     "w": "meme",
+     "start": 55.662,
+     "end": 55.862,
+     "chunk": 1
+    },
+    {
+     "w": "choix",
+     "start": 55.862,
+     "end": 56.142,
+     "chunk": 1
+    }
+   ],
+   "chunks": [
+    {
+     "text": "Et toi :",
+     "start": 54.182,
+     "end": 54.562
+    },
+    {
+     "text": "qu’est-ce qui te ramène au même choix ?",
+     "start": 54.722,
+     "end": 56.355
+    }
+   ]
+  }
+ ]
+}
