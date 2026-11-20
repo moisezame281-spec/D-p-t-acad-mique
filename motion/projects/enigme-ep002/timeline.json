@@ -1,0 +1,1244 @@
+{
+ "duration": 65.788,
+ "sentences": [
+  {
+   "id": "s1a",
+   "scene": 1,
+   "start": 0.6,
+   "end": 3.208,
+   "display": "Un enfant souffre. Sa mère prie.",
+   "say": "Un enfant souffre. Sa mère prie.",
+   "heard": "Un  enfant  souffre,  sa  mère  prie.",
+   "match": 1.0,
+   "words": [
+    {
+     "w": "un",
+     "start": 0.6,
+     "end": 0.78,
+     "chunk": 0
+    },
+    {
+     "w": "enfant",
+     "start": 0.78,
+     "end": 1.08,
+     "chunk": 0
+    },
+    {
+     "w": "souffre",
+     "start": 1.08,
+     "end": 1.68,
+     "chunk": 0
+    },
+    {
+     "w": "sa",
+     "start": 2.33,
+     "end": 2.47,
+     "chunk": 1
+    },
+    {
+     "w": "mere",
+     "start": 2.47,
+     "end": 2.69,
+     "chunk": 1
+    },
+    {
+     "w": "prie",
+     "start": 2.69,
+     "end": 3.09,
+     "chunk": 1
+    }
+   ],
+   "chunks": [
+    {
+     "text": "Un enfant souffre.",
+     "start": 0.6,
+     "end": 1.68
+    },
+    {
+     "text": "Sa mère prie.",
+     "start": 2.33,
+     "end": 3.208
+    }
+   ]
+  },
+  {
+   "id": "s1c",
+   "scene": 1,
+   "start": 3.708,
+   "end": 5.464,
+   "display": "Et le ciel reste silencieux.",
+   "say": "Et le ciel reste silencieux.",
+   "heard": "Et  le  ciel  reste  silencieux.",
+   "match": 1.0,
+   "words": [
+    {
+     "w": "et",
+     "start": 3.708,
+     "end": 3.848,
+     "chunk": 0
+    },
+    {
+     "w": "le",
+     "start": 3.848,
+     "end": 4.028,
+     "chunk": 0
+    },
+    {
+     "w": "ciel",
+     "start": 4.028,
+     "end": 4.228,
+     "chunk": 0
+    },
+    {
+     "w": "reste",
+     "start": 4.228,
+     "end": 4.548,
+     "chunk": 0
+    },
+    {
+     "w": "silencieux",
+     "start": 4.548,
+     "end": 5.348,
+     "chunk": 0
+    }
+   ],
+   "chunks": [
+    {
+     "text": "Et le ciel reste silencieux.",
+     "start": 3.708,
+     "end": 5.464
+    }
+   ]
+  },
+  {
+   "id": "s1d",
+   "scene": 1,
+   "start": 6.364,
+   "end": 9.496,
+   "display": "Alors, si Dieu est bon, pourquoi l’innocent souffre-t-il ?",
+   "say": "Alors, si Dieu est bon, pourquoi l’innocent souffre-t-il ?",
+   "heard": "Alors,  si  Dieu  est  bon,  pourquoi  l 'innocent  souffre -t -il  ?",
+   "match": 1.0,
+   "words": [
+    {
+     "w": "alors",
+     "start": 6.364,
+     "end": 6.664,
+     "chunk": 0
+    },
+    {
+     "w": "si",
+     "start": 6.884,
+     "end": 7.004,
+     "chunk": 0
+    },
+    {
+     "w": "dieu",
+     "start": 7.004,
+     "end": 7.164,
+     "chunk": 0
+    },
+    {
+     "w": "est",
+     "start": 7.164,
+     "end": 7.264,
+     "chunk": 0
+    },
+    {
+     "w": "bon",
+     "start": 7.264,
+     "end": 7.424,
+     "chunk": 0
+    },
+    {
+     "w": "pourquoi",
+     "start": 8.034,
+     "end": 8.174,
+     "chunk": 1
+    },
+    {
+     "w": "l",
+     "start": 8.174,
+     "end": 8.334,
+     "chunk": 1
+    },
+    {
+     "w": "innocent",
+     "start": 8.334,
+     "end": 8.634,
+     "chunk": 1
+    },
+    {
+     "w": "souffre",
+     "start": 8.634,
+     "end": 8.974,
+     "chunk": 1
+    },
+    {
+     "w": "t",
+     "start": 8.974,
+     "end": 9.094,
+     "chunk": 1
+    },
+    {
+     "w": "il",
+     "start": 9.094,
+     "end": 9.294,
+     "chunk": 1
+    }
+   ],
+   "chunks": [
+    {
+     "text": "Alors, si Dieu est bon,",
+     "start": 6.364,
+     "end": 7.424
+    },
+    {
+     "text": "pourquoi l’innocent souffre-t-il ?",
+     "start": 8.034,
+     "end": 9.496
+    }
+   ]
+  },
+  {
+   "id": "s2a",
+   "scene": 2,
+   "start": 10.596,
+   "end": 14.215,
+   "display": "Dans le livre de Job, un homme juste est frappé par le malheur.",
+   "say": "Dans le livre de Job, un homme juste est frappé par le malheur.",
+   "heard": "Dans  le  livre  de  Job,  un  homme  juste  est  frappé  par  le  malheur.",
+   "match": 1.0,
+   "words": [
+    {
+     "w": "dans",
+     "start": 10.596,
+     "end": 10.796,
+     "chunk": 0
+    },
+    {
+     "w": "le",
+     "start": 10.796,
+     "end": 10.936,
+     "chunk": 0
+    },
+    {
+     "w": "livre",
+     "start": 10.936,
+     "end": 11.176,
+     "chunk": 0
+    },
+    {
+     "w": "de",
+     "start": 11.176,
+     "end": 11.356,
+     "chunk": 0
+    },
+    {
+     "w": "job",
+     "start": 11.356,
+     "end": 11.716,
+     "chunk": 0
+    },
+    {
+     "w": "un",
+     "start": 12.196,
+     "end": 12.316,
+     "chunk": 1
+    },
+    {
+     "w": "homme",
+     "start": 12.316,
+     "end": 12.556,
+     "chunk": 1
+    },
+    {
+     "w": "juste",
+     "start": 12.556,
+     "end": 12.836,
+     "chunk": 1
+    },
+    {
+     "w": "est",
+     "start": 12.836,
+     "end": 13.056,
+     "chunk": 1
+    },
+    {
+     "w": "frappe",
+     "start": 13.056,
+     "end": 13.416,
+     "chunk": 1
+    },
+    {
+     "w": "par",
+     "start": 13.416,
+     "end": 13.576,
+     "chunk": 1
+    },
+    {
+     "w": "le",
+     "start": 13.576,
+     "end": 13.656,
+     "chunk": 1
+    },
+    {
+     "w": "malheur",
+     "start": 13.656,
+     "end": 14.116,
+     "chunk": 1
+    }
+   ],
+   "chunks": [
+    {
+     "text": "Dans le livre de Job,",
+     "start": 10.596,
+     "end": 11.716
+    },
+    {
+     "text": "un homme juste est frappé par le malheur.",
+     "start": 12.196,
+     "end": 14.215
+    }
+   ]
+  },
+  {
+   "id": "s2b",
+   "scene": 2,
+   "start": 14.615,
+   "end": 16.761,
+   "display": "Ses amis veulent y voir une punition.",
+   "say": "Ses amis veulent y voir une punition.",
+   "heard": "Ses  amis  veulent  y  voir  une  punition.",
+   "match": 1.0,
+   "words": [
+    {
+     "w": "ses",
+     "start": 14.615,
+     "end": 14.835,
+     "chunk": 0
+    },
+    {
+     "w": "amis",
+     "start": 14.835,
+     "end": 15.135,
+     "chunk": 0
+    },
+    {
+     "w": "veulent",
+     "start": 15.135,
+     "end": 15.475,
+     "chunk": 0
+    },
+    {
+     "w": "y",
+     "start": 15.475,
+     "end": 15.695,
+     "chunk": 0
+    },
+    {
+     "w": "voir",
+     "start": 15.695,
+     "end": 15.855,
+     "chunk": 0
+    },
+    {
+     "w": "une",
+     "start": 15.855,
+     "end": 16.055,
+     "chunk": 0
+    },
+    {
+     "w": "punition",
+     "start": 16.055,
+     "end": 16.535,
+     "chunk": 0
+    }
+   ],
+   "chunks": [
+    {
+     "text": "Ses amis veulent y voir une punition.",
+     "start": 14.615,
+     "end": 16.761
+    }
+   ]
+  },
+  {
+   "id": "s2c",
+   "scene": 2,
+   "start": 17.211,
+   "end": 23.83,
+   "display": "Mais le récit refuse cette équation facile : souffrir ne signifie pas nécessairement avoir mérité sa douleur.",
+   "say": "Mais le récit refuse cette équation facile : souffrir ne signifie pas nécessairement avoir mérité sa douleur.",
+   "heard": "Mais  le  récit  refuse  cette  équation  facile,  souffrir  ne  signifie  pas  nécessairement  avoir  mérité  sa  douleur.",
+   "match": 1.0,
+   "words": [
+    {
+     "w": "mais",
+     "start": 17.211,
+     "end": 17.411,
+     "chunk": 0
+    },
+    {
+     "w": "le",
+     "start": 17.411,
+     "end": 17.531,
+     "chunk": 0
+    },
+    {
+     "w": "recit",
+     "start": 17.531,
+     "end": 17.911,
+     "chunk": 0
+    },
+    {
+     "w": "refuse",
+     "start": 17.911,
+     "end": 18.351,
+     "chunk": 0
+    },
+    {
+     "w": "cette",
+     "start": 18.351,
+     "end": 18.671,
+     "chunk": 0
+    },
+    {
+     "w": "equation",
+     "start": 18.671,
+     "end": 19.091,
+     "chunk": 0
+    },
+    {
+     "w": "facile",
+     "start": 19.091,
+     "end": 19.571,
+     "chunk": 0
+    },
+    {
+     "w": "souffrir",
+     "start": 19.991,
+     "end": 20.671,
+     "chunk": 1
+    },
+    {
+     "w": "ne",
+     "start": 20.671,
+     "end": 20.911,
+     "chunk": 1
+    },
+    {
+     "w": "signifie",
+     "start": 20.911,
+     "end": 21.431,
+     "chunk": 1
+    },
+    {
+     "w": "pas",
+     "start": 21.431,
+     "end": 21.591,
+     "chunk": 1
+    },
+    {
+     "w": "necessairement",
+     "start": 21.591,
+     "end": 22.291,
+     "chunk": 1
+    },
+    {
+     "w": "avoir",
+     "start": 22.291,
+     "end": 22.511,
+     "chunk": 2
+    },
+    {
+     "w": "merite",
+     "start": 22.511,
+     "end": 23.091,
+     "chunk": 2
+    },
+    {
+     "w": "sa",
+     "start": 23.091,
+     "end": 23.231,
+     "chunk": 2
+    },
+    {
+     "w": "douleur",
+     "start": 23.231,
+     "end": 23.691,
+     "chunk": 2
+    }
+   ],
+   "chunks": [
+    {
+     "text": "Mais le récit refuse cette équation facile :",
+     "start": 17.211,
+     "end": 19.571
+    },
+    {
+     "text": "souffrir ne signifie pas nécessairement",
+     "start": 19.991,
+     "end": 22.291
+    },
+    {
+     "text": "avoir mérité sa douleur.",
+     "start": 22.291,
+     "end": 23.83
+    }
+   ]
+  },
+  {
+   "id": "s3a",
+   "scene": 3,
+   "start": 24.63,
+   "end": 28.041,
+   "display": "Le Coran, dans la sourate 2, verset 155,",
+   "say": "Le Coran, dans la sourate deux, verset cent cinquante-cinq,",
+   "heard": "Le  Coran  dans  la  sourade  2,  versé  155.",
+   "match": 0.4,
+   "words": [
+    {
+     "w": "le",
+     "start": 24.63,
+     "end": 24.81,
+     "chunk": 0
+    },
+    {
+     "w": "coran",
+     "start": 24.81,
+     "end": 25.19,
+     "chunk": 0
+    },
+    {
+     "w": "dans",
+     "start": 25.19,
+     "end": 25.31,
+     "chunk": 0
+    },
+    {
+     "w": "la",
+     "start": 25.31,
+     "end": 25.45,
+     "chunk": 0
+    },
+    {
+     "w": "sourate",
+     "start": 25.45,
+     "end": 25.882,
+     "chunk": 0
+    },
+    {
+     "w": "deux",
+     "start": 25.882,
+     "end": 26.314,
+     "chunk": 0
+    },
+    {
+     "w": "verset",
+     "start": 26.314,
+     "end": 26.746,
+     "chunk": 0
+    },
+    {
+     "w": "cent",
+     "start": 26.746,
+     "end": 27.177,
+     "chunk": 0
+    },
+    {
+     "w": "cinquante",
+     "start": 27.177,
+     "end": 27.609,
+     "chunk": 0
+    },
+    {
+     "w": "cinq",
+     "start": 27.609,
+     "end": 28.041,
+     "chunk": 0
+    }
+   ],
+   "chunks": [
+    {
+     "text": "Le Coran, dans la sourate 2, verset 155,",
+     "start": 24.63,
+     "end": 28.041
+    }
+   ]
+  },
+  {
+   "id": "s3b",
+   "scene": 3,
+   "start": 28.241,
+   "end": 32.713,
+   "display": "reconnaît l’épreuve, la peur, la faim et la perte, et appelle à la patience.",
+   "say": "reconnaît l’épreuve, la peur, la faim et la perte, et appelle à la patience.",
+   "heard": "Reconnais  l 'épreuve,  la  peur,  la  fin  et  la  perte  et  appelle  à  la  patience.",
+   "match": 0.867,
+   "words": [
+    {
+     "w": "reconnait",
+     "start": 28.241,
+     "end": 28.761,
+     "chunk": 0
+    },
+    {
+     "w": "l",
+     "start": 28.761,
+     "end": 28.781,
+     "chunk": 0
+    },
+    {
+     "w": "epreuve",
+     "start": 28.781,
+     "end": 29.341,
+     "chunk": 0
+    },
+    {
+     "w": "la",
+     "start": 29.501,
+     "end": 29.661,
+     "chunk": 0
+    },
+    {
+     "w": "peur",
+     "start": 29.661,
+     "end": 29.981,
+     "chunk": 0
+    },
+    {
+     "w": "la",
+     "start": 30.121,
+     "end": 30.201,
+     "chunk": 0
+    },
+    {
+     "w": "faim",
+     "start": 30.201,
+     "end": 30.421,
+     "chunk": 0
+    },
+    {
+     "w": "et",
+     "start": 30.421,
+     "end": 30.521,
+     "chunk": 0
+    },
+    {
+     "w": "la",
+     "start": 30.521,
+     "end": 30.621,
+     "chunk": 0
+    },
+    {
+     "w": "perte",
+     "start": 30.621,
+     "end": 31.141,
+     "chunk": 0
+    },
+    {
+     "w": "et",
+     "start": 31.141,
+     "end": 31.441,
+     "chunk": 1
+    },
+    {
+     "w": "appelle",
+     "start": 31.441,
+     "end": 31.641,
+     "chunk": 1
+    },
+    {
+     "w": "a",
+     "start": 31.641,
+     "end": 31.801,
+     "chunk": 1
+    },
+    {
+     "w": "la",
+     "start": 31.801,
+     "end": 31.881,
+     "chunk": 1
+    },
+    {
+     "w": "patience",
+     "start": 31.881,
+     "end": 32.181,
+     "chunk": 1
+    }
+   ],
+   "chunks": [
+    {
+     "text": "reconnaît l’épreuve, la peur, la faim et la perte,",
+     "start": 28.241,
+     "end": 31.141
+    },
+    {
+     "text": "et appelle à la patience.",
+     "start": 31.141,
+     "end": 32.713
+    }
+   ]
+  },
+  {
+   "id": "s4a",
+   "scene": 4,
+   "start": 33.513,
+   "end": 41.786,
+   "display": "Le bouddhisme commence autrement : sa première noble vérité reconnaît la souffrance ; les suivantes en recherchent l’origine et la cessation.",
+   "say": "Le bouddhisme commence autrement : sa première noble vérité reconnaît la souffrance ; les suivantes en recherchent l’origine et la cessation.",
+   "heard": "Le  bouddhisme  commence  autrement,  sa  première  noble  vérité  reconnaît  la  souffrance,  les  suivantes  en  recherchent  l 'origine  et  la  cessation.",
+   "match": 1.0,
+   "words": [
+    {
+     "w": "le",
+     "start": 33.513,
+     "end": 33.713,
+     "chunk": 0
+    },
+    {
+     "w": "bouddhisme",
+     "start": 33.713,
+     "end": 34.273,
+     "chunk": 0
+    },
+    {
+     "w": "commence",
+     "start": 34.273,
+     "end": 34.693,
+     "chunk": 0
+    },
+    {
+     "w": "autrement",
+     "start": 34.693,
+     "end": 35.373,
+     "chunk": 0
+    },
+    {
+     "w": "sa",
+     "start": 35.673,
+     "end": 35.853,
+     "chunk": 1
+    },
+    {
+     "w": "premiere",
+     "start": 35.853,
+     "end": 36.213,
+     "chunk": 1
+    },
+    {
+     "w": "noble",
+     "start": 36.213,
+     "end": 36.633,
+     "chunk": 1
+    },
+    {
+     "w": "verite",
+     "start": 36.633,
+     "end": 37.213,
+     "chunk": 1
+    },
+    {
+     "w": "reconnait",
+     "start": 37.213,
+     "end": 37.693,
+     "chunk": 1
+    },
+    {
+     "w": "la",
+     "start": 37.693,
+     "end": 37.753,
+     "chunk": 1
+    },
+    {
+     "w": "souffrance",
+     "start": 37.753,
+     "end": 38.413,
+     "chunk": 1
+    },
+    {
+     "w": "les",
+     "start": 38.773,
+     "end": 38.933,
+     "chunk": 2
+    },
+    {
+     "w": "suivantes",
+     "start": 38.933,
+     "end": 39.493,
+     "chunk": 2
+    },
+    {
+     "w": "en",
+     "start": 39.493,
+     "end": 39.613,
+     "chunk": 2
+    },
+    {
+     "w": "recherchent",
+     "start": 39.613,
+     "end": 40.153,
+     "chunk": 2
+    },
+    {
+     "w": "l",
+     "start": 40.153,
+     "end": 40.233,
+     "chunk": 2
+    },
+    {
+     "w": "origine",
+     "start": 40.233,
+     "end": 40.613,
+     "chunk": 2
+    },
+    {
+     "w": "et",
+     "start": 40.613,
+     "end": 40.913,
+     "chunk": 2
+    },
+    {
+     "w": "la",
+     "start": 40.913,
+     "end": 41.013,
+     "chunk": 2
+    },
+    {
+     "w": "cessation",
+     "start": 41.013,
+     "end": 41.573,
+     "chunk": 2
+    }
+   ],
+   "chunks": [
+    {
+     "text": "Le bouddhisme commence autrement :",
+     "start": 33.513,
+     "end": 35.373
+    },
+    {
+     "text": "sa première noble vérité reconnaît la souffrance ;",
+     "start": 35.673,
+     "end": 38.413
+    },
+    {
+     "text": "les suivantes en recherchent l’origine et la cessation.",
+     "start": 38.773,
+     "end": 41.786
+    }
+   ]
+  },
+  {
+   "id": "s5a",
+   "scene": 5,
+   "start": 42.586,
+   "end": 43.745,
+   "display": "Et Albert Camus ?",
+   "say": "Et Albert Camus ?",
+   "heard": "et  Albert  Camus.",
+   "match": 1.0,
+   "words": [
+    {
+     "w": "et",
+     "start": 42.586,
+     "end": 42.726,
+     "chunk": 0
+    },
+    {
+     "w": "albert",
+     "start": 42.726,
+     "end": 43.006,
+     "chunk": 0
+    },
+    {
+     "w": "camus",
+     "start": 43.006,
+     "end": 43.586,
+     "chunk": 0
+    }
+   ],
+   "chunks": [
+    {
+     "text": "Et Albert Camus ?",
+     "start": 42.586,
+     "end": 43.745
+    }
+   ]
+  },
+  {
+   "id": "s5b",
+   "scene": 5,
+   "start": 44.295,
+   "end": 48.402,
+   "display": "Face à l’absurde, il oppose la lucidité et la solidarité humaine.",
+   "say": "Face à l’absurde, il oppose la lucidité et la solidarité humaine.",
+   "heard": "Face  à  l 'absurde,  il  oppose  la  lucidité  et  la  solidarité  humaine.",
+   "match": 1.0,
+   "words": [
+    {
+     "w": "face",
+     "start": 44.295,
+     "end": 44.535,
+     "chunk": 0
+    },
+    {
+     "w": "a",
+     "start": 44.535,
+     "end": 44.715,
+     "chunk": 0
+    },
+    {
+     "w": "l",
+     "start": 44.715,
+     "end": 44.755,
+     "chunk": 0
+    },
+    {
+     "w": "absurde",
+     "start": 44.755,
+     "end": 45.415,
+     "chunk": 0
+    },
+    {
+     "w": "il",
+     "start": 45.675,
+     "end": 45.795,
+     "chunk": 1
+    },
+    {
+     "w": "oppose",
+     "start": 45.795,
+     "end": 46.075,
+     "chunk": 1
+    },
+    {
+     "w": "la",
+     "start": 46.075,
+     "end": 46.235,
+     "chunk": 1
+    },
+    {
+     "w": "lucidite",
+     "start": 46.235,
+     "end": 46.875,
+     "chunk": 1
+    },
+    {
+     "w": "et",
+     "start": 46.875,
+     "end": 47.035,
+     "chunk": 1
+    },
+    {
+     "w": "la",
+     "start": 47.035,
+     "end": 47.135,
+     "chunk": 1
+    },
+    {
+     "w": "solidarite",
+     "start": 47.135,
+     "end": 47.755,
+     "chunk": 1
+    },
+    {
+     "w": "humaine",
+     "start": 47.755,
+     "end": 48.235,
+     "chunk": 1
+    }
+   ],
+   "chunks": [
+    {
+     "text": "Face à l’absurde,",
+     "start": 44.295,
+     "end": 45.415
+    },
+    {
+     "text": "il oppose la lucidité et la solidarité humaine.",
+     "start": 45.675,
+     "end": 48.402
+    }
+   ]
+  },
+  {
+   "id": "s6a",
+   "scene": 6,
+   "start": 49.202,
+   "end": 51.673,
+   "display": "Ces traditions ne donnent pas la même réponse.",
+   "say": "Ces traditions ne donnent pas la même réponse.",
+   "heard": "Ces  traditions  ne  donnent  pas  la  même  réponse.",
+   "match": 1.0,
+   "words": [
+    {
+     "w": "ces",
+     "start": 49.202,
+     "end": 49.382,
+     "chunk": 0
+    },
+    {
+     "w": "traditions",
+     "start": 49.382,
+     "end": 49.862,
+     "chunk": 0
+    },
+    {
+     "w": "ne",
+     "start": 49.862,
+     "end": 50.182,
+     "chunk": 0
+    },
+    {
+     "w": "donnent",
+     "start": 50.182,
+     "end": 50.462,
+     "chunk": 0
+    },
+    {
+     "w": "pas",
+     "start": 50.462,
+     "end": 50.562,
+     "chunk": 0
+    },
+    {
+     "w": "la",
+     "start": 50.562,
+     "end": 50.682,
+     "chunk": 0
+    },
+    {
+     "w": "meme",
+     "start": 50.682,
+     "end": 50.842,
+     "chunk": 0
+    },
+    {
+     "w": "reponse",
+     "start": 50.842,
+     "end": 51.242,
+     "chunk": 0
+    }
+   ],
+   "chunks": [
+    {
+     "text": "Ces traditions ne donnent pas la même réponse.",
+     "start": 49.202,
+     "end": 51.673
+    }
+   ]
+  },
+  {
+   "id": "s7a",
+   "scene": 7,
+   "start": 52.573,
+   "end": 55.355,
+   "display": "Mais voici une question peut-être plus urgente :",
+   "say": "Mais voici une question peut-être plus urgente :",
+   "heard": "Mais  voici  une  question  peut -être  plus  urgente.",
+   "match": 1.0,
+   "words": [
+    {
+     "w": "mais",
+     "start": 52.573,
+     "end": 52.773,
+     "chunk": 0
+    },
+    {
+     "w": "voici",
+     "start": 52.773,
+     "end": 53.133,
+     "chunk": 0
+    },
+    {
+     "w": "une",
+     "start": 53.133,
+     "end": 53.273,
+     "chunk": 0
+    },
+    {
+     "w": "question",
+     "start": 53.273,
+     "end": 53.673,
+     "chunk": 0
+    },
+    {
+     "w": "peut",
+     "start": 53.673,
+     "end": 54.033,
+     "chunk": 0
+    },
+    {
+     "w": "etre",
+     "start": 54.033,
+     "end": 54.233,
+     "chunk": 0
+    },
+    {
+     "w": "plus",
+     "start": 54.233,
+     "end": 54.533,
+     "chunk": 0
+    },
+    {
+     "w": "urgente",
+     "start": 54.533,
+     "end": 55.153,
+     "chunk": 0
+    }
+   ],
+   "chunks": [
+    {
+     "text": "Mais voici une question peut-être plus urgente :",
+     "start": 52.573,
+     "end": 55.355
+    }
+   ]
+  },
+  {
+   "id": "s7b",
+   "scene": 7,
+   "start": 56.055,
+   "end": 62.388,
+   "display": "quand tu ne peux pas expliquer la souffrance de quelqu’un, peux-tu au moins contribuer à la soulager ?",
+   "say": "Quand tu ne peux pas expliquer la souffrance de quelqu’un, peux-tu au moins contribuer à la soulager ?",
+   "heard": "Quand  tu  ne  peux  pas  expliquer  la  souffrance  de  quelqu 'un,  peux -tu  au  moins  contribuer  à  la  soulager  ?",
+   "match": 1.0,
+   "words": [
+    {
+     "w": "quand",
+     "start": 56.055,
+     "end": 56.255,
+     "chunk": 0
+    },
+    {
+     "w": "tu",
+     "start": 56.255,
+     "end": 56.475,
+     "chunk": 0
+    },
+    {
+     "w": "ne",
+     "start": 56.475,
+     "end": 56.615,
+     "chunk": 0
+    },
+    {
+     "w": "peux",
+     "start": 56.615,
+     "end": 56.835,
+     "chunk": 0
+    },
+    {
+     "w": "pas",
+     "start": 56.835,
+     "end": 57.095,
+     "chunk": 0
+    },
+    {
+     "w": "expliquer",
+     "start": 57.095,
+     "end": 57.735,
+     "chunk": 0
+    },
+    {
+     "w": "la",
+     "start": 57.735,
+     "end": 57.855,
+     "chunk": 1
+    },
+    {
+     "w": "souffrance",
+     "start": 57.855,
+     "end": 58.295,
+     "chunk": 1
+    },
+    {
+     "w": "de",
+     "start": 58.295,
+     "end": 58.475,
+     "chunk": 1
+    },
+    {
+     "w": "quelqu",
+     "start": 58.475,
+     "end": 58.675,
+     "chunk": 1
+    },
+    {
+     "w": "un",
+     "start": 58.675,
+     "end": 59.075,
+     "chunk": 1
+    },
+    {
+     "w": "peux",
+     "start": 59.975,
+     "end": 60.195,
+     "chunk": 2
+    },
+    {
+     "w": "tu",
+     "start": 60.195,
+     "end": 60.415,
+     "chunk": 2
+    },
+    {
+     "w": "au",
+     "start": 60.415,
+     "end": 60.575,
+     "chunk": 2
+    },
+    {
+     "w": "moins",
+     "start": 60.575,
+     "end": 60.815,
+     "chunk": 2
+    },
+    {
+     "w": "contribuer",
+     "start": 60.815,
+     "end": 61.515,
+     "chunk": 2
+    },
+    {
+     "w": "a",
+     "start": 61.515,
+     "end": 61.615,
+     "chunk": 2
+    },
+    {
+     "w": "la",
+     "start": 61.615,
+     "end": 61.695,
+     "chunk": 2
+    },
+    {
+     "w": "soulager",
+     "start": 61.695,
+     "end": 62.155,
+     "chunk": 2
+    }
+   ],
+   "chunks": [
+    {
+     "text": "quand tu ne peux pas expliquer",
+     "start": 56.055,
+     "end": 57.735
+    },
+    {
+     "text": "la souffrance de quelqu’un,",
+     "start": 57.735,
+     "end": 59.075
+    },
+    {
+     "text": "peux-tu au moins contribuer à la soulager ?",
+     "start": 59.975,
+     "end": 62.388
+    }
+   ]
+  }
+ ]
+}

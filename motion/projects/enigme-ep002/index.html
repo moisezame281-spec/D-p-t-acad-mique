@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<title>L'Énigme humaine — EP001</title>
+<style>
+  @font-face { font-family: 'Bodoni'; font-weight: 500; src: url(/node_modules/@fontsource/bodoni-moda/files/bodoni-moda-latin-500-normal.woff2) format('woff2'); }
+  @font-face { font-family: 'Bodoni'; font-weight: 700; src: url(/node_modules/@fontsource/bodoni-moda/files/bodoni-moda-latin-700-normal.woff2) format('woff2'); }
+  @font-face { font-family: 'Bodoni'; font-weight: 900; src: url(/node_modules/@fontsource/bodoni-moda/files/bodoni-moda-latin-900-normal.woff2) format('woff2'); }
+  @font-face { font-family: 'Bodoni'; font-weight: 500; font-style: italic; src: url(/node_modules/@fontsource/bodoni-moda/files/bodoni-moda-latin-500-italic.woff2) format('woff2'); }
+  @font-face { font-family: 'Inter'; font-weight: 500; src: url(/node_modules/@fontsource/inter/files/inter-latin-500-normal.woff2) format('woff2'); }
+  @font-face { font-family: 'Inter'; font-weight: 600; src: url(/node_modules/@fontsource/inter/files/inter-latin-600-normal.woff2) format('woff2'); }
+  @font-face { font-family: 'Inter'; font-weight: 800; src: url(/node_modules/@fontsource/inter/files/inter-latin-800-normal.woff2) format('woff2'); }
+  @font-face { font-family: 'Plex'; font-weight: 400; src: url(/node_modules/@fontsource/ibm-plex-mono/files/ibm-plex-mono-latin-400-normal.woff2) format('woff2'); }
+  @font-face { font-family: 'Plex'; font-weight: 500; src: url(/node_modules/@fontsource/ibm-plex-mono/files/ibm-plex-mono-latin-500-normal.woff2) format('woff2'); }
+  @font-face { font-family: 'Garamond'; font-weight: 500; src: url(/node_modules/@fontsource/eb-garamond/files/eb-garamond-greek-500-normal.woff2) format('woff2'); unicode-range: U+0370-03FF, U+1F00-1FFF; }
+  @font-face { font-family: 'Garamond'; font-weight: 500; src: url(/node_modules/@fontsource/eb-garamond/files/eb-garamond-latin-500-normal.woff2) format('woff2'); }
+  @font-face { font-family: 'Amiri'; font-weight: 400; src: url(/node_modules/@fontsource/amiri/files/amiri-arabic-400-normal.woff2) format('woff2'); }
+  @font-face { font-family: 'Caveat'; font-weight: 600; src: url(/node_modules/@fontsource/caveat/files/caveat-latin-600-normal.woff2) format('woff2'); }
+
+  @font-face { font-family: 'Fraunces'; font-weight: 400; font-style: normal; src: url(/node_modules/@fontsource/fraunces/files/fraunces-latin-400-normal.woff2) format('woff2'); }
+  @font-face { font-family: 'Fraunces'; font-weight: 500; font-style: normal; src: url(/node_modules/@fontsource/fraunces/files/fraunces-latin-500-normal.woff2) format('woff2'); }
+  @font-face { font-family: 'Fraunces'; font-weight: 600; font-style: normal; src: url(/node_modules/@fontsource/fraunces/files/fraunces-latin-600-normal.woff2) format('woff2'); }
+  @font-face { font-family: 'Fraunces'; font-weight: 700; font-style: normal; src: url(/node_modules/@fontsource/fraunces/files/fraunces-latin-700-normal.woff2) format('woff2'); }
+  @font-face { font-family: 'Fraunces'; font-weight: 800; font-style: normal; src: url(/node_modules/@fontsource/fraunces/files/fraunces-latin-800-normal.woff2) format('woff2'); }
+  @font-face { font-family: 'Fraunces'; font-weight: 600; font-style: italic; src: url(/node_modules/@fontsource/fraunces/files/fraunces-latin-600-italic.woff2) format('woff2'); }
+  @font-face { font-family: 'Fraunces'; font-weight: 700; font-style: italic; src: url(/node_modules/@fontsource/fraunces/files/fraunces-latin-700-italic.woff2) format('woff2'); }
+  @font-face { font-family: 'Instrument'; font-weight: 400; font-style: normal; src: url(/node_modules/@fontsource/instrument-serif/files/instrument-serif-latin-400-normal.woff2) format('woff2'); }
+  @font-face { font-family: 'Instrument'; font-weight: 400; font-style: italic; src: url(/node_modules/@fontsource/instrument-serif/files/instrument-serif-latin-400-italic.woff2) format('woff2'); }
+
+  html, body { margin: 0; background: #111216; }
+  #stage { position: relative; width: 1080px; height: 1920px; overflow: hidden; background: #111216; -webkit-font-smoothing: antialiased; }
+  #cv { position: absolute; left: 0; top: 0; }
+  .layer { position: absolute; inset: 0; pointer-events: none; }
+  .tx { position: absolute; white-space: nowrap; will-change: transform, opacity, filter; color: #F2EFE8; text-shadow: 0 2px 22px rgba(0,0,0,.75), 0 0 2px rgba(0,0,0,.6); }
+  .bodoni { font-family: 'Bodoni', 'Didot', serif; }
+  .inter { font-family: 'Inter', sans-serif; }
+  .plex { font-family: 'Plex', monospace; }
+  .garamond { font-family: 'Garamond', serif; }
+  .amiri { font-family: 'Amiri', serif; }
+  .fraunces { font-family: 'Fraunces', Georgia, serif; }
+  .instrument { font-family: 'Instrument', Georgia, serif; }
+  #subs { position: absolute; left: 80px; width: 830px; top: 1300px; text-align: center; font-family: 'Inter', sans-serif; font-weight: 600; font-size: 44px; line-height: 1.22; color: #F2EFE8;
+          text-shadow: 0 2px 14px rgba(0,0,0,.95), 0 0 3px rgba(0,0,0,.9); white-space: normal; }
+  #subs span { display: inline-block; }
+</style>
+</head>
+<body>
+<div id="stage"><canvas id="cv" width="1080" height="1920"></canvas><div class="layer" id="txt"></div><div id="subs"></div></div>
+<script src="/lib/engine.js"></script>
+<script src="/lib/cine.js"></script>
+<script src="scene.js"></script>
+</body>
+</html>

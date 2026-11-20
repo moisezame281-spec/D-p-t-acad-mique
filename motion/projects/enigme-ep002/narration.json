@@ -1,0 +1,201 @@
+{
+  "title": "L'Énigme humaine — Épisode 002 — Si Dieu est bon, pourquoi les innocents souffrent-ils ?",
+  "voice": "ff_siwis",
+  "lang": "fr-fr",
+  "speed": 0.9,
+  "note": "Texte officiel conservé à l'identique (display). 'say' = graphie pour la synthèse uniquement. La question finale est dite plus lentement, avec un silence.",
+  "lead_in": 0.6,
+  "tail": 3.4,
+  "sentences": [
+    {
+      "id": "s1a",
+      "scene": 1,
+      "pause": 0.5,
+      "speed": 0.88,
+      "insert_pause": {
+        "after_word": 3,
+        "dur": 0.55
+      },
+      "chunks": [
+        [
+          "Un enfant souffre."
+        ],
+        [
+          "Sa mère prie."
+        ]
+      ]
+    },
+    {
+      "id": "s1c",
+      "scene": 1,
+      "pause": 0.9,
+      "speed": 0.86,
+      "chunks": [
+        [
+          "Et le ciel reste silencieux."
+        ]
+      ]
+    },
+    {
+      "id": "s1d",
+      "scene": 1,
+      "pause": 1.1,
+      "insert_pause": {
+        "after_word": 5,
+        "dur": 0.35
+      },
+      "chunks": [
+        [
+          "Alors, si Dieu est bon,"
+        ],
+        [
+          "pourquoi l’innocent souffre-t-il ?"
+        ]
+      ]
+    },
+    {
+      "id": "s2a",
+      "scene": 2,
+      "pause": 0.4,
+      "chunks": [
+        [
+          "Dans le livre de Job,"
+        ],
+        [
+          "un homme juste est frappé par le malheur."
+        ]
+      ]
+    },
+    {
+      "id": "s2b",
+      "scene": 2,
+      "pause": 0.45,
+      "chunks": [
+        [
+          "Ses amis veulent y voir une punition."
+        ]
+      ]
+    },
+    {
+      "id": "s2c",
+      "scene": 2,
+      "pause": 0.8,
+      "chunks": [
+        [
+          "Mais le récit refuse cette équation facile :"
+        ],
+        [
+          "souffrir ne signifie pas nécessairement"
+        ],
+        [
+          "avoir mérité sa douleur."
+        ]
+      ]
+    },
+    {
+      "id": "s3a",
+      "scene": 3,
+      "pause": 0.2,
+      "chunks": [
+        [
+          "Le Coran, dans la sourate 2, verset 155,",
+          "Le Coran, dans la sourate deux, verset cent cinquante-cinq,"
+        ]
+      ]
+    },
+    {
+      "id": "s3b",
+      "scene": 3,
+      "pause": 0.8,
+      "chunks": [
+        [
+          "reconnaît l’épreuve, la peur, la faim et la perte,"
+        ],
+        [
+          "et appelle à la patience."
+        ]
+      ]
+    },
+    {
+      "id": "s4a",
+      "scene": 4,
+      "pause": 0.8,
+      "chunks": [
+        [
+          "Le bouddhisme commence autrement :"
+        ],
+        [
+          "sa première noble vérité reconnaît la souffrance ;"
+        ],
+        [
+          "les suivantes en recherchent l’origine et la cessation."
+        ]
+      ]
+    },
+    {
+      "id": "s5a",
+      "scene": 5,
+      "pause": 0.55,
+      "chunks": [
+        [
+          "Et Albert Camus ?"
+        ]
+      ]
+    },
+    {
+      "id": "s5b",
+      "scene": 5,
+      "pause": 0.8,
+      "chunks": [
+        [
+          "Face à l’absurde,"
+        ],
+        [
+          "il oppose la lucidité et la solidarité humaine."
+        ]
+      ]
+    },
+    {
+      "id": "s6a",
+      "scene": 6,
+      "pause": 0.9,
+      "chunks": [
+        [
+          "Ces traditions ne donnent pas la même réponse."
+        ]
+      ]
+    },
+    {
+      "id": "s7a",
+      "scene": 7,
+      "pause": 0.7,
+      "chunks": [
+        [
+          "Mais voici une question peut-être plus urgente :"
+        ]
+      ]
+    },
+    {
+      "id": "s7b",
+      "scene": 7,
+      "pause": 0.0,
+      "speed": 0.84,
+      "insert_pause": {
+        "after_word": 11,
+        "dur": 0.6
+      },
+      "chunks": [
+        [
+          "quand tu ne peux pas expliquer",
+          "Quand tu ne peux pas expliquer"
+        ],
+        [
+          "la souffrance de quelqu’un,"
+        ],
+        [
+          "peux-tu au moins contribuer à la soulager ?"
+        ]
+      ]
+    }
+  ]
+}

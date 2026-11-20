@@ -147,7 +147,8 @@
     ctx.lineWidth = 11 * s; ctx.beginPath(); ctx.moveTo(shB[0], shB[1]); ctx.lineTo(eb[0], eb[1]); ctx.lineTo(hb[0], hb[1]); ctx.stroke();
     const ph = clamp(p.phone || 0);
     let target;
-    if (ph <= 0) target = [shF[0] + Math.sin(armSw) * 56 * s * f, shF[1] + Math.cos(armSw) * 56 * s];
+    if (p.hand) target = p.hand; // main posée sur un point précis (épaule, objet…)
+    else if (ph <= 0) target = [shF[0] + Math.sin(armSw) * 56 * s * f, shF[1] + Math.cos(armSw) * 56 * s];
     else {
       const down = [shF[0] + 4 * s * f, shF[1] + 56 * s], chest = P(24, -118 + bob), face = P(22, -158 + bob);
       target = ph < .5 ? [lerp(down[0], chest[0], ph * 2), lerp(down[1], chest[1], ph * 2)] : [lerp(chest[0], face[0], (ph - .5) * 2), lerp(chest[1], face[1], (ph - .5) * 2)];
