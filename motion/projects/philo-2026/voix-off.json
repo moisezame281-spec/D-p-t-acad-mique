@@ -1,0 +1,29 @@
+{
+  "voice": "ff_siwis",
+  "lang": "fr-fr",
+  "speed": 0.92,
+  "note": "GEXAA se prononce « Gé-ksa » : écrit Géksa pour la synthèse. Chaque réplique démarre à 't' (secondes), calée sur l'animation.",
+  "lines": [
+    { "t": 1.25,  "text": "19 novembre." },
+    { "t": 2.55,  "text": "Journée mondiale de la philosophie." },
+    { "t": 6.9,   "text": "Une question traverse les siècles…" },
+    { "t": 9.7,   "text": "La foi s'oppose-t-elle à la raison ?" },
+    { "t": 18.75, "text": "D'un côté, croire." },
+    { "t": 19.95, "text": "De l'autre, savoir." },
+    { "t": 21.45, "text": "Opposées…" },
+    { "t": 22.4,  "text": "ou complémentaires ?" },
+    { "t": 28.3,  "text": "Augustin," },
+    { "t": 32.0,  "text": "Pascal," },
+    { "t": 36.0,  "text": "Kant :" },
+    { "t": 37.0,  "text": "les plus grands esprits ont cherché la réponse." },
+    { "t": 40.4,  "text": "Au bac, on ne vous demande pas de choisir un camp.", "speed": 1.0 },
+    { "t": 43.35, "text": "On vous demande de savoir penser." },
+    { "t": 47.05, "text": "Analyser." },
+    { "t": 48.05, "text": "Problématiser." },
+    { "t": 49.25, "text": "Argumenter." },
+    { "t": 50.3,  "text": "Conclure." },
+    { "t": 51.5,  "text": "Des méthodes calibrées, pour le bac et les prépas." },
+    { "t": 55.9,  "text": "Géksa." },
+    { "t": 57.1,  "text": "L'excellence se prépare." }
+  ]
+}

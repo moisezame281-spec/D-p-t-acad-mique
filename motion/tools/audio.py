@@ -1,6 +1,6 @@
 """Bande-son synthétisée (musique d'ambiance + effets) calée sur les événements
 exportés par le rendu (sfx.json). Aucune musique sous licence : tout est généré.
-Usage : python3 tools/audio.py <sfx.json> <sortie.wav>
+Usage : python3 tools/audio.py <sfx.json> <sortie.wav> [voix-off.wav]
 """
 import json
 import sys
@@ -241,12 +241,49 @@ mix = music * .9 + fx
 wet = np.stack([fftconvolve(mix[:, c], ir[c])[:N] for c in range(2)], 1)
 out = mix * .78 + wet * .42
 out = hp(out.T, 30).T
-# fondu d'entrée / sortie
+# fondu d'entrée / sortie (musique et effets)
 tt = np.arange(N) / SR
 out *= np.clip(tt / .4, 0, 1)[:, None] * np.clip((DUR - tt) / 1.6, 0, 1)[:, None] ** 1.5
-# normalisation + limiteur doux
-rms = np.sqrt(np.mean(out ** 2))
-out *= 0.17 / rms
+out *= 0.17 / np.sqrt(np.mean(out ** 2))
+
+# ---------------------------------------------------------------- voix off (optionnelle)
+if len(sys.argv) > 3:
+    from scipy.io import wavfile as _wf
+    vsr, v = _wf.read(sys.argv[3])
+    v = v.astype(float)
+    if v.ndim > 1:
+        v = v.mean(1)
+    if np.max(np.abs(v)) > 1.5:
+        v /= 32768.0
+    assert vsr == SR, 'la voix doit être en 48 kHz'
+    v = np.pad(v, (0, max(0, N - len(v))))[:N]
+    v = hp(v, 85)
+    v = v + 0.22 * bp(v, 2500, 6000)            # présence
+    # enveloppe par trames de 10 ms (attaque rapide, relâche lente)
+    F = 480
+    fr = np.sqrt(np.mean(np.pad(v, (0, (-len(v)) % F)).reshape(-1, F) ** 2, axis=1))
+    env = np.zeros_like(fr)
+    a_att, a_rel = 1 - np.exp(-1 / 3), 1 - np.exp(-1 / 35)
+    for i in range(1, len(fr)):
+        a = a_att if fr[i] > env[i - 1] else a_rel
+        env[i] = env[i - 1] + a * (fr[i] - env[i - 1])
+    active = np.percentile(fr[fr > 1e-4], 75) if np.any(fr > 1e-4) else 1
+    # compression douce de la voix
+    comp = np.where(env > active * .5, (np.maximum(env, 1e-9) / (active * .5)) ** -0.35, 1.0)
+    comp_s = np.interp(np.arange(N), np.arange(len(comp)) * F, comp)
+    v = v * comp_s
+    vr = np.sqrt(np.mean(v[np.interp(np.arange(N), np.arange(len(env)) * F, env) > active * .3] ** 2))
+    v *= 0.24 / vr
+    # ducking : la musique baisse d'environ 7 dB sous la voix
+    duck = 1 - 0.55 * np.clip(env / active, 0, 1)
+    duck_s = np.interp(np.arange(N), np.arange(len(duck)) * F, duck)
+    out *= duck_s[:, None]
+    vir = reverb_ir(.7)
+    vwet = np.stack([fftconvolve(v, vir[c])[:N] for c in range(2)], 1)
+    out += np.stack([v, v], 1) * .95 + vwet * .10
+    print('voix off mixée')
+
+# limiteur doux + crête à -1 dBFS
 out = np.tanh(out * 1.4) / np.tanh(1.4)
 out *= 0.89 / np.max(np.abs(out))
 wavfile.write(sys.argv[2], SR, (out * 32767).astype(np.int16))

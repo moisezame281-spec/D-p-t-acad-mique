@@ -8,6 +8,7 @@ L'identité visuelle complète est décrite dans [`brand/CHARTE.md`](brand/CHART
 | Date | Projet | Format | Fichier |
 |---|---|---|---|
 | 19/11/2026 | Journée mondiale de la philosophie : « La foi s’oppose-t-elle à la raison ? » | 60 s · 1080×1920 · 30 i/s | [HD](exports/gexaa-philo-2026-9x16.mp4) · [WhatsApp](exports/gexaa-philo-2026-9x16-whatsapp.mp4) · [couverture](exports/gexaa-philo-2026-couverture.png) |
+| 20/11/2026 | Même vidéo **avec voix off** (voix de synthèse française, « Gé-ksa ») | 60 s · 1080×1920 · 30 i/s | [HD](exports/gexaa-philo-2026-9x16-voix-off.mp4) · [WhatsApp](exports/gexaa-philo-2026-9x16-whatsapp-voix-off.mp4) · texte : [`voix-off.json`](projects/philo-2026/voix-off.json) |
 
 ---
 
@@ -55,6 +56,10 @@ pip install imageio-ffmpeg scipy numpy pillow
 python3 tools/logo_layers.py assets/logo-source.png assets/logo   # découpe du logo en calques
 node tools/render.js philo-2026 /tmp/render 4 30                   # images → segments vidéo + sfx.json
 python3 tools/audio.py /tmp/render/sfx.json /tmp/render/audio.wav  # bande-son synthétisée
+# voix off (modèle Kokoro : github.com/thewh1teagle/kokoro-onnx, release model-files-v1.0)
+pip install kokoro-onnx soundfile
+python3 tools/voiceover.py projects/philo-2026/voix-off.json <dossier-modele> /tmp/render/voice.wav
+python3 tools/audio.py /tmp/render/sfx.json /tmp/render/audio.wav /tmp/render/voice.wav  # musique baissée sous la voix
 # assemblage final : voir tools/encode.sh
 ```
 
