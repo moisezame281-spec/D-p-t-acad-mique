@@ -50,8 +50,13 @@ except Exception:
 def norm(s):
     s = unicodedata.normalize('NFD', s.lower())
     s = ''.join(c for c in s if unicodedata.category(c) != 'Mn')
-    s = re.sub(r'geksa|gexaa|j ?ai que ca|jexa|gexa', 'BRAND', s)
-    return re.sub(r"[^a-z0-9 ]+", ' ', s.replace("'", ' ')).split()
+    s = s.replace("'", ' ').replace('’', ' ')
+    s = re.sub(r'geksa|gexaa|jeksa|j ai que ca|jexa|gexa', 'BRAND', s)
+    s = re.sub(r'ennemis', 'ennemies', s)
+    s = re.sub(r'allies', 'alliees', s)
+    s = re.sub(r'debats', 'debat', s)
+    s = re.sub(r'\bquand\b', 'kant', s)
+    return re.sub(r"[^a-zA-Z0-9 ]+", ' ', s).split()
 
 
 def wer(ref_txt, hyp):
@@ -86,44 +91,88 @@ def take(text, k):
     return s, False
 
 
-track = np.zeros(int(DUR * SR), dtype=np.float32)
-report, prev_end = [], 0.0
+WARP = bool(cfg.get('warp', False))
+chosen = []
 for ln in cfg['lines']:
     t0 = time.time()
     room = ln.get('end', 1e9) - ln['t']
     best = None
-    for k in range(TAKES):
+    for k in range(int(ln.get('takes', TAKES))):
         s, cached = take(ln['text'], k)
         heard, w = '', 0.0
         if asr is not None:
             segs, _ = asr.transcribe(librosa.resample(s, orig_sr=SR, target_sr=16000), language='fr', beam_size=5)
             heard = ' '.join(x.text.strip() for x in segs)
             w = wer(ln['text'], heard)
-        over = max(0.0, len(s) / SR / room - MAXS)
+        over = 0.0 if WARP else max(0.0, len(s) / SR / room - MAXS)
         score = w + over * 2
         if best is None or score < best[0]:
             best = (score, s, heard, w, k)
     _, s, heard, w, k = best
+    chosen.append(dict(ln=ln, s=s, heard=heard, w=w, k=k, secs=time.time() - t0))
+
+# ---------------------------------------------------------------- placement
+anchors = [[0.0, 0.0]]  # [temps animation, temps vidéo]
+if WARP:
+    # chaque fenêtre [t, end] dure au moins la voix naturelle + une marge ; le reste garde sa durée
+    MARGIN = float(cfg.get('margin', 0.12))
+    va = 0.0
+    for c in chosen:
+        ln = c['ln']
+        d = len(c['s']) / SR
+        a0, a1 = ln['t'], ln.get('end', ln['t'] + d)
+        va += a0 - anchors[-1][0]
+        anchors.append([a0, va])
+        va += max(a1 - a0, d + MARGIN)
+        anchors.append([a1, va])
+    va += DUR - anchors[-1][0]
+    anchors.append([DUR, va])
+    VDUR = va
+else:
+    VDUR = DUR
+
+def to_video(ta):
+    for (a0, v0), (a1, v1) in zip(anchors, anchors[1:]):
+        if ta <= a1:
+            return v0 + (ta - a0) * (v1 - v0) / max(1e-9, a1 - a0)
+    return anchors[-1][1] + ta - anchors[-1][0]
+
+track = np.zeros(int(VDUR * SR) + SR, dtype=np.float32)
+report, prev_end = [], 0.0
+for c in chosen:
+    ln, s = c['ln'], c['s']
     note = ''
-    if len(s) / SR > room:
+    start = to_video(ln['t'])
+    room = to_video(ln.get('end', 1e9)) - start if 'end' in ln else 1e9
+    if not WARP and len(s) / SR > room:
         rate = min(MAXS, (len(s) / SR) / room)
         s = librosa.effects.time_stretch(s, rate=rate)
         note += f'  [×{rate:.2f}]'
+    if WARP:
+        slow = (to_video(ln.get('end', ln['t'])) - start) / max(1e-9, ln.get('end', ln['t']) - ln['t'])
+        if slow > 1.005:
+            note += f'  [animation ralentie ×{slow:.2f}]'
     fade = int(.012 * SR)
+    s = s.copy()
     s[:fade] *= np.linspace(0, 1, fade)
     s[-fade:] *= np.linspace(1, 0, fade)
-    i = int(ln['t'] * SR)
-    end = ln['t'] + len(s) / SR
-    if end > ln.get('end', 1e9) + .05:
-        note += f'  ⚠ déborde de {end - ln["end"]:.2f} s'
-    if ln['t'] < prev_end - .02:
+    i = int(start * SR)
+    end = start + len(s) / SR
+    if end > start + room + .05:
+        note += f'  ⚠ déborde de {end - start - room:.2f} s'
+    if start < prev_end - .02:
         note += '  ⚠ chevauche la réplique précédente'
     if asr is not None:
-        note += f'  | prise {k + 1}, écart texte {w:.0%} : « {heard} »'
+        note += f"  | prise {c['k'] + 1}, écart texte {c['w']:.0%} : « {c['heard']} »"
     track[i:i + len(s)] += s[: max(0, len(track) - i)]
-    report.append(f"{ln['t']:6.2f} → {end:6.2f}  {ln['text']}{note}  ({time.time() - t0:.0f} s)")
+    report.append(f"{start:6.2f} → {end:6.2f}  {ln['text']}{note}")
     print(report[-1], flush=True)
     prev_end = end
 
+track = track[: int(VDUR * SR)]
 sf.write(out, track, SR)
+if WARP:
+    json.dump({'duration': round(VDUR, 3), 'anim_duration': DUR, 'anchors': [[round(a, 4), round(v, 4)] for a, v in anchors]},
+              open(out + '.warp.json', 'w'), indent=1)
+    print(f'durée vidéo : {VDUR:.2f} s (carte temporelle : {out}.warp.json)')
 print('voix off écrite :', out)

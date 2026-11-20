@@ -1,6 +1,7 @@
 """Bande-son synthétisée (musique d'ambiance + effets) calée sur les événements
 exportés par le rendu (sfx.json). Aucune musique sous licence : tout est généré.
-Usage : python3 tools/audio.py <sfx.json> <sortie.wav> [voix-off.wav]
+Usage : python3 tools/audio.py <sfx.json> <sortie.wav> [voix-off.wav|-] [carte.warp.json]
+La carte temporelle (produite par clone_voice.py) suit une vidéo dont l'animation ralentit sous la voix.
 """
 import json
 import sys
@@ -11,6 +12,19 @@ from scipy.io import wavfile
 SR = 48000
 ev = json.load(open(sys.argv[1]))
 DUR = ev['duration'] + 0.0
+WARPF = sys.argv[4] if len(sys.argv) > 4 else None
+if WARPF:
+    _W = json.load(open(WARPF))
+    _A = np.array(_W['anchors'], dtype=float)
+    DUR = float(_W['duration'])
+
+    def M(t):  # temps de l'animation -> temps de la vidéo
+        if t >= _A[-1, 0]:
+            return _A[-1, 1] + t - _A[-1, 0]
+        return float(np.interp(t, _A[:, 0], _A[:, 1]))
+else:
+    def M(t):
+        return t
 N = int(SR * DUR)
 rng = np.random.default_rng(2026)
 music = np.zeros((N, 2))
@@ -90,12 +104,12 @@ CHORDS = [  # (début, fin, notes MIDI)
 ]
 for a, b, notes in CHORDS:
     for i, m in enumerate(notes):
-        add(music, a, pad_note(m, b - a + 1.6, 0.11 if m > 52 else 0.14), pan=(i / max(1, len(notes) - 1) - .5) * .7)
+        add(music, M(a), pad_note(m, M(b) - M(a) + 1.6, 0.11 if m > 52 else 0.14), pan=(i / max(1, len(notes) - 1) - .5) * .7)
 
 # drone grave
 t = np.arange(N) / SR
-drone = np.sin(2 * np.pi * mtof(38) * t) * 0.10 * np.clip(t / 3, 0, 1) * np.clip((39.6 - t) / 1.5, 0, 1)
-drone += np.sin(2 * np.pi * mtof(29) * t) * 0.10 * np.clip((t - 39.3) / 1.5, 0, 1) * np.clip((DUR - t) / 2, 0, 1)
+drone = np.sin(2 * np.pi * mtof(38) * t) * 0.10 * np.clip(t / 3, 0, 1) * np.clip((M(39.6) - t) / 1.5, 0, 1)
+drone += np.sin(2 * np.pi * mtof(29) * t) * 0.10 * np.clip((t - M(39.3)) / 1.5, 0, 1) * np.clip((DUR - t) / 2, 0, 1)
 music += np.stack([drone, drone], 1)
 
 
@@ -111,7 +125,7 @@ def pluck(m, amp=0.2, dec=1.4):
 def chord_at(time):
     cur = CHORDS[0][2]
     for a, b, notes in CHORDS:
-        if time >= a + .2:
+        if time >= M(a) + .2:
             cur = notes
     return cur
 
@@ -120,6 +134,7 @@ def chord_at(time):
 pattern = [0, 2, 1, 3, 2, 4, 3, 1]
 for sec, (a, b, step, amp) in enumerate([(16.6, 26.8, .3, .085), (27.2, 39.2, .6, .07), (40.2, 45.6, .3, .07), (46.0, 53.8, .3, .085)]):
     k = 0
+    a, b = M(a), M(b)
     x = a
     while x < b:
         notes = sorted(set(n % 12 for n in chord_at(x)))
@@ -139,6 +154,7 @@ def kick(amp=.35):
 
 
 for a, b in [(16.6, 26.6), (40.2, 45.6), (46.0, 53.6)]:
+    a, b = M(a), M(b)
     x = a
     while x < b:
         add(music, x, kick(.28))
@@ -181,7 +197,10 @@ def thump(amp=.5, f=60):
 
 
 for e in ev['sfx']:
-    T, ty = e['t'], e['type']
+    T0, ty = e['t'], e['type']
+    T = M(T0)
+    if 'd' in e:
+        e = dict(e, d=M(T0 + e['d']) - T)
     if ty == 'impact':
         add(fx, T, thump(.8, 55))
         add(fx, T, bell(mtof(74), 3.5, .14), pan=-.2)
@@ -209,13 +228,13 @@ for e in ev['sfx']:
         click = np.sin(2 * np.pi * 1750 * tt) * np.exp(-tt * 70) + bp(noise(.12), 3000, 9000) * np.exp(-tt * 120) * .4
         add(fx, T, click * .22, pan=-.25)
         add(fx, T, thump(.22, 70))
-        add(fx, T + .05, bell(mtof(84 + [0, 2, 4, 7][int(round((T - 46.95)))] if 0 <= round(T - 46.95) <= 3 else 84), 1.6, .05), pan=.2)
+        add(fx, T + .05, bell(mtof(84 + [0, 2, 4, 7][int(round((T0 - 46.95)))] if 0 <= round(T0 - 46.95) <= 3 else 84), 1.6, .05), pan=.2)
     elif ty == 'chime':
         for i, m in enumerate([77, 81, 84, 89]):
             add(fx, T + i * .07, bell(mtof(m), 3.5, .07), pan=-.4 + i * .27)
     elif ty == 'drop':
         for tb, a in [(55.41, .55), (55.72, .22), (55.87, .1)]:
-            add(fx, tb, thump(a, 65))
+            add(fx, M(tb), thump(a, 65))
     elif ty == 'shine':
         n = int(1.1 * SR); tt = np.arange(n) / SR
         sweep = np.sin(2 * np.pi * np.cumsum(2500 + 3500 * tt) / SR) * np.sin(np.pi * tt / 1.1) ** 2
@@ -247,7 +266,7 @@ out *= np.clip(tt / .4, 0, 1)[:, None] * np.clip((DUR - tt) / 1.6, 0, 1)[:, None
 out *= 0.17 / np.sqrt(np.mean(out ** 2))
 
 # ---------------------------------------------------------------- voix off (optionnelle)
-if len(sys.argv) > 3:
+if len(sys.argv) > 3 and sys.argv[3] != '-':
     from scipy.io import wavfile as _wf
     vsr, v = _wf.read(sys.argv[3])
     v = v.astype(float)

@@ -1,5 +1,6 @@
 /* Rendu vidéo image par image.
-   Usage : node tools/render.js <projet> <sortie-dir> [workers=4] [fps=30]
+   Usage : node tools/render.js <projet> <sortie-dir> [workers=4] [fps=30] [carte.warp.json]
+   - avec une carte temporelle, l'animation ralentit là où la voix off parle plus longtemps
    - lance un serveur HTTP local sur motion/
    - N navigateurs rendent chacun une tranche d'images, envoyée à ffmpeg
    - exporte aussi la liste des événements sonores (sfx.json) */
@@ -36,7 +37,16 @@ async function openPage(browser, url) {
 }
 
 (async () => {
-  const [project, outDir, workersArg, fpsArg] = process.argv.slice(2);
+  const [project, outDir, workersArg, fpsArg, warpArg] = process.argv.slice(2);
+  const warp = warpArg ? JSON.parse(fs.readFileSync(warpArg, 'utf8')) : null;
+  const toAnim = tv => { // temps vidéo -> temps animation
+    if (!warp) return tv;
+    const A = warp.anchors;
+    for (let i = 1; i < A.length; i++) {
+      if (tv <= A[i][1]) { const [a0, v0] = A[i - 1], [a1, v1] = A[i]; return a0 + (tv - v0) * (a1 - a0) / Math.max(1e-9, v1 - v0); }
+    }
+    return Math.min(warp.anim_duration, A[A.length - 1][0] + tv - A[A.length - 1][1]);
+  };
   const workers = parseInt(workersArg || '4', 10), fps = parseInt(fpsArg || '30', 10);
   fs.mkdirSync(outDir, { recursive: true });
   const srv = await serve();
@@ -48,7 +58,7 @@ async function openPage(browser, url) {
   const { duration, sfx } = await p0.evaluate(() => ({ duration: window.DURATION, sfx: window.SFX }));
   await b0.close();
   fs.writeFileSync(path.join(outDir, 'sfx.json'), JSON.stringify({ duration, fps, sfx }, null, 1));
-  const total = Math.round(duration * fps);
+  const total = Math.round((warp ? warp.duration : duration) * fps);
   console.log(`${total} images, ${workers} workers`);
 
   const t0 = Date.now();
@@ -64,7 +74,7 @@ async function openPage(browser, url) {
     const page = await openPage(browser, url);
     await page.evaluate(() => window.renderFrame(0));
     for (let f = a; f < b; f++) {
-      await page.evaluate(t => window.renderFrame(t), f / fps);
+      await page.evaluate(t => window.renderFrame(t), Math.min(toAnim(f / fps), duration - 1e-3));
       const buf = await page.screenshot({ type: 'png' });
       if (!ff.stdin.write(buf)) await new Promise(r => ff.stdin.once('drain', r));
       done++;
