@@ -461,11 +461,11 @@
   window.DURATION = DUR;
   window.renderFrame = render;
   window.SFX = GX.SFX;
-  window.renderCover = function () {
-    render(T.pourquoi + 1.0);
-    set(tSi, { o: 1, blur: 0, s: 1 }); set(tPq, { o: 1, blur: 0, s: 1 }); set(tSeries, { o: 0 }); SUBS.style.opacity = 0;
-    tSeries.style.opacity = 1; tSeries.style.top = '1360px'; tSeries.style.transform = 'scale(.62)';
+  window.renderCover = function () { // couverture : la chambre, la mère qui prie, la question
+    render(T.prie + .4);
+    set(tSeries, { o: 1, blur: 0, s: 1 }); set(tSi, { o: 1, blur: 0, s: 1 }); set(tPq, { o: 1, blur: 0, s: 1 }); SUBS.style.opacity = 0;
   };
+
   render(0);
   window.__ready = true;
 })().catch(e => { window.__error = String(e && e.stack || e); console.error(e); });

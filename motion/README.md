@@ -11,6 +11,7 @@ L'identité visuelle complète est décrite dans [`brand/CHARTE.md`](brand/CHART
 | 20/11/2026 | ✅ **Version retenue** : même vidéo **avec voix off** (voix de synthèse française, « Gé-ksa ») | 60 s · 1080×1920 · 30 i/s | [HD](exports/gexaa-philo-2026-9x16-voix-off.mp4) · [WhatsApp](exports/gexaa-philo-2026-9x16-whatsapp-voix-off.mp4) · texte : [`voix-off.json`](projects/philo-2026/voix-off.json) |
 | 20/11/2026 | **Version finale avec la voix de GEXAA** (copie de voix), vidéo adaptée au débit de la voix | 65,6 s · 1080×1920 · 30 i/s | [HD](exports/gexaa-philo-2026-9x16-ma-voix.mp4) · [WhatsApp](exports/gexaa-philo-2026-9x16-whatsapp-ma-voix.mp4) · texte : [`voix-off-clone.json`](projects/philo-2026/voix-off-clone.json) |
 | 20/11/2026 | **L’Énigme humaine — EP001** « Tu sais. Tu recommences. Pourquoi ? » (documentaire graphique) | 59,5 s · 1080×1920 · 30 i/s | dossier [`ENIGME_HUMAINE_EP001/`](../ENIGME_HUMAINE_EP001/) · source [`projects/enigme-ep001/`](projects/enigme-ep001/) |
+| 20/11/2026 | **L’Énigme humaine — EP002** « Si Dieu est bon, pourquoi les innocents souffrent-ils ? » | 65,8 s · 1080×1920 · 30 i/s | dossier [`ENIGME_HUMAINE_EP002/`](../ENIGME_HUMAINE_EP002/) · source [`projects/enigme-ep002/`](projects/enigme-ep002/) |
 
 ---
 

@@ -30,7 +30,7 @@ def mtof(m): return 440 * 2 ** ((m - 69) / 12)
 def lp(x, f, o=2): return sosfilt(butter(o, min(f, SR / 2 - 100) / (SR / 2), output='sos'), x, axis=0)
 def hp(x, f, o=2): return sosfilt(butter(o, f / (SR / 2), btype='high', output='sos'), x, axis=0)
 def bp(x, a, b, o=2): return sosfilt(butter(o, [a / (SR / 2), b / (SR / 2)], btype='band', output='sos'), x, axis=0)
-def noise(d): return rng.standard_normal(int(round(d * SR)))
+def noise(d): return rng.standard_normal(int(d * SR))
 def tt(n): return np.arange(n) / SR
 
 

@@ -42,8 +42,8 @@ if [ ! -f "$P/timeline.json" ] || [ "$P/narration.json" -nt "$P/timeline.json" ]
 else say "1/6 Narration inchangée (réutilisée)"; fi
 
 # 2. images
-say "2/6 Rendu des images"
-node tools/render.js "$PROJ" "$WORK/render" 4 30
+if [ "${GX_SKIP_RENDER:-0}" = "1" ] && [ -f "$WORK/render/segments.txt" ]; then say "2/6 Images déjà rendues (réutilisées)"
+else say "2/6 Rendu des images"; node tools/render.js "$PROJ" "$WORK/render" 4 30; fi
 
 # 3. musique + design sonore + mixage
 say "3/6 Musique et mixage"
