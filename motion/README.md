@@ -16,6 +16,8 @@ L'identité visuelle complète est décrite dans [`brand/CHARTE.md`](brand/CHART
 
 ### Étape 1 : envoie le brief (copie-colle et remplis)
 
+Chaque vidéo a son propre univers visuel (voir la section 8 de la charte) : deux vidéos GEXAA ne se ressemblent jamais.
+
 ```
 BRIEF GEXAA
 1. Sujet / occasion :
@@ -23,7 +25,8 @@ BRIEF GEXAA
 3. Durée : 15 s · 30 s · 60 s
 4. Message principal (1 phrase) :
 5. Appel à l'action + contact (WhatsApp, adresse, date d'inscription) :
-6. À éviter / obligatoire :
+6. Ambiance souhaitée (ou « au choix ») : voir les univers dans brand/CHARTE.md
+7. À éviter / obligatoire :
 ```
 
 Joins les images utiles (logo, photo de l'équipe, affiche) directement dans le message.

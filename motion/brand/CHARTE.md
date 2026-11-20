@@ -82,3 +82,32 @@ Polices gratuites (Google Fonts / Fontsource), utilisables commercialement.
 ## 7. Clôture obligatoire
 
 Le logo GEXAA s'assemble pièce par pièce : la règle étoilée, les lauriers qui poussent, le livre qui s'ouvre, la plume, la toque qui tombe, le nom révélé puis balayé par un reflet. Suit une signature manuscrite (ex. *« L'excellence se prépare. »*).
+
+---
+
+## 8. Varier sans perdre la marque
+
+Deux vidéos GEXAA ne doivent jamais se ressembler. Chaque production choisit son **univers visuel** selon le sujet et la problématique. Ce qui la rend reconnaissable, c'est une petite liste de constantes.
+
+### Ce qui reste fixe dans toutes les vidéos
+- La **clôture** : le logo GEXAA qui s'assemble, suivi d'une signature manuscrite.
+- La **plume d'or** : elle écrit au moins un mot clé dans chaque vidéo.
+- La **palette** (bleu nuit, or, vert, ivoire). Les proportions changent d'un univers à l'autre.
+- **Montserrat** pour les labels et **Parisienne** pour la signature.
+- Le **carillon** sonore à l'apparition du logo.
+- Le **passage du problème à la solution GEXAA**, sous une forme propre à chaque vidéo.
+
+### Ce qui change à chaque vidéo : l'univers
+| Univers | Pour quels sujets | Fond et matière | Transition signature | Rythme |
+|---|---|---|---|---|
+| **Encre & Nuit** *(philo 2026)* | Philosophie, débats d'idées | Nuit étoilée puis papier ivoire | Encre qui se répand | Lent, contemplatif |
+| **Tableau noir** | Maths, physique, formules | Ardoise, craie, poussière blanche | Coup d'éponge | Vif, démonstratif |
+| **Atlas** | Histoire-géographie, dates | Cartes anciennes, parchemin | Itinéraire qui se trace | Narratif |
+| **Plan d'ingénieur** | SVT, physique-chimie, prépas scientifiques | Fond bleu de plan, cotes, grilles | Plan qui se déplie | Précis, mécanique |
+| **Papier découpé** | Inscriptions, annonces, témoignages | Papiers superposés, ombres portées | Feuille qui se soulève | Chaleureux |
+| **Constellations** | Orientation, ambitions, choix de prépa | Ciel profond, points reliés | Zoom à travers les étoiles | Ample, inspirant |
+| **Marbre & laurier** | Résultats, félicitations, palmarès | Marbre clair, bronze, lauriers | Reflet doré | Solennel |
+| **Compte à rebours** | J-30 avant le bac, révisions intensives | Typographie géante, chiffres | Coupe nette au rythme du son | Rapide, énergique |
+
+### La voix off
+Elle **raconte une histoire** et ne lit pas l'écran mot à mot. Elle parle à l'élève (« tu »), en phrases complètes, et suit les animations. Elle reste continue du début à la fin.
