@@ -1,29 +1,83 @@
 {
   "voice": "ff_siwis",
   "lang": "fr-fr",
-  "speed": 0.92,
-  "note": "GEXAA se prononce « Gé-ksa » : écrit Géksa pour la synthèse. Chaque réplique démarre à 't' (secondes), calée sur l'animation.",
+  "speed": 0.95,
+  "note": "Narration continue, tutoiement de l'élève. GEXAA se prononce « Gé-ksa » : écrit Géksa pour la synthèse. 't' = début (s), 'end' = fin à ne pas dépasser (la vitesse s'ajuste si besoin).",
   "lines": [
-    { "t": 1.25,  "text": "19 novembre." },
-    { "t": 2.55,  "text": "Journée mondiale de la philosophie." },
-    { "t": 6.9,   "text": "Une question traverse les siècles…" },
-    { "t": 9.7,   "text": "La foi s'oppose-t-elle à la raison ?" },
-    { "t": 18.75, "text": "D'un côté, croire." },
-    { "t": 19.95, "text": "De l'autre, savoir." },
-    { "t": 21.45, "text": "Opposées…" },
-    { "t": 22.4,  "text": "ou complémentaires ?" },
-    { "t": 28.3,  "text": "Augustin," },
-    { "t": 32.0,  "text": "Pascal," },
-    { "t": 36.0,  "text": "Kant :" },
-    { "t": 37.0,  "text": "les plus grands esprits ont cherché la réponse." },
-    { "t": 40.4,  "text": "Au bac, on ne vous demande pas de choisir un camp.", "speed": 1.0 },
-    { "t": 43.35, "text": "On vous demande de savoir penser." },
-    { "t": 47.05, "text": "Analyser." },
-    { "t": 48.05, "text": "Problématiser." },
-    { "t": 49.25, "text": "Argumenter." },
-    { "t": 50.3,  "text": "Conclure." },
-    { "t": 51.5,  "text": "Des méthodes calibrées, pour le bac et les prépas." },
-    { "t": 55.9,  "text": "Géksa." },
-    { "t": 57.1,  "text": "L'excellence se prépare." }
+    {
+      "t": 0.6,
+      "end": 4.4,
+      "text": "Ce 19 novembre, le monde entier célèbre la philosophie."
+    },
+    {
+      "t": 4.6,
+      "end": 6.9,
+      "text": "Et elle nous pose une question redoutable."
+    },
+    {
+      "t": 7.1,
+      "end": 12.0,
+      "text": "La foi s'oppose-t-elle à la raison ? Peut-on croire… sans cesser de réfléchir ?"
+    },
+    {
+      "t": 11.8,
+      "end": 16.6,
+      "text": "Des siècles de débat… et un jour, c'est toi qui devras répondre, sur ta copie."
+    },
+    {
+      "t": 17.1,
+      "end": 20.6,
+      "text": "D'un côté, la foi : croire, faire confiance, même sans tout prouver."
+    },
+    {
+      "t": 20.8,
+      "end": 23.5,
+      "text": "De l'autre, la raison : chercher, démontrer, savoir."
+    },
+    {
+      "t": 23.7,
+      "end": 26.2,
+      "text": "Alors… deux ennemies ? Ou deux alliées ?"
+    },
+    {
+      "t": 26.4,
+      "end": 30.7,
+      "text": "Saint Augustin répondait : comprends pour croire, crois pour comprendre."
+    },
+    {
+      "t": 30.85,
+      "end": 34.75,
+      "text": "Pascal écrivait que le cœur a ses raisons que la raison ne connaît point."
+    },
+    {
+      "t": 35.05,
+      "end": 39.1,
+      "text": "Et Kant voulait limiter le savoir… pour laisser une place à la croyance."
+    },
+    {
+      "t": 39.6,
+      "end": 43.4,
+      "text": "Le jour du bac, personne ne te demandera de choisir ton camp."
+    },
+    {
+      "t": 43.55,
+      "end": 45.9,
+      "text": "On te demandera de penser… avec méthode."
+    },
+    {
+      "t": 46.2,
+      "end": 51.0,
+      "text": "Chez Géksa, tu apprends à analyser, problématiser, argumenter… et conclure."
+    },
+    {
+      "t": 51.2,
+      "end": 55.4,
+      "text": "Des méthodes calibrées, pour décrocher ton bac… et réussir tes concours."
+    },
+    {
+      "t": 55.9,
+      "end": 59.3,
+      "text": "Géksa… parce que l'excellence se prépare."
+    }
   ]
 }

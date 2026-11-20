@@ -29,8 +29,14 @@ def trim(s, sr, thr=0.012):
 
 report, prev_end = [], 0.0
 for ln in cfg['lines']:
-    s, sr = k.create(ln['text'], voice=cfg.get('voice', 'ff_siwis'), speed=ln.get('speed', cfg.get('speed', 1.0)), lang=cfg.get('lang', 'fr-fr'))
-    s = trim(np.asarray(s, dtype=np.float32), sr)
+    speed = ln.get('speed', cfg.get('speed', 1.0))
+    for _ in range(3):  # si la réplique déborde de sa fenêtre, on accélère légèrement
+        s, sr = k.create(ln['text'], voice=cfg.get('voice', 'ff_siwis'), speed=speed, lang=cfg.get('lang', 'fr-fr'))
+        s = trim(np.asarray(s, dtype=np.float32), sr)
+        room = ln.get('end', 1e9) - ln['t']
+        if len(s) / sr <= room or speed >= 1.3:
+            break
+        speed = min(1.3, speed * (len(s) / sr) / room * 1.02)
     s = resample_poly(s, SR, sr).astype(np.float32)
     fade = int(.012 * SR)
     s[:fade] *= np.linspace(0, 1, fade)
@@ -38,6 +44,11 @@ for ln in cfg['lines']:
     i = int(ln['t'] * SR)
     end = ln['t'] + len(s) / SR
     flag = '  ⚠ chevauche la réplique précédente' if ln['t'] < prev_end - .02 else ''
+    gap = ln['t'] - prev_end
+    if prev_end and gap > .9:
+        flag += f'  (silence de {gap:.1f} s avant)'
+    if speed != ln.get('speed', cfg.get('speed', 1.0)):
+        flag += f'  [vitesse {speed:.2f}]'
     if end > DUR - .2:
         flag += '  ⚠ dépasse la fin'
     track[i:i + len(s)] += s[: max(0, len(track) - i)]
