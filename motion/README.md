@@ -9,6 +9,7 @@ L'identité visuelle complète est décrite dans [`brand/CHARTE.md`](brand/CHART
 |---|---|---|---|
 | 19/11/2026 | Journée mondiale de la philosophie : « La foi s’oppose-t-elle à la raison ? » | 60 s · 1080×1920 · 30 i/s | [HD](exports/gexaa-philo-2026-9x16.mp4) · [WhatsApp](exports/gexaa-philo-2026-9x16-whatsapp.mp4) · [couverture](exports/gexaa-philo-2026-couverture.png) |
 | 20/11/2026 | Même vidéo **avec voix off** (voix de synthèse française, « Gé-ksa ») | 60 s · 1080×1920 · 30 i/s | [HD](exports/gexaa-philo-2026-9x16-voix-off.mp4) · [WhatsApp](exports/gexaa-philo-2026-9x16-whatsapp-voix-off.mp4) · texte : [`voix-off.json`](projects/philo-2026/voix-off.json) |
+| 20/11/2026 | **Version finale avec la voix de GEXAA** (copie de voix), vidéo adaptée au débit de la voix | 65,6 s · 1080×1920 · 30 i/s | [HD](exports/gexaa-philo-2026-9x16-ma-voix.mp4) · [WhatsApp](exports/gexaa-philo-2026-9x16-whatsapp-ma-voix.mp4) · texte : [`voix-off-clone.json`](projects/philo-2026/voix-off-clone.json) |
 
 ---
 
@@ -65,7 +66,10 @@ python3 tools/voiceover.py projects/philo-2026/voix-off.json <dossier-modele> /t
 python3 tools/audio.py /tmp/render/sfx.json /tmp/render/audio.wav /tmp/render/voice.wav  # musique baissée sous la voix
 # copie de voix (Chatterbox multilingue, MIT) : référence de 10 à 60 s enregistrée au calme
 uv venv -p python3.13 venv-voice && VIRTUAL_ENV=venv-voice uv pip install chatterbox-tts soundfile "setuptools<81"
-venv-voice/bin/python tools/clone_voice.py projects/philo-2026/voix-off.json <ma-voix.m4a> /tmp/render/voice.wav
+venv-voice/bin/python tools/clone_voice.py projects/philo-2026/voix-off-clone.json <ma-voix.wav> /tmp/render/voice.wav 60 /tmp/clone-cache
+# avec "warp": true, une carte temporelle est écrite à côté : la vidéo et la musique la suivent
+node tools/render.js philo-2026 /tmp/render 4 30 /tmp/render/voice.wav.warp.json
+python3 tools/audio.py /tmp/render/sfx.json /tmp/render/audio.wav /tmp/render/voice.wav /tmp/render/voice.wav.warp.json
 # assemblage final : voir tools/encode.sh
 ```
 
