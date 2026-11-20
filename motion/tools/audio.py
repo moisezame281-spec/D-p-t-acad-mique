@@ -4,6 +4,7 @@ Usage : python3 tools/audio.py <sfx.json> <sortie.wav> [voix-off.wav|-] [carte.w
 La carte temporelle (produite par clone_voice.py) suit une vidéo dont l'animation ralentit sous la voix.
 """
 import json
+import os
 import sys
 import numpy as np
 from scipy.signal import fftconvolve, butter, sosfilt
@@ -287,23 +288,43 @@ if len(sys.argv) > 3 and sys.argv[3] != '-':
         a = a_att if fr[i] > env[i - 1] else a_rel
         env[i] = env[i - 1] + a * (fr[i] - env[i - 1])
     active = np.percentile(fr[fr > 1e-4], 75) if np.any(fr > 1e-4) else 1
-    # compression douce de la voix
-    comp = np.where(env > active * .5, (np.maximum(env, 1e-9) / (active * .5)) ** -0.35, 1.0)
-    comp_s = np.interp(np.arange(N), np.arange(len(comp)) * F, comp)
-    v = v * comp_s
-    vr = np.sqrt(np.mean(v[np.interp(np.arange(N), np.arange(len(env)) * F, env) > active * .3] ** 2))
-    v *= 0.24 / vr
-    # ducking : la musique baisse d'environ 7 dB sous la voix
-    duck = 1 - 0.55 * np.clip(env / active, 0, 1)
-    duck_s = np.interp(np.arange(N), np.arange(len(duck)) * F, duck)
-    out *= duck_s[:, None]
+    # compression douce de la voix + limiteur de crêtes : une voix dense, « imposante »
+    comp = np.where(env > active * .5, (np.maximum(env, 1e-9) / (active * .5)) ** -0.5, 1.0)
+    v = v * np.interp(np.arange(N), np.arange(len(comp)) * F, comp)
+    vmask = np.interp(np.arange(N), np.arange(len(env)) * F, env) > active * .3
+    vr = np.sqrt(np.mean(v[vmask] ** 2)) + 1e-12
+    KV = 3.2 * vr                                   # crête max ≈ 10 dB au-dessus du niveau moyen
+    v = KV * np.tanh(v / KV)
+    v *= 1 / (np.sqrt(np.mean(v[vmask] ** 2)) + 1e-12)
     vir = reverb_ir(.7)
     vwet = np.stack([fftconvolve(v, vir[c])[:N] for c in range(2)], 1)
-    out += np.stack([v, v], 1) * .95 + vwet * .10
-    print('voix off mixée')
+    vst = np.stack([v, v], 1) * .95 + vwet * .10
+    # ducking : la musique baisse d'environ 7 dB sous la voix (réglage validé)
+    duck = 1 - 0.55 * np.clip(env / active, 0, 1)
+    out *= np.interp(np.arange(N), np.arange(len(duck)) * F, duck)[:, None]
+    # niveaux cibles (mesurés sur la version validée avec la première voix) :
+    #   musique entre les phrases ≈ -18 dBFS ; parole ≈ -9,6 dBFS (plus présente que la première voix, -10,6)
+    rms = lambda x: np.sqrt(np.mean(x ** 2)) + 1e-12
+    BED_GAP = float(os.environ.get('BED_DB', '-15.3'))
+    SPEECH = float(os.environ.get('SPEECH_DB', '-9.8'))
+    out *= 10 ** (BED_GAP / 20) / rms(out[~vmask])
+    target = 10 ** (SPEECH / 20)
+    b = rms(out[vmask]); vv = rms(vst[vmask])
+    gv = np.sqrt(max(target ** 2 - b ** 2, (target * .5) ** 2)) / vv
+    out += vst * gv
+    print(f'voix off mixée : voix {20 * np.log10(vv * gv / b):+.1f} dB au-dessus de la musique pendant la parole')
+    VOICE = True
+else:
+    VOICE = False
 
-# limiteur doux + crête à -1 dBFS
-out = np.tanh(out * 1.4) / np.tanh(1.4)
-out *= 0.89 / np.max(np.abs(out))
+if VOICE:
+    # crêtes adoucies au-dessus de -3 dBFS, plafond -0,5 dBFS (le niveau moyen ne bouge pas)
+    K = 0.7
+    mag = np.abs(out)
+    out = np.sign(out) * np.where(mag < K, mag, K + (0.944 - K) * np.tanh((mag - K) / (0.944 - K)))
+else:
+    # limiteur doux + crête à -1 dBFS
+    out = np.tanh(out * 1.4) / np.tanh(1.4)
+    out *= 0.89 / np.max(np.abs(out))
 wavfile.write(sys.argv[2], SR, (out * 32767).astype(np.int16))
 print('audio ok', DUR, 's  rms', float(np.sqrt(np.mean(out ** 2))), 'peak', float(np.max(np.abs(out))))
