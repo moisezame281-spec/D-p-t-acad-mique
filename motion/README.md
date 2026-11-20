@@ -63,6 +63,9 @@ python3 tools/audio.py /tmp/render/sfx.json /tmp/render/audio.wav  # bande-son s
 pip install kokoro-onnx soundfile
 python3 tools/voiceover.py projects/philo-2026/voix-off.json <dossier-modele> /tmp/render/voice.wav
 python3 tools/audio.py /tmp/render/sfx.json /tmp/render/audio.wav /tmp/render/voice.wav  # musique baissée sous la voix
+# copie de voix (Chatterbox multilingue, MIT) : référence de 10 à 60 s enregistrée au calme
+uv venv -p python3.13 venv-voice && VIRTUAL_ENV=venv-voice uv pip install chatterbox-tts soundfile "setuptools<81"
+venv-voice/bin/python tools/clone_voice.py projects/philo-2026/voix-off.json <ma-voix.m4a> /tmp/render/voice.wav
 # assemblage final : voir tools/encode.sh
 ```
 
