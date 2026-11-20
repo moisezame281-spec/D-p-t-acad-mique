@@ -50,7 +50,7 @@ Les trois vidéos partagent volontairement le même rendu, comme le brief l'auto
 
 | Vérification | Résultat |
 |---|---|
-| Durée entre 58 et 60 s | ✅ 59,46 s |
+| Durée entre 58 et 60 s | ✅ 59,7 s |
 | Narration complète et intelligible | ✅ Transcription automatique du fichier final comparée au script : **4,3 % d'écart**, uniquement des homophones ou des graphies (« Romain/Romains », « trahi/trahis », « Aristot », « Acracia »). Aucun mot n'est couvert par la musique. |
 | Synchronisation voix et images | ✅ Tous les repères visuels sont calculés à partir de l'horodatage mot à mot de la voix |
 | Prononciation | ✅ Aristote, akrasia [akʁasja], « Romains sept », « quatre-vingt-onze ». « Ash-Shams » n'est pas prononcé dans le script officiel : il est affiché à l'écran. |
@@ -110,3 +110,6 @@ projects/enigme-ep001/export.sh /tmp/ep1render ../ENIGME_HUMAINE_EP001 /tmp/ep1/
 - **Schéma de la boucle :** DÉCLENCHEUR, HABITUDE et AUTOMATISME en Fraunces italique très gras, en dégradé lumineux, avec des numéros en Instrument Serif et des flèches en rose grenat.
 - **Petits textes** (références, sources, signature) : Fraunces et Instrument Serif en **rose grenat `#E8949A`**, à la place de la police à chasse fixe dorée jugée trop « standard ».
 - **Modèle de série figé :** `series/enigme-humaine/FORMAT.md`, `motion/tools/produce.sh` (production en une commande) et `motion/tools/new_episode.sh`.
+- **Question finale :** elle est dite en deux temps, « Et toi ? », un silence réel d'environ une seconde, puis « qu'est-ce qui te ramène… au même choix ? », avec un débit plus lent. La musique se retire pour laisser la voix seule. La question s'écrit **en grand dans le miroir, mot après mot** (Instrument Serif, « au même choix ? » en rose grenat) : elle ne passe plus par un simple sous-titre. Les mots du script officiel sont inchangés.
+- **Petite musique de fin :** un thème au piano (la – ré – fa# – mi – ré … la), accompagné de cordes douces en ré majeur, sur l'écriture finale « L'ÉNIGME HUMAINE. / Fais ta propre réflexion. », jusqu'au silence de la dernière image.
+- **Durée après révision :** 59,7 s (toujours dans la fourchette de 58 à 60 s).

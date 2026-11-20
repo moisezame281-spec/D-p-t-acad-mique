@@ -33,7 +33,8 @@
     s6: SEN('s6a').start - 0.55, lieu: cue('s6a', 'lieu'), heure: cue('s6a', 'heure'), decl: cue('s6a', 'declencheur'), react: cue('s6a', 'reactiver'), habit: cue('s6a', 'habitude'), auto: cue('s6a', 'automatiquement'),
     s7: SEN('s7a').start - 0.6, comprendre: cue('s7b', 'comprendre'), declenche: cue('s7b', 'declenche'), s7bEnd: SEN('s7b').end, toi: SEN('s7c').start, end7c: SEN('s7c').end,
   };
-  T.leave = T.s7bEnd + 0.15; T.title = T.end7c + 0.25;
+  T.leave = T.s7bEnd + 0.15; T.title = T.end7c + 0.45;
+  T.qWords = SEN('s7c').words; // pour écrire la question mot à mot
   window.EP_T = T;
 
   /* ---------- texte à l'écran (DOM) ---------- */
@@ -89,6 +90,12 @@
     tx(`<span class="instrument" style="font-style:italic;font-size:46px;color:${C.rose};display:block;margin-bottom:-4px">0${i + 1}</span><span style="display:inline-block;background:linear-gradient(180deg,#FFFFFF 0%,#FFF1EC 50%,#F7C3C1 100%);-webkit-background-clip:text;background-clip:text;color:transparent;padding:0 .08em 0 0;filter:drop-shadow(0 3px 16px rgba(0,0,0,.65)) drop-shadow(0 0 22px rgba(232,148,154,.35))">${w}</span>`, 'fraunces', { left: x + 'px', top: (y - 26) + 'px', fontWeight: 800, fontStyle: 'italic', fontSize: '56px', letterSpacing: '.01em', textShadow: 'none' }));
   const tSrc = tx('d’après Verplanken &amp; Orbell, <i>Annual Review of Psychology</i>, 2022', 'fraunces', { left: '0', width: '1080px', textAlign: 'center', top: '1226px', fontWeight: 600, fontSize: '27px', letterSpacing: '.01em', color: C.rose });
   // Scène 7
+  // la question finale, écrite en grand dans le miroir, mot après mot
+  const qGrad = 'background:linear-gradient(180deg,#FFFFFF 0%,#FBE4E0 55%,#EE9FA4 100%);-webkit-background-clip:text;background-clip:text;color:transparent;filter:drop-shadow(0 4px 22px rgba(0,0,0,.6))';
+  const tQ1 = tx(`<span style="display:inline-block;padding:8px .1em 4px;${qGrad}">Et toi&#8239;:</span>`, 'instrument', { left: '0', width: '1080px', textAlign: 'center', top: '470px', fontStyle: 'italic', fontSize: '168px', lineHeight: '1', textShadow: 'none' });
+  const Q2 = ['qu’est-ce', 'qui', 'te', 'ramène'], Q3 = ['au', 'même', 'choix&#8239;?'];
+  const tQ2 = tx(Q2.map(w => `<span class="qw" style="display:inline-block;margin:0 .14em">${w}</span>`).join(''), 'instrument', { left: '0', width: '1080px', textAlign: 'center', top: '700px', fontStyle: 'italic', fontSize: '86px', color: C.ivory, opacity: 1 });
+  const tQ3 = tx(Q3.map(w => `<span class="qw" style="display:inline-block;margin:0 .14em">${w}</span>`).join(''), 'instrument', { left: '0', width: '1080px', textAlign: 'center', top: '800px', fontStyle: 'italic', fontSize: '104px', color: C.rose, opacity: 1 });
   const tTag = tx('CE QUE TU NE COMPRENDS PAS DE TOI<br>PEUT CONTINUER À TE CONTRÔLER.', 'bodoni', { left: '0', width: '1080px', textAlign: 'center', top: '220px', fontWeight: 700, fontSize: '50px', lineHeight: '1.18', whiteSpace: 'normal' });
   const tTitle = tx('L’ÉNIGME<br>HUMAINE.', 'bodoni', { left: '0', width: '1080px', textAlign: 'center', top: '600px', paddingTop: '44px', textShadow: 'none', fontWeight: 900, fontSize: '138px', lineHeight: '.98', whiteSpace: 'normal',
     background: `linear-gradient(100deg, ${C.gold} 0%, #F6E7C1 45%, ${C.ivory} 55%, ${C.gold} 100%)`, backgroundSize: '250% 100%', webkitBackgroundClip: 'text', backgroundClip: 'text', color: 'transparent' });
@@ -99,6 +106,7 @@
   const CHUNKS = TL.sentences.flatMap(s => s.chunks);
   CHUNKS.forEach((c, i) => { const nx = CHUNKS[i + 1]; c.show = Math.min(c.end + .3, nx ? nx.start - .02 : c.end + .6); });
   function subs(t) {
+    if (t >= T.toi - .1) { SUBS.style.opacity = 0; return; }
     const c = CHUNKS.find(k => t >= k.start - .03 && t <= k.show);
     if (!c) { SUBS.style.opacity = 0; return; }
     if (SUBS.dataset.k !== c.text) { SUBS.textContent = c.text; SUBS.dataset.k = c.text; }
@@ -176,6 +184,7 @@
     glow(c, lx - 60, 1490, 420, C.lamp, .16 * lamp);
     // horloge (entre le miroir et la fenêtre)
     const cx = 690, cy = 612, R = 54;
+    c.save(); c.globalAlpha = st.clockA == null ? 1 : st.clockA;
     c.fillStyle = mix('#2a2427', '#5a4c3c', day * .5 + lamp * .15); c.beginPath(); c.arc(cx, cy, R, 0, 6.283); c.fill();
     c.strokeStyle = C.gold; c.lineWidth = 5; c.stroke();
     c.strokeStyle = rgba(C.ivory, .5); c.lineWidth = 2;
@@ -185,6 +194,7 @@
     c.lineWidth = 5; c.beginPath(); c.moveTo(cx, cy); c.lineTo(cx + Math.cos(ah) * R * .48, cy + Math.sin(ah) * R * .48); c.stroke();
     c.lineWidth = 3; c.beginPath(); c.moveTo(cx, cy); c.lineTo(cx + Math.cos(am) * R * .74, cy + Math.sin(am) * R * .74); c.stroke();
     c.strokeStyle = C.gold; c.lineWidth = 1.5; c.beginPath(); c.moveTo(cx, cy); c.lineTo(cx + Math.cos(as) * R * .8, cy + Math.sin(as) * R * .8); c.stroke();
+    c.restore();
     // console sous le miroir
     c.fillStyle = '#0a0a0c'; c.fillRect(126, 1345, 440, 22); c.fillRect(150, 1367, 14, 113); c.fillRect(528, 1367, 14, 113);
     c.fillStyle = rgba(C.gold, .25); c.fillRect(126, 1345, 440, 2);
@@ -692,7 +702,7 @@
     const pg = placed ? 0 : 1 - lower * .4;
     const dawn = prog(t, T.toi - .4, T.title + 1.2, 'inOutSine');
     drawRoom(c, t, {
-      tod: lerp(0, .3, dawn), daylight: dawn * .75, hours: 23 + 52 / 60 + (t - T.s7) / 3600, secs: t, note: true, noteA: 1 - prog(t, T.toi + .6, T.title, 'inOutCubic'), phoneGlow: pg,
+      tod: lerp(0, .3, dawn), daylight: dawn * .75, hours: 23 + 52 / 60 + (t - T.s7) / 3600, secs: t, note: true, noteA: 1 - prog(t, T.toi - .35, T.toi + .1, 'inOutCubic'), clockA: 1 - prog(t, T.toi - .35, T.toi + .1, 'inOutCubic'), phoneGlow: pg,
       phoneOnTable: placed, tableGlow: 1 - off, ripple: .8,
       man: walkP < .98 ? { p: pose, o: { rim: turn ? '#F0C890' : C.cold, rimA: .3 + pg * .6, rimDx: turn ? 1 : -1, blur: 1.2 } } : null,
       refl: walkP < .98 ? [{ p: refl, o: { rim: C.cold, rimA: .3 + pg * .6, rimDx: 1, alpha: .9, body: '#050609' } }] : null,
@@ -759,6 +769,15 @@
     fade(tSrc, t, T.s6 + 1.0, T.s7 - .2, .6, 0, .3);
     // S7
     fade(tTag, t, T.s7bEnd + .3, T.toi - .15, .7, 12, .4);
+    (function () { // « Et toi : qu’est-ce qui te ramène au même choix ? »
+      const W = T.qWords, out = 1 - prog(t, T.title - .25, T.title + .15, 'inCubic');
+      const p1 = prog(t, W[0].start - .05, W[1].end + .3, 'outCubic');
+      set(tQ1, { y: (1 - p1) * 24, s: 1.06 - .06 * p1, o: p1 * out, blur: (1 - p1) * 10 });
+      const ws = [...tQ2.querySelectorAll('.qw'), ...tQ3.querySelectorAll('.qw')];
+      const starts = [W[2].start, W[4].start, W[6].start, W[7].start, W[8].start, W[9].start, W[10].start];
+      ws.forEach((n, i) => { const p = prog(t, starts[i] - .04, starts[i] + .35, 'outCubic'); set(n, { y: (1 - p) * 18, o: p * out, blur: (1 - p) * 6 }); });
+      tQ2.style.opacity = out > 0 ? 1 : 0; tQ3.style.opacity = out > 0 ? 1 : 0;
+    })();
     const tp = prog(t, T.title, T.title + 1.2, 'outCubic');
     set(tTitle, { o: tp, y: (1 - tp) * 18, blur: (1 - tp) * 8 });
     tTitle.style.backgroundPosition = `${(100 - prog(t, T.title + .2, T.title + 1.8, 'inOutSine') * 100).toFixed(1)}% 0`;
@@ -778,7 +797,7 @@
   sfx('city', T.s6); [T.lieu, T.heure, T.decl].forEach(x => sfx('pop', x)); sfx('buzz', T.decl); sfx('ghost', T.auto);
   sfx('phone_in', T.s7); sfx('tap', T.declenche + .4);
   for (let k = 0; k < 5; k++) sfx('step', T.leave + .25 + k * .48);
-  sfx('reveal', T.title);
+  sfx('question', T.toi); sfx('reveal', T.title);
 
   window.DURATION = DUR;
   window.SECTIONS = { s1: 0, s2: T.s2, s3: T.s3, s4: T.s4, s5: T.s5, s6: T.s6, s7: T.s7, title: T.title, why: T.why, end: DUR };

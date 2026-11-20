@@ -3,9 +3,9 @@
   "voice": "ff_siwis",
   "lang": "fr-fr",
   "speed": 0.9,
-  "note": "Texte officiel conservé à l'identique (display). 'say' = graphie phonétique pour la synthèse uniquement (chiffres en toutes lettres, akrasia prononcé avec un s comme en grec). 'pause' = silence après la phrase (s). Les sous-titres sont découpés en blocs 'chunks'.",
+  "note": "Texte officiel conservé à l'identique (display). 'say' = graphie phonétique pour la synthèse uniquement (chiffres en toutes lettres, akrasia prononcé avec un s comme en grec). 'pause' = silence après la phrase (s). Les sous-titres sont découpés en blocs 'chunks'. La question finale est dite en deux temps (« Et toi ? » — silence — « qu’est-ce qui te ramène… au même choix ? »), plus lentement, pour l’émotion ; les mots restent ceux du script.",
   "lead_in": 0.55,
-  "tail": 3.1,
+  "tail": 3.3,
   "sentences": [
     {
       "id": "s1a",
@@ -44,7 +44,7 @@
     {
       "id": "s1d",
       "scene": 1,
-      "pause": 1.2,
+      "pause": 1.1,
       "chunks": [
         [
           "Pourquoi ?"
@@ -54,7 +54,7 @@
     {
       "id": "s2a",
       "scene": 2,
-      "pause": 0.85,
+      "pause": 0.78,
       "chunks": [
         [
           "Dans Romains 7, Paul décrit ce conflit :",
@@ -71,7 +71,7 @@
     {
       "id": "s3a",
       "scene": 3,
-      "pause": 0.85,
+      "pause": 0.78,
       "chunks": [
         [
           "Le Coran, en sourate 91,",
@@ -101,7 +101,7 @@
     {
       "id": "s4b",
       "scene": 4,
-      "pause": 0.85,
+      "pause": 0.78,
       "chunks": [
         [
           "Ils prennent pourtant au sérieux",
@@ -115,7 +115,7 @@
     {
       "id": "s5a",
       "scene": 5,
-      "pause": 0.85,
+      "pause": 0.78,
       "chunks": [
         [
           "Aristote appelle “akrasia”",
@@ -132,7 +132,7 @@
     {
       "id": "s6a",
       "scene": 6,
-      "pause": 0.85,
+      "pause": 0.78,
       "chunks": [
         [
           "La psychologie ajoute une piste :"
@@ -168,7 +168,7 @@
     {
       "id": "s7b",
       "scene": 7,
-      "pause": 2.4,
+      "pause": 2.0,
       "chunks": [
         [
           "Il faut aussi comprendre",
@@ -183,13 +183,22 @@
       "id": "s7c",
       "scene": 7,
       "pause": 0.0,
+      "speed": 0.84,
+      "insert_pause": {
+        "after_word": 2,
+        "dur": 0.75
+      },
       "chunks": [
         [
           "Et toi :",
-          ""
+          "Et toi ?"
         ],
         [
-          "qu’est-ce qui te ramène au même choix ?"
+          "qu’est-ce qui te ramène",
+          "Qu’est-ce qui te ramène…"
+        ],
+        [
+          "au même choix ?"
         ]
       ]
     }

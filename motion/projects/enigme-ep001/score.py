@@ -21,6 +21,7 @@ for e in ev['sfx']:
 # sections (déduites des événements posés par le montage)
 S2 = first['dive'] + .1; S3 = first['light'] - .1; S4 = first['split']; S5 = first['open']; S6 = first['city']; S7 = first['phone_in']
 WHY = first['cut'] + .02; TITLE = first['reveal']
+QUESTION = first['question'] if 'question' in first else TITLE - 3.4
 GOOD = first['swell_good']; BAD = first['swell_bad']; PURIF = first['purify']; DESIR = first['pulse_hot']
 print('sections', [round(x, 2) for x in (S2, S3, S4, S5, S6, S7, TITLE)])
 
@@ -29,7 +30,7 @@ def mtof(m): return 440 * 2 ** ((m - 69) / 12)
 def lp(x, f, o=2): return sosfilt(butter(o, min(f, SR / 2 - 100) / (SR / 2), output='sos'), x, axis=0)
 def hp(x, f, o=2): return sosfilt(butter(o, f / (SR / 2), btype='high', output='sos'), x, axis=0)
 def bp(x, a, b, o=2): return sosfilt(butter(o, [a / (SR / 2), b / (SR / 2)], btype='band', output='sos'), x, axis=0)
-def noise(d): return rng.standard_normal(int(d * SR))
+def noise(d): return rng.standard_normal(int(round(d * SR)))
 def tt(n): return np.arange(n) / SR
 
 
@@ -196,16 +197,13 @@ for i, (dt, notes) in enumerate([(0, [34, 46, 53, 58]), (3.2, [41, 48, 53, 57]),
         add(music, S7 + dt, pad(m, 3.8, .045, 1.0, 1.4))
 for x, m in zip([S7 + .5, S7 + 2.2, S7 + 3.8, S7 + 5.6, S7 + 7.6], [62, 65, 62, 60, 58]):
     add(music, x, piano(m, .09), pan=.15)
-for m in (38, 50, 54, 57, 62, 66):  # Ré majeur (tierce picarde) au titre
-    add(music, TITLE, pad(m, DUR - TITLE + .5, .05, .6, 1.8), pan=(m - 55) / 25)
-add(music, TITLE, piano(38, .16, 3.5)); add(music, TITLE + .02, piano(50, .1, 3.5))
 
 # ---------------------------------------------------------------- design sonore
 def paper():
     out = np.zeros(int(.7 * SR))
     for _ in range(9):
         i = int(rng.random() * .55 * SR); n = int((.01 + rng.random() * .05) * SR)
-        out[i:i + n] += bp(noise(n / SR), 1500, 7000) * np.hanning(n) * (.3 + rng.random() * .7)
+        out[i:i + n] += bp(rng.standard_normal(n), 1500, 7000) * np.hanning(n) * (.3 + rng.random() * .7)
     return out
 
 
@@ -279,6 +277,9 @@ g[a:b] = 0
 g[max(0, a - 240):a] = np.linspace(1, 0, min(240, a))
 g[b:b + 4800] = np.linspace(0, 1, 4800)
 bed *= g[:, None]
+# la question finale : la musique se retire pour laisser la voix seule
+qg = 1 - .85 * np.clip((t - (QUESTION - .5)) / .5, 0, 1) * np.clip((TITLE - .15 - t) / .25, 0, 1)
+bed *= qg[:, None]
 # silence final maîtrisé
 fade = np.clip((DUR - .5 - t) / 2.2, 0, 1) ** 1.6
 bed *= fade[:, None]
@@ -313,6 +314,21 @@ bed *= 10 ** (-17.5 / 20) / rms(bed[musical])
 target = 10 ** (-10.4 / 20)
 bv = rms(bed[vmask]); vv = rms(vst[vmask])
 out = bed + vst * np.sqrt(max(target ** 2 - bv ** 2, (target * .5) ** 2)) / vv
+# ---------------------------------------------------------------- petite musique de fin (sur l'écriture finale)
+end = np.zeros((N, 2))
+beat = 60 / 76
+theme = [(0, 69, .5), (.5, 74, .5), (1, 78, .75), (1.75, 76, .25), (2, 74, .5), (2.5, 81, 1.5)]   # la – ré – fa# – mi – ré … la
+for b0, m, d in theme:
+    add(end, TITLE + b0 * beat, piano(m, .16, 2.4 + d), pan=.1)
+    add(end, TITLE + b0 * beat + .004, bell(m + 12, .018, 2.0), pan=-.2)
+for m, g in ((38, .07), (50, .05), (54, .045), (57, .045), (62, .04), (66, .035)):   # Ré majeur, cordes douces
+    add(end, TITLE - .1, strings(m, DUR - TITLE + .6, g, 1600), pan=(m - 55) / 30)
+add(end, TITLE, piano(38, .2, 4.0)); add(end, TITLE + .01, piano(50, .12, 4.0))
+endw = np.stack([fftconvolve(end[:, c], R[c])[:N] for c in range(2)], 1)
+end = end * .75 + endw * .5
+end *= (np.clip((DUR - .35 - t) / 1.6, 0, 1) ** 1.3)[:, None]
+er = rms(end[int(TITLE * SR):int((DUR - 1) * SR)])
+out = out + end * (10 ** (-15.5 / 20) / er)
 K = .7; mag = np.abs(out)
 out = np.sign(out) * np.where(mag < K, mag, K + (.944 - K) * np.tanh((mag - K) / (.944 - K)))
 wavfile.write(sys.argv[3], SR, (out * 32767).astype(np.int16))

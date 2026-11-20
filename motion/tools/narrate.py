@@ -72,6 +72,14 @@ for sen in cfg['sentences']:
             n_gap = (nxt if nxt is not None else len(sw)) - (prv if prv is not None else -1) - 1
             pos = i - (prv if prv is not None else -1) - 1
             times[i] = (a + (b - a) * pos / max(1, n_gap), a + (b - a) * (pos + 1) / max(1, n_gap))
+    ip = sen.get('insert_pause')
+    if ip:  # silence dramatique inséré après le n-ième mot (ex. « Et toi ? » … « qu'est-ce qui… »)
+        k = ip['after_word'] - 1
+        cut = (times[k][1] + times[k + 1][0]) / 2
+        ci = int(cut * SR)
+        s = np.concatenate([s[:ci], np.zeros(int(ip['dur'] * SR), dtype=np.float32), s[ci:]])
+        times = [(a, b) if i <= k else (a + ip['dur'], b + ip['dur']) for i, (a, b) in enumerate(times)]
+        dur = len(s) / SR
     words = [{'w': sw[i], 'start': round(t + times[i][0], 3), 'end': round(t + times[i][1], 3), 'chunk': owner[i]} for i in range(len(sw))]
     cks = []
     for ci, c in enumerate(chunks):
