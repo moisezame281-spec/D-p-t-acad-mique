@@ -1,0 +1,48 @@
+# L'Énigme humaine : direction de la voix off (voice design)
+
+La voix porte l'épisode. Ce document fixe la méthode pour qu'elle soit **expressive, crédible et constante** d'un épisode à l'autre.
+
+## 1. Le moteur : même voix, plus de jeu
+
+| Version | Moteur | Mélodie mesurée* | Ressemblance avec la voix validée** | Fidélité au texte |
+|---|---|---|---|---|
+| A, actuelle | Kokoro `ff_siwis` | 8,6 à 10,6 demi-tons | référence | 100 % |
+| B, dirigée | Kokoro, silences et débit dirigés, traitement studio | environ 11 demi-tons | 0,89 | quasi parfaite |
+| C, expressive | **Chatterbox** (licence MIT), avec la voix validée comme référence de timbre, réglage d'émotion à 0,8 | **jusqu'à 17,7 demi-tons** | 0,89 | 95 à 100 % |
+
+\* Écart entre les notes graves et aiguës de la phrase. Plus il est grand, moins la voix sonne « robot ».
+\** La version B, qui est exactement la même voix avec un traitement studio, obtient déjà 0,89. La version C conserve donc la même identité vocale.
+
+## 2. La feuille de direction (une ligne par phrase)
+
+Chaque phrase reçoit une **intention** :
+
+| Intention | Usage | Débit | Émotion (C) | Silence après |
+|---|---|---|---|---|
+| **intime** | ouverture, question finale | lent (0,80–0,85) | 0,8 | 0,7–1,0 s |
+| **grave** | la question centrale, le titre | lent | 0,7 | 1,0 s (avec coupure de la musique) |
+| **récit** | les traditions, les références | naturel (0,9) | 0,55 | 0,4–0,8 s |
+| **élan** | la solution, la bascule | légèrement plus vif | 0,7 | 0,5 s |
+
+**Règles d'écriture pour la voix**
+1. Une respiration ne dépasse pas 14 mots. Au-delà, couper par une virgule ou un silence.
+2. Un seul mot fort par phrase, placé **en fin de phrase**, là où la voix retombe et marque.
+3. Toujours un silence réel après une question (0,8 à 1 s), et la musique se retire juste avant.
+4. Les points de suspension (…) créent une suspension naturelle chez les deux moteurs.
+5. Les chiffres sont écrits en toutes lettres pour la synthèse (« verset cent cinquante-cinq »).
+6. Chaque phrase est générée en plusieurs prises. La transcription élimine celles qui écorchent le texte, puis on garde la plus expressive.
+
+## 3. Le traitement studio (`motion/tools/voice_master.py`)
+
+La chaîne est la suivante : coupe-bas (75 Hz), puis **chaleur** (effet de proximité), puis **présence** (2,8–5,2 kHz), puis dé-esseur, puis compression 3:1, puis densité légère, puis petite pièce (0,35 s). En mode « intime », il y a plus de chaleur et moins de réverbération : la voix semble chuchotée à l'oreille.
+
+## 4. Le mixage
+
+- La voix est toujours devant : environ -10,5 dBFS pendant la parole, et la musique baisse d'environ 8 dB sous la voix.
+- Coupure totale de la musique sur la question centrale, et voix presque seule sur la question finale.
+- Silence réel sur la dernière demi-seconde.
+
+## 5. Pour aller encore plus loin (en option)
+
+- **Une voix humaine professionnelle** (comédien ou comédienne) : c'est le plus haut niveau. Le texte minuté est déjà prêt.
+- **Un service de synthèse vocale premium** (par exemple ElevenLabs) : il faut un compte et une clé d'accès. Les deux s'intègrent au même pipeline sans rien changer au reste.
