@@ -6,14 +6,15 @@
 (async function () {
   const { E, prog, tw, clamp, lerp, el, set, sfx } = GX;
   const { W, H, rgba, mix, grain, vignette, glow, beam, makeDust, dust, person, lattice, archPath, bust, makeBrain, star8, rng } = CINE;
-  const C = { coal: '#111216', ivory: '#F2EFE8', gold: '#C0A16A', bord: '#541D2A', night: '#19283C', cold: '#9FC0FF' };
+  const C = { coal: '#111216', ivory: '#F2EFE8', gold: '#C0A16A', bord: '#541D2A', night: '#19283C', cold: '#9FC0FF', rose: '#E8949A', lamp: '#F2C27D' };
 
   const TL = await (await fetch('timeline.json')).json();
   const SEN = id => TL.sentences.find(s => s.id === id);
   const cue = (id, w, k = 0) => { const ws = SEN(id).words.filter(x => x.w === w); return (ws[k] || ws[0]).start; };
   const DUR = TL.duration;
   await Promise.all(['500 40px Bodoni', '700 40px Bodoni', '900 40px Bodoni', '600 40px Inter', '800 40px Inter', '500 40px Inter', '400 20px Plex', '500 20px Plex',
-    '500 40px Garamond', '400 40px Amiri', '600 40px Caveat'].map(f => document.fonts.load(f, 'AΑاé')));
+    '500 40px Garamond', '400 40px Amiri', '600 40px Caveat', '400 40px Fraunces', '500 40px Fraunces', '600 40px Fraunces', '700 40px Fraunces', '800 40px Fraunces', 'italic 600 40px Fraunces', 'italic 700 40px Fraunces',
+    '400 40px Instrument', 'italic 400 40px Instrument'].map(f => document.fonts.load(f, 'AΑاé')));
   await document.fonts.load('500 40px Garamond', 'ΑΚΡΑΣΙΑ');
   await document.fonts.load('400 40px Amiri', 'الشمس');
 
@@ -64,34 +65,35 @@
   const tSais = tx('TU SAIS.', 'bodoni', { left: '86px', top: '200px', fontWeight: 900, fontSize: '150px', letterSpacing: '-.01em', transformOrigin: '0 50%' });
   const tRecom = fit(tx('TU RECOMMENCES.', 'bodoni', { left: '86px', top: '372px', fontWeight: 900, fontSize: '112px', letterSpacing: '-.015em', transformOrigin: '0 50%' }), 900);
   const tWhy = fit(tx('POURQUOI&#8239;?', 'bodoni', { left: '0', width: '1080px', textAlign: 'center', top: '330px', fontWeight: 900, fontSize: '196px', letterSpacing: '-.02em', color: C.ivory }), 960);
-  const tSeries = tx('L’ÉNIGME HUMAINE &nbsp;·&nbsp; ÉPISODE 001', 'plex', { left: '86px', top: '150px', fontSize: '22px', letterSpacing: '.32em', color: C.gold });
+  const tSeries = tx('<div class="instrument" style="font-style:italic;font-size:132px;line-height:.95;letter-spacing:-.01em;background:linear-gradient(180deg,#FFF7F2 10%,#F8D2CF 55%,#EE9FA4 100%);-webkit-background-clip:text;background-clip:text;color:transparent;padding:10px 0 6px;filter:drop-shadow(0 4px 24px rgba(0,0,0,.6))">L’Énigme humaine</div>'
+    + '<div class="fraunces" style="font-weight:500;font-size:28px;letter-spacing:.42em;color:#E8949A;margin-top:14px;padding-left:.42em">ÉPISODE PILOTE&nbsp;&nbsp;001</div>', '', { left: '0', width: '1080px', textAlign: 'center', top: '150px', textShadow: 'none' });
   // Scène 2
-  const tRom = tx('ROMAINS 7:19-21', 'plex', { left: '86px', top: '210px', fontWeight: 500, fontSize: '34px', letterSpacing: '.28em', color: C.gold });
+  const tRom = tx('ROMAINS 7 : 19–21', 'fraunces', { left: '86px', top: '200px', fontWeight: 600, fontSize: '40px', letterSpacing: '.16em', color: C.rose });
   const tConf = fit(tx('LE CONFLIT<br>INTÉRIEUR.', 'bodoni', { left: '86px', top: '270px', fontWeight: 700, fontSize: '104px', lineHeight: '1.02', whiteSpace: 'normal', width: '900px' }), 920);
   // Scène 3
-  const tSour = tx('SOURATE ASH-SHAMS', 'plex', { left: '0', width: '1080px', textAlign: 'center', top: '196px', fontWeight: 500, fontSize: '32px', letterSpacing: '.3em', color: C.ivory });
+  const tSour = tx('SOURATE ASH-SHAMS', 'fraunces', { left: '0', width: '1080px', textAlign: 'center', top: '190px', fontWeight: 600, fontSize: '36px', letterSpacing: '.22em', color: C.ivory });
   const tAr = tx('الشمس', 'amiri', { left: '0', width: '1080px', textAlign: 'center', top: '236px', fontSize: '112px', color: C.gold, direction: 'rtl' });
-  const tVers = tx('91 : 7 – 10', 'plex', { left: '0', width: '1080px', textAlign: 'center', top: '418px', fontSize: '28px', letterSpacing: '.24em', color: C.gold });
+  const tVers = tx('91 : 7 – 10', 'fraunces', { left: '0', width: '1080px', textAlign: 'center', top: '416px', fontWeight: 600, fontSize: '32px', letterSpacing: '.2em', color: C.rose });
   const tWords = ['L’ÂME.', 'LE DISCERNEMENT.', 'LA PURIFICATION.'].map((w, i) => tx(w, 'bodoni', { left: '0', width: '1080px', textAlign: 'center', top: (492 + i * 64) + 'px', fontWeight: 700, fontSize: '52px', letterSpacing: '.02em' }));
   // Scène 4
   const tDiff = tx('DES TRADITIONS DIFFÉRENTES.', 'bodoni', { left: '0', width: '1080px', textAlign: 'center', top: '868px', fontWeight: 700, fontSize: '54px', letterSpacing: '.01em' });
   const tHum = tx('UNE QUESTION HUMAINE.', 'bodoni', { left: '0', width: '1080px', textAlign: 'center', top: '986px', fontWeight: 700, fontSize: '54px', letterSpacing: '.01em', color: C.gold });
   [tDiff, tHum].forEach(n => fit(n, 980));
   // Scène 5
-  const tRefA = tx('ARISTOTE &nbsp;·&nbsp; ÉTHIQUE À NICOMAQUE, LIVRE VII', 'plex', { left: '86px', top: '190px', fontSize: '22px', letterSpacing: '.18em', color: C.gold });
+  const tRefA = tx('Aristote — <i>Éthique à Nicomaque</i>, livre VII', 'fraunces', { left: '86px', top: '176px', fontWeight: 600, fontSize: '32px', letterSpacing: '.01em', color: C.rose });
   const tGr = tx('ΑΚΡΑΣΙΑ', 'garamond', { right: '80px', top: '228px', fontWeight: 500, fontSize: '168px', letterSpacing: '.08em', color: C.gold, textAlign: 'right' });
   const tAk = tx('AKRASIA', 'inter', { right: '84px', top: '420px', fontWeight: 600, fontSize: '30px', letterSpacing: '.7em', color: C.ivory, textAlign: 'right' });
   const tJug = tx('AGIR CONTRE<br>SON MEILLEUR JUGEMENT.', 'bodoni', { right: '80px', top: '492px', fontWeight: 700, fontSize: '60px', lineHeight: '1.06', textAlign: 'right' });
   // Scène 6
   const loopLabels = [['DÉCLENCHEUR.', 150, 252], ['HABITUDE.', 640, 252], ['AUTOMATISME.', 330, 540]].map(([w, x, y], i) =>
-    tx(`<span style="font-family:Plex;font-weight:400;font-size:22px;letter-spacing:.2em;color:${C.gold};display:block;margin-bottom:6px">0${i + 1}</span>${w}`, 'inter', { left: x + 'px', top: y + 'px', fontWeight: 800, fontSize: '46px', letterSpacing: '.02em' }));
-  const tSrc = tx('D’APRÈS VERPLANKEN &amp; ORBELL · ANNUAL REVIEW OF PSYCHOLOGY, 2022', 'plex', { left: '0', width: '1080px', textAlign: 'center', top: '1238px', fontSize: '19px', letterSpacing: '.12em', color: 'rgba(242,239,232,.7)' });
+    tx(`<span class="instrument" style="font-style:italic;font-size:46px;color:${C.rose};display:block;margin-bottom:-4px">0${i + 1}</span><span style="display:inline-block;background:linear-gradient(180deg,#FFFFFF 0%,#FFF1EC 50%,#F7C3C1 100%);-webkit-background-clip:text;background-clip:text;color:transparent;padding:0 .08em 0 0;filter:drop-shadow(0 3px 16px rgba(0,0,0,.65)) drop-shadow(0 0 22px rgba(232,148,154,.35))">${w}</span>`, 'fraunces', { left: x + 'px', top: (y - 26) + 'px', fontWeight: 800, fontStyle: 'italic', fontSize: '56px', letterSpacing: '.01em', textShadow: 'none' }));
+  const tSrc = tx('d’après Verplanken &amp; Orbell, <i>Annual Review of Psychology</i>, 2022', 'fraunces', { left: '0', width: '1080px', textAlign: 'center', top: '1226px', fontWeight: 600, fontSize: '27px', letterSpacing: '.01em', color: C.rose });
   // Scène 7
   const tTag = tx('CE QUE TU NE COMPRENDS PAS DE TOI<br>PEUT CONTINUER À TE CONTRÔLER.', 'bodoni', { left: '0', width: '1080px', textAlign: 'center', top: '220px', fontWeight: 700, fontSize: '50px', lineHeight: '1.18', whiteSpace: 'normal' });
   const tTitle = tx('L’ÉNIGME<br>HUMAINE.', 'bodoni', { left: '0', width: '1080px', textAlign: 'center', top: '600px', paddingTop: '44px', textShadow: 'none', fontWeight: 900, fontSize: '138px', lineHeight: '.98', whiteSpace: 'normal',
     background: `linear-gradient(100deg, ${C.gold} 0%, #F6E7C1 45%, ${C.ivory} 55%, ${C.gold} 100%)`, backgroundSize: '250% 100%', webkitBackgroundClip: 'text', backgroundClip: 'text', color: 'transparent' });
-  const tSlogan = tx('FAIS TA PROPRE RÉFLEXION.', 'plex', { left: '0', width: '1080px', textAlign: 'center', top: '962px', fontWeight: 500, fontSize: '30px', letterSpacing: '.3em', color: C.ivory });
-  const tFour = tx('FOI · RAISON · SCIENCE · CONSCIENCE', 'plex', { left: '0', width: '1080px', textAlign: 'center', top: '1030px', fontSize: '20px', letterSpacing: '.28em', color: C.gold });
+  const tSlogan = tx('Fais ta propre réflexion.', 'instrument', { left: '0', width: '1080px', textAlign: 'center', top: '950px', fontStyle: 'italic', fontSize: '58px', color: C.rose });
+  const tFour = tx('FOI · RAISON · SCIENCE · CONSCIENCE', 'fraunces', { left: '0', width: '1080px', textAlign: 'center', top: '1040px', fontWeight: 500, fontSize: '24px', letterSpacing: '.26em', color: 'rgba(242,239,232,.78)' });
 
   /* ---------- sous-titres incrustés (zone de sécurité) ---------- */
   const CHUNKS = TL.sentences.flatMap(s => s.chunks);
@@ -119,34 +121,62 @@
   function drawRoom(c, t, st) {
     const day = st.daylight || 0;   // lumière du jour qui entre (0..1)
     const dim = st.dim == null ? 1 : st.dim; // coupure de lumière
-    // mur
+    const lamp = (st.lamp == null ? 1 : st.lamp) * (1 - day * .8) * dim; // lampe chaude allumée
+    // mur : brun-prune chaud, papier peint à motif discret
     let g = c.createLinearGradient(0, 0, 0, 1480);
-    g.addColorStop(0, mix('#15161b', '#3a3026', day * .6)); g.addColorStop(1, mix('#0c0d10', '#221c16', day * .5));
+    g.addColorStop(0, mix('#2b2429', '#4a3c30', day * .6)); g.addColorStop(1, mix('#1c1719', '#2a2119', day * .5));
     c.fillStyle = g; c.fillRect(-400, -400, W + 800, 1880);
-    // lambris verticaux discrets
-    c.strokeStyle = rgba('#000000', .25); c.lineWidth = 2;
-    for (let x = -40; x < W + 60; x += 120) { c.beginPath(); c.moveTo(x, 1080); c.lineTo(x, 1480); c.stroke(); }
-    c.fillStyle = rgba('#000000', .25); c.fillRect(-400, 1072, W + 800, 10);
-    // sol
-    g = c.createLinearGradient(0, 1480, 0, H); g.addColorStop(0, '#0d0c0c'); g.addColorStop(1, '#060606');
+    c.save(); c.globalAlpha = .07; c.strokeStyle = '#E8D9C8'; c.lineWidth = 1.2;
+    for (let x = -60; x < W + 60; x += 72) for (let y = -60; y < 1080; y += 96) { c.beginPath(); c.moveTo(x, y); c.lineTo(x + 18, y + 24); c.lineTo(x, y + 48); c.lineTo(x - 18, y + 24); c.closePath(); c.stroke(); }
+    c.restore();
+    // lambris + moulure
+    g = c.createLinearGradient(0, 1080, 0, 1480); g.addColorStop(0, '#201a1c'); g.addColorStop(1, '#151113');
+    c.fillStyle = g; c.fillRect(-400, 1080, W + 800, 400);
+    c.strokeStyle = rgba('#000000', .35); c.lineWidth = 2;
+    for (let x = -40; x < W + 60; x += 150) { c.strokeRect(x + 14, 1120, 122, 320); }
+    c.fillStyle = rgba('#F2E6D8', .08); c.fillRect(-400, 1072, W + 800, 4);
+    c.fillStyle = rgba('#000', .35); c.fillRect(-400, 1076, W + 800, 6);
+    // sol : parquet chaud
+    g = c.createLinearGradient(0, 1480, 0, H); g.addColorStop(0, '#2a1e18'); g.addColorStop(1, '#0d0907');
     c.fillStyle = g; c.fillRect(-400, 1480, W + 800, 900);
-    c.strokeStyle = rgba('#ffffff', .025);
-    for (let i = 0; i < 9; i++) { const y = 1480 + i * i * 7; c.beginPath(); c.moveTo(-400, y); c.lineTo(W + 400, y); c.stroke(); }
-    // fenêtre (à droite)
+    c.strokeStyle = rgba('#000', .3); c.lineWidth = 2;
+    for (let i = 0; i < 10; i++) { const y = 1480 + i * i * 6.5; c.beginPath(); c.moveTo(-400, y); c.lineTo(W + 400, y); c.stroke(); }
+    c.fillStyle = '#0c0909'; c.fillRect(-400, 1474, W + 800, 10); // plinthe
+    // tapis bordeaux
+    c.save(); c.beginPath(); c.ellipse(650, 1760, 560, 130, 0, 0, 6.283); c.fillStyle = mix('#3b1820', '#5a2a2f', lamp * .3 + day * .2); c.fill();
+    c.strokeStyle = rgba('#E8949A', .22); c.lineWidth = 3; c.beginPath(); c.ellipse(650, 1760, 520, 112, 0, 0, 6.283); c.stroke();
+    c.strokeStyle = rgba('#C0A16A', .16); c.lineWidth = 2; c.beginPath(); c.ellipse(650, 1760, 470, 96, 0, 0, 6.283); c.stroke(); c.restore();
+    // fenêtre (à droite) + rideaux
     const wx = 830, wy = 380, ww = 210, wh = 520;
     const sky = skyColor(st.tod || 0);
     g = c.createLinearGradient(0, wy, 0, wy + wh); g.addColorStop(0, sky); g.addColorStop(1, mix(sky, '#000000', .45));
     c.fillStyle = g; c.fillRect(wx, wy, ww, wh);
     const r = rng(5); c.fillStyle = rgba('#F3D9A0', .5 * (1 - day));
-    for (let i = 0; i < 16; i++) { const x = wx + 10 + r() * (ww - 20), y = wy + wh * .55 + r() * wh * .4; c.fillRect(x, y, 3, 4); } // fenêtres lointaines
-    c.strokeStyle = '#08090b'; c.lineWidth = 16; c.strokeRect(wx, wy, ww, wh);
+    for (let i = 0; i < 16; i++) { const x = wx + 10 + r() * (ww - 20), y = wy + wh * .55 + r() * wh * .4; c.fillRect(x, y, 3, 4); }
+    c.strokeStyle = '#120e0f'; c.lineWidth = 16; c.strokeRect(wx, wy, ww, wh);
     c.lineWidth = 8; c.beginPath(); c.moveTo(wx + ww / 2, wy); c.lineTo(wx + ww / 2, wy + wh); c.moveTo(wx, wy + wh * .45); c.lineTo(wx + ww, wy + wh * .45); c.stroke();
+    for (const [x0, w0] of [[wx - 54, 66], [wx + ww - 12, 70]]) {
+      g = c.createLinearGradient(x0, 0, x0 + w0, 0); g.addColorStop(0, '#2c1218'); g.addColorStop(.5, mix('#5a2230', '#7a3a40', lamp * .4 + day * .3)); g.addColorStop(1, '#22100f');
+      c.fillStyle = g; c.fillRect(x0, wy - 50, w0, 1150);
+      c.strokeStyle = rgba('#000', .3); c.lineWidth = 3; for (let k = 1; k < 4; k++) { c.beginPath(); c.moveTo(x0 + k * w0 / 4, wy - 50); c.lineTo(x0 + k * w0 / 4, wy + 1100); c.stroke(); }
+    }
+    c.fillStyle = '#0d0a0a'; c.fillRect(wx - 70, wy - 64, ww + 150, 12); // tringle
     // lumière de la fenêtre projetée
     const skyL = st.tod != null ? 1 : 0;
     beam(c, wx + ww / 2, wy + wh / 2, 560, 1800, 1140, 1900, mix('#6F8DB8', '#F0C890', day), (.10 + day * .35) * dim * skyL, 30);
-    // horloge
-    const cx = 935, cy = 1040, R = 58;
-    c.fillStyle = mix('#1c1d22', '#4a4134', day * .5); c.beginPath(); c.arc(cx, cy, R, 0, 6.283); c.fill();
+    // plante (coin gauche)
+    c.save(); c.fillStyle = '#16100d'; c.beginPath(); c.moveTo(18, 1400); c.lineTo(112, 1400); c.lineTo(100, 1482); c.lineTo(30, 1482); c.fill();
+    for (let k = 0; k < 11; k++) { const a = -Math.PI / 2 + (k - 5) * .22, L = 150 + (k % 3) * 60; c.save(); c.translate(65, 1400); c.rotate(a + Math.PI / 2); c.beginPath(); c.ellipse(0, -L / 2, 15, L / 2, 0, 0, 6.283); c.fillStyle = mix('#0f1a12', '#2f4a33', .25 + lamp * .2 + day * .4); c.fill(); c.restore(); }
+    c.restore();
+    // lampadaire chaud derrière le personnage
+    const lx = 985;
+    c.fillStyle = '#0b0809'; c.fillRect(lx - 4, 1030, 8, 450); c.beginPath(); c.ellipse(lx, 1480, 46, 10, 0, 0, 6.283); c.fill();
+    c.fillStyle = mix('#3a2a1c', '#F3D2A0', .25 + lamp * .65); c.beginPath(); c.moveTo(lx - 38, 950); c.lineTo(lx + 38, 950); c.lineTo(lx + 64, 1036); c.lineTo(lx - 64, 1036); c.closePath(); c.fill();
+    glow(c, lx, 1000, 520, C.lamp, .38 * lamp);
+    glow(c, lx - 60, 1490, 420, C.lamp, .16 * lamp);
+    // horloge (entre le miroir et la fenêtre)
+    const cx = 690, cy = 612, R = 54;
+    c.fillStyle = mix('#2a2427', '#5a4c3c', day * .5 + lamp * .15); c.beginPath(); c.arc(cx, cy, R, 0, 6.283); c.fill();
     c.strokeStyle = C.gold; c.lineWidth = 5; c.stroke();
     c.strokeStyle = rgba(C.ivory, .5); c.lineWidth = 2;
     for (let i = 0; i < 12; i++) { const a = i * Math.PI / 6; c.beginPath(); c.moveTo(cx + Math.cos(a) * R * .78, cy + Math.sin(a) * R * .78); c.lineTo(cx + Math.cos(a) * R * .9, cy + Math.sin(a) * R * .9); c.stroke(); }
@@ -166,10 +196,12 @@
     // ---- reflet dans le miroir (rendu hors-champ puis déformé) ----
     const mc = mirX; mc.setTransform(1, 0, 0, 1, 0, 0); mc.clearRect(0, 0, mirC.width, mirC.height);
     mc.translate(20 - M.x, 20 - M.y);
-    g = mc.createLinearGradient(0, M.y, 0, M.y + M.h); g.addColorStop(0, mix('#101219', '#3b3127', day * .6)); g.addColorStop(1, mix('#07080b', '#1b1612', day * .5));
+    g = mc.createLinearGradient(0, M.y, 0, M.y + M.h); g.addColorStop(0, mix('#2d2830', '#4b3e31', day * .6)); g.addColorStop(1, mix('#17141a', '#2a2119', day * .5));
     mc.fillStyle = g; mc.fillRect(M.x - 20, M.y - 20, M.w + 40, M.h + 40);
     mc.strokeStyle = rgba('#000', .35); mc.lineWidth = 6; mc.strokeRect(M.x + 60, M.y + 90, 150, 330); // porte reflétée
-    if (st.refl) for (const rp of st.refl) person(mc, rp.p, rp.o);
+    glow(mc, M.x + M.w * .9, M.y + M.h * .52, 300, C.lamp, .42 * lamp); // la lampe vue dans le miroir
+    mc.fillStyle = rgba('#F3D2A0', .5 * lamp); mc.beginPath(); mc.moveTo(M.x + M.w * .86, M.y + M.h * .47); mc.lineTo(M.x + M.w * .98, M.y + M.h * .47); mc.lineTo(M.x + M.w * 1.03, M.y + M.h * .55); mc.lineTo(M.x + M.w * .81, M.y + M.h * .55); mc.fill();
+    if (st.refl) for (const rp of st.refl) { person(mc, rp.p, { rim: C.lamp, rimA: .5 * lamp, rimDx: 1, alpha: rp.o.alpha, body: rp.o.body }); person(mc, rp.p, rp.o); }
     if (day > 0) glow(mc, M.x + M.w * .8, M.y + M.h * .3, 380, '#F0C890', .25 * day);
     mc.setTransform(1, 0, 0, 1, 0, 0);
     // tain : léger voile + déformation ondulante
@@ -199,7 +231,7 @@
       c.restore();
     }
     // personnage au premier plan
-    if (st.man) person(c, st.man.p, st.man.o);
+    if (st.man) { person(c, st.man.p, { rim: C.lamp, rimA: .6 * lamp, rimDx: 1, alpha: st.man.o.alpha, blur: st.man.o.blur }); person(c, st.man.p, st.man.o); }
     if (st.phoneGlow > 0 && st.man) glow(c, 600, 1040, 520, C.cold, .10 * st.phoneGlow); // lumière froide sur la pièce
     dust(c, roomDust, t, [0, 0, W, H], '#cfd8ea', .18 * dim, (x, y) => (x > 520 && y > 500) ? .6 : .25);
   }
@@ -625,7 +657,7 @@
     c.setTransform(1, 0, 0, 1, 0, 0);
     // la boucle (schéma lisible sans le son)
     const L1 = prog(t, T.decl + .2, T.habit, 'inOutCubic'), L2 = prog(t, T.habit + .2, T.auto, 'inOutCubic'), L3 = prog(t, T.auto + .2, T.auto + 1.1, 'inOutCubic');
-    c.save(); c.strokeStyle = C.gold; c.lineWidth = 3; c.lineCap = 'round'; c.shadowColor = C.gold; c.shadowBlur = 10;
+    c.save(); c.strokeStyle = C.rose; c.lineWidth = 3.2; c.lineCap = 'round'; c.shadowColor = C.rose; c.shadowBlur = 12;
     const arc = (x1, y1, x2, y2, bend, p) => { if (p <= 0) return; c.beginPath(); const mx = (x1 + x2) / 2 + bend[0], my = (y1 + y2) / 2 + bend[1]; const steps = 30; for (let i = 0; i <= steps * p; i++) { const u = i / steps; const x = (1 - u) * (1 - u) * x1 + 2 * (1 - u) * u * mx + u * u * x2, y = (1 - u) * (1 - u) * y1 + 2 * (1 - u) * u * my + u * u * y2; i ? c.lineTo(x, y) : c.moveTo(x, y); } c.stroke();
       if (p >= 1) { const ang = Math.atan2(y2 - my, x2 - mx); c.beginPath(); c.moveTo(x2, y2); c.lineTo(x2 - 16 * Math.cos(ang - .45), y2 - 16 * Math.sin(ang - .45)); c.moveTo(x2, y2); c.lineTo(x2 - 16 * Math.cos(ang + .45), y2 - 16 * Math.sin(ang + .45)); c.stroke(); } };
     arc(520, 300, 630, 300, [0, -70], L1);
@@ -692,7 +724,7 @@
 
   function texts(t) {
     // S1
-    fade(tSeries, t, .25, T.lapse0, .8, 0, .5);
+    (function () { const p = prog(t, .15, 1.3, 'outCubic'), o = 1 - prog(t, T.lapse0 - .2, T.lapse0 + .3, 'inCubic'); set(tSeries, { y: (1 - p) * 20, s: 1.04 - .04 * p, o: p * o, blur: (1 - p) * 10 }); })();
     slam(tSais, t, T.sais, T.why - .12, .12);
     slam(tRecom, t, T.recom, T.why - .12, .12);
     if (t > T.recom) tSais.style.opacity = (parseFloat(tSais.style.opacity) * (1 - .45 * prog(t, T.recom, T.recom + .2, 'linear'))).toFixed(3);

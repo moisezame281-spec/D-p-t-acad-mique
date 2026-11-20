@@ -102,3 +102,11 @@ node tools/render.js enigme-ep001 /tmp/ep1render 4 30            # images
 python3 projects/enigme-ep001/score.py /tmp/ep1render/sfx.json /tmp/ep1/voice.wav /tmp/ep1render/audio.wav
 projects/enigme-ep001/export.sh /tmp/ep1render ../ENIGME_HUMAINE_EP001 /tmp/ep1/subtitles.srt   # master, copies, promo
 ```
+
+## 7. Révision du 20/11/2026 (retours de la productrice)
+
+- **Ouverture :** nouveau grand titre « L'Énigme humaine » en Instrument Serif italique, dégradé ivoire vers rose grenat, avec « Épisode pilote 001 » en Fraunces. Il remplace la petite ligne en police à chasse fixe dorée.
+- **Chambre :** l'espace est moins sombre et habillé (papier peint à motif, lambris, parquet, tapis bordeaux, rideaux, plante, lampadaire chaud). Le reflet ressort mieux dans le miroir, qui reflète aussi la lampe. Le personnage reçoit un double éclairage : froid côté téléphone, chaud côté lampe.
+- **Schéma de la boucle :** DÉCLENCHEUR, HABITUDE et AUTOMATISME en Fraunces italique très gras, en dégradé lumineux, avec des numéros en Instrument Serif et des flèches en rose grenat.
+- **Petits textes** (références, sources, signature) : Fraunces et Instrument Serif en **rose grenat `#E8949A`**, à la place de la police à chasse fixe dorée jugée trop « standard ».
+- **Modèle de série figé :** `series/enigme-humaine/FORMAT.md`, `motion/tools/produce.sh` (production en une commande) et `motion/tools/new_episode.sh`.

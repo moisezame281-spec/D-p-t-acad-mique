@@ -33,9 +33,10 @@ Toutes sont sous **SIL Open Font License 1.1** (usage commercial autorisé, y co
 
 | Police | Rôle |
 |---|---|
-| Bodoni Moda | Titres éditoriaux |
-| Inter | Sous-titres et explications |
-| IBM Plex Mono | Références (Romains 7:19-21, 91:7-10…) |
+| Instrument Serif | Titre de la série, signature finale |
+| Bodoni Moda | Grands titres éditoriaux |
+| Fraunces | Références, sources, schéma de la boucle, petits textes |
+| Inter | Sous-titres incrustés |
 | EB Garamond | Mots conceptuels grecs (ΑΚΡΑΣΙΑ, ΑΡΙΣΤΟΤΕΛΗΣ) |
 | Amiri | Nom de la sourate en arabe (الشمس) |
 | Caveat | Écriture manuscrite du post-it |
