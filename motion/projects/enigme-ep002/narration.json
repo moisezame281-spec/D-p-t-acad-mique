@@ -108,7 +108,8 @@
           "Le Coran, dans la sourate deux, verset cent cinquante-cinq,"
         ]
       ],
-      "intent": "recit"
+      "intent": "recit",
+      "takes": 5
     },
     {
       "id": "s3b",

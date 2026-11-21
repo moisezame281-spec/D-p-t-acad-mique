@@ -42,8 +42,12 @@ if ENGINE == 'chatterbox':
     cb.prepare_conditionals(REF, exaggeration=.7)
 
 
+NUMW = set('zero un deux trois quatre cinq six sept huit neuf dix onze douze treize quatorze quinze seize vingt trente quarante cinquante soixante cent cents mille et'.split())
+
+
 def _wer(ref, hyp):
-    r, h = norm_words(ref), norm_words(hyp); d = list(range(len(h) + 1))
+    keep = lambda ws: [w for w in ws if not w.isdigit() and w not in NUMW]   # les nombres (« deux » / « 2 ») ne faussent pas le choix
+    r, h = keep(norm_words(ref)), keep(norm_words(hyp)); d = list(range(len(h) + 1))
     for i, x in enumerate(r, 1):
         p_, d[0] = d[0], i
         for j, y in enumerate(h, 1): p_, d[j] = d[j], min(d[j] + 1, d[j - 1] + 1, p_ + (x != y))
@@ -64,6 +68,12 @@ def synth(sen, say):
         a, r_ = tts.create(say, voice=cfg['voice'], speed=sen.get('speed', cfg['speed']), lang=cfg['lang'])
         return librosa.resample(trim(np.asarray(a, dtype=np.float32), r_), orig_sr=r_, target_sr=SR).astype(np.float32)
     it = dict(INTENTS[sen.get('intent', cfg.get('intent', 'prof'))])
+    import hashlib
+    key = hashlib.sha1(json.dumps([say, it, sen.get('takes', it['takes']), os.path.getsize(REF)]).encode()).hexdigest()[:16]
+    cdir = os.path.join(out, 'cache'); os.makedirs(cdir, exist_ok=True); cf = os.path.join(cdir, key + '.wav')
+    if os.path.exists(cf):
+        print('      (prise en cache réutilisée)', flush=True)
+        return sf.read(cf, dtype='float32')[0]
     best = None
     for k in range(sen.get('takes', it['takes'])):
         torch.manual_seed(1000 + 17 * k + len(say))
@@ -75,7 +85,9 @@ def synth(sen, say):
         print(f'      prise {k + 1}: écart {e:.0%}, mélodie {mel:.1f} demi-tons', flush=True)
         if best is None or score < best[0]: best = (score, y)
     y = master(best[1], SR, it['style']).astype(np.float32)
-    return y / (np.max(np.abs(y)) + 1e-9) * .89
+    y = y / (np.max(np.abs(y)) + 1e-9) * .89
+    sf.write(cf, y, SR)
+    return y
 
 
 def norm_words(s):
