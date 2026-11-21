@@ -36,6 +36,8 @@ Chaque phrase reçoit une **intention** :
 4. Les points de suspension (…) créent une suspension naturelle chez les deux moteurs.
 5. Les chiffres sont écrits en toutes lettres pour la synthèse (« verset cent cinquante-cinq »).
 6. Chaque phrase est générée en plusieurs prises. La transcription élimine celles qui écorchent le texte, puis on garde la plus expressive.
+7. *(depuis l'ép. 003)* **Queues parasites :** si le moteur ajoute des syllabes après le dernier mot (« … une question, six litres »), elles sont détectées par la transcription et coupées automatiquement (`narrate.py`).
+8. *(depuis l'ép. 003)* **Références et nombres :** une prise n'est retenue que si deux modèles de transcription (Whisper « small » et « medium ») entendent le bon nombre. Pour les livres bibliques, on écrit la lecture complète, par exemple « la première lettre aux Thessaloniciens, chapitre cinq, verset vingt et un ».
 
 ## 3. Le traitement studio (`motion/tools/voice_master.py`)
 

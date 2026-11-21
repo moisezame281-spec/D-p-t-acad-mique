@@ -55,6 +55,13 @@ Le format court fait **58 à 60 s** ; le format long peut aller **jusqu'à 2 min
 4. L'écran partagé de la nuance
 5. La bibliothèque monumentale, avec le buste et le réseau lumineux
 6. La ville la nuit, avec la boucle déclencheur → habitude → automatisme
+7. *(ép. 002)* La chambre d'enfant, le désert de Job, l'étang au crépuscule, la colline de Sisyphe
+8. *(ép. 003)* **La bibliothèque des siècles** : vraie perspective, voûte à caissons, deux étages de livres, fenêtre au fond ; l'élève assis, la main sur le front ; versions nuit et aube
+9. *(ép. 003)* Le manuscrit ouvert RATIO / FIDES (lettrines, écriture gothique abstraite, schémas à la plume)
+10. *(ép. 003)* L'arche et sa clé de voûte (deux moitiés différentes qui tiennent ensemble)
+11. *(ép. 003)* La Bible au lutrin : lumière naturelle, profondeur de champ, signet, tranche dorée
+12. *(ép. 003)* La cour à arcades : alternance du jour et de la nuit, lumière à travers les arcs, bassin-miroir, étoiles reliées en géométrie
+13. *(ép. 003)* La chapelle aux vitraux, avec un tableau du domaine public dans un cadre doré, et le schéma à deux niveaux (escalier, limite, rosace)
 
 **Règle de variété :** chaque nouvel épisode réutilise au maximum 4 décors et en ajoute au moins 1 nouveau, ou une variante (saison, lumière, lieu). Deux épisodes ne se ressemblent donc jamais.
 

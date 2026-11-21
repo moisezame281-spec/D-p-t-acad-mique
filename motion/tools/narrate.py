@@ -124,6 +124,15 @@ for sen in cfg['sentences']:
             sw.append(w); owner.append(ci)
     times = [None] * len(sw)
     sm = difflib.SequenceMatcher(a=sw, b=[h[0] for h in hw], autojunk=False)
+    ops = sm.get_opcodes()
+    if ops and ops[-1][0] == 'insert' and ops[-1][1] == len(sw) and ops[-1][3] > 0:
+        # queue parasite (syllabes ajoutées par le moteur après le dernier mot) : on coupe proprement
+        j1 = ops[-1][3]; cut = min(hw[j1][1], hw[j1 - 1][2] + .22); ci = int(cut * SR)
+        if ci < len(s):
+            fo = min(int(.04 * SR), ci); s = s[:ci].copy(); s[-fo:] *= np.linspace(1, 0, fo)
+            print(f"      queue parasite coupée à {cut:.2f} s : « {' '.join(h[0] for h in hw[j1:])} »", flush=True)
+            hw = hw[:j1]; heard = [h for h in heard if h[1] < cut]; dur = len(s) / SR
+            sm = difflib.SequenceMatcher(a=sw, b=[h[0] for h in hw], autojunk=False)
     for blk in sm.get_matching_blocks():
         for k in range(blk.size):
             times[blk.a + k] = (hw[blk.b + k][1], hw[blk.b + k][2])

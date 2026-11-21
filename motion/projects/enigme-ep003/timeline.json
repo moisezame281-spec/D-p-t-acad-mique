@@ -1,0 +1,1493 @@
+{
+ "duration": 82.547,
+ "sentences": [
+  {
+   "id": "s1a",
+   "scene": 1,
+   "start": 0.6,
+   "end": 4.0,
+   "display": "Élève, aujourd'hui, je voudrais que tu réfléchisses à une question :",
+   "say": "Élève, aujourd'hui, je voudrais que tu réfléchisses à une question :",
+   "heard": "élève  aujourd 'hui,  je  voudrais  que  tu  réfléchisses  à  une  question,",
+   "match": 1.0,
+   "words": [
+    {
+     "w": "eleve",
+     "start": 0.6,
+     "end": 0.94,
+     "chunk": 0
+    },
+    {
+     "w": "aujourd",
+     "start": 0.94,
+     "end": 1.14,
+     "chunk": 0
+    },
+    {
+     "w": "hui",
+     "start": 1.14,
+     "end": 1.5,
+     "chunk": 0
+    },
+    {
+     "w": "je",
+     "start": 1.9,
+     "end": 1.98,
+     "chunk": 1
+    },
+    {
+     "w": "voudrais",
+     "start": 1.98,
+     "end": 2.3,
+     "chunk": 1
+    },
+    {
+     "w": "que",
+     "start": 2.3,
+     "end": 2.44,
+     "chunk": 1
+    },
+    {
+     "w": "tu",
+     "start": 2.44,
+     "end": 2.58,
+     "chunk": 1
+    },
+    {
+     "w": "reflechisses",
+     "start": 2.58,
+     "end": 3.14,
+     "chunk": 1
+    },
+    {
+     "w": "a",
+     "start": 3.14,
+     "end": 3.26,
+     "chunk": 1
+    },
+    {
+     "w": "une",
+     "start": 3.26,
+     "end": 3.36,
+     "chunk": 1
+    },
+    {
+     "w": "question",
+     "start": 3.36,
+     "end": 3.78,
+     "chunk": 1
+    }
+   ],
+   "chunks": [
+    {
+     "text": "Élève, aujourd'hui,",
+     "start": 0.6,
+     "end": 1.5
+    },
+    {
+     "text": "je voudrais que tu réfléchisses à une question :",
+     "start": 1.9,
+     "end": 4.0
+    }
+   ]
+  },
+  {
+   "id": "s1b",
+   "scene": 1,
+   "start": 4.3,
+   "end": 6.44,
+   "display": "la foi s'oppose-t-elle réellement à la raison ?",
+   "say": "La foi s'oppose-t-elle réellement à la raison ?",
+   "heard": "La  foi  s 'oppose -t -elle  réellement  à  la  raison  ?",
+   "match": 1.0,
+   "words": [
+    {
+     "w": "la",
+     "start": 4.3,
+     "end": 4.42,
+     "chunk": 0
+    },
+    {
+     "w": "foi",
+     "start": 4.42,
+     "end": 4.62,
+     "chunk": 0
+    },
+    {
+     "w": "s",
+     "start": 4.62,
+     "end": 4.78,
+     "chunk": 0
+    },
+    {
+     "w": "oppose",
+     "start": 4.78,
+     "end": 5.06,
+     "chunk": 0
+    },
+    {
+     "w": "t",
+     "start": 5.06,
+     "end": 5.16,
+     "chunk": 0
+    },
+    {
+     "w": "elle",
+     "start": 5.16,
+     "end": 5.24,
+     "chunk": 0
+    },
+    {
+     "w": "reellement",
+     "start": 5.24,
+     "end": 5.74,
+     "chunk": 0
+    },
+    {
+     "w": "a",
+     "start": 5.74,
+     "end": 5.86,
+     "chunk": 0
+    },
+    {
+     "w": "la",
+     "start": 5.86,
+     "end": 5.94,
+     "chunk": 0
+    },
+    {
+     "w": "raison",
+     "start": 5.94,
+     "end": 6.24,
+     "chunk": 0
+    }
+   ],
+   "chunks": [
+    {
+     "text": "la foi s'oppose-t-elle réellement à la raison ?",
+     "start": 4.3,
+     "end": 6.44
+    }
+   ]
+  },
+  {
+   "id": "s2a",
+   "scene": 2,
+   "start": 7.19,
+   "end": 9.984,
+   "display": "Pour répondre, commençons par une distinction.",
+   "say": "Pour répondre, commençons par une distinction.",
+   "heard": "Pour  répondre,  commençons  par  une  distinction.",
+   "match": 1.0,
+   "words": [
+    {
+     "w": "pour",
+     "start": 7.19,
+     "end": 7.33,
+     "chunk": 0
+    },
+    {
+     "w": "repondre",
+     "start": 7.33,
+     "end": 7.83,
+     "chunk": 0
+    },
+    {
+     "w": "commencons",
+     "start": 8.21,
+     "end": 8.77,
+     "chunk": 0
+    },
+    {
+     "w": "par",
+     "start": 8.77,
+     "end": 8.99,
+     "chunk": 0
+    },
+    {
+     "w": "une",
+     "start": 8.99,
+     "end": 9.13,
+     "chunk": 0
+    },
+    {
+     "w": "distinction",
+     "start": 9.13,
+     "end": 9.45,
+     "chunk": 0
+    }
+   ],
+   "chunks": [
+    {
+     "text": "Pour répondre, commençons par une distinction.",
+     "start": 7.19,
+     "end": 9.984
+    }
+   ]
+  },
+  {
+   "id": "s2b",
+   "scene": 2,
+   "start": 10.284,
+   "end": 16.115,
+   "display": "La raison examine une affirmation : est-elle cohérente ? Sur quoi repose-t-elle ?",
+   "say": "La raison examine une affirmation : est-elle cohérente ? Sur quoi repose-t-elle ?",
+   "heard": "La  raison  «  Examine  une  affirmation  »  est -elle  cohérente  ?  Sur  quoi  repose -t -elle  ?",
+   "match": 1.0,
+   "words": [
+    {
+     "w": "la",
+     "start": 10.284,
+     "end": 10.444,
+     "chunk": 0
+    },
+    {
+     "w": "raison",
+     "start": 10.444,
+     "end": 10.824,
+     "chunk": 0
+    },
+    {
+     "w": "examine",
+     "start": 11.044,
+     "end": 11.464,
+     "chunk": 0
+    },
+    {
+     "w": "une",
+     "start": 11.464,
+     "end": 11.644,
+     "chunk": 0
+    },
+    {
+     "w": "affirmation",
+     "start": 11.644,
+     "end": 12.304,
+     "chunk": 0
+    },
+    {
+     "w": "est",
+     "start": 12.564,
+     "end": 12.644,
+     "chunk": 1
+    },
+    {
+     "w": "elle",
+     "start": 12.644,
+     "end": 12.744,
+     "chunk": 1
+    },
+    {
+     "w": "coherente",
+     "start": 12.744,
+     "end": 13.364,
+     "chunk": 1
+    },
+    {
+     "w": "sur",
+     "start": 13.524,
+     "end": 13.724,
+     "chunk": 2
+    },
+    {
+     "w": "quoi",
+     "start": 13.724,
+     "end": 13.904,
+     "chunk": 2
+    },
+    {
+     "w": "repose",
+     "start": 13.904,
+     "end": 14.264,
+     "chunk": 2
+    },
+    {
+     "w": "t",
+     "start": 14.264,
+     "end": 14.384,
+     "chunk": 2
+    },
+    {
+     "w": "elle",
+     "start": 14.384,
+     "end": 14.524,
+     "chunk": 2
+    }
+   ],
+   "chunks": [
+    {
+     "text": "La raison examine une affirmation :",
+     "start": 10.284,
+     "end": 12.304
+    },
+    {
+     "text": "est-elle cohérente ?",
+     "start": 12.564,
+     "end": 13.364
+    },
+    {
+     "text": "Sur quoi repose-t-elle ?",
+     "start": 13.524,
+     "end": 16.115
+    }
+   ]
+  },
+  {
+   "id": "s2c",
+   "scene": 2,
+   "start": 16.465,
+   "end": 22.002,
+   "display": "La foi, elle, engage une confiance envers Dieu et une vérité reçue comme révélée.",
+   "say": "La foi, elle, engage une confiance envers Dieu et une vérité reçue comme révélée.",
+   "heard": "La  foi,  elle,  engage  une  confiance  envers  Dieu  et  une  vérité  reçue  comme  révélée.",
+   "match": 1.0,
+   "words": [
+    {
+     "w": "la",
+     "start": 16.465,
+     "end": 16.625,
+     "chunk": 0
+    },
+    {
+     "w": "foi",
+     "start": 16.625,
+     "end": 16.965,
+     "chunk": 0
+    },
+    {
+     "w": "elle",
+     "start": 17.205,
+     "end": 17.545,
+     "chunk": 0
+    },
+    {
+     "w": "engage",
+     "start": 17.885,
+     "end": 18.145,
+     "chunk": 0
+    },
+    {
+     "w": "une",
+     "start": 18.145,
+     "end": 18.345,
+     "chunk": 0
+    },
+    {
+     "w": "confiance",
+     "start": 18.345,
+     "end": 18.685,
+     "chunk": 0
+    },
+    {
+     "w": "envers",
+     "start": 18.685,
+     "end": 19.105,
+     "chunk": 0
+    },
+    {
+     "w": "dieu",
+     "start": 19.105,
+     "end": 19.385,
+     "chunk": 0
+    },
+    {
+     "w": "et",
+     "start": 19.385,
+     "end": 19.625,
+     "chunk": 1
+    },
+    {
+     "w": "une",
+     "start": 19.625,
+     "end": 19.765,
+     "chunk": 1
+    },
+    {
+     "w": "verite",
+     "start": 19.765,
+     "end": 20.225,
+     "chunk": 1
+    },
+    {
+     "w": "recue",
+     "start": 20.225,
+     "end": 20.645,
+     "chunk": 1
+    },
+    {
+     "w": "comme",
+     "start": 20.645,
+     "end": 20.805,
+     "chunk": 1
+    },
+    {
+     "w": "revelee",
+     "start": 20.805,
+     "end": 21.245,
+     "chunk": 1
+    }
+   ],
+   "chunks": [
+    {
+     "text": "La foi, elle, engage une confiance envers Dieu",
+     "start": 16.465,
+     "end": 19.385
+    },
+    {
+     "text": "et une vérité reçue comme révélée.",
+     "start": 19.385,
+     "end": 22.002
+    }
+   ]
+  },
+  {
+   "id": "s3a",
+   "scene": 3,
+   "start": 22.452,
+   "end": 24.144,
+   "display": "Ce sont deux démarches différentes.",
+   "say": "Ce sont deux démarches différentes.",
+   "heard": "Ce  sont  deux  démarches  différentes.",
+   "match": 1.0,
+   "words": [
+    {
+     "w": "ce",
+     "start": 22.452,
+     "end": 22.572,
+     "chunk": 0
+    },
+    {
+     "w": "sont",
+     "start": 22.572,
+     "end": 22.752,
+     "chunk": 0
+    },
+    {
+     "w": "deux",
+     "start": 22.752,
+     "end": 22.892,
+     "chunk": 0
+    },
+    {
+     "w": "demarches",
+     "start": 22.892,
+     "end": 23.352,
+     "chunk": 0
+    },
+    {
+     "w": "differentes",
+     "start": 23.352,
+     "end": 23.672,
+     "chunk": 0
+    }
+   ],
+   "chunks": [
+    {
+     "text": "Ce sont deux démarches différentes.",
+     "start": 22.452,
+     "end": 24.144
+    }
+   ]
+  },
+  {
+   "id": "s3b",
+   "scene": 3,
+   "start": 24.444,
+   "end": 29.351,
+   "display": "Mais attention : différente ne signifie pas ennemie.",
+   "say": "Mais attention : différente ne signifie pas ennemie.",
+   "heard": "Mais  attention  différente  ne  signifie  pas  ennemi.",
+   "match": 0.857,
+   "words": [
+    {
+     "w": "mais",
+     "start": 24.444,
+     "end": 24.624,
+     "chunk": 0
+    },
+    {
+     "w": "attention",
+     "start": 24.624,
+     "end": 25.144,
+     "chunk": 0
+    },
+    {
+     "w": "differente",
+     "start": 25.144,
+     "end": 26.084,
+     "chunk": 1
+    },
+    {
+     "w": "ne",
+     "start": 26.084,
+     "end": 26.344,
+     "chunk": 1
+    },
+    {
+     "w": "signifie",
+     "start": 26.344,
+     "end": 26.844,
+     "chunk": 1
+    },
+    {
+     "w": "pas",
+     "start": 26.844,
+     "end": 27.004,
+     "chunk": 1
+    },
+    {
+     "w": "ennemie",
+     "start": 27.004,
+     "end": 29.351,
+     "chunk": 1
+    }
+   ],
+   "chunks": [
+    {
+     "text": "Mais attention :",
+     "start": 24.444,
+     "end": 25.144
+    },
+    {
+     "text": "différente ne signifie pas ennemie.",
+     "start": 25.144,
+     "end": 29.351
+    }
+   ]
+  },
+  {
+   "id": "s4a",
+   "scene": 4,
+   "start": 29.951,
+   "end": 36.899,
+   "display": "Dans la Bible, 1 Thessaloniciens 5:21 recommande :",
+   "say": "Dans la Bible, la première lettre aux Thessaloniciens, chapitre cinq, verset vingt et un, recommande :",
+   "heard": "Dans  la  Bible,  la  première  lettre  au  Tésalonicien,  chapitre  5  verset  20  et  1,  recommande.",
+   "match": 0.667,
+   "words": [
+    {
+     "w": "dans",
+     "start": 29.951,
+     "end": 30.071,
+     "chunk": 0
+    },
+    {
+     "w": "la",
+     "start": 30.071,
+     "end": 30.211,
+     "chunk": 0
+    },
+    {
+     "w": "bible",
+     "start": 30.211,
+     "end": 30.511,
+     "chunk": 0
+    },
+    {
+     "w": "la",
+     "start": 30.971,
+     "end": 31.091,
+     "chunk": 0
+    },
+    {
+     "w": "premiere",
+     "start": 31.091,
+     "end": 31.391,
+     "chunk": 0
+    },
+    {
+     "w": "lettre",
+     "start": 31.391,
+     "end": 31.871,
+     "chunk": 0
+    },
+    {
+     "w": "aux",
+     "start": 31.871,
+     "end": 32.411,
+     "chunk": 0
+    },
+    {
+     "w": "thessaloniciens",
+     "start": 32.411,
+     "end": 32.951,
+     "chunk": 0
+    },
+    {
+     "w": "chapitre",
+     "start": 32.951,
+     "end": 33.451,
+     "chunk": 0
+    },
+    {
+     "w": "cinq",
+     "start": 33.451,
+     "end": 33.751,
+     "chunk": 0
+    },
+    {
+     "w": "verset",
+     "start": 33.751,
+     "end": 34.531,
+     "chunk": 0
+    },
+    {
+     "w": "vingt",
+     "start": 34.531,
+     "end": 34.791,
+     "chunk": 0
+    },
+    {
+     "w": "et",
+     "start": 34.791,
+     "end": 35.091,
+     "chunk": 0
+    },
+    {
+     "w": "un",
+     "start": 35.091,
+     "end": 35.651,
+     "chunk": 0
+    },
+    {
+     "w": "recommande",
+     "start": 35.651,
+     "end": 36.311,
+     "chunk": 0
+    }
+   ],
+   "chunks": [
+    {
+     "text": "Dans la Bible, 1 Thessaloniciens 5:21 recommande :",
+     "start": 29.951,
+     "end": 36.899
+    }
+   ]
+  },
+  {
+   "id": "s4b",
+   "scene": 4,
+   "start": 37.099,
+   "end": 40.089,
+   "display": "« Examinez toutes choses ; retenez ce qui est bon. »",
+   "say": "Examinez toutes choses ; retenez ce qui est bon.",
+   "heard": "Examinez  toutes  choses,  retenez  ce  qui  est  bon.",
+   "match": 1.0,
+   "words": [
+    {
+     "w": "examinez",
+     "start": 37.099,
+     "end": 37.839,
+     "chunk": 0
+    },
+    {
+     "w": "toutes",
+     "start": 37.839,
+     "end": 37.939,
+     "chunk": 0
+    },
+    {
+     "w": "choses",
+     "start": 37.939,
+     "end": 38.279,
+     "chunk": 0
+    },
+    {
+     "w": "retenez",
+     "start": 38.749,
+     "end": 39.209,
+     "chunk": 1
+    },
+    {
+     "w": "ce",
+     "start": 39.209,
+     "end": 39.349,
+     "chunk": 1
+    },
+    {
+     "w": "qui",
+     "start": 39.349,
+     "end": 39.569,
+     "chunk": 1
+    },
+    {
+     "w": "est",
+     "start": 39.569,
+     "end": 39.689,
+     "chunk": 1
+    },
+    {
+     "w": "bon",
+     "start": 39.689,
+     "end": 39.869,
+     "chunk": 1
+    }
+   ],
+   "chunks": [
+    {
+     "text": "« Examinez toutes choses ;",
+     "start": 37.099,
+     "end": 38.279
+    },
+    {
+     "text": "retenez ce qui est bon. »",
+     "start": 38.749,
+     "end": 40.089
+    }
+   ]
+  },
+  {
+   "id": "s5a",
+   "scene": 5,
+   "start": 40.639,
+   "end": 45.733,
+   "display": "Dans le Coran, sourate 3, versets 190 et 191,",
+   "say": "Dans le Coran, sourate trois, versets cent quatre-vingt-dix et cent quatre-vingt-onze,",
+   "heard": "Dans  le  courant,  Surat  3,  verset  190  et  191.",
+   "match": 0.2,
+   "words": [
+    {
+     "w": "dans",
+     "start": 40.639,
+     "end": 40.799,
+     "chunk": 0
+    },
+    {
+     "w": "le",
+     "start": 40.799,
+     "end": 40.919,
+     "chunk": 0
+    },
+    {
+     "w": "coran",
+     "start": 40.919,
+     "end": 41.266,
+     "chunk": 0
+    },
+    {
+     "w": "sourate",
+     "start": 41.266,
+     "end": 41.614,
+     "chunk": 0
+    },
+    {
+     "w": "trois",
+     "start": 41.614,
+     "end": 41.961,
+     "chunk": 0
+    },
+    {
+     "w": "versets",
+     "start": 41.961,
+     "end": 42.309,
+     "chunk": 0
+    },
+    {
+     "w": "cent",
+     "start": 42.309,
+     "end": 42.656,
+     "chunk": 0
+    },
+    {
+     "w": "quatre",
+     "start": 42.656,
+     "end": 43.004,
+     "chunk": 0
+    },
+    {
+     "w": "vingt",
+     "start": 43.004,
+     "end": 43.351,
+     "chunk": 0
+    },
+    {
+     "w": "dix",
+     "start": 43.351,
+     "end": 43.699,
+     "chunk": 0
+    },
+    {
+     "w": "et",
+     "start": 43.699,
+     "end": 44.459,
+     "chunk": 0
+    },
+    {
+     "w": "cent",
+     "start": 44.459,
+     "end": 44.777,
+     "chunk": 0
+    },
+    {
+     "w": "quatre",
+     "start": 44.777,
+     "end": 45.096,
+     "chunk": 0
+    },
+    {
+     "w": "vingt",
+     "start": 45.096,
+     "end": 45.415,
+     "chunk": 0
+    },
+    {
+     "w": "onze",
+     "start": 45.415,
+     "end": 45.733,
+     "chunk": 0
+    }
+   ],
+   "chunks": [
+    {
+     "text": "Dans le Coran, sourate 3, versets 190 et 191,",
+     "start": 40.639,
+     "end": 45.733
+    }
+   ]
+  },
+  {
+   "id": "s5b",
+   "scene": 5,
+   "start": 45.933,
+   "end": 52.26,
+   "display": "la création est présentée comme un ensemble de signes pour les personnes douées de raison et de réflexion.",
+   "say": "la création est présentée comme un ensemble de signes pour les personnes douées de raison et de réflexion.",
+   "heard": "La  création  est  présentée  comme  un  ensemble  de  signes  pour  les  personnes  douées  de  raison  et  de  réflexion.",
+   "match": 1.0,
+   "words": [
+    {
+     "w": "la",
+     "start": 45.933,
+     "end": 46.033,
+     "chunk": 0
+    },
+    {
+     "w": "creation",
+     "start": 46.033,
+     "end": 46.553,
+     "chunk": 0
+    },
+    {
+     "w": "est",
+     "start": 46.553,
+     "end": 46.693,
+     "chunk": 0
+    },
+    {
+     "w": "presentee",
+     "start": 46.693,
+     "end": 47.213,
+     "chunk": 0
+    },
+    {
+     "w": "comme",
+     "start": 47.213,
+     "end": 47.393,
+     "chunk": 0
+    },
+    {
+     "w": "un",
+     "start": 47.393,
+     "end": 47.533,
+     "chunk": 0
+    },
+    {
+     "w": "ensemble",
+     "start": 47.533,
+     "end": 47.873,
+     "chunk": 0
+    },
+    {
+     "w": "de",
+     "start": 47.873,
+     "end": 48.133,
+     "chunk": 0
+    },
+    {
+     "w": "signes",
+     "start": 48.133,
+     "end": 48.813,
+     "chunk": 0
+    },
+    {
+     "w": "pour",
+     "start": 48.993,
+     "end": 49.133,
+     "chunk": 1
+    },
+    {
+     "w": "les",
+     "start": 49.133,
+     "end": 49.253,
+     "chunk": 1
+    },
+    {
+     "w": "personnes",
+     "start": 49.253,
+     "end": 49.533,
+     "chunk": 1
+    },
+    {
+     "w": "douees",
+     "start": 49.533,
+     "end": 49.873,
+     "chunk": 1
+    },
+    {
+     "w": "de",
+     "start": 49.873,
+     "end": 49.993,
+     "chunk": 1
+    },
+    {
+     "w": "raison",
+     "start": 49.993,
+     "end": 50.333,
+     "chunk": 1
+    },
+    {
+     "w": "et",
+     "start": 50.333,
+     "end": 50.533,
+     "chunk": 1
+    },
+    {
+     "w": "de",
+     "start": 50.533,
+     "end": 50.673,
+     "chunk": 1
+    },
+    {
+     "w": "reflexion",
+     "start": 50.673,
+     "end": 51.273,
+     "chunk": 1
+    }
+   ],
+   "chunks": [
+    {
+     "text": "la création est présentée comme un ensemble de signes",
+     "start": 45.933,
+     "end": 48.813
+    },
+    {
+     "text": "pour les personnes douées de raison et de réflexion.",
+     "start": 48.993,
+     "end": 52.26
+    }
+   ]
+  },
+  {
+   "id": "s6a",
+   "scene": 6,
+   "start": 52.81,
+   "end": 55.508,
+   "display": "Thomas d'Aquin, philosophe et théologien,",
+   "say": "Thomas d'Aquin, philosophe et théologien,",
+   "heard": "Thomas  d 'Aquin,  philosophe  et  théologien.",
+   "match": 1.0,
+   "words": [
+    {
+     "w": "thomas",
+     "start": 52.81,
+     "end": 52.97,
+     "chunk": 0
+    },
+    {
+     "w": "d",
+     "start": 52.97,
+     "end": 53.15,
+     "chunk": 0
+    },
+    {
+     "w": "aquin",
+     "start": 53.15,
+     "end": 53.41,
+     "chunk": 0
+    },
+    {
+     "w": "philosophe",
+     "start": 53.65,
+     "end": 54.27,
+     "chunk": 0
+    },
+    {
+     "w": "et",
+     "start": 54.27,
+     "end": 54.37,
+     "chunk": 0
+    },
+    {
+     "w": "theologien",
+     "start": 54.37,
+     "end": 54.95,
+     "chunk": 0
+    }
+   ],
+   "chunks": [
+    {
+     "text": "Thomas d'Aquin, philosophe et théologien,",
+     "start": 52.81,
+     "end": 55.508
+    }
+   ]
+  },
+  {
+   "id": "s6b",
+   "scene": 6,
+   "start": 55.708,
+   "end": 62.203,
+   "display": "distinguait ce que la raison humaine peut connaître de ce qui dépasse ses capacités et relève de la révélation.",
+   "say": "distinguait ce que la raison humaine peut connaître de ce qui dépasse ses capacités et relève de la révélation.",
+   "heard": "Distinguez  ce  que  la  raison  humaine  peut  connaître  de  ce  qui  dépasse  ses  capacités  et  relève  de  la  révélation.",
+   "match": 0.947,
+   "words": [
+    {
+     "w": "distinguait",
+     "start": 55.708,
+     "end": 56.408,
+     "chunk": 0
+    },
+    {
+     "w": "ce",
+     "start": 56.408,
+     "end": 56.628,
+     "chunk": 0
+    },
+    {
+     "w": "que",
+     "start": 56.628,
+     "end": 56.788,
+     "chunk": 0
+    },
+    {
+     "w": "la",
+     "start": 56.788,
+     "end": 56.948,
+     "chunk": 0
+    },
+    {
+     "w": "raison",
+     "start": 56.948,
+     "end": 57.308,
+     "chunk": 0
+    },
+    {
+     "w": "humaine",
+     "start": 57.308,
+     "end": 57.768,
+     "chunk": 0
+    },
+    {
+     "w": "peut",
+     "start": 57.768,
+     "end": 57.968,
+     "chunk": 0
+    },
+    {
+     "w": "connaitre",
+     "start": 57.968,
+     "end": 58.428,
+     "chunk": 0
+    },
+    {
+     "w": "de",
+     "start": 58.608,
+     "end": 58.808,
+     "chunk": 1
+    },
+    {
+     "w": "ce",
+     "start": 58.808,
+     "end": 58.948,
+     "chunk": 1
+    },
+    {
+     "w": "qui",
+     "start": 58.948,
+     "end": 59.108,
+     "chunk": 1
+    },
+    {
+     "w": "depasse",
+     "start": 59.108,
+     "end": 59.548,
+     "chunk": 1
+    },
+    {
+     "w": "ses",
+     "start": 59.548,
+     "end": 59.708,
+     "chunk": 1
+    },
+    {
+     "w": "capacites",
+     "start": 59.708,
+     "end": 60.388,
+     "chunk": 1
+    },
+    {
+     "w": "et",
+     "start": 60.388,
+     "end": 60.888,
+     "chunk": 2
+    },
+    {
+     "w": "releve",
+     "start": 60.888,
+     "end": 61.308,
+     "chunk": 2
+    },
+    {
+     "w": "de",
+     "start": 61.308,
+     "end": 61.428,
+     "chunk": 2
+    },
+    {
+     "w": "la",
+     "start": 61.428,
+     "end": 61.548,
+     "chunk": 2
+    },
+    {
+     "w": "revelation",
+     "start": 61.548,
+     "end": 62.068,
+     "chunk": 2
+    }
+   ],
+   "chunks": [
+    {
+     "text": "distinguait ce que la raison humaine peut connaître",
+     "start": 55.708,
+     "end": 58.428
+    },
+    {
+     "text": "de ce qui dépasse ses capacités",
+     "start": 58.608,
+     "end": 60.388
+    },
+    {
+     "text": "et relève de la révélation.",
+     "start": 60.388,
+     "end": 62.203
+    }
+   ]
+  },
+  {
+   "id": "s7a",
+   "scene": 7,
+   "start": 62.803,
+   "end": 64.45,
+   "display": "Alors, voici la leçon :",
+   "say": "Alors, voici la leçon :",
+   "heard": "Alors,  voici  la  leçon.",
+   "match": 1.0,
+   "words": [
+    {
+     "w": "alors",
+     "start": 62.803,
+     "end": 63.063,
+     "chunk": 0
+    },
+    {
+     "w": "voici",
+     "start": 63.303,
+     "end": 63.763,
+     "chunk": 0
+    },
+    {
+     "w": "la",
+     "start": 63.763,
+     "end": 63.923,
+     "chunk": 0
+    },
+    {
+     "w": "lecon",
+     "start": 63.923,
+     "end": 64.283,
+     "chunk": 0
+    }
+   ],
+   "chunks": [
+    {
+     "text": "Alors, voici la leçon :",
+     "start": 62.803,
+     "end": 64.45
+    }
+   ]
+  },
+  {
+   "id": "s7b",
+   "scene": 7,
+   "start": 64.75,
+   "end": 66.929,
+   "display": "croire ne dispense pas de réfléchir.",
+   "say": "Croire ne dispense pas de réfléchir.",
+   "heard": "Croire  ne  dispense  pas  de  réfléchir.",
+   "match": 1.0,
+   "words": [
+    {
+     "w": "croire",
+     "start": 64.75,
+     "end": 65.17,
+     "chunk": 0
+    },
+    {
+     "w": "ne",
+     "start": 65.17,
+     "end": 65.31,
+     "chunk": 0
+    },
+    {
+     "w": "dispense",
+     "start": 65.31,
+     "end": 65.85,
+     "chunk": 0
+    },
+    {
+     "w": "pas",
+     "start": 65.85,
+     "end": 66.09,
+     "chunk": 0
+    },
+    {
+     "w": "de",
+     "start": 66.09,
+     "end": 66.19,
+     "chunk": 0
+    },
+    {
+     "w": "reflechir",
+     "start": 66.19,
+     "end": 66.83,
+     "chunk": 0
+    }
+   ],
+   "chunks": [
+    {
+     "text": "croire ne dispense pas de réfléchir.",
+     "start": 64.75,
+     "end": 66.929
+    }
+   ]
+  },
+  {
+   "id": "s7c",
+   "scene": 7,
+   "start": 67.279,
+   "end": 71.953,
+   "display": "Et réfléchir ne signifie pas nécessairement cesser de croire.",
+   "say": "Et réfléchir ne signifie pas nécessairement cesser de croire.",
+   "heard": "Et  réfléchir  ne  signifie  pas  nécessairement  cesser  de  croire.",
+   "match": 1.0,
+   "words": [
+    {
+     "w": "et",
+     "start": 67.279,
+     "end": 67.379,
+     "chunk": 0
+    },
+    {
+     "w": "reflechir",
+     "start": 67.379,
+     "end": 68.019,
+     "chunk": 0
+    },
+    {
+     "w": "ne",
+     "start": 68.019,
+     "end": 68.159,
+     "chunk": 0
+    },
+    {
+     "w": "signifie",
+     "start": 68.159,
+     "end": 68.659,
+     "chunk": 0
+    },
+    {
+     "w": "pas",
+     "start": 68.659,
+     "end": 68.819,
+     "chunk": 0
+    },
+    {
+     "w": "necessairement",
+     "start": 68.819,
+     "end": 69.499,
+     "chunk": 0
+    },
+    {
+     "w": "cesser",
+     "start": 69.499,
+     "end": 69.759,
+     "chunk": 0
+    },
+    {
+     "w": "de",
+     "start": 69.759,
+     "end": 69.899,
+     "chunk": 0
+    },
+    {
+     "w": "croire",
+     "start": 69.899,
+     "end": 70.299,
+     "chunk": 0
+    }
+   ],
+   "chunks": [
+    {
+     "text": "Et réfléchir ne signifie pas nécessairement cesser de croire.",
+     "start": 67.279,
+     "end": 71.953
+    }
+   ]
+  },
+  {
+   "id": "s8a",
+   "scene": 8,
+   "start": 72.753,
+   "end": 78.947,
+   "display": "Mais dis-moi, élève : ta foi résiste-t-elle à tes questions, ou as-tu peur de les poser ?",
+   "say": "Mais dis-moi, élève : ta foi résiste-t-elle à tes questions, ou as-tu peur de les poser ?",
+   "heard": "Mais  dis -moi,  élève,  ta  foi  résiste -t -elle  à  tes  questions  ?  Où  as -tu  peur  de  les  poser  ?",
+   "match": 1.0,
+   "words": [
+    {
+     "w": "mais",
+     "start": 72.753,
+     "end": 72.953,
+     "chunk": 0
+    },
+    {
+     "w": "dis",
+     "start": 72.953,
+     "end": 73.033,
+     "chunk": 0
+    },
+    {
+     "w": "moi",
+     "start": 73.033,
+     "end": 73.253,
+     "chunk": 0
+    },
+    {
+     "w": "eleve",
+     "start": 73.433,
+     "end": 73.853,
+     "chunk": 0
+    },
+    {
+     "w": "ta",
+     "start": 74.483,
+     "end": 74.523,
+     "chunk": 1
+    },
+    {
+     "w": "foi",
+     "start": 74.523,
+     "end": 74.723,
+     "chunk": 1
+    },
+    {
+     "w": "resiste",
+     "start": 74.723,
+     "end": 75.163,
+     "chunk": 1
+    },
+    {
+     "w": "t",
+     "start": 75.163,
+     "end": 75.283,
+     "chunk": 1
+    },
+    {
+     "w": "elle",
+     "start": 75.283,
+     "end": 75.443,
+     "chunk": 1
+    },
+    {
+     "w": "a",
+     "start": 75.443,
+     "end": 75.563,
+     "chunk": 1
+    },
+    {
+     "w": "tes",
+     "start": 75.563,
+     "end": 75.623,
+     "chunk": 1
+    },
+    {
+     "w": "questions",
+     "start": 75.623,
+     "end": 76.103,
+     "chunk": 1
+    },
+    {
+     "w": "ou",
+     "start": 76.363,
+     "end": 76.643,
+     "chunk": 2
+    },
+    {
+     "w": "as",
+     "start": 76.643,
+     "end": 76.663,
+     "chunk": 2
+    },
+    {
+     "w": "tu",
+     "start": 76.663,
+     "end": 76.803,
+     "chunk": 2
+    },
+    {
+     "w": "peur",
+     "start": 76.803,
+     "end": 77.043,
+     "chunk": 2
+    },
+    {
+     "w": "de",
+     "start": 77.043,
+     "end": 77.163,
+     "chunk": 2
+    },
+    {
+     "w": "les",
+     "start": 77.163,
+     "end": 77.283,
+     "chunk": 2
+    },
+    {
+     "w": "poser",
+     "start": 77.283,
+     "end": 77.603,
+     "chunk": 2
+    }
+   ],
+   "chunks": [
+    {
+     "text": "Mais dis-moi, élève :",
+     "start": 72.753,
+     "end": 73.853
+    },
+    {
+     "text": "ta foi résiste-t-elle à tes questions,",
+     "start": 74.483,
+     "end": 76.103
+    },
+    {
+     "text": "ou as-tu peur de les poser ?",
+     "start": 76.363,
+     "end": 78.947
+    }
+   ]
+  }
+ ]
+}

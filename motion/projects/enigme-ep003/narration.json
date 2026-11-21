@@ -1,0 +1,260 @@
+{
+  "title": "L'Énigme humaine — Épisode 003 — La foi s'oppose-t-elle à la raison ?",
+  "voice": "ff_siwis",
+  "lang": "fr-fr",
+  "speed": 0.9,
+  "note": "Texte officiel conservé à l'identique (display). 'say' = graphie pour la synthèse uniquement. Voix C (série), ton « professeur qui explique sa logique à un élève », silences rapides.",
+  "lead_in": 0.6,
+  "tail": 3.6,
+  "sentences": [
+    {
+      "id": "s1a",
+      "scene": 1,
+      "pause": 0.3,
+      "intent": "intime",
+      "chunks": [
+        [
+          "Élève, aujourd'hui,"
+        ],
+        [
+          "je voudrais que tu réfléchisses à une question :"
+        ]
+      ]
+    },
+    {
+      "id": "s1b",
+      "scene": 1,
+      "pause": 0.75,
+      "intent": "grave",
+      "chunks": [
+        [
+          "la foi s'oppose-t-elle réellement à la raison ?",
+          "La foi s'oppose-t-elle réellement à la raison ?"
+        ]
+      ]
+    },
+    {
+      "id": "s2a",
+      "scene": 2,
+      "pause": 0.3,
+      "intent": "prof",
+      "chunks": [
+        [
+          "Pour répondre, commençons par une distinction."
+        ]
+      ]
+    },
+    {
+      "id": "s2b",
+      "scene": 2,
+      "pause": 0.35,
+      "intent": "prof",
+      "chunks": [
+        [
+          "La raison examine une affirmation :"
+        ],
+        [
+          "est-elle cohérente ?"
+        ],
+        [
+          "Sur quoi repose-t-elle ?"
+        ]
+      ]
+    },
+    {
+      "id": "s2c",
+      "scene": 2,
+      "pause": 0.45,
+      "intent": "prof",
+      "chunks": [
+        [
+          "La foi, elle, engage une confiance envers Dieu"
+        ],
+        [
+          "et une vérité reçue comme révélée."
+        ]
+      ]
+    },
+    {
+      "id": "s3a",
+      "scene": 3,
+      "pause": 0.3,
+      "intent": "prof",
+      "chunks": [
+        [
+          "Ce sont deux démarches différentes."
+        ]
+      ]
+    },
+    {
+      "id": "s3b",
+      "scene": 3,
+      "pause": 0.6,
+      "intent": "elan",
+      "chunks": [
+        [
+          "Mais attention :"
+        ],
+        [
+          "différente ne signifie pas ennemie."
+        ]
+      ]
+    },
+    {
+      "id": "s4a",
+      "scene": 4,
+      "pause": 0.2,
+      "intent": "recit",
+      "chunks": [
+        [
+          "Dans la Bible, 1 Thessaloniciens 5:21 recommande :",
+          "Dans la Bible, la première lettre aux Thessaloniciens, chapitre cinq, verset vingt et un, recommande :"
+        ]
+      ],
+      "takes": 4
+    },
+    {
+      "id": "s4b",
+      "scene": 4,
+      "pause": 0.55,
+      "intent": "intime",
+      "chunks": [
+        [
+          "« Examinez toutes choses ;",
+          "Examinez toutes choses ;"
+        ],
+        [
+          "retenez ce qui est bon. »",
+          "retenez ce qui est bon."
+        ]
+      ],
+      "insert_pause": {
+        "after_word": 3,
+        "dur": 0.25
+      }
+    },
+    {
+      "id": "s5a",
+      "scene": 5,
+      "pause": 0.2,
+      "intent": "recit",
+      "chunks": [
+        [
+          "Dans le Coran, sourate 3, versets 190 et 191,",
+          "Dans le Coran, sourate trois, versets cent quatre-vingt-dix et cent quatre-vingt-onze,"
+        ]
+      ],
+      "takes": 5
+    },
+    {
+      "id": "s5b",
+      "scene": 5,
+      "pause": 0.55,
+      "intent": "prof",
+      "chunks": [
+        [
+          "la création est présentée comme un ensemble de signes"
+        ],
+        [
+          "pour les personnes douées de raison et de réflexion."
+        ]
+      ],
+      "insert_pause": {
+        "after_word": 9,
+        "dur": 0.18
+      }
+    },
+    {
+      "id": "s6a",
+      "scene": 6,
+      "pause": 0.2,
+      "intent": "recit",
+      "chunks": [
+        [
+          "Thomas d'Aquin, philosophe et théologien,"
+        ]
+      ],
+      "takes": 3
+    },
+    {
+      "id": "s6b",
+      "scene": 6,
+      "pause": 0.6,
+      "intent": "prof",
+      "chunks": [
+        [
+          "distinguait ce que la raison humaine peut connaître"
+        ],
+        [
+          "de ce qui dépasse ses capacités"
+        ],
+        [
+          "et relève de la révélation."
+        ]
+      ],
+      "insert_pause": {
+        "after_word": 8,
+        "dur": 0.18
+      }
+    },
+    {
+      "id": "s7a",
+      "scene": 7,
+      "pause": 0.3,
+      "intent": "elan",
+      "chunks": [
+        [
+          "Alors, voici la leçon :"
+        ]
+      ]
+    },
+    {
+      "id": "s7b",
+      "scene": 7,
+      "pause": 0.35,
+      "intent": "prof",
+      "chunks": [
+        [
+          "croire ne dispense pas de réfléchir.",
+          "Croire ne dispense pas de réfléchir."
+        ]
+      ]
+    },
+    {
+      "id": "s7c",
+      "scene": 7,
+      "pause": 0.8,
+      "intent": "prof",
+      "chunks": [
+        [
+          "Et réfléchir ne signifie pas nécessairement cesser de croire."
+        ]
+      ]
+    },
+    {
+      "id": "s8a",
+      "scene": 8,
+      "pause": 0.0,
+      "intent": "intime",
+      "chunks": [
+        [
+          "Mais dis-moi, élève :"
+        ],
+        [
+          "ta foi résiste-t-elle à tes questions,"
+        ],
+        [
+          "ou as-tu peur de les poser ?"
+        ]
+      ],
+      "insert_pause": {
+        "after_word": 4,
+        "dur": 0.45
+      },
+      "takes": 3
+    }
+  ],
+  "engine": "chatterbox",
+  "ref": "../../../series/enigme-humaine/voix_reference.flac",
+  "intent": "prof"
+}
