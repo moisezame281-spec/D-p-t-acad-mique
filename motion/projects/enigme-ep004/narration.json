@@ -1,0 +1,270 @@
+{
+  "title": "L'Énigme humaine — Épisode 004 — Le bien a-t-il besoin de Dieu ?",
+  "voice": "ff_siwis",
+  "lang": "fr-fr",
+  "speed": 0.9,
+  "note": "Texte officiel conservé à l'identique (display). 'say' = graphie pour la synthèse uniquement. Voix C (série), ton « professeur qui explique sa logique à un élève », silences rapides.",
+  "lead_in": 0.6,
+  "tail": 3.6,
+  "sentences": [
+    {
+      "id": "s1a",
+      "scene": 1,
+      "pause": 0.75,
+      "intent": "grave",
+      "chunks": [
+        [
+          "Une personne qui ne croit pas en Dieu"
+        ],
+        [
+          "peut-elle faire le bien ?"
+        ]
+      ],
+      "insert_pause": {
+        "after_word": 8,
+        "dur": 0.22
+      },
+      "takes": 3
+    },
+    {
+      "id": "s1b",
+      "scene": 1,
+      "pause": 0.3,
+      "intent": "recit",
+      "chunks": [
+        [
+          "Imaginons deux passants devant un inconnu en danger."
+        ]
+      ]
+    },
+    {
+      "id": "s1c",
+      "scene": 1,
+      "pause": 0.25,
+      "intent": "prof",
+      "chunks": [
+        [
+          "L’un croit en Dieu,"
+        ],
+        [
+          "l’autre non."
+        ]
+      ],
+      "insert_pause": {
+        "after_word": 5,
+        "dur": 0.18
+      },
+      "trim_end": 2.38
+    },
+    {
+      "id": "s1d",
+      "scene": 1,
+      "pause": 0.35,
+      "intent": "prof",
+      "chunks": [
+        [
+          "Tous deux s’arrêtent pour l’aider."
+        ]
+      ]
+    },
+    {
+      "id": "s1e",
+      "scene": 1,
+      "pause": 0.8,
+      "intent": "grave",
+      "chunks": [
+        [
+          "Leur geste est-il moins moral"
+        ],
+        [
+          "chez l’un que chez l’autre ?"
+        ]
+      ],
+      "takes": 3
+    },
+    {
+      "id": "s2a",
+      "scene": 2,
+      "pause": 0.2,
+      "intent": "prof",
+      "chunks": [
+        [
+          "Pour comprendre, distinguons deux choses :"
+        ]
+      ]
+    },
+    {
+      "id": "s2b",
+      "scene": 2,
+      "pause": 0.55,
+      "intent": "prof",
+      "chunks": [
+        [
+          "accomplir un acte juste",
+          "Accomplir un acte juste"
+        ],
+        [
+          "et expliquer pourquoi il faut être juste."
+        ]
+      ],
+      "insert_pause": {
+        "after_word": 4,
+        "dur": 0.25
+      }
+    },
+    {
+      "id": "s3a",
+      "scene": 3,
+      "pause": 0.15,
+      "intent": "recit",
+      "chunks": [
+        [
+          "Dans Matthieu 7:12,",
+          "Dans Matthieu, chapitre sept, verset douze,"
+        ]
+      ],
+      "takes": 4
+    },
+    {
+      "id": "s3b",
+      "scene": 3,
+      "pause": 0.55,
+      "intent": "prof",
+      "chunks": [
+        [
+          "Jésus enseigne à traiter les autres"
+        ],
+        [
+          "comme on voudrait être traité."
+        ]
+      ]
+    },
+    {
+      "id": "s4a",
+      "scene": 4,
+      "pause": 0.15,
+      "intent": "recit",
+      "chunks": [
+        [
+          "Le Coran, en sourate 5, verset 8,",
+          "Le Coran, en sourate cinq, verset huit,"
+        ]
+      ],
+      "takes": 5
+    },
+    {
+      "id": "s4b",
+      "scene": 4,
+      "pause": 0.55,
+      "intent": "prof",
+      "chunks": [
+        [
+          "appelle à rester juste,"
+        ],
+        [
+          "même envers ceux que l’on déteste."
+        ]
+      ],
+      "insert_pause": {
+        "after_word": 4,
+        "dur": 0.2
+      }
+    },
+    {
+      "id": "s5a",
+      "scene": 5,
+      "pause": 0.6,
+      "intent": "prof",
+      "chunks": [
+        [
+          "Kant, lui, défend l’idée",
+          "Kante, lui, défend l’idée"
+        ],
+        [
+          "que la raison peut reconnaître un devoir qui s’impose,"
+        ],
+        [
+          "même contre nos intérêts."
+        ]
+      ],
+      "takes": 4
+    },
+    {
+      "id": "s6a",
+      "scene": 6,
+      "pause": 0.2,
+      "intent": "elan",
+      "chunks": [
+        [
+          "On comprend alors une nuance :"
+        ]
+      ]
+    },
+    {
+      "id": "s6b",
+      "scene": 6,
+      "pause": 0.45,
+      "intent": "prof",
+      "chunks": [
+        [
+          "la foi n’est pas une condition nécessaire",
+          "La foi n’est pas une condition nécessaire"
+        ],
+        [
+          "pour accomplir un acte juste."
+        ]
+      ]
+    },
+    {
+      "id": "s6c",
+      "scene": 6,
+      "pause": 0.6,
+      "intent": "grave",
+      "chunks": [
+        [
+          "Mais cela ne tranche pas"
+        ],
+        [
+          "la question de son fondement ultime."
+        ]
+      ]
+    },
+    {
+      "id": "s7a",
+      "scene": 7,
+      "pause": 0.55,
+      "intent": "intime",
+      "chunks": [
+        [
+          "Le bien vient-il de Dieu,"
+        ],
+        [
+          "ou la raison humaine peut-elle en reconnaître la valeur"
+        ],
+        [
+          "par elle-même ?"
+        ]
+      ],
+      "insert_pause": {
+        "after_word": 6,
+        "dur": 0.35
+      },
+      "takes": 3
+    },
+    {
+      "id": "s7b",
+      "scene": 7,
+      "pause": 0.0,
+      "intent": "grave",
+      "chunks": [
+        [
+          "C’est là que commence le véritable débat."
+        ]
+      ],
+      "takes": 3
+    }
+  ],
+  "engine": "chatterbox",
+  "ref": "../../../series/enigme-humaine/voix_reference.flac",
+  "intent": "prof"
+}

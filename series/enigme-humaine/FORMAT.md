@@ -62,6 +62,23 @@ Le format court fait **58 à 60 s** ; le format long peut aller **jusqu'à 2 min
 11. *(ép. 003)* La Bible au lutrin : lumière naturelle, profondeur de champ, signet, tranche dorée
 12. *(ép. 003)* La cour à arcades : alternance du jour et de la nuit, lumière à travers les arcs, bassin-miroir, étoiles reliées en géométrie
 13. *(ép. 003)* La chapelle aux vitraux, avec un tableau du domaine public dans un cadre doré, et le schéma à deux niveaux (escalier, limite, rosace)
+14. *(ép. 004)* La rue sous la pluie, la nuit, avec un passage piéton et deux passants (le personnage de la série en sweat, un second en manteau et bonnet) ; version aube
+15. *(ép. 004)* L'arbre en coupe : l'acte au-dessus du sol, le « pourquoi » dans les racines ; versions jour et nuit, avec des racines profondes vers deux lumières
+16. *(ép. 004)* La nef en perspective, avec deux personnes en miroir et une Bible au lutrin
+17. *(ép. 004)* La forêt d'arcs bicolores (arcs outrepassés sur colonnes, arcs supérieurs), avec une ombre géométrique au sol et une balance de lumière
+18. *(ép. 004)* Le cabinet du philosophe : lambris, fenêtre étoilée, portrait ovale du domaine public, boussole du devoir
+
+## 3 bis. Transitions de mise en scène (depuis l'ép. 004)
+
+Chaque passage de la voix enchaîne sur le suivant par une **transition qui a un sens**, d'environ 1 s, posée dans le silence entre deux phrases (`KINDS` dans `scene.js`) :
+
+| Transition | Effet | Usage |
+|---|---|---|
+| `descend` / `rise` | la caméra plonge sous le sol ou remonte ; une ligne de lumière fait le raccord | du concret vers le fondement, et retour |
+| `light` | on traverse une source lumineuse (un fruit devient un vitrail) | vers une perspective spirituelle |
+| `whip` | panoramique filé : une architecture chasse l'autre | d'une tradition à l'autre |
+| `star` | une étoile géométrique s'ouvre en tournant | de la géométrie islamique vers l'objet suivant (la boussole) |
+| `page` | la page tourne | du philosophe vers la synthèse |
 
 **Règle de variété :** chaque nouvel épisode réutilise au maximum 4 décors et en ajoute au moins 1 nouveau, ou une variante (saison, lumière, lieu). Deux épisodes ne se ressemblent donc jamais.
 

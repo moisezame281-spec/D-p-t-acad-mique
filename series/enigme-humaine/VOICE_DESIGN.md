@@ -38,6 +38,8 @@ Chaque phrase reçoit une **intention** :
 6. Chaque phrase est générée en plusieurs prises. La transcription élimine celles qui écorchent le texte, puis on garde la plus expressive.
 7. *(depuis l'ép. 003)* **Queues parasites :** si le moteur ajoute des syllabes après le dernier mot (« … une question, six litres »), elles sont détectées par la transcription et coupées automatiquement (`narrate.py`).
 8. *(depuis l'ép. 003)* **Références et nombres :** une prise n'est retenue que si deux modèles de transcription (Whisper « small » et « medium ») entendent le bon nombre. Pour les livres bibliques, on écrit la lecture complète, par exemple « la première lettre aux Thessaloniciens, chapitre cinq, verset vingt et un ».
+9. *(depuis l'ép. 004)* **Noms propres piégeux :** on teste une graphie phonétique et on la valide avec deux modèles de transcription (« Kant » → « Kante », sinon la voix dit « quand »). Le texte affiché reste celui du script.
+10. *(depuis l'ép. 004)* **Répétitions cachées :** toute la voix est relue par le modèle « medium ». Une répétition du moteur (« l'autre non… l'autre non ») se corrige avec `"trim_end"` (fin de prise imposée, en secondes) dans `narration.json`.
 
 ## 3. Le traitement studio (`motion/tools/voice_master.py`)
 

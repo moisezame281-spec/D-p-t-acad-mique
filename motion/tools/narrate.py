@@ -107,6 +107,9 @@ for sen in cfg['sentences']:
     chunks = [{'display': c[0], 'say': c[1] if len(c) > 1 and c[1] else c[0]} for c in sen['chunks']]
     say = ' '.join(c['say'] for c in chunks)
     s = synth(sen, say)
+    if sen.get('trim_end'):  # fin de prise imposée (répétition du moteur repérée à l'écoute ou par la transcription « medium »)
+        ci = int(sen['trim_end'] * SR); fo = int(.04 * SR)
+        if ci < len(s): s = s[:ci].copy(); s[-fo:] *= np.linspace(1, 0, fo)
     dur = len(s) / SR
     # mots reconnus avec horodatage
     segs, _ = asr.transcribe(librosa.resample(s, orig_sr=SR, target_sr=16000), language='fr', beam_size=5,

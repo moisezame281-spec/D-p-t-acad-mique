@@ -63,9 +63,11 @@ cp "$WORK/render/audio.wav" "$OUT/${PFX}_AUDIO.wav"; cp "$WORK/subtitles.srt" "$
 read A B C E < <(python3 - "$P/timeline.json" <<'PY'
 import json, sys
 t = json.load(open(sys.argv[1])); S = t['sentences']; D = t['duration']
-hook = max(s['end'] for s in S if s['scene'] == 1) + .35
-tail = 15.3 - hook
-print(0, round(hook, 2), round(max(hook + 1, D - tail), 2), round(D, 2))
+qs = [s for s in S if s['scene'] == 1 and s['display'].rstrip().endswith('?')]  # accroche = la première question posée
+hook = (qs[0]['end'] if qs else max(s['end'] for s in S if s['scene'] == 1)) + .35
+lastq = [s for s in S if s['display'].rstrip().endswith('?')][-1]['start'] - .15   # la question finale, en entier
+start = lastq if hook + (D - lastq) <= 20 else D - (15.3 - hook)
+print(0, round(hook, 2), round(max(hook + 1, start), 2), round(D, 2))
 PY
 )
 "$FF" -loglevel error -y -i "$OUT/${PFX}_MASTER_9x16.mp4" -filter_complex \
