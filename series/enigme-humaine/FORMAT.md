@@ -45,6 +45,7 @@ Le format court fait **58 à 60 s** ; le format long peut aller **jusqu'à 2 min
 - **Ouverture :** grand titre « L'Énigme humaine » en Instrument Serif rose, avec le numéro de l'épisode.
 - **Clôture :** le miroir vide, la lumière qui monte, puis « L'ÉNIGME HUMAINE. » et « Fais ta propre réflexion. »
 - **Son :** musique synthétisée, propre à chaque épisode, par sections ; coupure sur la question ; silence final ; la voix toujours devant.
+- **Voix :** la **version C, expressive**, avec le ton d'un professeur qui explique (voir `VOICE_DESIGN.md`).
 
 ## 3. Bibliothèque de décors (déjà construits, réutilisables)
 

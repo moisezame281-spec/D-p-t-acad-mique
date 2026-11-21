@@ -22,8 +22,9 @@ say() { printf '\n\033[1m▶ %s\033[0m\n' "$*"; }
 VENV="$CACHE/venv"
 if [ ! -x "$VENV/bin/python" ]; then
   say "Installation des outils voix (une seule fois)"
-  if command -v uv >/dev/null; then uv venv -q -p python3 "$VENV" && VIRTUAL_ENV="$VENV" uv pip install -q kokoro-onnx faster-whisper soundfile librosa
-  else python3 -m venv "$VENV" && "$VENV/bin/pip" install -q kokoro-onnx faster-whisper soundfile librosa; fi
+  PKGS="kokoro-onnx faster-whisper soundfile librosa chatterbox-tts setuptools<81"   # chatterbox = voix C expressive de la série
+  if command -v uv >/dev/null; then uv venv -q -p python3 "$VENV" && VIRTUAL_ENV="$VENV" uv pip install -q $PKGS
+  else python3 -m venv "$VENV" && "$VENV/bin/pip" install -q $PKGS; fi
 fi
 KOK="$CACHE/kokoro"
 if [ ! -f "$KOK/kokoro-v1.0.onnx" ]; then

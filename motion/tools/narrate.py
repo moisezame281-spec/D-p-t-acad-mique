@@ -1,4 +1,7 @@
-"""Narration synthétisée (Kokoro) + minutage mot à mot (faster-whisper) + sous-titres.
+"""Narration synthétisée + minutage mot à mot (faster-whisper) + sous-titres.
+Moteurs : "kokoro" (rapide) ou "chatterbox" (expressif, voix C de la série : timbre de la voix validée,
+plus d'émotion, plusieurs prises par phrase, la plus expressive parmi celles fidèles au texte, traitement studio).
+Intentions par phrase (chatterbox) : intime, grave, prof (explique, par défaut), recit, elan.
 Usage : python tools/narrate.py <narration.json> <dossier-modele-kokoro> <dossier-sortie>
 Sorties : voice.wav (48 kHz mono), timeline.json (phrases, mots, blocs de sous-titres), subtitles.srt
 Le texte affiché ('display') reste celui du script officiel ; 'say' ne sert qu'à la prononciation.
@@ -21,6 +24,58 @@ os.makedirs(out, exist_ok=True)
 SR = 48000
 tts = Kokoro(f'{model_dir}/kokoro-v1.0.onnx', f'{model_dir}/voices-v1.0.bin')
 asr = WhisperModel('small', device='cpu', compute_type='int8')
+ENGINE = cfg.get('engine', 'kokoro')
+INTENTS = {  # émotion (exaggeration), rythme (cfg : plus bas = plus posé), prises, traitement
+    'intime': dict(ex=.78, cfg=.33, temp=.8, takes=3, style='intime'),
+    'grave':  dict(ex=.85, cfg=.30, temp=.8, takes=3, style='standard'),
+    'prof':   dict(ex=.72, cfg=.38, temp=.8, takes=2, style='standard'),
+    'recit':  dict(ex=.62, cfg=.42, temp=.75, takes=2, style='standard'),
+    'elan':   dict(ex=.80, cfg=.45, temp=.8, takes=2, style='standard'),
+}
+if ENGINE == 'chatterbox':
+    import torch
+    sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+    from voice_master import master
+    from chatterbox.mtl_tts import ChatterboxMultilingualTTS
+    REF = cfg['ref'] if os.path.isabs(cfg['ref']) else os.path.normpath(os.path.join(os.path.dirname(os.path.abspath(sys.argv[1])), cfg['ref']))
+    cb = ChatterboxMultilingualTTS.from_pretrained(device='cpu')
+    cb.prepare_conditionals(REF, exaggeration=.7)
+
+
+def _wer(ref, hyp):
+    r, h = norm_words(ref), norm_words(hyp); d = list(range(len(h) + 1))
+    for i, x in enumerate(r, 1):
+        p_, d[0] = d[0], i
+        for j, y in enumerate(h, 1): p_, d[j] = d[j], min(d[j] + 1, d[j - 1] + 1, p_ + (x != y))
+    return d[len(h)] / max(1, len(r))
+
+
+def _melody(y):
+    y16 = librosa.resample(y, orig_sr=SR, target_sr=16000)
+    f0, vf, _ = librosa.pyin(y16, fmin=90, fmax=500, sr=16000, frame_length=1024)
+    f = f0[vf & ~np.isnan(f0)]
+    if len(f) < 5: return 0.0
+    st = 12 * np.log2(f / np.median(f)); return float(np.percentile(st, 95) - np.percentile(st, 5))
+
+
+def synth(sen, say):
+    """Renvoie la phrase prononcée (48 kHz), selon le moteur choisi."""
+    if ENGINE != 'chatterbox':
+        a, r_ = tts.create(say, voice=cfg['voice'], speed=sen.get('speed', cfg['speed']), lang=cfg['lang'])
+        return librosa.resample(trim(np.asarray(a, dtype=np.float32), r_), orig_sr=r_, target_sr=SR).astype(np.float32)
+    it = dict(INTENTS[sen.get('intent', cfg.get('intent', 'prof'))])
+    best = None
+    for k in range(sen.get('takes', it['takes'])):
+        torch.manual_seed(1000 + 17 * k + len(say))
+        w = cb.generate(say.replace('…', '...'), language_id='fr', exaggeration=it['ex'], cfg_weight=it['cfg'], temperature=it['temp'])
+        y = librosa.resample(trim(w.squeeze(0).cpu().numpy().astype(np.float32), cb.sr), orig_sr=cb.sr, target_sr=SR).astype(np.float32)
+        sg, _ = asr.transcribe(librosa.resample(y, orig_sr=SR, target_sr=16000), language='fr', beam_size=5, temperature=0.0)
+        e = _wer(say, ' '.join(x.text for x in sg)); mel = _melody(y)
+        score = (e > .12, e if e > .12 else 0, -min(mel, 20) + max(0, mel - 22))  # fidèle d'abord, puis le plus expressif
+        print(f'      prise {k + 1}: écart {e:.0%}, mélodie {mel:.1f} demi-tons', flush=True)
+        if best is None or score < best[0]: best = (score, y)
+    y = master(best[1], SR, it['style']).astype(np.float32)
+    return y / (np.max(np.abs(y)) + 1e-9) * .89
 
 
 def norm_words(s):
@@ -39,8 +94,7 @@ track_parts, timeline, t = [], [], float(cfg.get('lead_in', 0.5))
 for sen in cfg['sentences']:
     chunks = [{'display': c[0], 'say': c[1] if len(c) > 1 and c[1] else c[0]} for c in sen['chunks']]
     say = ' '.join(c['say'] for c in chunks)
-    s, sr = tts.create(say, voice=cfg['voice'], speed=sen.get('speed', cfg['speed']), lang=cfg['lang'])
-    s = librosa.resample(trim(np.asarray(s, dtype=np.float32), sr), orig_sr=sr, target_sr=SR).astype(np.float32)
+    s = synth(sen, say)
     dur = len(s) / SR
     # mots reconnus avec horodatage
     segs, _ = asr.transcribe(librosa.resample(s, orig_sr=SR, target_sr=16000), language='fr', beam_size=5,

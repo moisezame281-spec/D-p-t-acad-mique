@@ -3,7 +3,7 @@
   "voice": "ff_siwis",
   "lang": "fr-fr",
   "speed": 0.9,
-  "note": "Texte officiel conservé à l'identique (display). 'say' = graphie pour la synthèse uniquement. La question finale est dite plus lentement, avec un silence.",
+  "note": "Texte officiel conservé à l'identique (display). 'say' = graphie pour la synthèse uniquement. La question finale est dite plus lentement, avec un silence. Voix C (série) : moteur expressif Chatterbox, timbre de la voix validée, ton « professeur qui explique sa logique ».",
   "lead_in": 0.6,
   "tail": 3.4,
   "sentences": [
@@ -23,7 +23,8 @@
         [
           "Sa mère prie."
         ]
-      ]
+      ],
+      "intent": "intime"
     },
     {
       "id": "s1c",
@@ -34,7 +35,8 @@
         [
           "Et le ciel reste silencieux."
         ]
-      ]
+      ],
+      "intent": "intime"
     },
     {
       "id": "s1d",
@@ -51,7 +53,8 @@
         [
           "pourquoi l’innocent souffre-t-il ?"
         ]
-      ]
+      ],
+      "intent": "grave"
     },
     {
       "id": "s2a",
@@ -64,7 +67,8 @@
         [
           "un homme juste est frappé par le malheur."
         ]
-      ]
+      ],
+      "intent": "prof"
     },
     {
       "id": "s2b",
@@ -74,7 +78,8 @@
         [
           "Ses amis veulent y voir une punition."
         ]
-      ]
+      ],
+      "intent": "prof"
     },
     {
       "id": "s2c",
@@ -90,7 +95,8 @@
         [
           "avoir mérité sa douleur."
         ]
-      ]
+      ],
+      "intent": "prof"
     },
     {
       "id": "s3a",
@@ -101,7 +107,8 @@
           "Le Coran, dans la sourate 2, verset 155,",
           "Le Coran, dans la sourate deux, verset cent cinquante-cinq,"
         ]
-      ]
+      ],
+      "intent": "recit"
     },
     {
       "id": "s3b",
@@ -114,7 +121,8 @@
         [
           "et appelle à la patience."
         ]
-      ]
+      ],
+      "intent": "prof"
     },
     {
       "id": "s4a",
@@ -130,7 +138,8 @@
         [
           "les suivantes en recherchent l’origine et la cessation."
         ]
-      ]
+      ],
+      "intent": "prof"
     },
     {
       "id": "s5a",
@@ -140,7 +149,8 @@
         [
           "Et Albert Camus ?"
         ]
-      ]
+      ],
+      "intent": "elan"
     },
     {
       "id": "s5b",
@@ -153,7 +163,8 @@
         [
           "il oppose la lucidité et la solidarité humaine."
         ]
-      ]
+      ],
+      "intent": "prof"
     },
     {
       "id": "s6a",
@@ -163,7 +174,8 @@
         [
           "Ces traditions ne donnent pas la même réponse."
         ]
-      ]
+      ],
+      "intent": "grave"
     },
     {
       "id": "s7a",
@@ -173,7 +185,8 @@
         [
           "Mais voici une question peut-être plus urgente :"
         ]
-      ]
+      ],
+      "intent": "elan"
     },
     {
       "id": "s7b",
@@ -195,7 +208,11 @@
         [
           "peux-tu au moins contribuer à la soulager ?"
         ]
-      ]
+      ],
+      "intent": "intime"
     }
-  ]
+  ],
+  "engine": "chatterbox",
+  "ref": "../../../series/enigme-humaine/voix_reference.flac",
+  "intent": "prof"
 }

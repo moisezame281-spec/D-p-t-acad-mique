@@ -1,5 +1,7 @@
 # L'Énigme humaine : direction de la voix off (voice design)
 
+> **Choix validé le 21/11/2026 : version C, expressive.** Elle est le standard de la série à partir de l'épisode 002. Ton : un professeur qui explique sa logique à un élève, avec chaleur, en posant les choses et en marquant les mots clés.
+
 La voix porte l'épisode. Ce document fixe la méthode pour qu'elle soit **expressive, crédible et constante** d'un épisode à l'autre.
 
 ## 1. Le moteur : même voix, plus de jeu
@@ -19,10 +21,13 @@ Chaque phrase reçoit une **intention** :
 
 | Intention | Usage | Débit | Émotion (C) | Silence après |
 |---|---|---|---|---|
-| **intime** | ouverture, question finale | lent (0,80–0,85) | 0,8 | 0,7–1,0 s |
-| **grave** | la question centrale, le titre | lent | 0,7 | 1,0 s (avec coupure de la musique) |
-| **récit** | les traditions, les références | naturel (0,9) | 0,55 | 0,4–0,8 s |
-| **élan** | la solution, la bascule | légèrement plus vif | 0,7 | 0,5 s |
+| **intime** | ouverture, question finale | posé (rythme 0,33) | 0,78 | 0,7–1,0 s |
+| **grave** | la question centrale, la nuance | très posé (0,30) | 0,85 | 1,0 s (avec coupure de la musique) |
+| **prof** *(par défaut)* | les explications, la logique d'une tradition | posé et clair (0,38) | 0,72 | 0,4–0,8 s |
+| **récit** | les références (sourate, verset, livre) | naturel (0,42) | 0,62 | 0,2–0,5 s |
+| **élan** | la bascule (« Et Albert Camus ? », « Mais voici… ») | plus vif (0,45) | 0,80 | 0,5 s |
+
+*Réglage dans `narration.json` : `"engine": "chatterbox"`, `"ref": "…/voix_reference.flac"` (le timbre de la voix validée), et `"intent"` sur chaque phrase.*
 
 **Règles d'écriture pour la voix**
 1. Une respiration ne dépasse pas 14 mots. Au-delà, couper par une virgule ou un silence.
