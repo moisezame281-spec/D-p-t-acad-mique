@@ -32,6 +32,8 @@ INTENTS = {  # émotion (exaggeration), rythme (cfg : plus bas = plus posé), pr
     'recit':  dict(ex=.62, cfg=.42, temp=.75, takes=2, style='standard'),
     'elan':   dict(ex=.80, cfg=.45, temp=.8, takes=2, style='standard'),
     'flow':   dict(ex=.80, cfg=.40, temp=.8, takes=3, style='standard'),   # explication continue (passages entiers)
+    'flow_slow': dict(ex=.78, cfg=.30, temp=.8, takes=4, style='standard'),  # ouverture : même ton, débit un peu plus posé
+    'flow_slower': dict(ex=.78, cfg=.22, temp=.8, takes=5, style='standard'),  # question d'ouverture : encore un peu plus posée
 }
 if ENGINE == 'chatterbox':
     import torch
@@ -106,8 +108,10 @@ def synth(sen, say):
         sg = list(sg); e = _wer(say, ' '.join(x.text for x in sg)); mel = _melody(y)
         nq = say.count('?'); qe = [w.end for x in sg for w in (x.words or []) if '?' in w.word][:nq]
         rs = question_rises(y, qe) if qe else []; rise = (sum(min(r, 6) for r in rs) / nq - 2 * max(0, nq - len(qe))) if nq else 0.0
-        score = (e > (.02 if cfg.get('judge') else .12), e if e > (.02 if cfg.get('judge') else .12) else 0, -rise * .6 - min(mel, 20) + max(0, mel - 22))  # fidèle d'abord (sans bégaiement), puis des questions qui montent, puis le plus expressif
-        print(f'      prise {k + 1}: écart {e:.0%}, mélodie {mel:.1f} demi-tons' + (f", questions {', '.join(f'{r:+.1f}' for r in rs)}" if nq else ''), flush=True)
+        wps = len(norm_words(say)) / max(.5, len(y) / SR); pace = sen.get('pace')   # débit (mots par seconde) : sur l'ouverture, on préfère la prise la plus posée
+        slow = max(0, wps - pace) * 6 if pace else 0
+        score = (e > (.02 if cfg.get('judge') else .12), e if e > (.02 if cfg.get('judge') else .12) else 0, slow - rise * .6 - min(mel, 20) + max(0, mel - 22))  # fidèle d'abord (sans bégaiement), puis le débit voulu, des questions qui montent, puis le plus expressif
+        print(f'      prise {k + 1}: écart {e:.0%}, mélodie {mel:.1f} demi-tons, débit {wps:.2f} mots/s' + (f", questions {', '.join(f'{r:+.1f}' for r in rs)}" if nq else ''), flush=True)
         if best is None or score < best[0]: best = (score, y)
     y = master(best[1], SR, it['style']).astype(np.float32)
     y = y / (np.max(np.abs(y)) + 1e-9) * .89
@@ -274,3 +278,8 @@ with open(os.path.join(out, 'subtitles.srt'), 'w', encoding='utf-8') as f:
             end = min(end, allc[n]['start'] - 0.04)
         f.write(f"{n}\n{ts(c['start'])} --> {ts(max(end, c['start'] + 0.3))}\n{c['text']}\n\n")
 print(f'durée totale : {total:.2f} s — narration {timeline[0]["start"]:.2f} → {timeline[-1]["end"]:.2f} s')
+# ralentissement léger d'une phrase (ex. question d'ouverture) : "stretch": 0.9 dans narration.json
+for sen in cfg['sentences']:
+    if sen.get('stretch'):
+        import subprocess
+        subprocess.run([sys.executable, os.path.join(os.path.dirname(os.path.abspath(__file__)), 'stretch.py'), out, sen['id'], str(sen['stretch'])], check=True)

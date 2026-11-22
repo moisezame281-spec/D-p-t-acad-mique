@@ -67,6 +67,15 @@ Le format court fait **58 à 60 s** ; le format long peut aller **jusqu'à 2 min
 16. *(ép. 004)* La nef en perspective, avec deux personnes en miroir et une Bible au lutrin
 17. *(ép. 004)* La forêt d'arcs bicolores (arcs outrepassés sur colonnes, arcs supérieurs), avec une ombre géométrique au sol et une balance de lumière
 18. *(ép. 004)* Le cabinet du philosophe : lambris, fenêtre étoilée, portrait ovale du domaine public, boussole du devoir
+19. *(ép. 005)* La cloche de verre dans la galerie de miroirs ; les deux observateurs et la sphère de fragments ; la caverne de Platon ; les deux lumières ; le corridor d'arcs ; le filtre du biais de confirmation
+20. *(ép. 006)* Le livre sans dernière page ; le grand sablier de bois ; la roue des saisons ; les ruines dans le désert ; l'atrium romain et le sablier fêlé ; l'allée du vieux cimetière ; la colline au couchant
+21. *(ép. 007)* **La vieille photographie** sur la table (tirage sépia à bord dentelé, portrait d'enfant, puis le tirage de l'adulte)
+22. *(ép. 007)* **Le miroir ancien** à cadre doré dans une pièce au papier peint damassé : le reflet passe de l'adulte à l'enfant
+23. *(ép. 007)* **Le fil des souvenirs** : un fil de lumière tenu par l'élève, avec des souvenirs accrochés qui s'éloignent vers le passé
+24. *(ép. 007)* **La mémoire en mosaïque** : un souvenir en pellicule sur un réseau de neurones ; il se défait en tuiles, puis se recompose avec des différences
+25. *(ép. 007)* **Le lac à l'aube**, avec l'élève assis en tailleur sur un rocher et le mot « MOI » en pierre qui se défait en poussière
+26. *(ép. 007)* **La statue dans la brume**, entre trois marcheurs aux lanternes de couleur : elle se fissure
+27. *(ép. 007)* **La galerie des trois cadres** (passé, présent, avenir) éclairés tour à tour
 
 ## 3 bis. Transitions (révisées le 22/11 : sobres et fluides)
 

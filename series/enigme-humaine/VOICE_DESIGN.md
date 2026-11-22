@@ -24,6 +24,7 @@ Chaque phrase reçoit une **intention** :
 | Intention | Usage | Débit | Émotion (C) | Silence après |
 |---|---|---|---|---|
 | **flow** *(standard depuis le 22/11)* | passages entiers, explication continue | naturel (0,40) | 0,80 | 0,2 s entre deux passages seulement |
+| **flow_slow** *(ouverture, depuis l'ép. 007)* | les toutes premières phrases | plus posé (0,30) | 0,78 | idem, avec une cible de débit (`pace`) |
 | **intime** | ouverture, question finale | posé (rythme 0,33) | 0,78 | 0,7–1,0 s |
 | **grave** | la question centrale, la nuance | très posé (0,30) | 0,85 | 1,0 s (avec coupure de la musique) |
 | **prof** *(par défaut)* | les explications, la logique d'une tradition | posé et clair (0,38) | 0,72 | 0,4–0,8 s |
@@ -43,6 +44,7 @@ Chaque phrase reçoit une **intention** :
 8. *(depuis l'ép. 003)* **Références et nombres :** une prise n'est retenue que si deux modèles de transcription (Whisper « small » et « medium ») entendent le bon nombre. Pour les livres bibliques, on écrit la lecture complète, par exemple « la première lettre aux Thessaloniciens, chapitre cinq, verset vingt et un ».
 9. *(depuis l'ép. 004)* **Noms propres piégeux :** on teste une graphie phonétique et on la valide avec deux modèles de transcription (« Kant » → « Kante », sinon la voix dit « quand »). Le texte affiché reste celui du script.
 10. *(depuis l'ép. 004)* **Répétitions cachées :** toute la voix est relue par le modèle « medium ». Une répétition du moteur (« l'autre non… l'autre non ») se corrige avec `"trim_end"` (fin de prise imposée, en secondes) dans `narration.json`.
+11. *(depuis l'ép. 007)* **Une ouverture plus posée** (demande du 22/11) : les premières phrases utilisent l'intention `flow_slow` (même ton, rythme un peu plus lent) avec une cible de débit (`"pace"`, en mots par seconde). Parmi les prises correctes, on préfère la plus posée. Si la question d'ouverture reste trop rapide, `motion/tools/stretch.py` la ralentit d'environ 10 % par étirement temporel, sans changer la hauteur de la voix, et met le minutage à jour. Objectif : environ 5 syllabes par seconde sur l'ouverture, contre 5,4 à 5,8 sur le reste.
 
 ## 3. Le traitement studio (`motion/tools/voice_master.py`)
 

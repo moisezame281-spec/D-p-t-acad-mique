@@ -1,0 +1,269 @@
+{
+  "title": "L'Énigme humaine — Épisode 007 — Es-tu encore la même personne ?",
+  "voice": "ff_siwis",
+  "lang": "fr-fr",
+  "speed": 0.9,
+  "note": "Style validé : explication continue, questions qui montent, prises jugées par Whisper medium. Ouverture légèrement plus posée (demande du 22/11). Texte fourni conservé à l'identique.",
+  "lead_in": 0.6,
+  "tail": 3.8,
+  "sentences": [
+    {
+      "id": "s1a",
+      "scene": 1,
+      "group": "g1",
+      "pause": 0,
+      "intent": "flow_slow",
+      "takes": 4,
+      "chunks": [
+        [
+          "Une photographie d’un enfant montre un visage familier."
+        ]
+      ],
+      "pace": 2.35
+    },
+    {
+      "id": "s1b",
+      "scene": 1,
+      "group": "g1",
+      "pause": 0.3,
+      "intent": "flow_slow",
+      "takes": 4,
+      "chunks": [
+        [
+          "Pourtant, l’adulte qu’il deviendra"
+        ],
+        [
+          "n’aura peut-être plus les mêmes rêves,"
+        ],
+        [
+          "les mêmes croyances, ni la même manière d’aimer."
+        ]
+      ],
+      "pace": 2.35
+    },
+    {
+      "id": "s2a",
+      "scene": 2,
+      "group": "g2",
+      "pause": 0.3,
+      "intent": "flow_slower",
+      "takes": 5,
+      "chunks": [
+        [
+          "Alors, qu’est-ce qui permet d’affirmer"
+        ],
+        [
+          "qu’il s’agit toujours de la même personne ?"
+        ]
+      ],
+      "pace": 2.6
+    },
+    {
+      "id": "s3a",
+      "scene": 3,
+      "group": "g3",
+      "pause": 0,
+      "intent": "flow",
+      "takes": 3,
+      "chunks": [
+        [
+          "Au XVIIe siècle, le philosophe John Locke",
+          "Au dix-septième siècle, le philosophe John Locke"
+        ],
+        [
+          "propose une idée troublante :"
+        ]
+      ]
+    },
+    {
+      "id": "s3b",
+      "scene": 3,
+      "group": "g3",
+      "pause": 0,
+      "intent": "flow",
+      "takes": 3,
+      "chunks": [
+        [
+          "notre identité personnelle repose"
+        ],
+        [
+          "sur la continuité de notre conscience,"
+        ]
+      ]
+    },
+    {
+      "id": "s3c",
+      "scene": 3,
+      "group": "g3",
+      "pause": 0.25,
+      "intent": "flow",
+      "takes": 3,
+      "chunks": [
+        [
+          "notamment sur notre capacité à nous reconnaître"
+        ],
+        [
+          "dans nos expériences passées."
+        ]
+      ]
+    },
+    {
+      "id": "s4a",
+      "scene": 4,
+      "group": "g4",
+      "pause": 0,
+      "intent": "flow",
+      "takes": 3,
+      "chunks": [
+        [
+          "Mais les neurosciences compliquent cette réponse."
+        ]
+      ]
+    },
+    {
+      "id": "s4b",
+      "scene": 4,
+      "group": "g4",
+      "pause": 0,
+      "intent": "flow",
+      "takes": 3,
+      "chunks": [
+        [
+          "La mémoire n’est pas un enregistrement fidèle du passé."
+        ]
+      ]
+    },
+    {
+      "id": "s4c",
+      "scene": 4,
+      "group": "g4",
+      "pause": 0.25,
+      "intent": "flow",
+      "takes": 3,
+      "chunks": [
+        [
+          "Elle le reconstruit, parfois en le modifiant."
+        ]
+      ]
+    },
+    {
+      "id": "s5a",
+      "scene": 5,
+      "group": "g5",
+      "pause": 0,
+      "intent": "flow",
+      "takes": 3,
+      "chunks": [
+        [
+          "La tradition bouddhiste pousse la réflexion encore plus loin :"
+        ]
+      ]
+    },
+    {
+      "id": "s5b",
+      "scene": 5,
+      "group": "g5",
+      "pause": 0,
+      "intent": "flow",
+      "takes": 3,
+      "chunks": [
+        [
+          "en examinant le corps, les sensations, les pensées et la conscience,"
+        ]
+      ]
+    },
+    {
+      "id": "s5c",
+      "scene": 5,
+      "group": "g5",
+      "pause": 0.25,
+      "intent": "flow",
+      "takes": 3,
+      "chunks": [
+        [
+          "elle invite à remettre en question"
+        ],
+        [
+          "l’existence d’un « moi » permanent et immuable.",
+          "l’existence d’un moi permanent et immuable."
+        ]
+      ]
+    },
+    {
+      "id": "s6a",
+      "scene": 6,
+      "group": "g6",
+      "pause": 0,
+      "intent": "flow",
+      "takes": 3,
+      "chunks": [
+        [
+          "Ces approches ne disent pas la même chose."
+        ]
+      ]
+    },
+    {
+      "id": "s6b",
+      "scene": 6,
+      "group": "g6",
+      "pause": 0.25,
+      "intent": "flow",
+      "takes": 3,
+      "chunks": [
+        [
+          "Pourtant, elles ébranlent une certitude :"
+        ],
+        [
+          "celle d’une identité figée."
+        ]
+      ]
+    },
+    {
+      "id": "s7a",
+      "scene": 7,
+      "group": "g7",
+      "pause": 0,
+      "intent": "flow",
+      "takes": 3,
+      "chunks": [
+        [
+          "Alors, qu’est-ce qui mérite notre fidélité :"
+        ]
+      ]
+    },
+    {
+      "id": "s7b",
+      "scene": 7,
+      "group": "g7",
+      "pause": 0,
+      "intent": "flow",
+      "takes": 3,
+      "chunks": [
+        [
+          "la personne que nous avons été,"
+        ],
+        [
+          "celle que nous sommes,"
+        ],
+        [
+          "ou celle que nous pouvons encore devenir ?"
+        ]
+      ],
+      "rise_words": [
+        [
+          5,
+          2.5
+        ],
+        [
+          9,
+          2.5
+        ]
+      ]
+    }
+  ],
+  "engine": "chatterbox",
+  "ref": "../../../series/enigme-humaine/voix_reference.flac",
+  "intent": "flow",
+  "judge": "medium",
+  "question_rise": 4.5
+}

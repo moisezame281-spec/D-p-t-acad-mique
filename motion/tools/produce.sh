@@ -63,11 +63,17 @@ cp "$WORK/render/audio.wav" "$OUT/${PFX}_AUDIO.wav"; cp "$WORK/subtitles.srt" "$
 read A B C E < <(python3 - "$P/timeline.json" <<'PY'
 import json, sys
 t = json.load(open(sys.argv[1])); S = t['sentences']; D = t['duration']
-qs = [s for s in S if s['scene'] == 1 and s['display'].rstrip().endswith('?')]  # accroche = la première question posée
-hook = (qs[0]['end'] if qs else max(s['end'] for s in S if s['scene'] == 1)) + .35
-lastq = [s for s in S if s['display'].rstrip().endswith('?')][-1]['start'] - .15   # la question finale, en entier
-start = lastq if hook + (D - lastq) <= 20 else D - (15.3 - hook)
-print(0, round(hook, 2), round(max(hook + 1, start), 2), round(D, 2))
+isq = lambda s: s['display'].rstrip().endswith('?')
+qs = [s for s in S if s['scene'] == 1 and isq(s)]  # accroche = la première question posée
+q2 = [s for s in S if s['scene'] == 2 and isq(s)]
+if qs: a0, hook = 0, qs[0]['end'] + .35
+elif q2: a0, hook = max(0, q2[0]['start'] - .35), q2[0]['end'] + .35   # pas de question dans l'ouverture : la question de la scène 2
+else: a0, hook = 0, max(s['end'] for s in S if s['scene'] == 1) + .35
+i = max(k for k, s in enumerate(S) if isq(s))   # la question finale, en entier (avec sa phrase d'amorce « … : »)
+while i > 0 and S[i - 1]['scene'] == S[i]['scene'] and not S[i - 1]['display'].rstrip().endswith(('.', '!', '?')): i -= 1
+lastq = S[i]['start'] - .15
+start = lastq if (hook - a0) + (D - lastq) <= 20 else D - (15.3 - (hook - a0))
+print(round(a0, 2), round(hook, 2), round(max(hook + 1, start), 2), round(D, 2))
 PY
 )
 "$FF" -loglevel error -y -i "$OUT/${PFX}_MASTER_9x16.mp4" -filter_complex \

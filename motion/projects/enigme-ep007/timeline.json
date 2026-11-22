@@ -1,0 +1,1451 @@
+{
+ "duration": 67.359,
+ "sentences": [
+  {
+   "id": "s1a",
+   "scene": 1,
+   "start": 0.6,
+   "end": 3.94,
+   "display": "Une photographie d’un enfant montre un visage familier.",
+   "say": "Une photographie d’un enfant montre un visage familier.",
+   "heard": "une  photographie  d 'un  enfant  montre  un  visage  familier.  Pourtant,  l 'adulte  qu 'il  deviendra  n 'aura  peut -être  plus  les  mêmes  rêves,  les  mêmes  croyances,  ni  la  même  manière  d 'aimer.",
+   "match": 1.0,
+   "words": [
+    {
+     "w": "une",
+     "start": 0.6,
+     "end": 0.76,
+     "chunk": 0
+    },
+    {
+     "w": "photographie",
+     "start": 0.76,
+     "end": 1.46,
+     "chunk": 0
+    },
+    {
+     "w": "d",
+     "start": 1.46,
+     "end": 1.5,
+     "chunk": 0
+    },
+    {
+     "w": "un",
+     "start": 1.5,
+     "end": 1.62,
+     "chunk": 0
+    },
+    {
+     "w": "enfant",
+     "start": 1.62,
+     "end": 1.98,
+     "chunk": 0
+    },
+    {
+     "w": "montre",
+     "start": 1.98,
+     "end": 2.3,
+     "chunk": 0
+    },
+    {
+     "w": "un",
+     "start": 2.3,
+     "end": 2.46,
+     "chunk": 0
+    },
+    {
+     "w": "visage",
+     "start": 2.46,
+     "end": 2.86,
+     "chunk": 0
+    },
+    {
+     "w": "familier",
+     "start": 2.86,
+     "end": 3.94,
+     "chunk": 0
+    }
+   ],
+   "chunks": [
+    {
+     "text": "Une photographie d’un enfant montre un visage familier.",
+     "start": 0.6,
+     "end": 3.94
+    }
+   ]
+  },
+  {
+   "id": "s1b",
+   "scene": 1,
+   "start": 4.22,
+   "end": 11.029,
+   "display": "Pourtant, l’adulte qu’il deviendra n’aura peut-être plus les mêmes rêves, les mêmes croyances, ni la même manière d’aimer.",
+   "say": "Pourtant, l’adulte qu’il deviendra n’aura peut-être plus les mêmes rêves, les mêmes croyances, ni la même manière d’aimer.",
+   "heard": "une  photographie  d 'un  enfant  montre  un  visage  familier.  Pourtant,  l 'adulte  qu 'il  deviendra  n 'aura  peut -être  plus  les  mêmes  rêves,  les  mêmes  croyances,  ni  la  même  manière  d 'aimer.",
+   "match": 1.0,
+   "words": [
+    {
+     "w": "pourtant",
+     "start": 4.22,
+     "end": 4.6,
+     "chunk": 0
+    },
+    {
+     "w": "l",
+     "start": 4.74,
+     "end": 4.96,
+     "chunk": 0
+    },
+    {
+     "w": "adulte",
+     "start": 4.96,
+     "end": 5.38,
+     "chunk": 0
+    },
+    {
+     "w": "qu",
+     "start": 5.38,
+     "end": 5.5,
+     "chunk": 0
+    },
+    {
+     "w": "il",
+     "start": 5.5,
+     "end": 5.6,
+     "chunk": 0
+    },
+    {
+     "w": "deviendra",
+     "start": 5.6,
+     "end": 6.26,
+     "chunk": 0
+    },
+    {
+     "w": "n",
+     "start": 6.26,
+     "end": 6.54,
+     "chunk": 1
+    },
+    {
+     "w": "aura",
+     "start": 6.54,
+     "end": 6.72,
+     "chunk": 1
+    },
+    {
+     "w": "peut",
+     "start": 6.72,
+     "end": 6.86,
+     "chunk": 1
+    },
+    {
+     "w": "etre",
+     "start": 6.86,
+     "end": 7.06,
+     "chunk": 1
+    },
+    {
+     "w": "plus",
+     "start": 7.06,
+     "end": 7.34,
+     "chunk": 1
+    },
+    {
+     "w": "les",
+     "start": 7.34,
+     "end": 7.52,
+     "chunk": 1
+    },
+    {
+     "w": "memes",
+     "start": 7.52,
+     "end": 7.7,
+     "chunk": 1
+    },
+    {
+     "w": "reves",
+     "start": 7.7,
+     "end": 8.16,
+     "chunk": 1
+    },
+    {
+     "w": "les",
+     "start": 8.34,
+     "end": 8.4,
+     "chunk": 2
+    },
+    {
+     "w": "memes",
+     "start": 8.4,
+     "end": 8.58,
+     "chunk": 2
+    },
+    {
+     "w": "croyances",
+     "start": 8.58,
+     "end": 9.3,
+     "chunk": 2
+    },
+    {
+     "w": "ni",
+     "start": 9.48,
+     "end": 9.68,
+     "chunk": 2
+    },
+    {
+     "w": "la",
+     "start": 9.68,
+     "end": 9.86,
+     "chunk": 2
+    },
+    {
+     "w": "meme",
+     "start": 9.86,
+     "end": 10.1,
+     "chunk": 2
+    },
+    {
+     "w": "maniere",
+     "start": 10.1,
+     "end": 10.44,
+     "chunk": 2
+    },
+    {
+     "w": "d",
+     "start": 10.44,
+     "end": 10.64,
+     "chunk": 2
+    },
+    {
+     "w": "aimer",
+     "start": 10.64,
+     "end": 10.78,
+     "chunk": 2
+    }
+   ],
+   "chunks": [
+    {
+     "text": "Pourtant, l’adulte qu’il deviendra",
+     "start": 4.22,
+     "end": 6.26
+    },
+    {
+     "text": "n’aura peut-être plus les mêmes rêves,",
+     "start": 6.26,
+     "end": 8.16
+    },
+    {
+     "text": "les mêmes croyances, ni la même manière d’aimer.",
+     "start": 8.34,
+     "end": 11.029
+    }
+   ]
+  },
+  {
+   "id": "s2a",
+   "scene": 2,
+   "start": 11.336,
+   "end": 16.091,
+   "display": "Alors, qu’est-ce qui permet d’affirmer qu’il s’agit toujours de la même personne ?",
+   "say": "Alors, qu’est-ce qui permet d’affirmer qu’il s’agit toujours de la même personne ?",
+   "heard": "Alors,  qu 'est -ce  qui  permet  d 'affirmer  qu 'il  s 'agit  toujours  de  la  même  personne  ?",
+   "match": 1.0,
+   "words": [
+    {
+     "w": "alors",
+     "start": 11.336,
+     "end": 11.647,
+     "chunk": 0
+    },
+    {
+     "w": "qu",
+     "start": 12.047,
+     "end": 12.425,
+     "chunk": 0
+    },
+    {
+     "w": "est",
+     "start": 12.425,
+     "end": 12.469,
+     "chunk": 0
+    },
+    {
+     "w": "ce",
+     "start": 12.469,
+     "end": 12.58,
+     "chunk": 0
+    },
+    {
+     "w": "qui",
+     "start": 12.58,
+     "end": 12.669,
+     "chunk": 0
+    },
+    {
+     "w": "permet",
+     "start": 12.669,
+     "end": 12.98,
+     "chunk": 0
+    },
+    {
+     "w": "d",
+     "start": 12.98,
+     "end": 13.136,
+     "chunk": 0
+    },
+    {
+     "w": "affirmer",
+     "start": 13.136,
+     "end": 13.602,
+     "chunk": 0
+    },
+    {
+     "w": "qu",
+     "start": 13.602,
+     "end": 13.736,
+     "chunk": 1
+    },
+    {
+     "w": "il",
+     "start": 13.736,
+     "end": 13.825,
+     "chunk": 1
+    },
+    {
+     "w": "s",
+     "start": 13.825,
+     "end": 14.002,
+     "chunk": 1
+    },
+    {
+     "w": "agit",
+     "start": 14.002,
+     "end": 14.202,
+     "chunk": 1
+    },
+    {
+     "w": "toujours",
+     "start": 14.202,
+     "end": 14.713,
+     "chunk": 1
+    },
+    {
+     "w": "de",
+     "start": 14.713,
+     "end": 14.913,
+     "chunk": 1
+    },
+    {
+     "w": "la",
+     "start": 14.913,
+     "end": 15.047,
+     "chunk": 1
+    },
+    {
+     "w": "meme",
+     "start": 15.047,
+     "end": 15.247,
+     "chunk": 1
+    },
+    {
+     "w": "personne",
+     "start": 15.247,
+     "end": 15.758,
+     "chunk": 1
+    }
+   ],
+   "chunks": [
+    {
+     "text": "Alors, qu’est-ce qui permet d’affirmer",
+     "start": 11.336,
+     "end": 13.602
+    },
+    {
+     "text": "qu’il s’agit toujours de la même personne ?",
+     "start": 13.602,
+     "end": 16.091
+    }
+   ]
+  },
+  {
+   "id": "s3a",
+   "scene": 3,
+   "start": 16.362,
+   "end": 20.682,
+   "display": "Au XVIIe siècle, le philosophe John Locke propose une idée troublante :",
+   "say": "Au dix-septième siècle, le philosophe John Locke propose une idée troublante :",
+   "heard": "Au  XVIIe  siècle,  le  philosophe  John  Locke  propose  une  idée  troublante.  Notre  identité  personnelle  repose  sur  la  continuité  de  notre  conscience,  notamment  sur  notre  capacité  à  nous  reconnaître  dans  nos  expériences  passées.",
+   "match": 0.939,
+   "words": [
+    {
+     "w": "au",
+     "start": 16.362,
+     "end": 16.502,
+     "chunk": 0
+    },
+    {
+     "w": "dix",
+     "start": 16.502,
+     "end": 16.792,
+     "chunk": 0
+    },
+    {
+     "w": "septieme",
+     "start": 16.792,
+     "end": 17.082,
+     "chunk": 0
+    },
+    {
+     "w": "siecle",
+     "start": 17.082,
+     "end": 17.442,
+     "chunk": 0
+    },
+    {
+     "w": "le",
+     "start": 17.862,
+     "end": 18.042,
+     "chunk": 0
+    },
+    {
+     "w": "philosophe",
+     "start": 18.042,
+     "end": 18.622,
+     "chunk": 0
+    },
+    {
+     "w": "john",
+     "start": 18.622,
+     "end": 18.822,
+     "chunk": 0
+    },
+    {
+     "w": "locke",
+     "start": 18.822,
+     "end": 19.262,
+     "chunk": 0
+    },
+    {
+     "w": "propose",
+     "start": 19.262,
+     "end": 19.582,
+     "chunk": 1
+    },
+    {
+     "w": "une",
+     "start": 19.582,
+     "end": 19.882,
+     "chunk": 1
+    },
+    {
+     "w": "idee",
+     "start": 19.882,
+     "end": 20.122,
+     "chunk": 1
+    },
+    {
+     "w": "troublante",
+     "start": 20.122,
+     "end": 20.682,
+     "chunk": 1
+    }
+   ],
+   "chunks": [
+    {
+     "text": "Au XVIIe siècle, le philosophe John Locke",
+     "start": 16.362,
+     "end": 19.262
+    },
+    {
+     "text": "propose une idée troublante :",
+     "start": 19.262,
+     "end": 20.682
+    }
+   ]
+  },
+  {
+   "id": "s3b",
+   "scene": 3,
+   "start": 21.002,
+   "end": 24.482,
+   "display": "notre identité personnelle repose sur la continuité de notre conscience,",
+   "say": "notre identité personnelle repose sur la continuité de notre conscience,",
+   "heard": "Au  XVIIe  siècle,  le  philosophe  John  Locke  propose  une  idée  troublante.  Notre  identité  personnelle  repose  sur  la  continuité  de  notre  conscience,  notamment  sur  notre  capacité  à  nous  reconnaître  dans  nos  expériences  passées.",
+   "match": 0.939,
+   "words": [
+    {
+     "w": "notre",
+     "start": 21.002,
+     "end": 21.142,
+     "chunk": 0
+    },
+    {
+     "w": "identite",
+     "start": 21.142,
+     "end": 21.762,
+     "chunk": 0
+    },
+    {
+     "w": "personnelle",
+     "start": 21.762,
+     "end": 22.342,
+     "chunk": 0
+    },
+    {
+     "w": "repose",
+     "start": 22.342,
+     "end": 22.702,
+     "chunk": 0
+    },
+    {
+     "w": "sur",
+     "start": 22.702,
+     "end": 22.862,
+     "chunk": 1
+    },
+    {
+     "w": "la",
+     "start": 22.862,
+     "end": 22.982,
+     "chunk": 1
+    },
+    {
+     "w": "continuite",
+     "start": 22.982,
+     "end": 23.602,
+     "chunk": 1
+    },
+    {
+     "w": "de",
+     "start": 23.602,
+     "end": 23.702,
+     "chunk": 1
+    },
+    {
+     "w": "notre",
+     "start": 23.702,
+     "end": 23.842,
+     "chunk": 1
+    },
+    {
+     "w": "conscience",
+     "start": 23.842,
+     "end": 24.482,
+     "chunk": 1
+    }
+   ],
+   "chunks": [
+    {
+     "text": "notre identité personnelle repose",
+     "start": 21.002,
+     "end": 22.702
+    },
+    {
+     "text": "sur la continuité de notre conscience,",
+     "start": 22.702,
+     "end": 24.482
+    }
+   ]
+  },
+  {
+   "id": "s3c",
+   "scene": 3,
+   "start": 24.882,
+   "end": 28.571,
+   "display": "notamment sur notre capacité à nous reconnaître dans nos expériences passées.",
+   "say": "notamment sur notre capacité à nous reconnaître dans nos expériences passées.",
+   "heard": "Au  XVIIe  siècle,  le  philosophe  John  Locke  propose  une  idée  troublante.  Notre  identité  personnelle  repose  sur  la  continuité  de  notre  conscience,  notamment  sur  notre  capacité  à  nous  reconnaître  dans  nos  expériences  passées.",
+   "match": 0.939,
+   "words": [
+    {
+     "w": "notamment",
+     "start": 24.882,
+     "end": 25.222,
+     "chunk": 0
+    },
+    {
+     "w": "sur",
+     "start": 25.222,
+     "end": 25.482,
+     "chunk": 0
+    },
+    {
+     "w": "notre",
+     "start": 25.482,
+     "end": 25.662,
+     "chunk": 0
+    },
+    {
+     "w": "capacite",
+     "start": 25.662,
+     "end": 26.422,
+     "chunk": 0
+    },
+    {
+     "w": "a",
+     "start": 26.422,
+     "end": 26.522,
+     "chunk": 0
+    },
+    {
+     "w": "nous",
+     "start": 26.522,
+     "end": 26.642,
+     "chunk": 0
+    },
+    {
+     "w": "reconnaitre",
+     "start": 26.642,
+     "end": 27.142,
+     "chunk": 0
+    },
+    {
+     "w": "dans",
+     "start": 27.142,
+     "end": 27.322,
+     "chunk": 1
+    },
+    {
+     "w": "nos",
+     "start": 27.322,
+     "end": 27.482,
+     "chunk": 1
+    },
+    {
+     "w": "experiences",
+     "start": 27.482,
+     "end": 28.082,
+     "chunk": 1
+    },
+    {
+     "w": "passees",
+     "start": 28.082,
+     "end": 28.482,
+     "chunk": 1
+    }
+   ],
+   "chunks": [
+    {
+     "text": "notamment sur notre capacité à nous reconnaître",
+     "start": 24.882,
+     "end": 27.142
+    },
+    {
+     "text": "dans nos expériences passées.",
+     "start": 27.142,
+     "end": 28.571
+    }
+   ]
+  },
+  {
+   "id": "s4a",
+   "scene": 4,
+   "start": 28.821,
+   "end": 30.721,
+   "display": "Mais les neurosciences compliquent cette réponse.",
+   "say": "Mais les neurosciences compliquent cette réponse.",
+   "heard": "Mais  les  neurosciences  compliquent  cette  réponse.  La  mémoire  n 'est  pas  un  enregistrement  fidèle  du  passé.  Elle  le  reconstruit,  parfois  en  le  modifiant.",
+   "match": 1.0,
+   "words": [
+    {
+     "w": "mais",
+     "start": 28.821,
+     "end": 28.941,
+     "chunk": 0
+    },
+    {
+     "w": "les",
+     "start": 28.941,
+     "end": 29.041,
+     "chunk": 0
+    },
+    {
+     "w": "neurosciences",
+     "start": 29.041,
+     "end": 29.621,
+     "chunk": 0
+    },
+    {
+     "w": "compliquent",
+     "start": 29.621,
+     "end": 30.161,
+     "chunk": 0
+    },
+    {
+     "w": "cette",
+     "start": 30.161,
+     "end": 30.261,
+     "chunk": 0
+    },
+    {
+     "w": "reponse",
+     "start": 30.261,
+     "end": 30.721,
+     "chunk": 0
+    }
+   ],
+   "chunks": [
+    {
+     "text": "Mais les neurosciences compliquent cette réponse.",
+     "start": 28.821,
+     "end": 30.721
+    }
+   ]
+  },
+  {
+   "id": "s4b",
+   "scene": 4,
+   "start": 31.221,
+   "end": 33.641,
+   "display": "La mémoire n’est pas un enregistrement fidèle du passé.",
+   "say": "La mémoire n’est pas un enregistrement fidèle du passé.",
+   "heard": "Mais  les  neurosciences  compliquent  cette  réponse.  La  mémoire  n 'est  pas  un  enregistrement  fidèle  du  passé.  Elle  le  reconstruit,  parfois  en  le  modifiant.",
+   "match": 1.0,
+   "words": [
+    {
+     "w": "la",
+     "start": 31.221,
+     "end": 31.341,
+     "chunk": 0
+    },
+    {
+     "w": "memoire",
+     "start": 31.341,
+     "end": 31.681,
+     "chunk": 0
+    },
+    {
+     "w": "n",
+     "start": 31.681,
+     "end": 31.741,
+     "chunk": 0
+    },
+    {
+     "w": "est",
+     "start": 31.741,
+     "end": 31.801,
+     "chunk": 0
+    },
+    {
+     "w": "pas",
+     "start": 31.801,
+     "end": 31.921,
+     "chunk": 0
+    },
+    {
+     "w": "un",
+     "start": 31.921,
+     "end": 32.081,
+     "chunk": 0
+    },
+    {
+     "w": "enregistrement",
+     "start": 32.081,
+     "end": 32.741,
+     "chunk": 0
+    },
+    {
+     "w": "fidele",
+     "start": 32.741,
+     "end": 33.181,
+     "chunk": 0
+    },
+    {
+     "w": "du",
+     "start": 33.181,
+     "end": 33.321,
+     "chunk": 0
+    },
+    {
+     "w": "passe",
+     "start": 33.321,
+     "end": 33.641,
+     "chunk": 0
+    }
+   ],
+   "chunks": [
+    {
+     "text": "La mémoire n’est pas un enregistrement fidèle du passé.",
+     "start": 31.221,
+     "end": 33.641
+    }
+   ]
+  },
+  {
+   "id": "s4c",
+   "scene": 4,
+   "start": 34.001,
+   "end": 36.969,
+   "display": "Elle le reconstruit, parfois en le modifiant.",
+   "say": "Elle le reconstruit, parfois en le modifiant.",
+   "heard": "Mais  les  neurosciences  compliquent  cette  réponse.  La  mémoire  n 'est  pas  un  enregistrement  fidèle  du  passé.  Elle  le  reconstruit,  parfois  en  le  modifiant.",
+   "match": 1.0,
+   "words": [
+    {
+     "w": "elle",
+     "start": 34.001,
+     "end": 34.201,
+     "chunk": 0
+    },
+    {
+     "w": "le",
+     "start": 34.201,
+     "end": 34.361,
+     "chunk": 0
+    },
+    {
+     "w": "reconstruit",
+     "start": 34.361,
+     "end": 34.981,
+     "chunk": 0
+    },
+    {
+     "w": "parfois",
+     "start": 35.181,
+     "end": 35.481,
+     "chunk": 0
+    },
+    {
+     "w": "en",
+     "start": 35.481,
+     "end": 35.681,
+     "chunk": 0
+    },
+    {
+     "w": "le",
+     "start": 35.681,
+     "end": 35.761,
+     "chunk": 0
+    },
+    {
+     "w": "modifiant",
+     "start": 35.761,
+     "end": 36.301,
+     "chunk": 0
+    }
+   ],
+   "chunks": [
+    {
+     "text": "Elle le reconstruit, parfois en le modifiant.",
+     "start": 34.001,
+     "end": 36.969
+    }
+   ]
+  },
+  {
+   "id": "s5a",
+   "scene": 5,
+   "start": 37.219,
+   "end": 40.059,
+   "display": "La tradition bouddhiste pousse la réflexion encore plus loin :",
+   "say": "La tradition bouddhiste pousse la réflexion encore plus loin :",
+   "heard": "La  tradition  bouddhiste  pousse  la  réflexion  encore  plus  loin,  en  examinant  le  corps,  les  sensations,  les  pensées  et  la  conscience,  elle  invite  à  remettre  en  question  l 'existence  d 'un  mois  permanent  et  immuable.",
+   "match": 0.971,
+   "words": [
+    {
+     "w": "la",
+     "start": 37.219,
+     "end": 37.339,
+     "chunk": 0
+    },
+    {
+     "w": "tradition",
+     "start": 37.339,
+     "end": 37.759,
+     "chunk": 0
+    },
+    {
+     "w": "bouddhiste",
+     "start": 37.759,
+     "end": 38.319,
+     "chunk": 0
+    },
+    {
+     "w": "pousse",
+     "start": 38.319,
+     "end": 38.719,
+     "chunk": 0
+    },
+    {
+     "w": "la",
+     "start": 38.719,
+     "end": 38.859,
+     "chunk": 0
+    },
+    {
+     "w": "reflexion",
+     "start": 38.859,
+     "end": 39.379,
+     "chunk": 0
+    },
+    {
+     "w": "encore",
+     "start": 39.379,
+     "end": 39.539,
+     "chunk": 0
+    },
+    {
+     "w": "plus",
+     "start": 39.539,
+     "end": 39.779,
+     "chunk": 0
+    },
+    {
+     "w": "loin",
+     "start": 39.779,
+     "end": 40.059,
+     "chunk": 0
+    }
+   ],
+   "chunks": [
+    {
+     "text": "La tradition bouddhiste pousse la réflexion encore plus loin :",
+     "start": 37.219,
+     "end": 40.059
+    }
+   ]
+  },
+  {
+   "id": "s5b",
+   "scene": 5,
+   "start": 40.259,
+   "end": 43.959,
+   "display": "en examinant le corps, les sensations, les pensées et la conscience,",
+   "say": "en examinant le corps, les sensations, les pensées et la conscience,",
+   "heard": "La  tradition  bouddhiste  pousse  la  réflexion  encore  plus  loin,  en  examinant  le  corps,  les  sensations,  les  pensées  et  la  conscience,  elle  invite  à  remettre  en  question  l 'existence  d 'un  mois  permanent  et  immuable.",
+   "match": 0.971,
+   "words": [
+    {
+     "w": "en",
+     "start": 40.259,
+     "end": 40.319,
+     "chunk": 0
+    },
+    {
+     "w": "examinant",
+     "start": 40.319,
+     "end": 40.859,
+     "chunk": 0
+    },
+    {
+     "w": "le",
+     "start": 40.859,
+     "end": 40.979,
+     "chunk": 0
+    },
+    {
+     "w": "corps",
+     "start": 40.979,
+     "end": 41.319,
+     "chunk": 0
+    },
+    {
+     "w": "les",
+     "start": 41.679,
+     "end": 41.739,
+     "chunk": 0
+    },
+    {
+     "w": "sensations",
+     "start": 41.739,
+     "end": 42.179,
+     "chunk": 0
+    },
+    {
+     "w": "les",
+     "start": 42.779,
+     "end": 42.859,
+     "chunk": 0
+    },
+    {
+     "w": "pensees",
+     "start": 42.859,
+     "end": 43.299,
+     "chunk": 0
+    },
+    {
+     "w": "et",
+     "start": 43.299,
+     "end": 43.379,
+     "chunk": 0
+    },
+    {
+     "w": "la",
+     "start": 43.379,
+     "end": 43.479,
+     "chunk": 0
+    },
+    {
+     "w": "conscience",
+     "start": 43.479,
+     "end": 43.959,
+     "chunk": 0
+    }
+   ],
+   "chunks": [
+    {
+     "text": "en examinant le corps, les sensations, les pensées et la conscience,",
+     "start": 40.259,
+     "end": 43.959
+    }
+   ]
+  },
+  {
+   "id": "s5c",
+   "scene": 5,
+   "start": 44.519,
+   "end": 49.219,
+   "display": "elle invite à remettre en question l’existence d’un « moi » permanent et immuable.",
+   "say": "elle invite à remettre en question l’existence d’un moi permanent et immuable.",
+   "heard": "La  tradition  bouddhiste  pousse  la  réflexion  encore  plus  loin,  en  examinant  le  corps,  les  sensations,  les  pensées  et  la  conscience,  elle  invite  à  remettre  en  question  l 'existence  d 'un  mois  permanent  et  immuable.",
+   "match": 0.971,
+   "words": [
+    {
+     "w": "elle",
+     "start": 44.519,
+     "end": 44.659,
+     "chunk": 0
+    },
+    {
+     "w": "invite",
+     "start": 44.659,
+     "end": 44.899,
+     "chunk": 0
+    },
+    {
+     "w": "a",
+     "start": 44.899,
+     "end": 45.059,
+     "chunk": 0
+    },
+    {
+     "w": "remettre",
+     "start": 45.059,
+     "end": 45.379,
+     "chunk": 0
+    },
+    {
+     "w": "en",
+     "start": 45.379,
+     "end": 45.479,
+     "chunk": 0
+    },
+    {
+     "w": "question",
+     "start": 45.479,
+     "end": 45.839,
+     "chunk": 0
+    },
+    {
+     "w": "l",
+     "start": 45.839,
+     "end": 46.319,
+     "chunk": 1
+    },
+    {
+     "w": "existence",
+     "start": 46.319,
+     "end": 46.879,
+     "chunk": 1
+    },
+    {
+     "w": "d",
+     "start": 46.879,
+     "end": 46.999,
+     "chunk": 1
+    },
+    {
+     "w": "un",
+     "start": 46.999,
+     "end": 47.039,
+     "chunk": 1
+    },
+    {
+     "w": "moi",
+     "start": 47.039,
+     "end": 47.219,
+     "chunk": 1
+    },
+    {
+     "w": "permanent",
+     "start": 47.219,
+     "end": 47.739,
+     "chunk": 1
+    },
+    {
+     "w": "et",
+     "start": 47.739,
+     "end": 48.019,
+     "chunk": 1
+    },
+    {
+     "w": "immuable",
+     "start": 48.019,
+     "end": 48.619,
+     "chunk": 1
+    }
+   ],
+   "chunks": [
+    {
+     "text": "elle invite à remettre en question",
+     "start": 44.519,
+     "end": 45.839
+    },
+    {
+     "text": "l’existence d’un « moi » permanent et immuable.",
+     "start": 45.839,
+     "end": 49.219
+    }
+   ]
+  },
+  {
+   "id": "s6a",
+   "scene": 6,
+   "start": 49.469,
+   "end": 51.269,
+   "display": "Ces approches ne disent pas la même chose.",
+   "say": "Ces approches ne disent pas la même chose.",
+   "heard": "Ces  approches  ne  disent  pas  la  même  chose.  Pourtant,  elles  ébranlent  une  certitude,  celle  d 'une  identité  figée.",
+   "match": 1.0,
+   "words": [
+    {
+     "w": "ces",
+     "start": 49.469,
+     "end": 49.629,
+     "chunk": 0
+    },
+    {
+     "w": "approches",
+     "start": 49.629,
+     "end": 50.089,
+     "chunk": 0
+    },
+    {
+     "w": "ne",
+     "start": 50.089,
+     "end": 50.229,
+     "chunk": 0
+    },
+    {
+     "w": "disent",
+     "start": 50.229,
+     "end": 50.409,
+     "chunk": 0
+    },
+    {
+     "w": "pas",
+     "start": 50.409,
+     "end": 50.629,
+     "chunk": 0
+    },
+    {
+     "w": "la",
+     "start": 50.629,
+     "end": 50.749,
+     "chunk": 0
+    },
+    {
+     "w": "meme",
+     "start": 50.749,
+     "end": 50.889,
+     "chunk": 0
+    },
+    {
+     "w": "chose",
+     "start": 50.889,
+     "end": 51.269,
+     "chunk": 0
+    }
+   ],
+   "chunks": [
+    {
+     "text": "Ces approches ne disent pas la même chose.",
+     "start": 49.469,
+     "end": 51.269
+    }
+   ]
+  },
+  {
+   "id": "s6b",
+   "scene": 6,
+   "start": 51.849,
+   "end": 56.129,
+   "display": "Pourtant, elles ébranlent une certitude : celle d’une identité figée.",
+   "say": "Pourtant, elles ébranlent une certitude : celle d’une identité figée.",
+   "heard": "Ces  approches  ne  disent  pas  la  même  chose.  Pourtant,  elles  ébranlent  une  certitude,  celle  d 'une  identité  figée.",
+   "match": 1.0,
+   "words": [
+    {
+     "w": "pourtant",
+     "start": 51.849,
+     "end": 52.269,
+     "chunk": 0
+    },
+    {
+     "w": "elles",
+     "start": 52.389,
+     "end": 52.569,
+     "chunk": 0
+    },
+    {
+     "w": "ebranlent",
+     "start": 52.569,
+     "end": 53.069,
+     "chunk": 0
+    },
+    {
+     "w": "une",
+     "start": 53.069,
+     "end": 53.169,
+     "chunk": 0
+    },
+    {
+     "w": "certitude",
+     "start": 53.169,
+     "end": 53.849,
+     "chunk": 0
+    },
+    {
+     "w": "celle",
+     "start": 54.189,
+     "end": 54.489,
+     "chunk": 1
+    },
+    {
+     "w": "d",
+     "start": 54.489,
+     "end": 54.689,
+     "chunk": 1
+    },
+    {
+     "w": "une",
+     "start": 54.689,
+     "end": 54.769,
+     "chunk": 1
+    },
+    {
+     "w": "identite",
+     "start": 54.769,
+     "end": 55.369,
+     "chunk": 1
+    },
+    {
+     "w": "figee",
+     "start": 55.369,
+     "end": 55.829,
+     "chunk": 1
+    }
+   ],
+   "chunks": [
+    {
+     "text": "Pourtant, elles ébranlent une certitude :",
+     "start": 51.849,
+     "end": 53.849
+    },
+    {
+     "text": "celle d’une identité figée.",
+     "start": 54.189,
+     "end": 56.129
+    }
+   ]
+  },
+  {
+   "id": "s7a",
+   "scene": 7,
+   "start": 56.379,
+   "end": 58.799,
+   "display": "Alors, qu’est-ce qui mérite notre fidélité :",
+   "say": "Alors, qu’est-ce qui mérite notre fidélité :",
+   "heard": "Alors,  qu 'est -ce  qui  méritent  notre  fidélité,  la  personne  que  nous  avons  été,  celle  que  nous  sommes  ou  celle  que  nous  pouvons  encore  devenir  ?",
+   "match": 0.96,
+   "words": [
+    {
+     "w": "alors",
+     "start": 56.379,
+     "end": 56.659,
+     "chunk": 0
+    },
+    {
+     "w": "qu",
+     "start": 56.919,
+     "end": 57.279,
+     "chunk": 0
+    },
+    {
+     "w": "est",
+     "start": 57.279,
+     "end": 57.319,
+     "chunk": 0
+    },
+    {
+     "w": "ce",
+     "start": 57.319,
+     "end": 57.459,
+     "chunk": 0
+    },
+    {
+     "w": "qui",
+     "start": 57.459,
+     "end": 57.519,
+     "chunk": 0
+    },
+    {
+     "w": "merite",
+     "start": 57.519,
+     "end": 57.879,
+     "chunk": 0
+    },
+    {
+     "w": "notre",
+     "start": 57.879,
+     "end": 58.039,
+     "chunk": 0
+    },
+    {
+     "w": "fidelite",
+     "start": 58.039,
+     "end": 58.799,
+     "chunk": 0
+    }
+   ],
+   "chunks": [
+    {
+     "text": "Alors, qu’est-ce qui mérite notre fidélité :",
+     "start": 56.379,
+     "end": 58.799
+    }
+   ]
+  },
+  {
+   "id": "s7b",
+   "scene": 7,
+   "start": 59.219,
+   "end": 63.559,
+   "display": "la personne que nous avons été, celle que nous sommes, ou celle que nous pouvons encore devenir ?",
+   "say": "la personne que nous avons été, celle que nous sommes, ou celle que nous pouvons encore devenir ?",
+   "heard": "Alors,  qu 'est -ce  qui  méritent  notre  fidélité,  la  personne  que  nous  avons  été,  celle  que  nous  sommes  ou  celle  que  nous  pouvons  encore  devenir  ?",
+   "match": 0.96,
+   "words": [
+    {
+     "w": "la",
+     "start": 59.219,
+     "end": 59.319,
+     "chunk": 0
+    },
+    {
+     "w": "personne",
+     "start": 59.319,
+     "end": 59.699,
+     "chunk": 0
+    },
+    {
+     "w": "que",
+     "start": 59.699,
+     "end": 59.879,
+     "chunk": 0
+    },
+    {
+     "w": "nous",
+     "start": 59.879,
+     "end": 60.019,
+     "chunk": 0
+    },
+    {
+     "w": "avons",
+     "start": 60.019,
+     "end": 60.239,
+     "chunk": 0
+    },
+    {
+     "w": "ete",
+     "start": 60.239,
+     "end": 60.559,
+     "chunk": 0
+    },
+    {
+     "w": "celle",
+     "start": 60.639,
+     "end": 60.839,
+     "chunk": 1
+    },
+    {
+     "w": "que",
+     "start": 60.839,
+     "end": 61.039,
+     "chunk": 1
+    },
+    {
+     "w": "nous",
+     "start": 61.039,
+     "end": 61.139,
+     "chunk": 1
+    },
+    {
+     "w": "sommes",
+     "start": 61.139,
+     "end": 61.459,
+     "chunk": 1
+    },
+    {
+     "w": "ou",
+     "start": 61.459,
+     "end": 61.919,
+     "chunk": 2
+    },
+    {
+     "w": "celle",
+     "start": 61.919,
+     "end": 62.079,
+     "chunk": 2
+    },
+    {
+     "w": "que",
+     "start": 62.079,
+     "end": 62.259,
+     "chunk": 2
+    },
+    {
+     "w": "nous",
+     "start": 62.259,
+     "end": 62.339,
+     "chunk": 2
+    },
+    {
+     "w": "pouvons",
+     "start": 62.339,
+     "end": 62.679,
+     "chunk": 2
+    },
+    {
+     "w": "encore",
+     "start": 62.679,
+     "end": 62.859,
+     "chunk": 2
+    },
+    {
+     "w": "devenir",
+     "start": 62.859,
+     "end": 63.259,
+     "chunk": 2
+    }
+   ],
+   "chunks": [
+    {
+     "text": "la personne que nous avons été,",
+     "start": 59.219,
+     "end": 60.559
+    },
+    {
+     "text": "celle que nous sommes,",
+     "start": 60.639,
+     "end": 61.459
+    },
+    {
+     "text": "ou celle que nous pouvons encore devenir ?",
+     "start": 61.459,
+     "end": 63.559
+    }
+   ]
+  }
+ ]
+}
