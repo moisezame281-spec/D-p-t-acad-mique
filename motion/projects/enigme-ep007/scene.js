@@ -263,6 +263,7 @@
      DÉCOR 2 — LE MIROIR ANCIEN
      ===================================================================== */
   const MIR = { x: 540, y: 1010, rx: 250, ry: 390 };
+  let COVER = false; // couverture : l'adulte et l'enfant superposés, bien lisibles
   function drawRoomStatic(c) {
     let g = c.createLinearGradient(0, -LM, 0, H + LM); g.addColorStop(0, '#141c1a'); g.addColorStop(.6, '#1e2a26'); g.addColorStop(1, '#0a0e0c'); c.fillStyle = g; c.fillRect(-LM, -LM, W + 2 * LM, H + 2 * LM);
     c.fillStyle = 'rgba(200,220,200,.035)'; // papier peint damassé
@@ -306,9 +307,9 @@
     camSafe(c, lerp(1.12, 1.0, zp), 540, lerp(980, 1060, zp));
     blit(c, ROOM);
     glow(c, 900, 1350, 420, '#F2C27D', .3); lamp(c, 900, 1440);
-    const kid = prog(t, T.toujours - .2, T.toujours + .7, 'inOutSine'), both = prog(t, T.personne2 - .15, T.personne2 + .6, 'inOutSine');
+    const kid = COVER ? 1 : prog(t, T.toujours - .2, T.toujours + .7, 'inOutSine'), both = COVER ? 1 : prog(t, T.personne2 - .15, T.personne2 + .6, 'inOutSine');
     const ad = clamp(1 - kid + .6 * both), ch = kid * (1 - .4 * both), blurA = 3 * (Math.sin(kid * Math.PI) + Math.sin(both * Math.PI));
-    mirror(c, MIR, t, cc => reflections(cc, MIR, ad, ch, blurA), Math.sin(kid * Math.PI) + Math.sin(both * Math.PI) * .8);
+    mirror(c, MIR, t, cc => { if (COVER) glow(cc, MIR.x + 30, MIR.y + 40, 330, '#F6D6A6', .32); reflections(cc, MIR, COVER ? .85 : ad, COVER ? .8 : ch, blurA); }, COVER ? 0 : Math.sin(kid * Math.PI) + Math.sin(both * Math.PI) * .8);
     rimmed(c, cc => bustSil(cc, 430, 1990, 1.5, 1), { body: '#040506', rim: '#F2C27D', rimA: .7, dx: 6 }); // l'élève, de dos
     c.setTransform(1, 0, 0, 1, 0, 0);
     topShade(c, '#060a08', .7, 640);
@@ -689,7 +690,7 @@
   window.renderFrame = render;
   window.SFX = GX.SFX;
   window.renderCover = function () { // couverture : le miroir, l'adulte et l'enfant superposés
-    render(Math.min(T.personne2 + .8, T.s3 - .65));
+    COVER = true; render(T.q2 + 1.6); COVER = false;
     set(tSeries, { o: 1, blur: 0, s: 1, y: -10 }); tSeries.style.top = '80px';
     tQ2.forEach(n => { n.style.opacity = 0; });
     [tCovA, tCovB].forEach(n => set(n, { o: 1, blur: 0, s: 1 })); SUBS.style.opacity = 0;
