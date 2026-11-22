@@ -1,0 +1,1552 @@
+{
+ "duration": 69.002,
+ "sentences": [
+  {
+   "id": "s1a",
+   "scene": 1,
+   "start": 0.5,
+   "end": 2.86,
+   "display": "Et si tu ne cherchais pas la vérité, mais à avoir raison ?",
+   "say": "Et si tu ne cherchais pas la vérité, mais à avoir raison ?",
+   "heard": "Et  si  tu  ne  cherchais  pas  la  vérité  mais  à  avoir  raison,  il  existe  un  piège  intellectuel  particulièrement  dangereux,  être  tellement  convaincu  d 'avoir  raison  qu 'on  finit  par  ne  plus  chercher  la  vérité.",
+   "match": 1.0,
+   "words": [
+    {
+     "w": "et",
+     "start": 0.5,
+     "end": 0.64,
+     "chunk": 0
+    },
+    {
+     "w": "si",
+     "start": 0.64,
+     "end": 0.74,
+     "chunk": 0
+    },
+    {
+     "w": "tu",
+     "start": 0.74,
+     "end": 0.86,
+     "chunk": 0
+    },
+    {
+     "w": "ne",
+     "start": 0.86,
+     "end": 0.94,
+     "chunk": 0
+    },
+    {
+     "w": "cherchais",
+     "start": 0.94,
+     "end": 1.22,
+     "chunk": 0
+    },
+    {
+     "w": "pas",
+     "start": 1.22,
+     "end": 1.34,
+     "chunk": 0
+    },
+    {
+     "w": "la",
+     "start": 1.34,
+     "end": 1.46,
+     "chunk": 0
+    },
+    {
+     "w": "verite",
+     "start": 1.46,
+     "end": 1.9,
+     "chunk": 0
+    },
+    {
+     "w": "mais",
+     "start": 1.9,
+     "end": 2.08,
+     "chunk": 1
+    },
+    {
+     "w": "a",
+     "start": 2.08,
+     "end": 2.32,
+     "chunk": 1
+    },
+    {
+     "w": "avoir",
+     "start": 2.32,
+     "end": 2.5,
+     "chunk": 1
+    },
+    {
+     "w": "raison",
+     "start": 2.5,
+     "end": 2.86,
+     "chunk": 1
+    }
+   ],
+   "chunks": [
+    {
+     "text": "Et si tu ne cherchais pas la vérité,",
+     "start": 0.5,
+     "end": 1.9
+    },
+    {
+     "text": "mais à avoir raison ?",
+     "start": 1.9,
+     "end": 2.86
+    }
+   ]
+  },
+  {
+   "id": "s1b",
+   "scene": 1,
+   "start": 3.46,
+   "end": 6.22,
+   "display": "Il existe un piège intellectuel particulièrement dangereux :",
+   "say": "Il existe un piège intellectuel particulièrement dangereux :",
+   "heard": "Et  si  tu  ne  cherchais  pas  la  vérité  mais  à  avoir  raison,  il  existe  un  piège  intellectuel  particulièrement  dangereux,  être  tellement  convaincu  d 'avoir  raison  qu 'on  finit  par  ne  plus  chercher  la  vérité.",
+   "match": 1.0,
+   "words": [
+    {
+     "w": "il",
+     "start": 3.46,
+     "end": 3.54,
+     "chunk": 0
+    },
+    {
+     "w": "existe",
+     "start": 3.54,
+     "end": 3.84,
+     "chunk": 0
+    },
+    {
+     "w": "un",
+     "start": 3.84,
+     "end": 4.02,
+     "chunk": 0
+    },
+    {
+     "w": "piege",
+     "start": 4.02,
+     "end": 4.26,
+     "chunk": 0
+    },
+    {
+     "w": "intellectuel",
+     "start": 4.26,
+     "end": 4.86,
+     "chunk": 0
+    },
+    {
+     "w": "particulierement",
+     "start": 5.5,
+     "end": 5.86,
+     "chunk": 0
+    },
+    {
+     "w": "dangereux",
+     "start": 5.86,
+     "end": 6.22,
+     "chunk": 0
+    }
+   ],
+   "chunks": [
+    {
+     "text": "Il existe un piège intellectuel particulièrement dangereux :",
+     "start": 3.46,
+     "end": 6.22
+    }
+   ]
+  },
+  {
+   "id": "s1c",
+   "scene": 1,
+   "start": 6.28,
+   "end": 9.924,
+   "display": "être tellement convaincu d’avoir raison qu’on finit par ne plus chercher la vérité.",
+   "say": "être tellement convaincu d’avoir raison qu’on finit par ne plus chercher la vérité.",
+   "heard": "Et  si  tu  ne  cherchais  pas  la  vérité  mais  à  avoir  raison,  il  existe  un  piège  intellectuel  particulièrement  dangereux,  être  tellement  convaincu  d 'avoir  raison  qu 'on  finit  par  ne  plus  chercher  la  vérité.",
+   "match": 1.0,
+   "words": [
+    {
+     "w": "etre",
+     "start": 6.28,
+     "end": 6.46,
+     "chunk": 0
+    },
+    {
+     "w": "tellement",
+     "start": 6.46,
+     "end": 6.86,
+     "chunk": 0
+    },
+    {
+     "w": "convaincu",
+     "start": 6.86,
+     "end": 7.44,
+     "chunk": 0
+    },
+    {
+     "w": "d",
+     "start": 7.44,
+     "end": 7.58,
+     "chunk": 0
+    },
+    {
+     "w": "avoir",
+     "start": 7.58,
+     "end": 7.7,
+     "chunk": 0
+    },
+    {
+     "w": "raison",
+     "start": 7.7,
+     "end": 8.08,
+     "chunk": 0
+    },
+    {
+     "w": "qu",
+     "start": 8.08,
+     "end": 8.26,
+     "chunk": 1
+    },
+    {
+     "w": "on",
+     "start": 8.26,
+     "end": 8.3,
+     "chunk": 1
+    },
+    {
+     "w": "finit",
+     "start": 8.3,
+     "end": 8.58,
+     "chunk": 1
+    },
+    {
+     "w": "par",
+     "start": 8.58,
+     "end": 8.72,
+     "chunk": 1
+    },
+    {
+     "w": "ne",
+     "start": 8.72,
+     "end": 8.82,
+     "chunk": 1
+    },
+    {
+     "w": "plus",
+     "start": 8.82,
+     "end": 8.98,
+     "chunk": 1
+    },
+    {
+     "w": "chercher",
+     "start": 8.98,
+     "end": 9.22,
+     "chunk": 1
+    },
+    {
+     "w": "la",
+     "start": 9.22,
+     "end": 9.42,
+     "chunk": 1
+    },
+    {
+     "w": "verite",
+     "start": 9.42,
+     "end": 9.82,
+     "chunk": 1
+    }
+   ],
+   "chunks": [
+    {
+     "text": "être tellement convaincu d’avoir raison",
+     "start": 6.28,
+     "end": 8.08
+    },
+    {
+     "text": "qu’on finit par ne plus chercher la vérité.",
+     "start": 8.08,
+     "end": 9.924
+    }
+   ]
+  },
+  {
+   "id": "s2a",
+   "scene": 2,
+   "start": 10.224,
+   "end": 11.564,
+   "display": "Prenons une expérience simple.",
+   "say": "Prenons une expérience simple.",
+   "heard": "Prenons  une  expérience  simple,  deux  personnes  observent  le  même  événement.  Pourtant,  chacune  retient  uniquement  les  détails  qui  confirment  ce  qu 'elle  croyait  déjà.",
+   "match": 1.0,
+   "words": [
+    {
+     "w": "prenons",
+     "start": 10.224,
+     "end": 10.544,
+     "chunk": 0
+    },
+    {
+     "w": "une",
+     "start": 10.544,
+     "end": 10.704,
+     "chunk": 0
+    },
+    {
+     "w": "experience",
+     "start": 10.704,
+     "end": 11.144,
+     "chunk": 0
+    },
+    {
+     "w": "simple",
+     "start": 11.144,
+     "end": 11.564,
+     "chunk": 0
+    }
+   ],
+   "chunks": [
+    {
+     "text": "Prenons une expérience simple.",
+     "start": 10.224,
+     "end": 11.564
+    }
+   ]
+  },
+  {
+   "id": "s2b",
+   "scene": 2,
+   "start": 11.944,
+   "end": 13.644,
+   "display": "Deux personnes observent le même événement.",
+   "say": "Deux personnes observent le même événement.",
+   "heard": "Prenons  une  expérience  simple,  deux  personnes  observent  le  même  événement.  Pourtant,  chacune  retient  uniquement  les  détails  qui  confirment  ce  qu 'elle  croyait  déjà.",
+   "match": 1.0,
+   "words": [
+    {
+     "w": "deux",
+     "start": 11.944,
+     "end": 12.064,
+     "chunk": 0
+    },
+    {
+     "w": "personnes",
+     "start": 12.064,
+     "end": 12.464,
+     "chunk": 0
+    },
+    {
+     "w": "observent",
+     "start": 12.464,
+     "end": 12.924,
+     "chunk": 0
+    },
+    {
+     "w": "le",
+     "start": 12.924,
+     "end": 13.004,
+     "chunk": 0
+    },
+    {
+     "w": "meme",
+     "start": 13.004,
+     "end": 13.164,
+     "chunk": 0
+    },
+    {
+     "w": "evenement",
+     "start": 13.164,
+     "end": 13.644,
+     "chunk": 0
+    }
+   ],
+   "chunks": [
+    {
+     "text": "Deux personnes observent le même événement.",
+     "start": 11.944,
+     "end": 13.644
+    }
+   ]
+  },
+  {
+   "id": "s2c",
+   "scene": 2,
+   "start": 13.984,
+   "end": 18.304,
+   "display": "Pourtant, chacune retient uniquement les détails qui confirment ce qu’elle croyait déjà.",
+   "say": "Pourtant, chacune retient uniquement les détails qui confirment ce qu’elle croyait déjà.",
+   "heard": "Prenons  une  expérience  simple,  deux  personnes  observent  le  même  événement.  Pourtant,  chacune  retient  uniquement  les  détails  qui  confirment  ce  qu 'elle  croyait  déjà.",
+   "match": 1.0,
+   "words": [
+    {
+     "w": "pourtant",
+     "start": 13.984,
+     "end": 14.444,
+     "chunk": 0
+    },
+    {
+     "w": "chacune",
+     "start": 14.704,
+     "end": 15.184,
+     "chunk": 0
+    },
+    {
+     "w": "retient",
+     "start": 15.184,
+     "end": 15.544,
+     "chunk": 0
+    },
+    {
+     "w": "uniquement",
+     "start": 15.544,
+     "end": 16.084,
+     "chunk": 0
+    },
+    {
+     "w": "les",
+     "start": 16.084,
+     "end": 16.204,
+     "chunk": 0
+    },
+    {
+     "w": "details",
+     "start": 16.204,
+     "end": 16.564,
+     "chunk": 0
+    },
+    {
+     "w": "qui",
+     "start": 16.564,
+     "end": 16.704,
+     "chunk": 1
+    },
+    {
+     "w": "confirment",
+     "start": 16.704,
+     "end": 17.184,
+     "chunk": 1
+    },
+    {
+     "w": "ce",
+     "start": 17.184,
+     "end": 17.304,
+     "chunk": 1
+    },
+    {
+     "w": "qu",
+     "start": 17.304,
+     "end": 17.404,
+     "chunk": 1
+    },
+    {
+     "w": "elle",
+     "start": 17.404,
+     "end": 17.464,
+     "chunk": 1
+    },
+    {
+     "w": "croyait",
+     "start": 17.464,
+     "end": 17.804,
+     "chunk": 1
+    },
+    {
+     "w": "deja",
+     "start": 17.804,
+     "end": 18.004,
+     "chunk": 1
+    }
+   ],
+   "chunks": [
+    {
+     "text": "Pourtant, chacune retient uniquement les détails",
+     "start": 13.984,
+     "end": 16.564
+    },
+    {
+     "text": "qui confirment ce qu’elle croyait déjà.",
+     "start": 16.564,
+     "end": 18.304
+    }
+   ]
+  },
+  {
+   "id": "s3a",
+   "scene": 3,
+   "start": 18.554,
+   "end": 21.574,
+   "display": "Platon illustre ce problème avec l’allégorie de la caverne :",
+   "say": "Platon illustre ce problème avec l’allégorie de la caverne :",
+   "heard": "Platon  illustre  ce  problème  avec  l 'allégorie  de  la  caverne.  Des  prisonniers  prennent  des  ombres  pour  la  réalité,  simplement  parce  qu 'ils  n 'ont  jamais  connu  autre  chose.",
+   "match": 1.0,
+   "words": [
+    {
+     "w": "platon",
+     "start": 18.554,
+     "end": 18.854,
+     "chunk": 0
+    },
+    {
+     "w": "illustre",
+     "start": 18.854,
+     "end": 19.374,
+     "chunk": 0
+    },
+    {
+     "w": "ce",
+     "start": 19.374,
+     "end": 19.534,
+     "chunk": 0
+    },
+    {
+     "w": "probleme",
+     "start": 19.534,
+     "end": 19.914,
+     "chunk": 0
+    },
+    {
+     "w": "avec",
+     "start": 19.914,
+     "end": 20.174,
+     "chunk": 0
+    },
+    {
+     "w": "l",
+     "start": 20.174,
+     "end": 20.374,
+     "chunk": 0
+    },
+    {
+     "w": "allegorie",
+     "start": 20.374,
+     "end": 20.814,
+     "chunk": 0
+    },
+    {
+     "w": "de",
+     "start": 20.814,
+     "end": 20.934,
+     "chunk": 0
+    },
+    {
+     "w": "la",
+     "start": 20.934,
+     "end": 21.054,
+     "chunk": 0
+    },
+    {
+     "w": "caverne",
+     "start": 21.054,
+     "end": 21.574,
+     "chunk": 0
+    }
+   ],
+   "chunks": [
+    {
+     "text": "Platon illustre ce problème avec l’allégorie de la caverne :",
+     "start": 18.554,
+     "end": 21.574
+    }
+   ]
+  },
+  {
+   "id": "s3b",
+   "scene": 3,
+   "start": 21.774,
+   "end": 26.914,
+   "display": "des prisonniers prennent des ombres pour la réalité, simplement parce qu’ils n’ont jamais connu autre chose.",
+   "say": "des prisonniers prennent des ombres pour la réalité, simplement parce qu’ils n’ont jamais connu autre chose.",
+   "heard": "Platon  illustre  ce  problème  avec  l 'allégorie  de  la  caverne.  Des  prisonniers  prennent  des  ombres  pour  la  réalité,  simplement  parce  qu 'ils  n 'ont  jamais  connu  autre  chose.",
+   "match": 1.0,
+   "words": [
+    {
+     "w": "des",
+     "start": 21.774,
+     "end": 21.934,
+     "chunk": 0
+    },
+    {
+     "w": "prisonniers",
+     "start": 21.934,
+     "end": 22.514,
+     "chunk": 0
+    },
+    {
+     "w": "prennent",
+     "start": 22.514,
+     "end": 22.854,
+     "chunk": 0
+    },
+    {
+     "w": "des",
+     "start": 22.854,
+     "end": 22.974,
+     "chunk": 0
+    },
+    {
+     "w": "ombres",
+     "start": 22.974,
+     "end": 23.374,
+     "chunk": 0
+    },
+    {
+     "w": "pour",
+     "start": 23.374,
+     "end": 23.534,
+     "chunk": 0
+    },
+    {
+     "w": "la",
+     "start": 23.534,
+     "end": 23.674,
+     "chunk": 0
+    },
+    {
+     "w": "realite",
+     "start": 23.674,
+     "end": 24.174,
+     "chunk": 0
+    },
+    {
+     "w": "simplement",
+     "start": 24.354,
+     "end": 24.754,
+     "chunk": 1
+    },
+    {
+     "w": "parce",
+     "start": 24.754,
+     "end": 25.114,
+     "chunk": 1
+    },
+    {
+     "w": "qu",
+     "start": 25.114,
+     "end": 25.254,
+     "chunk": 1
+    },
+    {
+     "w": "ils",
+     "start": 25.254,
+     "end": 25.294,
+     "chunk": 1
+    },
+    {
+     "w": "n",
+     "start": 25.294,
+     "end": 25.394,
+     "chunk": 1
+    },
+    {
+     "w": "ont",
+     "start": 25.394,
+     "end": 25.474,
+     "chunk": 1
+    },
+    {
+     "w": "jamais",
+     "start": 25.474,
+     "end": 25.674,
+     "chunk": 1
+    },
+    {
+     "w": "connu",
+     "start": 25.674,
+     "end": 26.054,
+     "chunk": 1
+    },
+    {
+     "w": "autre",
+     "start": 26.054,
+     "end": 26.234,
+     "chunk": 1
+    },
+    {
+     "w": "chose",
+     "start": 26.234,
+     "end": 26.594,
+     "chunk": 1
+    }
+   ],
+   "chunks": [
+    {
+     "text": "des prisonniers prennent des ombres pour la réalité,",
+     "start": 21.774,
+     "end": 24.174
+    },
+    {
+     "text": "simplement parce qu’ils n’ont jamais connu autre chose.",
+     "start": 24.354,
+     "end": 26.914
+    }
+   ]
+  },
+  {
+   "id": "s4a",
+   "scene": 4,
+   "start": 27.164,
+   "end": 32.024,
+   "display": "La Bible, dans Proverbes 18:17,",
+   "say": "La Bible, dans le livre des Proverbes, chapitre dix-huit, verset dix-sept,",
+   "heard": "La  Bible,  dans  le  livre  des  proverbes,  chapitre  18,  verset  17,  rappelle  qu 'une  première  version  des  faits  peut  sembler  juste  jusqu 'à  ce  qu 'une  autre  personne  vienne  l 'examiner.",
+   "match": 0.879,
+   "words": [
+    {
+     "w": "la",
+     "start": 27.164,
+     "end": 27.324,
+     "chunk": 0
+    },
+    {
+     "w": "bible",
+     "start": 27.324,
+     "end": 27.644,
+     "chunk": 0
+    },
+    {
+     "w": "dans",
+     "start": 27.904,
+     "end": 28.084,
+     "chunk": 0
+    },
+    {
+     "w": "le",
+     "start": 28.084,
+     "end": 28.224,
+     "chunk": 0
+    },
+    {
+     "w": "livre",
+     "start": 28.224,
+     "end": 28.444,
+     "chunk": 0
+    },
+    {
+     "w": "des",
+     "start": 28.444,
+     "end": 28.644,
+     "chunk": 0
+    },
+    {
+     "w": "proverbes",
+     "start": 28.644,
+     "end": 29.204,
+     "chunk": 0
+    },
+    {
+     "w": "chapitre",
+     "start": 29.384,
+     "end": 29.824,
+     "chunk": 0
+    },
+    {
+     "w": "dix",
+     "start": 29.824,
+     "end": 30.214,
+     "chunk": 0
+    },
+    {
+     "w": "huit",
+     "start": 30.214,
+     "end": 30.604,
+     "chunk": 0
+    },
+    {
+     "w": "verset",
+     "start": 30.604,
+     "end": 31.064,
+     "chunk": 0
+    },
+    {
+     "w": "dix",
+     "start": 31.064,
+     "end": 31.544,
+     "chunk": 0
+    },
+    {
+     "w": "sept",
+     "start": 31.544,
+     "end": 32.024,
+     "chunk": 0
+    }
+   ],
+   "chunks": [
+    {
+     "text": "La Bible, dans Proverbes 18:17,",
+     "start": 27.164,
+     "end": 32.024
+    }
+   ]
+  },
+  {
+   "id": "s4b",
+   "scene": 4,
+   "start": 32.024,
+   "end": 37.348,
+   "display": "rappelle qu’une première version des faits peut sembler juste jusqu’à ce qu’une autre personne vienne l’examiner.",
+   "say": "rappelle qu’une première version des faits peut sembler juste jusqu’à ce qu’une autre personne vienne l’examiner.",
+   "heard": "La  Bible,  dans  le  livre  des  proverbes,  chapitre  18,  verset  17,  rappelle  qu 'une  première  version  des  faits  peut  sembler  juste  jusqu 'à  ce  qu 'une  autre  personne  vienne  l 'examiner.",
+   "match": 0.879,
+   "words": [
+    {
+     "w": "rappelle",
+     "start": 32.024,
+     "end": 32.304,
+     "chunk": 0
+    },
+    {
+     "w": "qu",
+     "start": 32.304,
+     "end": 32.544,
+     "chunk": 0
+    },
+    {
+     "w": "une",
+     "start": 32.544,
+     "end": 32.644,
+     "chunk": 0
+    },
+    {
+     "w": "premiere",
+     "start": 32.644,
+     "end": 32.944,
+     "chunk": 0
+    },
+    {
+     "w": "version",
+     "start": 32.944,
+     "end": 33.384,
+     "chunk": 0
+    },
+    {
+     "w": "des",
+     "start": 33.384,
+     "end": 33.584,
+     "chunk": 0
+    },
+    {
+     "w": "faits",
+     "start": 33.584,
+     "end": 33.904,
+     "chunk": 0
+    },
+    {
+     "w": "peut",
+     "start": 33.904,
+     "end": 33.944,
+     "chunk": 0
+    },
+    {
+     "w": "sembler",
+     "start": 33.944,
+     "end": 34.384,
+     "chunk": 0
+    },
+    {
+     "w": "juste",
+     "start": 34.384,
+     "end": 34.644,
+     "chunk": 0
+    },
+    {
+     "w": "jusqu",
+     "start": 34.644,
+     "end": 34.924,
+     "chunk": 1
+    },
+    {
+     "w": "a",
+     "start": 34.924,
+     "end": 35.124,
+     "chunk": 1
+    },
+    {
+     "w": "ce",
+     "start": 35.124,
+     "end": 35.144,
+     "chunk": 1
+    },
+    {
+     "w": "qu",
+     "start": 35.144,
+     "end": 35.244,
+     "chunk": 1
+    },
+    {
+     "w": "une",
+     "start": 35.244,
+     "end": 35.384,
+     "chunk": 1
+    },
+    {
+     "w": "autre",
+     "start": 35.384,
+     "end": 35.524,
+     "chunk": 1
+    },
+    {
+     "w": "personne",
+     "start": 35.524,
+     "end": 35.964,
+     "chunk": 1
+    },
+    {
+     "w": "vienne",
+     "start": 35.964,
+     "end": 36.284,
+     "chunk": 1
+    },
+    {
+     "w": "l",
+     "start": 36.284,
+     "end": 36.364,
+     "chunk": 1
+    },
+    {
+     "w": "examiner",
+     "start": 36.364,
+     "end": 36.824,
+     "chunk": 1
+    }
+   ],
+   "chunks": [
+    {
+     "text": "rappelle qu’une première version des faits peut sembler juste",
+     "start": 32.024,
+     "end": 34.644
+    },
+    {
+     "text": "jusqu’à ce qu’une autre personne vienne l’examiner.",
+     "start": 34.644,
+     "end": 37.348
+    }
+   ]
+  },
+  {
+   "id": "s5a",
+   "scene": 5,
+   "start": 37.598,
+   "end": 40.538,
+   "display": "Le Coran, en sourate 17, verset 36,",
+   "say": "Le Coran, en sourate dix-sept, verset trente-six,",
+   "heard": "Le  Coran  en  Soura  17  verset  36  met  en  garde  contre  le  fait  de  suivre  ce  dont  on  n 'a  aucune  connaissance.",
+   "match": 0.792,
+   "words": [
+    {
+     "w": "le",
+     "start": 37.598,
+     "end": 37.698,
+     "chunk": 0
+    },
+    {
+     "w": "coran",
+     "start": 37.698,
+     "end": 38.138,
+     "chunk": 0
+    },
+    {
+     "w": "en",
+     "start": 38.138,
+     "end": 38.378,
+     "chunk": 0
+    },
+    {
+     "w": "sourate",
+     "start": 38.378,
+     "end": 38.651,
+     "chunk": 0
+    },
+    {
+     "w": "dix",
+     "start": 38.651,
+     "end": 38.925,
+     "chunk": 0
+    },
+    {
+     "w": "sept",
+     "start": 38.925,
+     "end": 39.198,
+     "chunk": 0
+    },
+    {
+     "w": "verset",
+     "start": 39.198,
+     "end": 40.038,
+     "chunk": 0
+    },
+    {
+     "w": "trente",
+     "start": 40.038,
+     "end": 40.288,
+     "chunk": 0
+    },
+    {
+     "w": "six",
+     "start": 40.288,
+     "end": 40.538,
+     "chunk": 0
+    }
+   ],
+   "chunks": [
+    {
+     "text": "Le Coran, en sourate 17, verset 36,",
+     "start": 37.598,
+     "end": 40.538
+    }
+   ]
+  },
+  {
+   "id": "s5b",
+   "scene": 5,
+   "start": 40.538,
+   "end": 44.845,
+   "display": "met en garde contre le fait de suivre ce dont on n’a aucune connaissance.",
+   "say": "met en garde contre le fait de suivre ce dont on n’a aucune connaissance.",
+   "heard": "Le  Coran  en  Soura  17  verset  36  met  en  garde  contre  le  fait  de  suivre  ce  dont  on  n 'a  aucune  connaissance.",
+   "match": 0.792,
+   "words": [
+    {
+     "w": "met",
+     "start": 40.538,
+     "end": 41.238,
+     "chunk": 0
+    },
+    {
+     "w": "en",
+     "start": 41.238,
+     "end": 41.418,
+     "chunk": 0
+    },
+    {
+     "w": "garde",
+     "start": 41.418,
+     "end": 41.658,
+     "chunk": 0
+    },
+    {
+     "w": "contre",
+     "start": 41.658,
+     "end": 41.978,
+     "chunk": 0
+    },
+    {
+     "w": "le",
+     "start": 41.978,
+     "end": 42.158,
+     "chunk": 0
+    },
+    {
+     "w": "fait",
+     "start": 42.158,
+     "end": 42.318,
+     "chunk": 0
+    },
+    {
+     "w": "de",
+     "start": 42.318,
+     "end": 42.438,
+     "chunk": 0
+    },
+    {
+     "w": "suivre",
+     "start": 42.438,
+     "end": 42.738,
+     "chunk": 0
+    },
+    {
+     "w": "ce",
+     "start": 42.738,
+     "end": 43.138,
+     "chunk": 1
+    },
+    {
+     "w": "dont",
+     "start": 43.138,
+     "end": 43.358,
+     "chunk": 1
+    },
+    {
+     "w": "on",
+     "start": 43.358,
+     "end": 43.518,
+     "chunk": 1
+    },
+    {
+     "w": "n",
+     "start": 43.518,
+     "end": 43.618,
+     "chunk": 1
+    },
+    {
+     "w": "a",
+     "start": 43.618,
+     "end": 43.658,
+     "chunk": 1
+    },
+    {
+     "w": "aucune",
+     "start": 43.658,
+     "end": 43.998,
+     "chunk": 1
+    },
+    {
+     "w": "connaissance",
+     "start": 43.998,
+     "end": 44.598,
+     "chunk": 1
+    }
+   ],
+   "chunks": [
+    {
+     "text": "met en garde contre le fait de suivre",
+     "start": 40.538,
+     "end": 42.738
+    },
+    {
+     "text": "ce dont on n’a aucune connaissance.",
+     "start": 42.738,
+     "end": 44.845
+    }
+   ]
+  },
+  {
+   "id": "s6a",
+   "scene": 6,
+   "start": 45.095,
+   "end": 52.712,
+   "display": "La psychologie appelle notamment biais de confirmation cette tendance à privilégier les informations qui confortent nos croyances.",
+   "say": "La psychologie appelle notamment biais de confirmation cette tendance à privilégier les informations qui confortent nos croyances.",
+   "heard": "La  psychologie  appelle  notamment  biais  de  confirmation  cette  tendance  à  privilégier  les  informations  qui  confortent  nos  croyances.",
+   "match": 1.0,
+   "words": [
+    {
+     "w": "la",
+     "start": 45.095,
+     "end": 45.275,
+     "chunk": 0
+    },
+    {
+     "w": "psychologie",
+     "start": 45.275,
+     "end": 46.055,
+     "chunk": 0
+    },
+    {
+     "w": "appelle",
+     "start": 46.055,
+     "end": 46.395,
+     "chunk": 0
+    },
+    {
+     "w": "notamment",
+     "start": 46.395,
+     "end": 46.875,
+     "chunk": 0
+    },
+    {
+     "w": "biais",
+     "start": 46.875,
+     "end": 47.375,
+     "chunk": 0
+    },
+    {
+     "w": "de",
+     "start": 47.375,
+     "end": 47.475,
+     "chunk": 0
+    },
+    {
+     "w": "confirmation",
+     "start": 47.475,
+     "end": 48.095,
+     "chunk": 0
+    },
+    {
+     "w": "cette",
+     "start": 48.095,
+     "end": 48.755,
+     "chunk": 1
+    },
+    {
+     "w": "tendance",
+     "start": 48.755,
+     "end": 49.375,
+     "chunk": 1
+    },
+    {
+     "w": "a",
+     "start": 49.375,
+     "end": 49.535,
+     "chunk": 1
+    },
+    {
+     "w": "privilegier",
+     "start": 49.535,
+     "end": 50.215,
+     "chunk": 1
+    },
+    {
+     "w": "les",
+     "start": 50.215,
+     "end": 50.595,
+     "chunk": 1
+    },
+    {
+     "w": "informations",
+     "start": 50.595,
+     "end": 51.015,
+     "chunk": 1
+    },
+    {
+     "w": "qui",
+     "start": 51.015,
+     "end": 51.395,
+     "chunk": 2
+    },
+    {
+     "w": "confortent",
+     "start": 51.395,
+     "end": 51.915,
+     "chunk": 2
+    },
+    {
+     "w": "nos",
+     "start": 51.915,
+     "end": 52.035,
+     "chunk": 2
+    },
+    {
+     "w": "croyances",
+     "start": 52.035,
+     "end": 52.575,
+     "chunk": 2
+    }
+   ],
+   "chunks": [
+    {
+     "text": "La psychologie appelle notamment biais de confirmation",
+     "start": 45.095,
+     "end": 48.095
+    },
+    {
+     "text": "cette tendance à privilégier les informations",
+     "start": 48.095,
+     "end": 51.015
+    },
+    {
+     "text": "qui confortent nos croyances.",
+     "start": 51.015,
+     "end": 52.712
+    }
+   ]
+  },
+  {
+   "id": "s7a",
+   "scene": 7,
+   "start": 52.962,
+   "end": 55.002,
+   "display": "Voici donc une distinction essentielle :",
+   "say": "Voici donc une distinction essentielle :",
+   "heard": "Voici  donc  une  distinction  essentielle.  Défendre  une  idée  n 'est  pas  la  même  chose  que  rechercher  sa  vérité.",
+   "match": 1.0,
+   "words": [
+    {
+     "w": "voici",
+     "start": 52.962,
+     "end": 53.322,
+     "chunk": 0
+    },
+    {
+     "w": "donc",
+     "start": 53.322,
+     "end": 53.502,
+     "chunk": 0
+    },
+    {
+     "w": "une",
+     "start": 53.502,
+     "end": 53.702,
+     "chunk": 0
+    },
+    {
+     "w": "distinction",
+     "start": 53.702,
+     "end": 54.142,
+     "chunk": 0
+    },
+    {
+     "w": "essentielle",
+     "start": 54.142,
+     "end": 55.002,
+     "chunk": 0
+    }
+   ],
+   "chunks": [
+    {
+     "text": "Voici donc une distinction essentielle :",
+     "start": 52.962,
+     "end": 55.002
+    }
+   ]
+  },
+  {
+   "id": "s7b",
+   "scene": 7,
+   "start": 55.422,
+   "end": 58.472,
+   "display": "défendre une idée n’est pas la même chose que rechercher sa vérité.",
+   "say": "défendre une idée n’est pas la même chose que rechercher sa vérité.",
+   "heard": "Voici  donc  une  distinction  essentielle.  Défendre  une  idée  n 'est  pas  la  même  chose  que  rechercher  sa  vérité.",
+   "match": 1.0,
+   "words": [
+    {
+     "w": "defendre",
+     "start": 55.422,
+     "end": 55.802,
+     "chunk": 0
+    },
+    {
+     "w": "une",
+     "start": 55.802,
+     "end": 55.922,
+     "chunk": 0
+    },
+    {
+     "w": "idee",
+     "start": 55.922,
+     "end": 56.162,
+     "chunk": 0
+    },
+    {
+     "w": "n",
+     "start": 56.162,
+     "end": 56.262,
+     "chunk": 0
+    },
+    {
+     "w": "est",
+     "start": 56.262,
+     "end": 56.342,
+     "chunk": 0
+    },
+    {
+     "w": "pas",
+     "start": 56.342,
+     "end": 56.482,
+     "chunk": 0
+    },
+    {
+     "w": "la",
+     "start": 56.482,
+     "end": 56.582,
+     "chunk": 0
+    },
+    {
+     "w": "meme",
+     "start": 56.582,
+     "end": 56.742,
+     "chunk": 0
+    },
+    {
+     "w": "chose",
+     "start": 56.742,
+     "end": 57.002,
+     "chunk": 0
+    },
+    {
+     "w": "que",
+     "start": 57.002,
+     "end": 57.182,
+     "chunk": 1
+    },
+    {
+     "w": "rechercher",
+     "start": 57.182,
+     "end": 57.622,
+     "chunk": 1
+    },
+    {
+     "w": "sa",
+     "start": 57.622,
+     "end": 57.762,
+     "chunk": 1
+    },
+    {
+     "w": "verite",
+     "start": 57.762,
+     "end": 58.202,
+     "chunk": 1
+    }
+   ],
+   "chunks": [
+    {
+     "text": "défendre une idée n’est pas la même chose",
+     "start": 55.422,
+     "end": 57.002
+    },
+    {
+     "text": "que rechercher sa vérité.",
+     "start": 57.002,
+     "end": 58.472
+    }
+   ]
+  },
+  {
+   "id": "s8a",
+   "scene": 8,
+   "start": 58.722,
+   "end": 65.202,
+   "display": "La véritable intelligence commence peut-être au moment où l’on accepte que ses propres certitudes puissent être remises en question.",
+   "say": "La véritable intelligence commence peut-être au moment où l’on accepte que ses propres certitudes puissent être remises en question.",
+   "heard": "La  véritable  intelligence  commence  peut -être  au  moment  où  l 'on  accepte  que  ses  propres  certitudes  puissent  être  remises  en  question.",
+   "match": 1.0,
+   "words": [
+    {
+     "w": "la",
+     "start": 58.722,
+     "end": 58.862,
+     "chunk": 0
+    },
+    {
+     "w": "veritable",
+     "start": 58.862,
+     "end": 59.322,
+     "chunk": 0
+    },
+    {
+     "w": "intelligence",
+     "start": 59.322,
+     "end": 59.982,
+     "chunk": 0
+    },
+    {
+     "w": "commence",
+     "start": 59.982,
+     "end": 60.422,
+     "chunk": 0
+    },
+    {
+     "w": "peut",
+     "start": 60.422,
+     "end": 60.722,
+     "chunk": 0
+    },
+    {
+     "w": "etre",
+     "start": 60.722,
+     "end": 60.982,
+     "chunk": 0
+    },
+    {
+     "w": "au",
+     "start": 60.982,
+     "end": 61.162,
+     "chunk": 1
+    },
+    {
+     "w": "moment",
+     "start": 61.162,
+     "end": 61.382,
+     "chunk": 1
+    },
+    {
+     "w": "ou",
+     "start": 61.382,
+     "end": 61.562,
+     "chunk": 1
+    },
+    {
+     "w": "l",
+     "start": 61.562,
+     "end": 61.622,
+     "chunk": 1
+    },
+    {
+     "w": "on",
+     "start": 61.622,
+     "end": 61.622,
+     "chunk": 1
+    },
+    {
+     "w": "accepte",
+     "start": 61.622,
+     "end": 62.182,
+     "chunk": 1
+    },
+    {
+     "w": "que",
+     "start": 62.182,
+     "end": 62.302,
+     "chunk": 2
+    },
+    {
+     "w": "ses",
+     "start": 62.302,
+     "end": 62.442,
+     "chunk": 2
+    },
+    {
+     "w": "propres",
+     "start": 62.442,
+     "end": 62.782,
+     "chunk": 2
+    },
+    {
+     "w": "certitudes",
+     "start": 62.782,
+     "end": 63.302,
+     "chunk": 2
+    },
+    {
+     "w": "puissent",
+     "start": 63.302,
+     "end": 63.822,
+     "chunk": 2
+    },
+    {
+     "w": "etre",
+     "start": 63.822,
+     "end": 63.982,
+     "chunk": 2
+    },
+    {
+     "w": "remises",
+     "start": 63.982,
+     "end": 64.442,
+     "chunk": 2
+    },
+    {
+     "w": "en",
+     "start": 64.442,
+     "end": 64.562,
+     "chunk": 2
+    },
+    {
+     "w": "question",
+     "start": 64.562,
+     "end": 64.902,
+     "chunk": 2
+    }
+   ],
+   "chunks": [
+    {
+     "text": "La véritable intelligence commence peut-être",
+     "start": 58.722,
+     "end": 60.982
+    },
+    {
+     "text": "au moment où l’on accepte",
+     "start": 60.982,
+     "end": 62.182
+    },
+    {
+     "text": "que ses propres certitudes puissent être remises en question.",
+     "start": 62.182,
+     "end": 65.202
+    }
+   ]
+  }
+ ]
+}

@@ -194,6 +194,10 @@ for sen in units:
     for blk in sm.get_matching_blocks():
         for k in range(blk.size):
             times[blk.a + k] = (hw[blk.b + k][1], hw[blk.b + k][2])
+    if times[-1] and dur - times[-1][1] > .7:   # fin de prise sans parole (souffle, bruit du moteur) : on coupe après le dernier mot
+        ci = int((times[-1][1] + .3) * SR); fo = int(.05 * SR)
+        print(f"      fin de prise sans parole coupée : {dur - times[-1][1] - .3:.1f} s", flush=True)
+        s = s[:ci].copy(); s[-fo:] *= np.linspace(1, 0, fo); dur = len(s) / SR
     # interpolation des mots non retrouvés
     known = [i for i, x in enumerate(times) if x]
     for i in range(len(sw)):
