@@ -1,0 +1,1547 @@
+{
+ "duration": 68.051,
+ "sentences": [
+  {
+   "id": "s1a",
+   "scene": 1,
+   "start": 0.5,
+   "end": 2.92,
+   "display": "Imagine une existence sans dernière page.",
+   "say": "Imagine une existence sans dernière page.",
+   "heard": "Imagine  une  existence  sans  dernière  page.  Plus  rien  ne  serait  urgent,  aucun  départ  ne  serait  définitif.  Aucune  rencontre  ne  serait  véritablement  irremplaçable.",
+   "match": 1.0,
+   "words": [
+    {
+     "w": "imagine",
+     "start": 0.5,
+     "end": 0.88,
+     "chunk": 0
+    },
+    {
+     "w": "une",
+     "start": 0.88,
+     "end": 1.16,
+     "chunk": 0
+    },
+    {
+     "w": "existence",
+     "start": 1.16,
+     "end": 1.68,
+     "chunk": 0
+    },
+    {
+     "w": "sans",
+     "start": 1.68,
+     "end": 2.16,
+     "chunk": 0
+    },
+    {
+     "w": "derniere",
+     "start": 2.16,
+     "end": 2.46,
+     "chunk": 0
+    },
+    {
+     "w": "page",
+     "start": 2.46,
+     "end": 2.92,
+     "chunk": 0
+    }
+   ],
+   "chunks": [
+    {
+     "text": "Imagine une existence sans dernière page.",
+     "start": 0.5,
+     "end": 2.92
+    }
+   ]
+  },
+  {
+   "id": "s1b",
+   "scene": 1,
+   "start": 3.52,
+   "end": 4.6,
+   "display": "Plus rien ne serait urgent.",
+   "say": "Plus rien ne serait urgent.",
+   "heard": "Imagine  une  existence  sans  dernière  page.  Plus  rien  ne  serait  urgent,  aucun  départ  ne  serait  définitif.  Aucune  rencontre  ne  serait  véritablement  irremplaçable.",
+   "match": 1.0,
+   "words": [
+    {
+     "w": "plus",
+     "start": 3.52,
+     "end": 3.72,
+     "chunk": 0
+    },
+    {
+     "w": "rien",
+     "start": 3.72,
+     "end": 3.94,
+     "chunk": 0
+    },
+    {
+     "w": "ne",
+     "start": 3.94,
+     "end": 4.08,
+     "chunk": 0
+    },
+    {
+     "w": "serait",
+     "start": 4.08,
+     "end": 4.3,
+     "chunk": 0
+    },
+    {
+     "w": "urgent",
+     "start": 4.3,
+     "end": 4.6,
+     "chunk": 0
+    }
+   ],
+   "chunks": [
+    {
+     "text": "Plus rien ne serait urgent.",
+     "start": 3.52,
+     "end": 4.6
+    }
+   ]
+  },
+  {
+   "id": "s1c",
+   "scene": 1,
+   "start": 4.96,
+   "end": 6.72,
+   "display": "Aucun départ ne serait définitif.",
+   "say": "Aucun départ ne serait définitif.",
+   "heard": "Imagine  une  existence  sans  dernière  page.  Plus  rien  ne  serait  urgent,  aucun  départ  ne  serait  définitif.  Aucune  rencontre  ne  serait  véritablement  irremplaçable.",
+   "match": 1.0,
+   "words": [
+    {
+     "w": "aucun",
+     "start": 4.96,
+     "end": 5.2,
+     "chunk": 0
+    },
+    {
+     "w": "depart",
+     "start": 5.2,
+     "end": 5.56,
+     "chunk": 0
+    },
+    {
+     "w": "ne",
+     "start": 5.56,
+     "end": 5.76,
+     "chunk": 0
+    },
+    {
+     "w": "serait",
+     "start": 5.76,
+     "end": 5.96,
+     "chunk": 0
+    },
+    {
+     "w": "definitif",
+     "start": 5.96,
+     "end": 6.72,
+     "chunk": 0
+    }
+   ],
+   "chunks": [
+    {
+     "text": "Aucun départ ne serait définitif.",
+     "start": 4.96,
+     "end": 6.72
+    }
+   ]
+  },
+  {
+   "id": "s1d",
+   "scene": 1,
+   "start": 7.04,
+   "end": 9.98,
+   "display": "Aucune rencontre ne serait véritablement irremplaçable.",
+   "say": "Aucune rencontre ne serait véritablement irremplaçable.",
+   "heard": "Imagine  une  existence  sans  dernière  page.  Plus  rien  ne  serait  urgent,  aucun  départ  ne  serait  définitif.  Aucune  rencontre  ne  serait  véritablement  irremplaçable.",
+   "match": 1.0,
+   "words": [
+    {
+     "w": "aucune",
+     "start": 7.04,
+     "end": 7.38,
+     "chunk": 0
+    },
+    {
+     "w": "rencontre",
+     "start": 7.38,
+     "end": 7.92,
+     "chunk": 0
+    },
+    {
+     "w": "ne",
+     "start": 7.92,
+     "end": 8.04,
+     "chunk": 0
+    },
+    {
+     "w": "serait",
+     "start": 8.04,
+     "end": 8.3,
+     "chunk": 0
+    },
+    {
+     "w": "veritablement",
+     "start": 8.3,
+     "end": 9.02,
+     "chunk": 0
+    },
+    {
+     "w": "irremplacable",
+     "start": 9.02,
+     "end": 9.68,
+     "chunk": 0
+    }
+   ],
+   "chunks": [
+    {
+     "text": "Aucune rencontre ne serait véritablement irremplaçable.",
+     "start": 7.04,
+     "end": 9.98
+    }
+   ]
+  },
+  {
+   "id": "s2a",
+   "scene": 2,
+   "start": 10.23,
+   "end": 12.41,
+   "display": "Mais alors, une question surgit :",
+   "say": "Mais alors, une question surgit :",
+   "heard": "Mais  alors,  une  question  succie,  est -ce  la  mort  qui  donne  sa  valeur  à  la  vie  ?",
+   "match": 0.938,
+   "words": [
+    {
+     "w": "mais",
+     "start": 10.23,
+     "end": 10.39,
+     "chunk": 0
+    },
+    {
+     "w": "alors",
+     "start": 10.39,
+     "end": 10.73,
+     "chunk": 0
+    },
+    {
+     "w": "une",
+     "start": 11.11,
+     "end": 11.27,
+     "chunk": 0
+    },
+    {
+     "w": "question",
+     "start": 11.27,
+     "end": 11.65,
+     "chunk": 0
+    },
+    {
+     "w": "surgit",
+     "start": 11.65,
+     "end": 12.41,
+     "chunk": 0
+    }
+   ],
+   "chunks": [
+    {
+     "text": "Mais alors, une question surgit :",
+     "start": 10.23,
+     "end": 12.41
+    }
+   ]
+  },
+  {
+   "id": "s2b",
+   "scene": 2,
+   "start": 12.41,
+   "end": 14.45,
+   "display": "est-ce la mort qui donne sa valeur à la vie ?",
+   "say": "est-ce la mort qui donne sa valeur à la vie ?",
+   "heard": "Mais  alors,  une  question  succie,  est -ce  la  mort  qui  donne  sa  valeur  à  la  vie  ?",
+   "match": 0.938,
+   "words": [
+    {
+     "w": "est",
+     "start": 12.41,
+     "end": 12.53,
+     "chunk": 0
+    },
+    {
+     "w": "ce",
+     "start": 12.53,
+     "end": 12.61,
+     "chunk": 0
+    },
+    {
+     "w": "la",
+     "start": 12.61,
+     "end": 12.75,
+     "chunk": 0
+    },
+    {
+     "w": "mort",
+     "start": 12.75,
+     "end": 12.95,
+     "chunk": 0
+    },
+    {
+     "w": "qui",
+     "start": 12.95,
+     "end": 13.11,
+     "chunk": 0
+    },
+    {
+     "w": "donne",
+     "start": 13.11,
+     "end": 13.29,
+     "chunk": 0
+    },
+    {
+     "w": "sa",
+     "start": 13.29,
+     "end": 13.49,
+     "chunk": 0
+    },
+    {
+     "w": "valeur",
+     "start": 13.49,
+     "end": 13.69,
+     "chunk": 0
+    },
+    {
+     "w": "a",
+     "start": 13.69,
+     "end": 13.89,
+     "chunk": 0
+    },
+    {
+     "w": "la",
+     "start": 13.89,
+     "end": 13.97,
+     "chunk": 0
+    },
+    {
+     "w": "vie",
+     "start": 13.97,
+     "end": 14.15,
+     "chunk": 0
+    }
+   ],
+   "chunks": [
+    {
+     "text": "est-ce la mort qui donne sa valeur à la vie ?",
+     "start": 12.41,
+     "end": 14.45
+    }
+   ]
+  },
+  {
+   "id": "s3a",
+   "scene": 3,
+   "start": 14.75,
+   "end": 17.05,
+   "display": "Dans l’Ecclésiaste, au chapitre 3,",
+   "say": "Dans l’Ecclésiaste, au chapitre trois,",
+   "heard": "Dans  l 'Églésiaste  au  chapitre  3,  chaque  chose  possède  son  moment,  naître,  mourir,  construire,  détruire.  Le  temps  humain  est  fait  de  saison  qui  ne  revient  pas  toujours.",
+   "match": 0.852,
+   "words": [
+    {
+     "w": "dans",
+     "start": 14.75,
+     "end": 14.87,
+     "chunk": 0
+    },
+    {
+     "w": "l",
+     "start": 14.87,
+     "end": 14.99,
+     "chunk": 0
+    },
+    {
+     "w": "ecclesiaste",
+     "start": 14.99,
+     "end": 15.65,
+     "chunk": 0
+    },
+    {
+     "w": "au",
+     "start": 15.65,
+     "end": 15.89,
+     "chunk": 0
+    },
+    {
+     "w": "chapitre",
+     "start": 15.89,
+     "end": 16.33,
+     "chunk": 0
+    },
+    {
+     "w": "trois",
+     "start": 16.33,
+     "end": 17.05,
+     "chunk": 0
+    }
+   ],
+   "chunks": [
+    {
+     "text": "Dans l’Ecclésiaste, au chapitre 3,",
+     "start": 14.75,
+     "end": 17.05
+    }
+   ]
+  },
+  {
+   "id": "s3b",
+   "scene": 3,
+   "start": 17.05,
+   "end": 20.89,
+   "display": "chaque chose possède son moment : naître, mourir, construire, détruire.",
+   "say": "chaque chose possède son moment : naître, mourir, construire, détruire.",
+   "heard": "Dans  l 'Églésiaste  au  chapitre  3,  chaque  chose  possède  son  moment,  naître,  mourir,  construire,  détruire.  Le  temps  humain  est  fait  de  saison  qui  ne  revient  pas  toujours.",
+   "match": 0.852,
+   "words": [
+    {
+     "w": "chaque",
+     "start": 17.05,
+     "end": 17.19,
+     "chunk": 0
+    },
+    {
+     "w": "chose",
+     "start": 17.19,
+     "end": 17.49,
+     "chunk": 0
+    },
+    {
+     "w": "possede",
+     "start": 17.49,
+     "end": 17.95,
+     "chunk": 0
+    },
+    {
+     "w": "son",
+     "start": 17.95,
+     "end": 18.07,
+     "chunk": 0
+    },
+    {
+     "w": "moment",
+     "start": 18.07,
+     "end": 18.35,
+     "chunk": 0
+    },
+    {
+     "w": "naitre",
+     "start": 18.61,
+     "end": 18.99,
+     "chunk": 1
+    },
+    {
+     "w": "mourir",
+     "start": 19.19,
+     "end": 19.59,
+     "chunk": 1
+    },
+    {
+     "w": "construire",
+     "start": 19.75,
+     "end": 20.25,
+     "chunk": 1
+    },
+    {
+     "w": "detruire",
+     "start": 20.37,
+     "end": 20.89,
+     "chunk": 1
+    }
+   ],
+   "chunks": [
+    {
+     "text": "chaque chose possède son moment :",
+     "start": 17.05,
+     "end": 18.35
+    },
+    {
+     "text": "naître, mourir, construire, détruire.",
+     "start": 18.61,
+     "end": 20.89
+    }
+   ]
+  },
+  {
+   "id": "s3c",
+   "scene": 3,
+   "start": 21.13,
+   "end": 24.345,
+   "display": "Le temps humain est fait de saisons qui ne reviennent pas toujours.",
+   "say": "Le temps humain est fait de saisons qui ne reviennent pas toujours.",
+   "heard": "Dans  l 'Églésiaste  au  chapitre  3,  chaque  chose  possède  son  moment,  naître,  mourir,  construire,  détruire.  Le  temps  humain  est  fait  de  saison  qui  ne  revient  pas  toujours.",
+   "match": 0.852,
+   "words": [
+    {
+     "w": "le",
+     "start": 21.13,
+     "end": 21.23,
+     "chunk": 0
+    },
+    {
+     "w": "temps",
+     "start": 21.23,
+     "end": 21.47,
+     "chunk": 0
+    },
+    {
+     "w": "humain",
+     "start": 21.47,
+     "end": 21.87,
+     "chunk": 0
+    },
+    {
+     "w": "est",
+     "start": 21.87,
+     "end": 22.03,
+     "chunk": 0
+    },
+    {
+     "w": "fait",
+     "start": 22.03,
+     "end": 22.15,
+     "chunk": 0
+    },
+    {
+     "w": "de",
+     "start": 22.15,
+     "end": 22.29,
+     "chunk": 0
+    },
+    {
+     "w": "saisons",
+     "start": 22.29,
+     "end": 22.69,
+     "chunk": 0
+    },
+    {
+     "w": "qui",
+     "start": 22.69,
+     "end": 22.85,
+     "chunk": 1
+    },
+    {
+     "w": "ne",
+     "start": 22.85,
+     "end": 22.97,
+     "chunk": 1
+    },
+    {
+     "w": "reviennent",
+     "start": 22.97,
+     "end": 23.29,
+     "chunk": 1
+    },
+    {
+     "w": "pas",
+     "start": 23.29,
+     "end": 23.45,
+     "chunk": 1
+    },
+    {
+     "w": "toujours",
+     "start": 23.45,
+     "end": 23.79,
+     "chunk": 1
+    }
+   ],
+   "chunks": [
+    {
+     "text": "Le temps humain est fait de saisons",
+     "start": 21.13,
+     "end": 22.69
+    },
+    {
+     "text": "qui ne reviennent pas toujours.",
+     "start": 22.69,
+     "end": 24.345
+    }
+   ]
+  },
+  {
+   "id": "s4a",
+   "scene": 4,
+   "start": 24.595,
+   "end": 28.455,
+   "display": "Le Coran, en sourate 3, verset 185,",
+   "say": "Le Coran, en sourate trois, verset cent quatre-vingt-cinq,",
+   "heard": "Le  Coran  en  Surat  III,  verset  185,  rappelle  que  tout  âme  goûtera  la  mort.  Cette  perspective  remet  la  richesse,  le  pouvoir  et  l 'orgueil  allant  juste  de  place.",
+   "match": 0.71,
+   "words": [
+    {
+     "w": "le",
+     "start": 24.595,
+     "end": 24.735,
+     "chunk": 0
+    },
+    {
+     "w": "coran",
+     "start": 24.735,
+     "end": 25.235,
+     "chunk": 0
+    },
+    {
+     "w": "en",
+     "start": 25.235,
+     "end": 25.415,
+     "chunk": 0
+    },
+    {
+     "w": "sourate",
+     "start": 25.415,
+     "end": 26.025,
+     "chunk": 0
+    },
+    {
+     "w": "trois",
+     "start": 26.025,
+     "end": 26.635,
+     "chunk": 0
+    },
+    {
+     "w": "verset",
+     "start": 26.635,
+     "end": 26.995,
+     "chunk": 0
+    },
+    {
+     "w": "cent",
+     "start": 26.995,
+     "end": 27.36,
+     "chunk": 0
+    },
+    {
+     "w": "quatre",
+     "start": 27.36,
+     "end": 27.725,
+     "chunk": 0
+    },
+    {
+     "w": "vingt",
+     "start": 27.725,
+     "end": 28.09,
+     "chunk": 0
+    },
+    {
+     "w": "cinq",
+     "start": 28.09,
+     "end": 28.455,
+     "chunk": 0
+    }
+   ],
+   "chunks": [
+    {
+     "text": "Le Coran, en sourate 3, verset 185,",
+     "start": 24.595,
+     "end": 28.455
+    }
+   ]
+  },
+  {
+   "id": "s4b",
+   "scene": 4,
+   "start": 28.455,
+   "end": 30.135,
+   "display": "rappelle que toute âme goûtera la mort.",
+   "say": "rappelle que toute âme goûtera la mort.",
+   "heard": "Le  Coran  en  Surat  III,  verset  185,  rappelle  que  tout  âme  goûtera  la  mort.  Cette  perspective  remet  la  richesse,  le  pouvoir  et  l 'orgueil  allant  juste  de  place.",
+   "match": 0.71,
+   "words": [
+    {
+     "w": "rappelle",
+     "start": 28.455,
+     "end": 28.755,
+     "chunk": 0
+    },
+    {
+     "w": "que",
+     "start": 28.755,
+     "end": 29.015,
+     "chunk": 0
+    },
+    {
+     "w": "toute",
+     "start": 29.015,
+     "end": 29.215,
+     "chunk": 0
+    },
+    {
+     "w": "ame",
+     "start": 29.215,
+     "end": 29.495,
+     "chunk": 0
+    },
+    {
+     "w": "goutera",
+     "start": 29.495,
+     "end": 29.795,
+     "chunk": 0
+    },
+    {
+     "w": "la",
+     "start": 29.795,
+     "end": 29.895,
+     "chunk": 0
+    },
+    {
+     "w": "mort",
+     "start": 29.895,
+     "end": 30.135,
+     "chunk": 0
+    }
+   ],
+   "chunks": [
+    {
+     "text": "rappelle que toute âme goûtera la mort.",
+     "start": 28.455,
+     "end": 30.135
+    }
+   ]
+  },
+  {
+   "id": "s4c",
+   "scene": 4,
+   "start": 30.595,
+   "end": 35.05,
+   "display": "Cette perspective remet la richesse, le pouvoir et l’orgueil à leur juste place.",
+   "say": "Cette perspective remet la richesse, le pouvoir et l’orgueil à leur juste place.",
+   "heard": "Le  Coran  en  Surat  III,  verset  185,  rappelle  que  tout  âme  goûtera  la  mort.  Cette  perspective  remet  la  richesse,  le  pouvoir  et  l 'orgueil  allant  juste  de  place.",
+   "match": 0.71,
+   "words": [
+    {
+     "w": "cette",
+     "start": 30.595,
+     "end": 30.815,
+     "chunk": 0
+    },
+    {
+     "w": "perspective",
+     "start": 30.815,
+     "end": 31.395,
+     "chunk": 0
+    },
+    {
+     "w": "remet",
+     "start": 31.395,
+     "end": 32.115,
+     "chunk": 0
+    },
+    {
+     "w": "la",
+     "start": 32.115,
+     "end": 32.215,
+     "chunk": 0
+    },
+    {
+     "w": "richesse",
+     "start": 32.215,
+     "end": 32.735,
+     "chunk": 0
+    },
+    {
+     "w": "le",
+     "start": 32.975,
+     "end": 33.035,
+     "chunk": 0
+    },
+    {
+     "w": "pouvoir",
+     "start": 33.035,
+     "end": 33.335,
+     "chunk": 0
+    },
+    {
+     "w": "et",
+     "start": 33.335,
+     "end": 33.615,
+     "chunk": 0
+    },
+    {
+     "w": "l",
+     "start": 33.615,
+     "end": 33.715,
+     "chunk": 0
+    },
+    {
+     "w": "orgueil",
+     "start": 33.715,
+     "end": 34.055,
+     "chunk": 0
+    },
+    {
+     "w": "a",
+     "start": 34.055,
+     "end": 34.155,
+     "chunk": 1
+    },
+    {
+     "w": "leur",
+     "start": 34.155,
+     "end": 34.255,
+     "chunk": 1
+    },
+    {
+     "w": "juste",
+     "start": 34.255,
+     "end": 34.395,
+     "chunk": 1
+    },
+    {
+     "w": "place",
+     "start": 34.595,
+     "end": 34.755,
+     "chunk": 1
+    }
+   ],
+   "chunks": [
+    {
+     "text": "Cette perspective remet la richesse, le pouvoir et l’orgueil",
+     "start": 30.595,
+     "end": 34.055
+    },
+    {
+     "text": "à leur juste place.",
+     "start": 34.055,
+     "end": 35.05
+    }
+   ]
+  },
+  {
+   "id": "s5a",
+   "scene": 5,
+   "start": 35.3,
+   "end": 39.94,
+   "display": "Le philosophe Sénèque, dans De la brièveté de la vie, avance une idée troublante :",
+   "say": "Le philosophe Sénèque, dans De la brièveté de la vie, avance une idée troublante :",
+   "heard": "Le  philosophe  Senec,  dans  de  la  brièveté  de  la  vie,  avance  une  idée  troublante,  la  vie  n 'est  pas  nécessairement  trop  courte.  Nous  en  gaspillons  souvent  une  grande  partie.",
+   "match": 0.966,
+   "words": [
+    {
+     "w": "le",
+     "start": 35.3,
+     "end": 35.42,
+     "chunk": 0
+    },
+    {
+     "w": "philosophe",
+     "start": 35.42,
+     "end": 36.02,
+     "chunk": 0
+    },
+    {
+     "w": "seneque",
+     "start": 36.02,
+     "end": 36.74,
+     "chunk": 0
+    },
+    {
+     "w": "dans",
+     "start": 36.74,
+     "end": 36.84,
+     "chunk": 0
+    },
+    {
+     "w": "de",
+     "start": 36.84,
+     "end": 36.96,
+     "chunk": 0
+    },
+    {
+     "w": "la",
+     "start": 36.96,
+     "end": 37.1,
+     "chunk": 0
+    },
+    {
+     "w": "brievete",
+     "start": 37.1,
+     "end": 37.64,
+     "chunk": 0
+    },
+    {
+     "w": "de",
+     "start": 37.64,
+     "end": 37.76,
+     "chunk": 0
+    },
+    {
+     "w": "la",
+     "start": 37.76,
+     "end": 37.9,
+     "chunk": 0
+    },
+    {
+     "w": "vie",
+     "start": 37.9,
+     "end": 38.12,
+     "chunk": 0
+    },
+    {
+     "w": "avance",
+     "start": 38.48,
+     "end": 38.9,
+     "chunk": 1
+    },
+    {
+     "w": "une",
+     "start": 38.9,
+     "end": 39.1,
+     "chunk": 1
+    },
+    {
+     "w": "idee",
+     "start": 39.1,
+     "end": 39.28,
+     "chunk": 1
+    },
+    {
+     "w": "troublante",
+     "start": 39.28,
+     "end": 39.94,
+     "chunk": 1
+    }
+   ],
+   "chunks": [
+    {
+     "text": "Le philosophe Sénèque, dans De la brièveté de la vie,",
+     "start": 35.3,
+     "end": 38.12
+    },
+    {
+     "text": "avance une idée troublante :",
+     "start": 38.48,
+     "end": 39.94
+    }
+   ]
+  },
+  {
+   "id": "s5b",
+   "scene": 5,
+   "start": 40.26,
+   "end": 42.3,
+   "display": "la vie n’est pas nécessairement trop courte.",
+   "say": "la vie n’est pas nécessairement trop courte.",
+   "heard": "Le  philosophe  Senec,  dans  de  la  brièveté  de  la  vie,  avance  une  idée  troublante,  la  vie  n 'est  pas  nécessairement  trop  courte.  Nous  en  gaspillons  souvent  une  grande  partie.",
+   "match": 0.966,
+   "words": [
+    {
+     "w": "la",
+     "start": 40.26,
+     "end": 40.38,
+     "chunk": 0
+    },
+    {
+     "w": "vie",
+     "start": 40.38,
+     "end": 40.56,
+     "chunk": 0
+    },
+    {
+     "w": "n",
+     "start": 40.56,
+     "end": 40.68,
+     "chunk": 0
+    },
+    {
+     "w": "est",
+     "start": 40.68,
+     "end": 40.76,
+     "chunk": 0
+    },
+    {
+     "w": "pas",
+     "start": 40.76,
+     "end": 40.94,
+     "chunk": 0
+    },
+    {
+     "w": "necessairement",
+     "start": 40.94,
+     "end": 41.64,
+     "chunk": 0
+    },
+    {
+     "w": "trop",
+     "start": 41.64,
+     "end": 41.78,
+     "chunk": 0
+    },
+    {
+     "w": "courte",
+     "start": 41.78,
+     "end": 42.3,
+     "chunk": 0
+    }
+   ],
+   "chunks": [
+    {
+     "text": "la vie n’est pas nécessairement trop courte.",
+     "start": 40.26,
+     "end": 42.3
+    }
+   ]
+  },
+  {
+   "id": "s5c",
+   "scene": 5,
+   "start": 42.74,
+   "end": 45.091,
+   "display": "Nous en gaspillons souvent une grande partie.",
+   "say": "Nous en gaspillons souvent une grande partie.",
+   "heard": "Le  philosophe  Senec,  dans  de  la  brièveté  de  la  vie,  avance  une  idée  troublante,  la  vie  n 'est  pas  nécessairement  trop  courte.  Nous  en  gaspillons  souvent  une  grande  partie.",
+   "match": 0.966,
+   "words": [
+    {
+     "w": "nous",
+     "start": 42.74,
+     "end": 42.94,
+     "chunk": 0
+    },
+    {
+     "w": "en",
+     "start": 42.94,
+     "end": 43.12,
+     "chunk": 0
+    },
+    {
+     "w": "gaspillons",
+     "start": 43.12,
+     "end": 43.68,
+     "chunk": 0
+    },
+    {
+     "w": "souvent",
+     "start": 43.68,
+     "end": 43.94,
+     "chunk": 0
+    },
+    {
+     "w": "une",
+     "start": 43.94,
+     "end": 44.2,
+     "chunk": 0
+    },
+    {
+     "w": "grande",
+     "start": 44.2,
+     "end": 44.42,
+     "chunk": 0
+    },
+    {
+     "w": "partie",
+     "start": 44.42,
+     "end": 44.84,
+     "chunk": 0
+    }
+   ],
+   "chunks": [
+    {
+     "text": "Nous en gaspillons souvent une grande partie.",
+     "start": 42.74,
+     "end": 45.091
+    }
+   ]
+  },
+  {
+   "id": "s6a",
+   "scene": 6,
+   "start": 45.341,
+   "end": 49.221,
+   "display": "Mais la mort ne rend pas automatiquement une existence heureuse ou juste.",
+   "say": "Mais la mort ne rend pas automatiquement une existence heureuse ou juste.",
+   "heard": "Mais  la  mort  ne  rend  pas  automatiquement  une  existence  heureuse  ou  juste.",
+   "match": 1.0,
+   "words": [
+    {
+     "w": "mais",
+     "start": 45.341,
+     "end": 45.481,
+     "chunk": 0
+    },
+    {
+     "w": "la",
+     "start": 45.481,
+     "end": 45.621,
+     "chunk": 0
+    },
+    {
+     "w": "mort",
+     "start": 45.621,
+     "end": 45.841,
+     "chunk": 0
+    },
+    {
+     "w": "ne",
+     "start": 45.841,
+     "end": 46.041,
+     "chunk": 0
+    },
+    {
+     "w": "rend",
+     "start": 46.041,
+     "end": 46.221,
+     "chunk": 0
+    },
+    {
+     "w": "pas",
+     "start": 46.221,
+     "end": 46.421,
+     "chunk": 0
+    },
+    {
+     "w": "automatiquement",
+     "start": 46.421,
+     "end": 47.201,
+     "chunk": 0
+    },
+    {
+     "w": "une",
+     "start": 47.201,
+     "end": 47.341,
+     "chunk": 1
+    },
+    {
+     "w": "existence",
+     "start": 47.341,
+     "end": 47.701,
+     "chunk": 1
+    },
+    {
+     "w": "heureuse",
+     "start": 47.701,
+     "end": 48.461,
+     "chunk": 1
+    },
+    {
+     "w": "ou",
+     "start": 48.461,
+     "end": 48.561,
+     "chunk": 1
+    },
+    {
+     "w": "juste",
+     "start": 48.561,
+     "end": 48.921,
+     "chunk": 1
+    }
+   ],
+   "chunks": [
+    {
+     "text": "Mais la mort ne rend pas automatiquement",
+     "start": 45.341,
+     "end": 47.201
+    },
+    {
+     "text": "une existence heureuse ou juste.",
+     "start": 47.201,
+     "end": 49.221
+    }
+   ]
+  },
+  {
+   "id": "s7a",
+   "scene": 7,
+   "start": 49.471,
+   "end": 51.551,
+   "display": "Elle nous confronte à une question plus profonde :",
+   "say": "Elle nous confronte à une question plus profonde :",
+   "heard": "elle  nous  confronte  à  une  question  plus  profonde.  Si  notre  temps  est  limité  et  irréversible,  qu 'est -ce  qui  mérite  réellement  que  nous  lui  consacrions  notre  vie  ?",
+   "match": 1.0,
+   "words": [
+    {
+     "w": "elle",
+     "start": 49.471,
+     "end": 49.611,
+     "chunk": 0
+    },
+    {
+     "w": "nous",
+     "start": 49.611,
+     "end": 49.731,
+     "chunk": 0
+    },
+    {
+     "w": "confronte",
+     "start": 49.731,
+     "end": 50.251,
+     "chunk": 0
+    },
+    {
+     "w": "a",
+     "start": 50.251,
+     "end": 50.311,
+     "chunk": 0
+    },
+    {
+     "w": "une",
+     "start": 50.311,
+     "end": 50.431,
+     "chunk": 0
+    },
+    {
+     "w": "question",
+     "start": 50.431,
+     "end": 50.751,
+     "chunk": 0
+    },
+    {
+     "w": "plus",
+     "start": 50.751,
+     "end": 50.971,
+     "chunk": 0
+    },
+    {
+     "w": "profonde",
+     "start": 50.971,
+     "end": 51.551,
+     "chunk": 0
+    }
+   ],
+   "chunks": [
+    {
+     "text": "Elle nous confronte à une question plus profonde :",
+     "start": 49.471,
+     "end": 51.551
+    }
+   ]
+  },
+  {
+   "id": "s7b",
+   "scene": 7,
+   "start": 51.791,
+   "end": 57.371,
+   "display": "si notre temps est limité et irréversible, qu’est-ce qui mérite réellement que nous lui consacrions notre vie ?",
+   "say": "si notre temps est limité et irréversible, qu’est-ce qui mérite réellement que nous lui consacrions notre vie ?",
+   "heard": "elle  nous  confronte  à  une  question  plus  profonde.  Si  notre  temps  est  limité  et  irréversible,  qu 'est -ce  qui  mérite  réellement  que  nous  lui  consacrions  notre  vie  ?",
+   "match": 1.0,
+   "words": [
+    {
+     "w": "si",
+     "start": 51.791,
+     "end": 52.031,
+     "chunk": 0
+    },
+    {
+     "w": "notre",
+     "start": 52.031,
+     "end": 52.211,
+     "chunk": 0
+    },
+    {
+     "w": "temps",
+     "start": 52.211,
+     "end": 52.591,
+     "chunk": 0
+    },
+    {
+     "w": "est",
+     "start": 52.591,
+     "end": 52.751,
+     "chunk": 0
+    },
+    {
+     "w": "limite",
+     "start": 52.751,
+     "end": 53.211,
+     "chunk": 0
+    },
+    {
+     "w": "et",
+     "start": 53.211,
+     "end": 53.311,
+     "chunk": 0
+    },
+    {
+     "w": "irreversible",
+     "start": 53.311,
+     "end": 54.011,
+     "chunk": 0
+    },
+    {
+     "w": "qu",
+     "start": 54.531,
+     "end": 54.611,
+     "chunk": 1
+    },
+    {
+     "w": "est",
+     "start": 54.611,
+     "end": 54.651,
+     "chunk": 1
+    },
+    {
+     "w": "ce",
+     "start": 54.651,
+     "end": 54.771,
+     "chunk": 1
+    },
+    {
+     "w": "qui",
+     "start": 54.771,
+     "end": 54.831,
+     "chunk": 1
+    },
+    {
+     "w": "merite",
+     "start": 54.831,
+     "end": 55.151,
+     "chunk": 1
+    },
+    {
+     "w": "reellement",
+     "start": 55.151,
+     "end": 55.591,
+     "chunk": 1
+    },
+    {
+     "w": "que",
+     "start": 55.591,
+     "end": 55.771,
+     "chunk": 2
+    },
+    {
+     "w": "nous",
+     "start": 55.771,
+     "end": 55.891,
+     "chunk": 2
+    },
+    {
+     "w": "lui",
+     "start": 55.891,
+     "end": 55.991,
+     "chunk": 2
+    },
+    {
+     "w": "consacrions",
+     "start": 55.991,
+     "end": 56.591,
+     "chunk": 2
+    },
+    {
+     "w": "notre",
+     "start": 56.591,
+     "end": 56.771,
+     "chunk": 2
+    },
+    {
+     "w": "vie",
+     "start": 56.771,
+     "end": 57.071,
+     "chunk": 2
+    }
+   ],
+   "chunks": [
+    {
+     "text": "si notre temps est limité et irréversible,",
+     "start": 51.791,
+     "end": 54.011
+    },
+    {
+     "text": "qu’est-ce qui mérite réellement",
+     "start": 54.531,
+     "end": 55.591
+    },
+    {
+     "text": "que nous lui consacrions notre vie ?",
+     "start": 55.591,
+     "end": 57.371
+    }
+   ]
+  },
+  {
+   "id": "s8a",
+   "scene": 8,
+   "start": 57.671,
+   "end": 60.771,
+   "display": "Peut-être que le véritable drame n’est pas de mourir un jour…",
+   "say": "Peut-être que le véritable drame n’est pas de mourir un jour…",
+   "heard": "Peut -être  que  le  véritable  drame  n 'est  pas  de  mourir  un  jour,  mais  de  ne  jamais  avoir  compris  pourquoi  nous  avons  vécu.",
+   "match": 1.0,
+   "words": [
+    {
+     "w": "peut",
+     "start": 57.671,
+     "end": 57.851,
+     "chunk": 0
+    },
+    {
+     "w": "etre",
+     "start": 57.851,
+     "end": 58.051,
+     "chunk": 0
+    },
+    {
+     "w": "que",
+     "start": 58.051,
+     "end": 58.311,
+     "chunk": 0
+    },
+    {
+     "w": "le",
+     "start": 58.311,
+     "end": 58.451,
+     "chunk": 0
+    },
+    {
+     "w": "veritable",
+     "start": 58.451,
+     "end": 58.871,
+     "chunk": 0
+    },
+    {
+     "w": "drame",
+     "start": 58.871,
+     "end": 59.451,
+     "chunk": 0
+    },
+    {
+     "w": "n",
+     "start": 59.451,
+     "end": 59.551,
+     "chunk": 1
+    },
+    {
+     "w": "est",
+     "start": 59.551,
+     "end": 59.651,
+     "chunk": 1
+    },
+    {
+     "w": "pas",
+     "start": 59.651,
+     "end": 59.771,
+     "chunk": 1
+    },
+    {
+     "w": "de",
+     "start": 59.771,
+     "end": 59.931,
+     "chunk": 1
+    },
+    {
+     "w": "mourir",
+     "start": 59.931,
+     "end": 60.351,
+     "chunk": 1
+    },
+    {
+     "w": "un",
+     "start": 60.351,
+     "end": 60.491,
+     "chunk": 1
+    },
+    {
+     "w": "jour",
+     "start": 60.491,
+     "end": 60.771,
+     "chunk": 1
+    }
+   ],
+   "chunks": [
+    {
+     "text": "Peut-être que le véritable drame",
+     "start": 57.671,
+     "end": 59.451
+    },
+    {
+     "text": "n’est pas de mourir un jour…",
+     "start": 59.451,
+     "end": 60.771
+    }
+   ]
+  },
+  {
+   "id": "s8b",
+   "scene": 8,
+   "start": 61.071,
+   "end": 64.251,
+   "display": "mais de ne jamais avoir compris pourquoi nous avons vécu.",
+   "say": "mais de ne jamais avoir compris pourquoi nous avons vécu.",
+   "heard": "Peut -être  que  le  véritable  drame  n 'est  pas  de  mourir  un  jour,  mais  de  ne  jamais  avoir  compris  pourquoi  nous  avons  vécu.",
+   "match": 1.0,
+   "words": [
+    {
+     "w": "mais",
+     "start": 61.071,
+     "end": 61.311,
+     "chunk": 0
+    },
+    {
+     "w": "de",
+     "start": 61.311,
+     "end": 61.451,
+     "chunk": 0
+    },
+    {
+     "w": "ne",
+     "start": 61.451,
+     "end": 61.571,
+     "chunk": 0
+    },
+    {
+     "w": "jamais",
+     "start": 61.571,
+     "end": 61.851,
+     "chunk": 0
+    },
+    {
+     "w": "avoir",
+     "start": 61.851,
+     "end": 62.151,
+     "chunk": 0
+    },
+    {
+     "w": "compris",
+     "start": 62.151,
+     "end": 62.631,
+     "chunk": 0
+    },
+    {
+     "w": "pourquoi",
+     "start": 62.631,
+     "end": 62.991,
+     "chunk": 0
+    },
+    {
+     "w": "nous",
+     "start": 62.991,
+     "end": 63.191,
+     "chunk": 0
+    },
+    {
+     "w": "avons",
+     "start": 63.191,
+     "end": 63.471,
+     "chunk": 0
+    },
+    {
+     "w": "vecu",
+     "start": 63.471,
+     "end": 63.951,
+     "chunk": 0
+    }
+   ],
+   "chunks": [
+    {
+     "text": "mais de ne jamais avoir compris pourquoi nous avons vécu.",
+     "start": 61.071,
+     "end": 64.251
+    }
+   ]
+  }
+ ]
+}

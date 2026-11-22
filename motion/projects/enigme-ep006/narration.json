@@ -1,0 +1,302 @@
+{
+  "title": "L'Énigme humaine — Épisode 006 — La mort donne-t-elle du prix à la vie ?",
+  "voice": "ff_siwis",
+  "lang": "fr-fr",
+  "speed": 0.9,
+  "note": "Style validé (ép. 004 v2) : explication continue (passages entiers), questions qui montent, prises jugées par Whisper medium. Texte fourni conservé à l'identique.",
+  "lead_in": 0.5,
+  "tail": 3.8,
+  "sentences": [
+    {
+      "id": "s1a",
+      "scene": 1,
+      "group": "g1",
+      "pause": 0,
+      "intent": "flow",
+      "takes": 3,
+      "chunks": [
+        [
+          "Imagine une existence sans dernière page."
+        ]
+      ]
+    },
+    {
+      "id": "s1b",
+      "scene": 1,
+      "group": "g1",
+      "pause": 0,
+      "intent": "flow",
+      "takes": 3,
+      "chunks": [
+        [
+          "Plus rien ne serait urgent."
+        ]
+      ]
+    },
+    {
+      "id": "s1c",
+      "scene": 1,
+      "group": "g1",
+      "pause": 0,
+      "intent": "flow",
+      "takes": 3,
+      "chunks": [
+        [
+          "Aucun départ ne serait définitif."
+        ]
+      ]
+    },
+    {
+      "id": "s1d",
+      "scene": 1,
+      "group": "g1",
+      "pause": 0.25,
+      "intent": "flow",
+      "takes": 3,
+      "chunks": [
+        [
+          "Aucune rencontre ne serait véritablement irremplaçable."
+        ]
+      ]
+    },
+    {
+      "id": "s2a",
+      "scene": 2,
+      "group": "g2",
+      "pause": 0,
+      "intent": "flow",
+      "takes": 3,
+      "chunks": [
+        [
+          "Mais alors, une question surgit :"
+        ]
+      ]
+    },
+    {
+      "id": "s2b",
+      "scene": 2,
+      "group": "g2",
+      "pause": 0.3,
+      "intent": "flow",
+      "takes": 3,
+      "chunks": [
+        [
+          "est-ce la mort qui donne sa valeur à la vie ?"
+        ]
+      ]
+    },
+    {
+      "id": "s3a",
+      "scene": 3,
+      "group": "g3",
+      "pause": 0,
+      "intent": "flow",
+      "takes": 3,
+      "chunks": [
+        [
+          "Dans l’Ecclésiaste, au chapitre 3,",
+          "Dans l’Ecclésiaste, au chapitre trois,"
+        ]
+      ]
+    },
+    {
+      "id": "s3b",
+      "scene": 3,
+      "group": "g3",
+      "pause": 0,
+      "intent": "flow",
+      "takes": 3,
+      "chunks": [
+        [
+          "chaque chose possède son moment :"
+        ],
+        [
+          "naître, mourir, construire, détruire."
+        ]
+      ]
+    },
+    {
+      "id": "s3c",
+      "scene": 3,
+      "group": "g3",
+      "pause": 0.25,
+      "intent": "flow",
+      "takes": 3,
+      "chunks": [
+        [
+          "Le temps humain est fait de saisons"
+        ],
+        [
+          "qui ne reviennent pas toujours."
+        ]
+      ]
+    },
+    {
+      "id": "s4a",
+      "scene": 4,
+      "group": "g4",
+      "pause": 0,
+      "intent": "flow",
+      "takes": 3,
+      "chunks": [
+        [
+          "Le Coran, en sourate 3, verset 185,",
+          "Le Coran, en sourate trois, verset cent quatre-vingt-cinq,"
+        ]
+      ]
+    },
+    {
+      "id": "s4b",
+      "scene": 4,
+      "group": "g4",
+      "pause": 0,
+      "intent": "flow",
+      "takes": 3,
+      "chunks": [
+        [
+          "rappelle que toute âme goûtera la mort."
+        ]
+      ]
+    },
+    {
+      "id": "s4c",
+      "scene": 4,
+      "group": "g4",
+      "pause": 0.25,
+      "intent": "flow",
+      "takes": 3,
+      "chunks": [
+        [
+          "Cette perspective remet la richesse, le pouvoir et l’orgueil"
+        ],
+        [
+          "à leur juste place."
+        ]
+      ]
+    },
+    {
+      "id": "s5a",
+      "scene": 5,
+      "group": "g5",
+      "pause": 0,
+      "intent": "flow",
+      "takes": 3,
+      "chunks": [
+        [
+          "Le philosophe Sénèque, dans De la brièveté de la vie,"
+        ],
+        [
+          "avance une idée troublante :"
+        ]
+      ]
+    },
+    {
+      "id": "s5b",
+      "scene": 5,
+      "group": "g5",
+      "pause": 0,
+      "intent": "flow",
+      "takes": 3,
+      "chunks": [
+        [
+          "la vie n’est pas nécessairement trop courte."
+        ]
+      ]
+    },
+    {
+      "id": "s5c",
+      "scene": 5,
+      "group": "g5",
+      "pause": 0.25,
+      "intent": "flow",
+      "takes": 3,
+      "chunks": [
+        [
+          "Nous en gaspillons souvent une grande partie."
+        ]
+      ]
+    },
+    {
+      "id": "s6a",
+      "scene": 6,
+      "group": "g6",
+      "pause": 0.25,
+      "intent": "flow",
+      "takes": 3,
+      "chunks": [
+        [
+          "Mais la mort ne rend pas automatiquement"
+        ],
+        [
+          "une existence heureuse ou juste."
+        ]
+      ]
+    },
+    {
+      "id": "s7a",
+      "scene": 7,
+      "group": "g7",
+      "pause": 0,
+      "intent": "flow",
+      "takes": 3,
+      "chunks": [
+        [
+          "Elle nous confronte à une question plus profonde :"
+        ]
+      ]
+    },
+    {
+      "id": "s7b",
+      "scene": 7,
+      "group": "g7",
+      "pause": 0.3,
+      "intent": "flow",
+      "takes": 3,
+      "chunks": [
+        [
+          "si notre temps est limité et irréversible,"
+        ],
+        [
+          "qu’est-ce qui mérite réellement"
+        ],
+        [
+          "que nous lui consacrions notre vie ?"
+        ]
+      ]
+    },
+    {
+      "id": "s8a",
+      "scene": 8,
+      "group": "g8",
+      "pause": 0,
+      "intent": "flow",
+      "takes": 3,
+      "chunks": [
+        [
+          "Peut-être que le véritable drame"
+        ],
+        [
+          "n’est pas de mourir un jour…"
+        ]
+      ]
+    },
+    {
+      "id": "s8b",
+      "scene": 8,
+      "group": "g8",
+      "pause": 0,
+      "intent": "flow",
+      "takes": 3,
+      "chunks": [
+        [
+          "mais de ne jamais avoir compris pourquoi nous avons vécu."
+        ]
+      ]
+    }
+  ],
+  "engine": "chatterbox",
+  "ref": "../../../series/enigme-humaine/voix_reference.flac",
+  "intent": "flow",
+  "judge": "medium",
+  "question_rise": 4.5
+}
