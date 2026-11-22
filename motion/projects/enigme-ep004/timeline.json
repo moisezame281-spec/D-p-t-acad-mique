@@ -1,1436 +1,1436 @@
 {
- "duration": 75.667,
+ "duration": 59.9,
  "sentences": [
   {
    "id": "s1a",
    "scene": 1,
-   "start": 0.6,
-   "end": 5.845,
+   "start": 0.5,
+   "end": 3.1,
    "display": "Une personne qui ne croit pas en Dieu peut-elle faire le bien ?",
    "say": "Une personne qui ne croit pas en Dieu peut-elle faire le bien ?",
-   "heard": "Une  personne  qui  ne  croit  pas  en  Dieu  peut -elle  faire  le  bien  ?",
-   "match": 1.0,
+   "heard": "Une  personne  qui  ne  croit  pas  en  Dieu  peut -elle  faire  le  bien  ?  Imaginons  deux  passants  devant  un  inconnu  en  danger.  L 'un  croit  en  Dieu,  l 'autre  non.  Tout  deux  s 'arrêtent  pour  l 'aider.  L 'angeste  est -il  moins  moral  chez  l 'un  que  chez  l 'autre  ?",
+   "match": 0.939,
    "words": [
     {
      "w": "une",
-     "start": 0.6,
-     "end": 0.76,
+     "start": 0.5,
+     "end": 0.66,
      "chunk": 0
     },
     {
      "w": "personne",
-     "start": 0.76,
-     "end": 1.18,
+     "start": 0.66,
+     "end": 0.98,
      "chunk": 0
     },
     {
      "w": "qui",
-     "start": 1.18,
-     "end": 1.56,
+     "start": 0.98,
+     "end": 1.24,
      "chunk": 0
     },
     {
      "w": "ne",
-     "start": 1.56,
-     "end": 1.68,
+     "start": 1.24,
+     "end": 1.34,
      "chunk": 0
     },
     {
      "w": "croit",
-     "start": 1.68,
-     "end": 1.98,
+     "start": 1.34,
+     "end": 1.6,
      "chunk": 0
     },
     {
      "w": "pas",
-     "start": 1.98,
-     "end": 2.08,
+     "start": 1.6,
+     "end": 1.7,
      "chunk": 0
     },
     {
      "w": "en",
-     "start": 2.08,
-     "end": 2.3,
+     "start": 1.7,
+     "end": 1.9,
      "chunk": 0
     },
     {
      "w": "dieu",
-     "start": 2.3,
-     "end": 2.5,
+     "start": 1.9,
+     "end": 2.08,
      "chunk": 0
     },
     {
      "w": "peut",
-     "start": 2.72,
-     "end": 3.2,
+     "start": 2.08,
+     "end": 2.34,
      "chunk": 1
     },
     {
      "w": "elle",
-     "start": 3.2,
-     "end": 3.36,
+     "start": 2.34,
+     "end": 2.48,
      "chunk": 1
     },
     {
      "w": "faire",
-     "start": 3.36,
-     "end": 3.56,
+     "start": 2.48,
+     "end": 2.68,
      "chunk": 1
     },
     {
      "w": "le",
-     "start": 3.56,
-     "end": 3.74,
+     "start": 2.68,
+     "end": 2.86,
      "chunk": 1
     },
     {
      "w": "bien",
-     "start": 3.74,
-     "end": 3.96,
+     "start": 2.86,
+     "end": 3.1,
      "chunk": 1
     }
    ],
    "chunks": [
     {
      "text": "Une personne qui ne croit pas en Dieu",
-     "start": 0.6,
-     "end": 2.5
+     "start": 0.5,
+     "end": 2.08
     },
     {
      "text": "peut-elle faire le bien ?",
-     "start": 2.72,
-     "end": 5.845
+     "start": 2.08,
+     "end": 3.1
     }
    ]
   },
   {
    "id": "s1b",
    "scene": 1,
-   "start": 6.595,
-   "end": 10.702,
+   "start": 3.3,
+   "end": 5.8,
    "display": "Imaginons deux passants devant un inconnu en danger.",
    "say": "Imaginons deux passants devant un inconnu en danger.",
-   "heard": "Imaginons  deux  passants  devant  un  inconnu  en  danger.",
-   "match": 1.0,
+   "heard": "Une  personne  qui  ne  croit  pas  en  Dieu  peut -elle  faire  le  bien  ?  Imaginons  deux  passants  devant  un  inconnu  en  danger.  L 'un  croit  en  Dieu,  l 'autre  non.  Tout  deux  s 'arrêtent  pour  l 'aider.  L 'angeste  est -il  moins  moral  chez  l 'un  que  chez  l 'autre  ?",
+   "match": 0.939,
    "words": [
     {
      "w": "imaginons",
-     "start": 6.595,
-     "end": 7.195,
+     "start": 3.3,
+     "end": 3.88,
      "chunk": 0
     },
     {
      "w": "deux",
-     "start": 7.195,
-     "end": 7.415,
+     "start": 3.88,
+     "end": 4.1,
      "chunk": 0
     },
     {
      "w": "passants",
-     "start": 7.415,
-     "end": 7.855,
+     "start": 4.1,
+     "end": 4.54,
      "chunk": 0
     },
     {
      "w": "devant",
-     "start": 7.855,
-     "end": 8.095,
+     "start": 4.54,
+     "end": 4.7,
      "chunk": 0
     },
     {
      "w": "un",
-     "start": 8.095,
-     "end": 8.355,
+     "start": 4.7,
+     "end": 4.92,
      "chunk": 0
     },
     {
      "w": "inconnu",
-     "start": 8.355,
-     "end": 8.895,
+     "start": 4.92,
+     "end": 5.34,
      "chunk": 0
     },
     {
      "w": "en",
-     "start": 8.895,
-     "end": 9.015,
+     "start": 5.34,
+     "end": 5.46,
      "chunk": 0
     },
     {
      "w": "danger",
-     "start": 9.015,
-     "end": 9.375,
+     "start": 5.46,
+     "end": 5.8,
      "chunk": 0
     }
    ],
    "chunks": [
     {
      "text": "Imaginons deux passants devant un inconnu en danger.",
-     "start": 6.595,
-     "end": 10.702
+     "start": 3.3,
+     "end": 5.8
     }
    ]
   },
   {
    "id": "s1c",
    "scene": 1,
-   "start": 11.002,
-   "end": 13.562,
+   "start": 6.26,
+   "end": 7.52,
    "display": "L’un croit en Dieu, l’autre non.",
    "say": "L’un croit en Dieu, l’autre non.",
-   "heard": "L 'un  croit  en  Dieu,  l 'autre  non.",
-   "match": 1.0,
+   "heard": "Une  personne  qui  ne  croit  pas  en  Dieu  peut -elle  faire  le  bien  ?  Imaginons  deux  passants  devant  un  inconnu  en  danger.  L 'un  croit  en  Dieu,  l 'autre  non.  Tout  deux  s 'arrêtent  pour  l 'aider.  L 'angeste  est -il  moins  moral  chez  l 'un  que  chez  l 'autre  ?",
+   "match": 0.939,
    "words": [
     {
      "w": "l",
-     "start": 11.002,
-     "end": 11.122,
+     "start": 6.26,
+     "end": 6.3,
      "chunk": 0
     },
     {
      "w": "un",
-     "start": 11.122,
-     "end": 11.202,
+     "start": 6.3,
+     "end": 6.42,
      "chunk": 0
     },
     {
      "w": "croit",
-     "start": 11.202,
-     "end": 11.482,
+     "start": 6.42,
+     "end": 6.62,
      "chunk": 0
     },
     {
      "w": "en",
-     "start": 11.482,
-     "end": 11.582,
+     "start": 6.62,
+     "end": 6.68,
      "chunk": 0
     },
     {
      "w": "dieu",
-     "start": 11.582,
-     "end": 11.822,
+     "start": 6.68,
+     "end": 6.9,
      "chunk": 0
     },
     {
      "w": "l",
-     "start": 12.282,
-     "end": 12.422,
+     "start": 7.04,
+     "end": 7.1,
      "chunk": 1
     },
     {
      "w": "autre",
-     "start": 12.422,
-     "end": 12.602,
+     "start": 7.1,
+     "end": 7.26,
      "chunk": 1
     },
     {
      "w": "non",
-     "start": 12.602,
-     "end": 12.882,
+     "start": 7.26,
+     "end": 7.52,
      "chunk": 1
     }
    ],
    "chunks": [
     {
      "text": "L’un croit en Dieu,",
-     "start": 11.002,
-     "end": 11.822
+     "start": 6.26,
+     "end": 6.9
     },
     {
      "text": "l’autre non.",
-     "start": 12.282,
-     "end": 13.562
+     "start": 7.04,
+     "end": 7.52
     }
    ]
   },
   {
    "id": "s1d",
    "scene": 1,
-   "start": 13.812,
-   "end": 17.211,
+   "start": 7.52,
+   "end": 8.96,
    "display": "Tous deux s’arrêtent pour l’aider.",
    "say": "Tous deux s’arrêtent pour l’aider.",
-   "heard": "tous  deux  s 'arrêtent  pour  l 'aider.",
-   "match": 1.0,
+   "heard": "Une  personne  qui  ne  croit  pas  en  Dieu  peut -elle  faire  le  bien  ?  Imaginons  deux  passants  devant  un  inconnu  en  danger.  L 'un  croit  en  Dieu,  l 'autre  non.  Tout  deux  s 'arrêtent  pour  l 'aider.  L 'angeste  est -il  moins  moral  chez  l 'un  que  chez  l 'autre  ?",
+   "match": 0.939,
    "words": [
     {
      "w": "tous",
-     "start": 13.812,
-     "end": 13.952,
+     "start": 7.52,
+     "end": 8.0,
      "chunk": 0
     },
     {
      "w": "deux",
-     "start": 13.952,
-     "end": 14.112,
+     "start": 8.0,
+     "end": 8.18,
      "chunk": 0
     },
     {
      "w": "s",
-     "start": 14.112,
-     "end": 14.332,
+     "start": 8.18,
+     "end": 8.32,
      "chunk": 0
     },
     {
      "w": "arretent",
-     "start": 14.332,
-     "end": 14.652,
+     "start": 8.32,
+     "end": 8.56,
      "chunk": 0
     },
     {
      "w": "pour",
-     "start": 14.652,
-     "end": 14.772,
+     "start": 8.56,
+     "end": 8.66,
      "chunk": 0
     },
     {
      "w": "l",
-     "start": 14.772,
-     "end": 14.892,
+     "start": 8.66,
+     "end": 8.78,
      "chunk": 0
     },
     {
      "w": "aider",
-     "start": 14.892,
-     "end": 15.052,
+     "start": 8.78,
+     "end": 8.96,
      "chunk": 0
     }
    ],
    "chunks": [
     {
      "text": "Tous deux s’arrêtent pour l’aider.",
-     "start": 13.812,
-     "end": 17.211
+     "start": 7.52,
+     "end": 8.96
     }
    ]
   },
   {
    "id": "s1e",
    "scene": 1,
-   "start": 17.561,
-   "end": 20.195,
+   "start": 8.96,
+   "end": 12.279,
    "display": "Leur geste est-il moins moral chez l’un que chez l’autre ?",
    "say": "Leur geste est-il moins moral chez l’un que chez l’autre ?",
-   "heard": "Leur  geste  est -il  moins  morale  chez  l 'un  que  chez  l 'autre  ?",
-   "match": 0.923,
+   "heard": "Une  personne  qui  ne  croit  pas  en  Dieu  peut -elle  faire  le  bien  ?  Imaginons  deux  passants  devant  un  inconnu  en  danger.  L 'un  croit  en  Dieu,  l 'autre  non.  Tout  deux  s 'arrêtent  pour  l 'aider.  L 'angeste  est -il  moins  moral  chez  l 'un  que  chez  l 'autre  ?",
+   "match": 0.939,
    "words": [
     {
      "w": "leur",
-     "start": 17.561,
-     "end": 17.781,
+     "start": 8.96,
+     "end": 9.31,
      "chunk": 0
     },
     {
      "w": "geste",
-     "start": 17.781,
-     "end": 18.141,
+     "start": 9.31,
+     "end": 9.66,
      "chunk": 0
     },
     {
      "w": "est",
-     "start": 18.141,
-     "end": 18.201,
+     "start": 9.66,
+     "end": 9.82,
      "chunk": 0
     },
     {
      "w": "il",
-     "start": 18.201,
-     "end": 18.321,
+     "start": 9.82,
+     "end": 9.94,
      "chunk": 0
     },
     {
      "w": "moins",
-     "start": 18.321,
-     "end": 18.541,
+     "start": 9.94,
+     "end": 10.14,
      "chunk": 0
     },
     {
      "w": "moral",
-     "start": 18.541,
-     "end": 18.981,
+     "start": 10.14,
+     "end": 10.44,
      "chunk": 0
     },
     {
      "w": "chez",
-     "start": 18.981,
-     "end": 19.201,
+     "start": 10.44,
+     "end": 10.7,
      "chunk": 1
     },
     {
      "w": "l",
-     "start": 19.201,
-     "end": 19.341,
+     "start": 10.7,
+     "end": 10.84,
      "chunk": 1
     },
     {
      "w": "un",
-     "start": 19.341,
-     "end": 19.381,
+     "start": 10.84,
+     "end": 10.88,
      "chunk": 1
     },
     {
      "w": "que",
-     "start": 19.381,
-     "end": 19.521,
+     "start": 10.88,
+     "end": 11.02,
      "chunk": 1
     },
     {
      "w": "chez",
-     "start": 19.521,
-     "end": 19.681,
+     "start": 11.02,
+     "end": 11.2,
      "chunk": 1
     },
     {
      "w": "l",
-     "start": 19.681,
-     "end": 19.821,
+     "start": 11.2,
+     "end": 11.34,
      "chunk": 1
     },
     {
      "w": "autre",
-     "start": 19.821,
-     "end": 20.021,
+     "start": 11.34,
+     "end": 11.5,
      "chunk": 1
     }
    ],
    "chunks": [
     {
      "text": "Leur geste est-il moins moral",
-     "start": 17.561,
-     "end": 18.981
+     "start": 8.96,
+     "end": 10.44
     },
     {
      "text": "chez l’un que chez l’autre ?",
-     "start": 18.981,
-     "end": 20.195
+     "start": 10.44,
+     "end": 12.279
     }
    ]
   },
   {
    "id": "s2a",
    "scene": 2,
-   "start": 20.995,
-   "end": 23.783,
+   "start": 12.579,
+   "end": 14.839,
    "display": "Pour comprendre, distinguons deux choses :",
    "say": "Pour comprendre, distinguons deux choses :",
-   "heard": "pour  comprendre,  distinguons  deux  choses.",
-   "match": 1.0,
+   "heard": "pour  comprendre,  distingons  deux  choses,  accomplir  un  acte  juste  et  expliquer  pourquoi  il  faut  être  juste.",
+   "match": 0.938,
    "words": [
     {
      "w": "pour",
-     "start": 20.995,
-     "end": 21.155,
+     "start": 12.579,
+     "end": 12.719,
      "chunk": 0
     },
     {
      "w": "comprendre",
-     "start": 21.155,
-     "end": 21.575,
+     "start": 12.719,
+     "end": 13.199,
      "chunk": 0
     },
     {
      "w": "distinguons",
-     "start": 22.055,
-     "end": 22.555,
+     "start": 13.199,
+     "end": 14.299,
      "chunk": 0
     },
     {
      "w": "deux",
-     "start": 22.555,
-     "end": 22.715,
+     "start": 14.299,
+     "end": 14.459,
      "chunk": 0
     },
     {
      "w": "choses",
-     "start": 22.715,
-     "end": 23.035,
+     "start": 14.459,
+     "end": 14.839,
      "chunk": 0
     }
    ],
    "chunks": [
     {
      "text": "Pour comprendre, distinguons deux choses :",
-     "start": 20.995,
-     "end": 23.783
+     "start": 12.579,
+     "end": 14.839
     }
    ]
   },
   {
    "id": "s2b",
    "scene": 2,
-   "start": 23.983,
-   "end": 28.701,
+   "start": 15.239,
+   "end": 19.243,
    "display": "accomplir un acte juste et expliquer pourquoi il faut être juste.",
-   "say": "Accomplir un acte juste et expliquer pourquoi il faut être juste.",
-   "heard": "accomplir  un  acte  juste  et  expliquer  pourquoi  il  faut  être  juste.",
-   "match": 1.0,
+   "say": "accomplir un acte juste et expliquer pourquoi il faut être juste.",
+   "heard": "pour  comprendre,  distingons  deux  choses,  accomplir  un  acte  juste  et  expliquer  pourquoi  il  faut  être  juste.",
+   "match": 0.938,
    "words": [
     {
      "w": "accomplir",
-     "start": 23.983,
-     "end": 24.483,
+     "start": 15.239,
+     "end": 15.739,
      "chunk": 0
     },
     {
      "w": "un",
-     "start": 24.483,
-     "end": 24.603,
+     "start": 15.739,
+     "end": 15.879,
      "chunk": 0
     },
     {
      "w": "acte",
-     "start": 24.603,
-     "end": 24.943,
+     "start": 15.879,
+     "end": 16.299,
      "chunk": 0
     },
     {
      "w": "juste",
-     "start": 24.943,
-     "end": 25.103,
+     "start": 16.299,
+     "end": 16.499,
      "chunk": 0
     },
     {
      "w": "et",
-     "start": 25.353,
-     "end": 25.753,
+     "start": 16.499,
+     "end": 16.779,
      "chunk": 1
     },
     {
      "w": "expliquer",
-     "start": 25.753,
-     "end": 26.253,
+     "start": 16.779,
+     "end": 17.239,
      "chunk": 1
     },
     {
      "w": "pourquoi",
-     "start": 26.253,
-     "end": 26.573,
+     "start": 17.239,
+     "end": 17.519,
      "chunk": 1
     },
     {
      "w": "il",
-     "start": 26.573,
-     "end": 26.793,
+     "start": 17.519,
+     "end": 17.699,
      "chunk": 1
     },
     {
      "w": "faut",
-     "start": 26.793,
-     "end": 26.953,
+     "start": 17.699,
+     "end": 17.819,
      "chunk": 1
     },
     {
      "w": "etre",
-     "start": 26.953,
-     "end": 27.133,
+     "start": 17.819,
+     "end": 18.019,
      "chunk": 1
     },
     {
      "w": "juste",
-     "start": 27.133,
-     "end": 27.553,
+     "start": 18.019,
+     "end": 18.419,
      "chunk": 1
     }
    ],
    "chunks": [
     {
      "text": "accomplir un acte juste",
-     "start": 23.983,
-     "end": 25.103
+     "start": 15.239,
+     "end": 16.499
     },
     {
      "text": "et expliquer pourquoi il faut être juste.",
-     "start": 25.353,
-     "end": 28.701
+     "start": 16.499,
+     "end": 19.243
     }
    ]
   },
   {
    "id": "s3a",
    "scene": 3,
-   "start": 29.251,
-   "end": 32.504,
+   "start": 19.443,
+   "end": 22.343,
    "display": "Dans Matthieu 7:12,",
    "say": "Dans Matthieu, chapitre sept, verset douze,",
-   "heard": "Dans  Matthieu,  chapitre  7,  verset  12,",
-   "match": 0.667,
+   "heard": "Dans  Matthieu  chapitre  7,  verset  XII,  Jésus  enseigne  à  traiter  les  autres  comment  voudrait  être  traité.",
+   "match": 0.765,
    "words": [
     {
      "w": "dans",
-     "start": 29.251,
-     "end": 29.351,
+     "start": 19.443,
+     "end": 19.623,
      "chunk": 0
     },
     {
      "w": "matthieu",
-     "start": 29.351,
-     "end": 29.771,
+     "start": 19.623,
+     "end": 20.063,
      "chunk": 0
     },
     {
      "w": "chapitre",
-     "start": 29.851,
-     "end": 30.171,
+     "start": 20.063,
+     "end": 20.603,
      "chunk": 0
     },
     {
      "w": "sept",
-     "start": 30.171,
-     "end": 30.871,
+     "start": 20.603,
+     "end": 21.243,
      "chunk": 0
     },
     {
      "w": "verset",
-     "start": 30.871,
-     "end": 31.151,
+     "start": 21.243,
+     "end": 21.723,
      "chunk": 0
     },
     {
      "w": "douze",
-     "start": 31.151,
-     "end": 32.504,
+     "start": 21.723,
+     "end": 22.343,
      "chunk": 0
     }
    ],
    "chunks": [
     {
      "text": "Dans Matthieu 7:12,",
-     "start": 29.251,
-     "end": 32.504
+     "start": 19.443,
+     "end": 22.343
     }
    ]
   },
   {
    "id": "s3b",
    "scene": 3,
-   "start": 32.654,
-   "end": 36.048,
+   "start": 22.343,
+   "end": 26.436,
    "display": "Jésus enseigne à traiter les autres comme on voudrait être traité.",
    "say": "Jésus enseigne à traiter les autres comme on voudrait être traité.",
-   "heard": "Jésus  enseigne  à  traiter  les  autres  comme  on  voudrait  être  traité.",
-   "match": 1.0,
+   "heard": "Dans  Matthieu  chapitre  7,  verset  XII,  Jésus  enseigne  à  traiter  les  autres  comment  voudrait  être  traité.",
+   "match": 0.765,
    "words": [
     {
      "w": "jesus",
-     "start": 32.654,
-     "end": 33.094,
+     "start": 22.343,
+     "end": 22.783,
      "chunk": 0
     },
     {
      "w": "enseigne",
-     "start": 33.094,
-     "end": 33.614,
+     "start": 22.783,
+     "end": 23.203,
      "chunk": 0
     },
     {
      "w": "a",
-     "start": 33.614,
-     "end": 33.714,
+     "start": 23.203,
+     "end": 23.283,
      "chunk": 0
     },
     {
      "w": "traiter",
-     "start": 33.714,
-     "end": 33.994,
+     "start": 23.283,
+     "end": 23.583,
      "chunk": 0
     },
     {
      "w": "les",
-     "start": 33.994,
-     "end": 34.154,
+     "start": 23.583,
+     "end": 23.743,
      "chunk": 0
     },
     {
      "w": "autres",
-     "start": 34.154,
-     "end": 34.434,
+     "start": 23.743,
+     "end": 24.043,
      "chunk": 0
     },
     {
      "w": "comme",
-     "start": 34.434,
-     "end": 34.774,
+     "start": 24.043,
+     "end": 24.213,
      "chunk": 1
     },
     {
      "w": "on",
-     "start": 34.774,
-     "end": 34.874,
+     "start": 24.213,
+     "end": 24.383,
      "chunk": 1
     },
     {
      "w": "voudrait",
-     "start": 34.874,
-     "end": 35.194,
+     "start": 24.383,
+     "end": 24.763,
      "chunk": 1
     },
     {
      "w": "etre",
-     "start": 35.194,
-     "end": 35.374,
+     "start": 24.763,
+     "end": 24.983,
      "chunk": 1
     },
     {
      "w": "traite",
-     "start": 35.374,
-     "end": 35.874,
+     "start": 24.983,
+     "end": 25.443,
      "chunk": 1
     }
    ],
    "chunks": [
     {
      "text": "Jésus enseigne à traiter les autres",
-     "start": 32.654,
-     "end": 34.434
+     "start": 22.343,
+     "end": 24.043
     },
     {
      "text": "comme on voudrait être traité.",
-     "start": 34.434,
-     "end": 36.048
+     "start": 24.043,
+     "end": 26.436
     }
    ]
   },
   {
    "id": "s4a",
    "scene": 4,
-   "start": 36.598,
-   "end": 40.065,
+   "start": 26.636,
+   "end": 29.116,
    "display": "Le Coran, en sourate 5, verset 8,",
    "say": "Le Coran, en sourate cinq, verset huit,",
-   "heard": "Le  Coran  en  sourat  de  5  verset  8.",
-   "match": 0.571,
+   "heard": "Le  Coran  en  sourat  de  5  verset  8  appelle  à  rester  juste,  même  en  verset  que  l 'on  déteste.",
+   "match": 0.722,
    "words": [
     {
      "w": "le",
-     "start": 36.598,
-     "end": 36.738,
+     "start": 26.636,
+     "end": 26.736,
      "chunk": 0
     },
     {
      "w": "coran",
-     "start": 36.738,
-     "end": 37.098,
+     "start": 26.736,
+     "end": 27.176,
      "chunk": 0
     },
     {
      "w": "en",
-     "start": 37.098,
-     "end": 37.378,
+     "start": 27.176,
+     "end": 27.416,
      "chunk": 0
     },
     {
      "w": "sourate",
-     "start": 37.378,
-     "end": 37.738,
+     "start": 27.416,
+     "end": 27.766,
      "chunk": 0
     },
     {
      "w": "cinq",
-     "start": 37.738,
-     "end": 38.098,
+     "start": 27.766,
+     "end": 28.116,
      "chunk": 0
     },
     {
      "w": "verset",
-     "start": 38.098,
-     "end": 38.718,
+     "start": 28.116,
+     "end": 28.856,
      "chunk": 0
     },
     {
      "w": "huit",
-     "start": 38.718,
-     "end": 40.065,
+     "start": 28.856,
+     "end": 29.116,
      "chunk": 0
     }
    ],
    "chunks": [
     {
      "text": "Le Coran, en sourate 5, verset 8,",
-     "start": 36.598,
-     "end": 40.065
+     "start": 26.636,
+     "end": 29.116
     }
    ]
   },
   {
    "id": "s4b",
    "scene": 4,
-   "start": 40.215,
-   "end": 44.223,
+   "start": 29.116,
+   "end": 32.324,
    "display": "appelle à rester juste, même envers ceux que l’on déteste.",
    "say": "appelle à rester juste, même envers ceux que l’on déteste.",
-   "heard": "Apel  à  rester  juste,  même  envers  ceux  que  l 'on  déteste.",
-   "match": 0.909,
+   "heard": "Le  Coran  en  sourat  de  5  verset  8  appelle  à  rester  juste,  même  en  verset  que  l 'on  déteste.",
+   "match": 0.722,
    "words": [
     {
      "w": "appelle",
-     "start": 40.215,
-     "end": 40.575,
+     "start": 29.116,
+     "end": 29.536,
      "chunk": 0
     },
     {
      "w": "a",
-     "start": 40.575,
-     "end": 40.675,
+     "start": 29.536,
+     "end": 29.676,
      "chunk": 0
     },
     {
      "w": "rester",
-     "start": 40.675,
-     "end": 40.915,
+     "start": 29.676,
+     "end": 29.936,
      "chunk": 0
     },
     {
      "w": "juste",
-     "start": 40.915,
-     "end": 41.395,
+     "start": 29.936,
+     "end": 30.376,
      "chunk": 0
     },
     {
      "w": "meme",
-     "start": 41.935,
-     "end": 42.075,
+     "start": 30.676,
+     "end": 30.916,
      "chunk": 1
     },
     {
      "w": "envers",
-     "start": 42.075,
-     "end": 42.475,
+     "start": 30.916,
+     "end": 31.156,
      "chunk": 1
     },
     {
      "w": "ceux",
-     "start": 42.475,
-     "end": 42.715,
+     "start": 31.156,
+     "end": 31.396,
      "chunk": 1
     },
     {
      "w": "que",
-     "start": 42.715,
-     "end": 42.895,
+     "start": 31.396,
+     "end": 31.536,
      "chunk": 1
     },
     {
      "w": "l",
-     "start": 42.895,
-     "end": 42.975,
+     "start": 31.536,
+     "end": 31.616,
      "chunk": 1
     },
     {
      "w": "on",
-     "start": 42.975,
-     "end": 43.035,
+     "start": 31.616,
+     "end": 31.676,
      "chunk": 1
     },
     {
      "w": "deteste",
-     "start": 43.035,
-     "end": 43.535,
+     "start": 31.676,
+     "end": 32.156,
      "chunk": 1
     }
    ],
    "chunks": [
     {
      "text": "appelle à rester juste,",
-     "start": 40.215,
-     "end": 41.395
+     "start": 29.116,
+     "end": 30.376
     },
     {
      "text": "même envers ceux que l’on déteste.",
-     "start": 41.935,
-     "end": 44.223
+     "start": 30.676,
+     "end": 32.324
     }
    ]
   },
   {
    "id": "s5a",
    "scene": 5,
-   "start": 44.773,
-   "end": 50.773,
+   "start": 32.524,
+   "end": 39.607,
    "display": "Kant, lui, défend l’idée que la raison peut reconnaître un devoir qui s’impose, même contre nos intérêts.",
    "say": "Kante, lui, défend l’idée que la raison peut reconnaître un devoir qui s’impose, même contre nos intérêts.",
-   "heard": "Lui  défend  l 'idée  que  la  raison  peut  reconnaître  un  devoir  qui  s 'impose,  même  contre  nos  intérêts.",
+   "heard": "Lui  défend  l 'idée  que  la  raison  peut  reconnaître  un  devoir  qui  s 'impose  même  contre  nos  intérêts.",
    "match": 0.947,
    "words": [
     {
      "w": "kante",
-     "start": 44.773,
-     "end": 44.773,
+     "start": 32.524,
+     "end": 32.524,
      "chunk": 0
     },
     {
      "w": "lui",
-     "start": 44.773,
-     "end": 45.553,
+     "start": 32.524,
+     "end": 33.284,
      "chunk": 0
     },
     {
      "w": "defend",
-     "start": 45.553,
-     "end": 46.233,
+     "start": 33.284,
+     "end": 34.144,
      "chunk": 0
     },
     {
      "w": "l",
-     "start": 46.233,
-     "end": 46.333,
+     "start": 34.144,
+     "end": 34.264,
      "chunk": 0
     },
     {
      "w": "idee",
-     "start": 46.333,
-     "end": 46.533,
+     "start": 34.264,
+     "end": 34.444,
      "chunk": 0
     },
     {
      "w": "que",
-     "start": 46.533,
-     "end": 46.713,
+     "start": 34.444,
+     "end": 34.624,
      "chunk": 1
     },
     {
      "w": "la",
-     "start": 46.713,
-     "end": 46.833,
+     "start": 34.624,
+     "end": 34.744,
      "chunk": 1
     },
     {
      "w": "raison",
-     "start": 46.833,
-     "end": 47.093,
+     "start": 34.744,
+     "end": 35.084,
      "chunk": 1
     },
     {
      "w": "peut",
-     "start": 47.093,
-     "end": 47.293,
+     "start": 35.084,
+     "end": 35.264,
      "chunk": 1
     },
     {
      "w": "reconnaitre",
-     "start": 47.293,
-     "end": 47.793,
+     "start": 35.264,
+     "end": 35.764,
      "chunk": 1
     },
     {
      "w": "un",
-     "start": 47.793,
-     "end": 47.913,
+     "start": 35.764,
+     "end": 35.864,
      "chunk": 1
     },
     {
      "w": "devoir",
-     "start": 47.913,
-     "end": 48.153,
+     "start": 35.864,
+     "end": 36.164,
      "chunk": 1
     },
     {
      "w": "qui",
-     "start": 48.153,
-     "end": 48.473,
+     "start": 36.164,
+     "end": 36.464,
      "chunk": 1
     },
     {
      "w": "s",
-     "start": 48.473,
-     "end": 48.593,
+     "start": 36.464,
+     "end": 36.604,
      "chunk": 1
     },
     {
      "w": "impose",
-     "start": 48.593,
-     "end": 49.033,
+     "start": 36.604,
+     "end": 37.064,
      "chunk": 1
     },
     {
      "w": "meme",
-     "start": 49.193,
-     "end": 49.413,
+     "start": 37.064,
+     "end": 37.564,
      "chunk": 2
     },
     {
      "w": "contre",
-     "start": 49.413,
-     "end": 49.753,
+     "start": 37.564,
+     "end": 37.924,
      "chunk": 2
     },
     {
      "w": "nos",
-     "start": 49.753,
-     "end": 49.953,
+     "start": 37.924,
+     "end": 38.124,
      "chunk": 2
     },
     {
      "w": "interets",
-     "start": 49.953,
-     "end": 50.773,
+     "start": 38.124,
+     "end": 38.644,
      "chunk": 2
     }
    ],
    "chunks": [
     {
      "text": "Kant, lui, défend l’idée",
-     "start": 44.773,
-     "end": 46.533
+     "start": 32.524,
+     "end": 34.444
     },
     {
      "text": "que la raison peut reconnaître un devoir qui s’impose,",
-     "start": 46.533,
-     "end": 49.033
+     "start": 34.444,
+     "end": 37.064
     },
     {
      "text": "même contre nos intérêts.",
-     "start": 49.193,
-     "end": 50.773
+     "start": 37.064,
+     "end": 39.607
     }
    ]
   },
   {
    "id": "s6a",
    "scene": 6,
-   "start": 51.373,
-   "end": 52.858,
+   "start": 39.857,
+   "end": 41.217,
    "display": "On comprend alors une nuance :",
    "say": "On comprend alors une nuance :",
-   "heard": "On  comprend  alors  une  nuance.",
+   "heard": "On  comprend  alors  une  nuance,  la  foi  n 'est  pas  une  condition  nécessaire  pour  accomplir  un  acte  juste.  Mais  cela  ne  tranche  pas  la  question  de  son  fondement  ultime.",
    "match": 1.0,
    "words": [
     {
      "w": "on",
-     "start": 51.373,
-     "end": 51.473,
+     "start": 39.857,
+     "end": 39.977,
      "chunk": 0
     },
     {
      "w": "comprend",
-     "start": 51.473,
-     "end": 51.813,
+     "start": 39.977,
+     "end": 40.297,
      "chunk": 0
     },
     {
      "w": "alors",
-     "start": 51.813,
-     "end": 52.013,
+     "start": 40.297,
+     "end": 40.517,
      "chunk": 0
     },
     {
      "w": "une",
-     "start": 52.013,
-     "end": 52.273,
+     "start": 40.517,
+     "end": 40.797,
      "chunk": 0
     },
     {
      "w": "nuance",
-     "start": 52.273,
-     "end": 52.473,
+     "start": 40.797,
+     "end": 41.217,
      "chunk": 0
     }
    ],
    "chunks": [
     {
      "text": "On comprend alors une nuance :",
-     "start": 51.373,
-     "end": 52.858
+     "start": 39.857,
+     "end": 41.217
     }
    ]
   },
   {
    "id": "s6b",
    "scene": 6,
-   "start": 53.058,
-   "end": 57.01,
+   "start": 41.557,
+   "end": 44.817,
    "display": "la foi n’est pas une condition nécessaire pour accomplir un acte juste.",
-   "say": "La foi n’est pas une condition nécessaire pour accomplir un acte juste.",
-   "heard": "La  foi  n 'est  pas  une  condition  nécessaire  pour  accomplir  un  acte  juste.",
+   "say": "la foi n’est pas une condition nécessaire pour accomplir un acte juste.",
+   "heard": "On  comprend  alors  une  nuance,  la  foi  n 'est  pas  une  condition  nécessaire  pour  accomplir  un  acte  juste.  Mais  cela  ne  tranche  pas  la  question  de  son  fondement  ultime.",
    "match": 1.0,
    "words": [
     {
      "w": "la",
-     "start": 53.058,
-     "end": 53.198,
+     "start": 41.557,
+     "end": 41.657,
      "chunk": 0
     },
     {
      "w": "foi",
-     "start": 53.198,
-     "end": 53.458,
+     "start": 41.657,
+     "end": 41.897,
      "chunk": 0
     },
     {
      "w": "n",
-     "start": 53.458,
-     "end": 53.878,
+     "start": 41.897,
+     "end": 42.017,
      "chunk": 0
     },
     {
      "w": "est",
-     "start": 53.878,
-     "end": 53.938,
+     "start": 42.017,
+     "end": 42.077,
      "chunk": 0
     },
     {
      "w": "pas",
-     "start": 53.938,
-     "end": 54.098,
+     "start": 42.077,
+     "end": 42.237,
      "chunk": 0
     },
     {
      "w": "une",
-     "start": 54.098,
-     "end": 54.278,
+     "start": 42.237,
+     "end": 42.397,
      "chunk": 0
     },
     {
      "w": "condition",
-     "start": 54.278,
-     "end": 54.738,
+     "start": 42.397,
+     "end": 42.817,
      "chunk": 0
     },
     {
      "w": "necessaire",
-     "start": 54.738,
-     "end": 55.358,
+     "start": 42.817,
+     "end": 43.357,
      "chunk": 0
     },
     {
      "w": "pour",
-     "start": 55.358,
-     "end": 55.658,
+     "start": 43.357,
+     "end": 43.637,
      "chunk": 1
     },
     {
      "w": "accomplir",
-     "start": 55.658,
-     "end": 56.118,
+     "start": 43.637,
+     "end": 44.117,
      "chunk": 1
     },
     {
      "w": "un",
-     "start": 56.118,
-     "end": 56.238,
+     "start": 44.117,
+     "end": 44.217,
      "chunk": 1
     },
     {
      "w": "acte",
-     "start": 56.238,
-     "end": 56.598,
+     "start": 44.217,
+     "end": 44.537,
      "chunk": 1
     },
     {
      "w": "juste",
-     "start": 56.598,
-     "end": 56.758,
+     "start": 44.537,
+     "end": 44.817,
      "chunk": 1
     }
    ],
    "chunks": [
     {
      "text": "la foi n’est pas une condition nécessaire",
-     "start": 53.058,
-     "end": 55.358
+     "start": 41.557,
+     "end": 43.357
     },
     {
      "text": "pour accomplir un acte juste.",
-     "start": 55.358,
-     "end": 57.01
+     "start": 43.357,
+     "end": 44.817
     }
    ]
   },
   {
    "id": "s6c",
    "scene": 6,
-   "start": 57.46,
-   "end": 61.615,
+   "start": 45.137,
+   "end": 48.024,
    "display": "Mais cela ne tranche pas la question de son fondement ultime.",
    "say": "Mais cela ne tranche pas la question de son fondement ultime.",
-   "heard": "Mais  cela  ne  tranche  pas  la  question  de  son  fondement  ultime.",
+   "heard": "On  comprend  alors  une  nuance,  la  foi  n 'est  pas  une  condition  nécessaire  pour  accomplir  un  acte  juste.  Mais  cela  ne  tranche  pas  la  question  de  son  fondement  ultime.",
    "match": 1.0,
    "words": [
     {
      "w": "mais",
-     "start": 57.46,
-     "end": 57.62,
+     "start": 45.137,
+     "end": 45.357,
      "chunk": 0
     },
     {
      "w": "cela",
-     "start": 57.62,
-     "end": 57.84,
+     "start": 45.357,
+     "end": 45.617,
      "chunk": 0
     },
     {
      "w": "ne",
-     "start": 57.84,
-     "end": 58.1,
+     "start": 45.617,
+     "end": 45.857,
      "chunk": 0
     },
     {
      "w": "tranche",
-     "start": 58.1,
-     "end": 58.44,
+     "start": 45.857,
+     "end": 46.137,
      "chunk": 0
     },
     {
      "w": "pas",
-     "start": 58.44,
-     "end": 58.6,
+     "start": 46.137,
+     "end": 46.257,
      "chunk": 0
     },
     {
      "w": "la",
-     "start": 58.6,
-     "end": 58.74,
+     "start": 46.257,
+     "end": 46.377,
      "chunk": 1
     },
     {
      "w": "question",
-     "start": 58.74,
-     "end": 59.16,
+     "start": 46.377,
+     "end": 46.717,
      "chunk": 1
     },
     {
      "w": "de",
-     "start": 59.16,
-     "end": 59.36,
+     "start": 46.717,
+     "end": 46.897,
      "chunk": 1
     },
     {
      "w": "son",
-     "start": 59.36,
-     "end": 59.54,
+     "start": 46.897,
+     "end": 47.017,
      "chunk": 1
     },
     {
      "w": "fondement",
-     "start": 59.54,
-     "end": 60.08,
+     "start": 47.017,
+     "end": 47.397,
      "chunk": 1
     },
     {
      "w": "ultime",
-     "start": 60.08,
-     "end": 60.6,
+     "start": 47.397,
+     "end": 47.877,
      "chunk": 1
     }
    ],
    "chunks": [
     {
      "text": "Mais cela ne tranche pas",
-     "start": 57.46,
-     "end": 58.6
+     "start": 45.137,
+     "end": 46.257
     },
     {
      "text": "la question de son fondement ultime.",
-     "start": 58.6,
-     "end": 61.615
+     "start": 46.257,
+     "end": 48.024
     }
    ]
   },
   {
    "id": "s7a",
    "scene": 7,
-   "start": 62.215,
-   "end": 68.645,
+   "start": 48.274,
+   "end": 52.874,
    "display": "Le bien vient-il de Dieu, ou la raison humaine peut-elle en reconnaître la valeur par elle-même ?",
    "say": "Le bien vient-il de Dieu, ou la raison humaine peut-elle en reconnaître la valeur par elle-même ?",
-   "heard": "Le  bien  vient -il  de  Dieu,  où  la  raison  humaine  peut -elle  en  reconnaître  la  valeur  par  elle -même  ?",
-   "match": 1.0,
+   "heard": "Le  bien  ou  bien -t -il  de  Dieu,  ou  la  raison  humaine  peut -elle  en  reconnaître  la  valeur  par  elle -même  ?  C 'est  là  que  commence  le  véritable  débat.",
+   "match": 0.963,
    "words": [
     {
      "w": "le",
-     "start": 62.215,
-     "end": 62.355,
+     "start": 48.274,
+     "end": 48.394,
      "chunk": 0
     },
     {
      "w": "bien",
-     "start": 62.355,
-     "end": 62.635,
+     "start": 48.394,
+     "end": 48.634,
      "chunk": 0
     },
     {
      "w": "vient",
-     "start": 62.635,
-     "end": 62.855,
+     "start": 48.634,
+     "end": 49.014,
      "chunk": 0
     },
     {
      "w": "il",
-     "start": 62.855,
-     "end": 63.115,
+     "start": 49.014,
+     "end": 49.114,
      "chunk": 0
     },
     {
      "w": "de",
-     "start": 63.115,
-     "end": 63.315,
+     "start": 49.114,
+     "end": 49.274,
      "chunk": 0
     },
     {
      "w": "dieu",
-     "start": 63.315,
-     "end": 63.595,
+     "start": 49.274,
+     "end": 49.534,
      "chunk": 0
     },
     {
      "w": "ou",
-     "start": 64.185,
-     "end": 64.385,
+     "start": 49.774,
+     "end": 49.954,
      "chunk": 1
     },
     {
      "w": "la",
-     "start": 64.385,
-     "end": 64.525,
+     "start": 49.954,
+     "end": 50.074,
      "chunk": 1
     },
     {
      "w": "raison",
-     "start": 64.525,
-     "end": 64.825,
+     "start": 50.074,
+     "end": 50.374,
      "chunk": 1
     },
     {
      "w": "humaine",
-     "start": 64.825,
-     "end": 65.245,
+     "start": 50.374,
+     "end": 50.834,
      "chunk": 1
     },
     {
      "w": "peut",
-     "start": 65.245,
-     "end": 65.425,
+     "start": 50.834,
+     "end": 51.054,
      "chunk": 1
     },
     {
      "w": "elle",
-     "start": 65.425,
-     "end": 65.645,
+     "start": 51.054,
+     "end": 51.254,
      "chunk": 1
     },
     {
      "w": "en",
-     "start": 65.645,
-     "end": 65.745,
+     "start": 51.254,
+     "end": 51.354,
      "chunk": 1
     },
     {
      "w": "reconnaitre",
-     "start": 65.745,
-     "end": 66.305,
+     "start": 51.354,
+     "end": 51.854,
      "chunk": 1
     },
     {
      "w": "la",
-     "start": 66.305,
-     "end": 66.465,
+     "start": 51.854,
+     "end": 52.014,
      "chunk": 1
     },
     {
      "w": "valeur",
-     "start": 66.465,
-     "end": 66.745,
+     "start": 52.014,
+     "end": 52.274,
      "chunk": 1
     },
     {
      "w": "par",
-     "start": 66.745,
-     "end": 67.025,
+     "start": 52.274,
+     "end": 52.514,
      "chunk": 2
     },
     {
      "w": "elle",
-     "start": 67.025,
-     "end": 67.165,
+     "start": 52.514,
+     "end": 52.654,
      "chunk": 2
     },
     {
      "w": "meme",
-     "start": 67.165,
-     "end": 67.385,
+     "start": 52.654,
+     "end": 52.874,
      "chunk": 2
     }
    ],
    "chunks": [
     {
      "text": "Le bien vient-il de Dieu,",
-     "start": 62.215,
-     "end": 63.595
+     "start": 48.274,
+     "end": 49.534
     },
     {
      "text": "ou la raison humaine peut-elle en reconnaître la valeur",
-     "start": 64.185,
-     "end": 66.745
+     "start": 49.774,
+     "end": 52.274
     },
     {
      "text": "par elle-même ?",
-     "start": 66.745,
-     "end": 68.645
+     "start": 52.274,
+     "end": 52.874
     }
    ]
   },
   {
    "id": "s7b",
    "scene": 7,
-   "start": 69.195,
-   "end": 72.067,
+   "start": 53.354,
+   "end": 56.1,
    "display": "C’est là que commence le véritable débat.",
    "say": "C’est là que commence le véritable débat.",
-   "heard": "C 'est  là  que  commence  le  véritable  débat.",
-   "match": 1.0,
+   "heard": "Le  bien  ou  bien -t -il  de  Dieu,  ou  la  raison  humaine  peut -elle  en  reconnaître  la  valeur  par  elle -même  ?  C 'est  là  que  commence  le  véritable  débat.",
+   "match": 0.963,
    "words": [
     {
      "w": "c",
-     "start": 69.195,
-     "end": 69.355,
+     "start": 53.354,
+     "end": 53.514,
      "chunk": 0
     },
     {
      "w": "est",
-     "start": 69.355,
-     "end": 69.395,
+     "start": 53.514,
+     "end": 53.594,
      "chunk": 0
     },
     {
      "w": "la",
-     "start": 69.395,
-     "end": 69.515,
+     "start": 53.594,
+     "end": 53.734,
      "chunk": 0
     },
     {
      "w": "que",
-     "start": 69.515,
-     "end": 69.635,
+     "start": 53.734,
+     "end": 53.894,
      "chunk": 0
     },
     {
      "w": "commence",
-     "start": 69.635,
-     "end": 69.915,
+     "start": 53.894,
+     "end": 54.174,
      "chunk": 0
     },
     {
      "w": "le",
-     "start": 69.915,
-     "end": 70.175,
+     "start": 54.174,
+     "end": 54.394,
      "chunk": 0
     },
     {
      "w": "veritable",
-     "start": 70.175,
-     "end": 70.595,
+     "start": 54.394,
+     "end": 54.774,
      "chunk": 0
     },
     {
      "w": "debat",
-     "start": 70.595,
-     "end": 71.055,
+     "start": 54.774,
+     "end": 55.274,
      "chunk": 0
     }
    ],
    "chunks": [
     {
      "text": "C’est là que commence le véritable débat.",
-     "start": 69.195,
-     "end": 72.067
+     "start": 53.354,
+     "end": 56.1
     }
    ]
   }

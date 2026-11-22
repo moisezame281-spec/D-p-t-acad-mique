@@ -1,9 +1,9 @@
 L’ÉNIGME HUMAINE — ÉPISODE 004
 LE BIEN A-T-IL BESOIN DE DIEU ?
 
-Durée : 75.67 s · 1080×1920 · 30 i/s · français
-Voix : version C (expressive), ton « professeur qui explique sa logique à un élève », silences courts.
-Nouveauté : une transition de mise en scène entre chaque passage de la voix.
+Durée : 59.90 s · 1080×1920 · 30 i/s · français
+Version 2 : explication CONTINUE (chaque passage est dit d’un seul tenant, sans silence entre les phrases), questions avec montée de la voix,
+une seule musique de fond du début à la fin, transitions en fondu enchaîné doux.
 
 NARRATION (texte fourni, conservé à l’identique)
 
@@ -31,69 +31,69 @@ C’est là que commence le véritable débat. »
 MINUTAGE PAR SCÈNE (narration · textes à l’écran · transition vers la scène suivante)
 
 
-SCÈNE 01 — LA QUESTION (la rue sous la pluie, la nuit)  [00:00.60 → 00:20.20]
-  00:00.60  VOIX  Une personne qui ne croit pas en Dieu peut-elle faire le bien ?
-  00:06.59  VOIX  Imaginons deux passants devant un inconnu en danger.
-  00:11.00  VOIX  L’un croit en Dieu, l’autre non.
-  00:13.81  VOIX  Tous deux s’arrêtent pour l’aider.
-  00:17.56  VOIX  Leur geste est-il moins moral chez l’un que chez l’autre ?
+SCÈNE 01 — LA QUESTION (la rue sous la pluie, la nuit)  [00:00.50 → 00:12.28]
+  00:00.50  VOIX  Une personne qui ne croit pas en Dieu peut-elle faire le bien ?
+  00:03.30  VOIX  Imaginons deux passants devant un inconnu en danger.
+  00:06.26  VOIX  L’un croit en Dieu, l’autre non.
+  00:07.52  VOIX  Tous deux s’arrêtent pour l’aider.
+  00:08.96  VOIX  Leur geste est-il moins moral chez l’un que chez l’autre ?
            ÉCRAN L’Énigme humaine · ÉPISODE 004
            ÉCRAN UNE PERSONNE QUI NE CROIT PAS EN DIEU / peut-elle / FAIRE LE BIEN ?
            ÉCRAN CROIT EN DIEU · NE CROIT PAS (au-dessus des deux passants)
            ÉCRAN Leur geste est-il / MOINS MORAL ? / chez l’un que chez l’autre + la balance à l’équilibre
-           TRANSITION → plongée sous le trottoir
+           TRANSITION → fondu avec la caméra qui continue de descendre
 
-SCÈNE 02 — DEUX CHOSES (l’arbre en coupe)  [00:21.00 → 00:28.70]
-  00:21.00  VOIX  Pour comprendre, distinguons deux choses :
-  00:23.98  VOIX  accomplir un acte juste et expliquer pourquoi il faut être juste.
+SCÈNE 02 — DEUX CHOSES (l’arbre en coupe)  [00:12.58 → 00:19.24]
+  00:12.58  VOIX  Pour comprendre, distinguons deux choses :
+  00:15.24  VOIX  accomplir un acte juste et expliquer pourquoi il faut être juste.
            ÉCRAN DEUX CHOSES
            ÉCRAN ACCOMPLIR — un acte juste (le feuillage, les fruits de lumière)
            ÉCRAN EXPLIQUER — pourquoi il faut être juste (les racines)
-           TRANSITION → traversée d’une lumière (le fruit devient le vitrail)
+           TRANSITION → fondu à travers une lumière chaude
 
-SCÈNE 03 — MATTHIEU 7:12 (la nef, le miroir)  [00:29.25 → 00:36.05]
-  00:29.25  VOIX  Dans Matthieu 7:12,
-  00:32.65  VOIX  Jésus enseigne à traiter les autres comme on voudrait être traité.
+SCÈNE 03 — MATTHIEU 7:12 (la nef, le miroir)  [00:19.44 → 00:26.44]
+  00:19.44  VOIX  Dans Matthieu 7:12,
+  00:22.34  VOIX  Jésus enseigne à traiter les autres comme on voudrait être traité.
            ÉCRAN MATTHIEU 7 : 12
            ÉCRAN « Tout ce que vous voulez que les hommes / fassent pour vous, / faites-le de même pour eux »
            ÉCRAN trad. Louis Segond, 1910
-           TRANSITION → panoramique filé (une colonnade chasse l’autre)
+           TRANSITION → fondu avec un glissement latéral doux
 
-SCÈNE 04 — CORAN 5:8 (la forêt d’arcs bicolores)  [00:36.60 → 00:44.22]
-  00:36.60  VOIX  Le Coran, en sourate 5, verset 8,
-  00:40.22  VOIX  appelle à rester juste, même envers ceux que l’on déteste.
+SCÈNE 04 — CORAN 5:8 (la forêt d’arcs bicolores)  [00:26.64 → 00:32.32]
+  00:26.64  VOIX  Le Coran, en sourate 5, verset 8,
+  00:29.12  VOIX  appelle à rester juste, même envers ceux que l’on déteste.
            ÉCRAN SOURATE AL-MÂ’IDA
            ÉCRAN المائدة
            ÉCRAN 5 : 8
            ÉCRAN RESTER JUSTE / même envers ceux que l’on déteste + la balance de justice
-           TRANSITION → l’étoile géométrique s’ouvre sur le cabinet de Kant
+           TRANSITION → fondu enchaîné, léger travelling avant
 
-SCÈNE 05 — KANT (le cabinet de Königsberg)  [00:44.77 → 00:50.77]
-  00:44.77  VOIX  Kant, lui, défend l’idée que la raison peut reconnaître un devoir qui s’impose, même contre nos intérêts.
+SCÈNE 05 — KANT (le cabinet de Königsberg)  [00:32.52 → 00:39.61]
+  00:32.52  VOIX  Kant, lui, défend l’idée que la raison peut reconnaître un devoir qui s’impose, même contre nos intérêts.
            ÉCRAN EMMANUEL KANT · 1724 – 1804 · Königsberg
            ÉCRAN Johann Gottlieb Becker, Immanuel Kant, 1768 · Schiller-Nationalmuseum, Marbach · domaine public
            ÉCRAN Grundlegung zur Metaphysik der Sitten, 1785 / Fondements de la métaphysique des mœurs
            ÉCRAN L’IMPÉRATIF CATÉGORIQUE / un devoir qui s’impose / même contre nos intérêts (la boussole du devoir)
-           TRANSITION → la page qui tourne
+           TRANSITION → fondu enchaîné, léger travelling avant
 
-SCÈNE 06 — LA NUANCE (l’arbre la nuit, la descente vers les racines)  [00:51.37 → 01:01.62]
-  00:51.37  VOIX  On comprend alors une nuance :
-  00:53.06  VOIX  la foi n’est pas une condition nécessaire pour accomplir un acte juste.
-  00:57.46  VOIX  Mais cela ne tranche pas la question de son fondement ultime.
+SCÈNE 06 — LA NUANCE (l’arbre la nuit, la descente vers les racines)  [00:39.86 → 00:48.02]
+  00:39.86  VOIX  On comprend alors une nuance :
+  00:41.56  VOIX  la foi n’est pas une condition nécessaire pour accomplir un acte juste.
+  00:45.14  VOIX  Mais cela ne tranche pas la question de son fondement ultime.
            ÉCRAN UNE NUANCE
            ÉCRAN La foi n’est pas / UNE CONDITION NÉCESSAIRE / pour accomplir un acte juste
            ÉCRAN Mais cela ne tranche pas / SON FONDEMENT ULTIME
            TRANSITION → descente continue de la caméra
 
-SCÈNE 07 — LA QUESTION OUVERTE (les deux lumières, puis la rue à l’aube)  [01:02.22 → 01:12.07]
-  01:02.22  VOIX  Le bien vient-il de Dieu, ou la raison humaine peut-elle en reconnaître la valeur par elle-même ?
-  01:09.19  VOIX  C’est là que commence le véritable débat.
+SCÈNE 07 — LA QUESTION OUVERTE (les deux lumières, puis la rue à l’aube)  [00:48.27 → 00:56.10]
+  00:48.27  VOIX  Le bien vient-il de Dieu, ou la raison humaine peut-elle en reconnaître la valeur par elle-même ?
+  00:53.35  VOIX  C’est là que commence le véritable débat.
            ÉCRAN Le bien vient-il de Dieu, / ou la raison humaine / peut-elle en reconnaître / la valeur par elle-même ?
            ÉCRAN DIEU ? · LA RAISON ? (deux lumières égales)
-           ÉCRAN → remontée vers la rue : C’est là que commence / LE VÉRITABLE DÉBAT.
+           ÉCRAN → fondu avec la caméra qui remonte vers la rue : C’est là que commence / LE VÉRITABLE DÉBAT.
            ÉCRAN L’ÉNIGME HUMAINE. / Fais ta propre réflexion. / FOI · RAISON · SCIENCE · CONSCIENCE
 
-FIN : titre, signature et musique de fin jusqu’à 01:15.67.
+FIN : titre, signature et musique de fin jusqu’à 00:59.90
 
 PRONONCIATION (graphie utilisée pour la synthèse, sans changer le texte affiché)
   « Matthieu 7:12 » → « Matthieu, chapitre sept, verset douze »

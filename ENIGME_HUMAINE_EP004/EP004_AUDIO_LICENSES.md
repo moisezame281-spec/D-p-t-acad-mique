@@ -7,9 +7,9 @@
 
 | Élément | Origine | Droits |
 |---|---|---|
-| Toute la musique (pulsation de la rue, accord humain quand les passants s'arrêtent, pizzicati de l'arbre, orgue doux de la nef, cordes pincées et tambour sur cadre des arcs, clavecin et horloge du cabinet de Kant, descente vers les racines, deux carillons pour les deux lumières, aube du débat, thème de fin de la série) | **Synthétisée note par note** par le script `motion/projects/enigme-ep004/score.py`. Aucun échantillon, aucune boucle, aucune banque de sons. | Œuvre originale du producteur. Aucun tiers à rémunérer ni à créditer. |
+| Toute la musique : **une seule musique de fond continue** (nappe de cordes, basse, arpège de piano, pulsation douce, en ré mineur à 84 battements/min, puis l'aube en ré majeur et le thème de fin de la série) | **Synthétisée note par note** par le script `motion/projects/enigme-ep004/score.py`. Aucun échantillon, aucune boucle, aucune banque de sons. | Œuvre originale du producteur. Aucun tiers à rémunérer ni à créditer. |
 
-- L'« orgue » est une synthèse additive sans mélodie liturgique. Il n'y a **aucun chant religieux, aucune récitation et aucun appel à la prière**.
+- Il n'y a **aucun chant religieux, aucune récitation et aucun appel à la prière**.
 - **Diffusion couverte :** TikTok, YouTube (Shorts et vidéos), Instagram, Facebook, autres réseaux, diffusion organique **et** campagnes publicitaires.
 - **Content ID / Copyright Match :** aucun risque de réclamation, puisque l'œuvre n'est déposée nulle part.
 
@@ -23,6 +23,7 @@ Tous les effets (pluie, rumeur de la ville, pas, voiture, souffles des **six tra
 |---|---|---|
 | Moteur expressif | **Chatterbox Multilingual** (Resemble AI) | MIT (usage commercial autorisé) |
 | Référence de timbre | `series/enigme-humaine/voix_reference.flac`, générée avec **Kokoro-82M** (voix `ff_siwis`) | Apache-2.0 selon la fiche du modèle |
+| Intonation des questions (montée de la voix sur le mot interrogé) | `pyworld` (analyse/resynthèse WORLD) | MIT (pyworld) et BSD modifiée (WORLD) |
 | Contrôle de la transcription (sans effet sur le son) | `faster-whisper`, modèles « small » et « medium » | MIT |
 
 - **Filigrane :** Chatterbox ajoute à chaque fichier généré un filigrane inaudible (« Perth ») qui permet d'identifier un contenu de synthèse. Il n'a aucun effet audible et ne gêne pas la diffusion.

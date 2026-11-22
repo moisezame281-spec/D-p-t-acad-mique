@@ -44,7 +44,7 @@ Le format court fait **58 à 60 s** ; le format long peut aller **jusqu'à 2 min
 - **Personnage :** la même silhouette dans tous les épisodes (cheveux courts, sweat à capuche, téléphone), avec un double éclairage : froid côté écran, chaud côté lampe.
 - **Ouverture :** grand titre « L'Énigme humaine » en Instrument Serif rose, avec le numéro de l'épisode.
 - **Clôture :** le miroir vide, la lumière qui monte, puis « L'ÉNIGME HUMAINE. » et « Fais ta propre réflexion. »
-- **Son :** musique synthétisée, propre à chaque épisode, par sections ; coupure sur la question ; silence final ; la voix toujours devant.
+- **Son (depuis le 22/11) :** **une seule musique de fond continue**, du début à la fin : nappe de cordes, basse, arpège de piano régulier et pulsation douce, avec une énergie qui suit le propos. Elle n'a ni coupure ni silence, elle reste présente sous la voix (atténuée d'environ 4 dB) et finit par le thème de fin de la série. La voix reste toujours devant.
 - **Voix :** la **version C, expressive**, avec le ton d'un professeur qui explique (voir `VOICE_DESIGN.md`).
 
 ## 3. Bibliothèque de décors (déjà construits, réutilisables)
@@ -68,7 +68,15 @@ Le format court fait **58 à 60 s** ; le format long peut aller **jusqu'à 2 min
 17. *(ép. 004)* La forêt d'arcs bicolores (arcs outrepassés sur colonnes, arcs supérieurs), avec une ombre géométrique au sol et une balance de lumière
 18. *(ép. 004)* Le cabinet du philosophe : lambris, fenêtre étoilée, portrait ovale du domaine public, boussole du devoir
 
-## 3 bis. Transitions de mise en scène (depuis l'ép. 004)
+## 3 bis. Transitions (révisées le 22/11 : sobres et fluides)
+
+Les transitions sont des **fondus enchaînés en mouvement**, d'environ 1 s, pendant que la voix continue de parler. Elles n'ont ni flou, ni image fantôme, ni volet géométrique :
+- `tilt` : la caméra continue de descendre ou de monter pendant le fondu ;
+- `warm` : fondu à travers une lumière chaude, sans flash blanc ;
+- `drift` : fondu avec un léger glissement latéral ;
+- `dissolve` : fondu avec un léger travelling avant.
+
+### Ancienne version (ép. 004 v1, abandonnée : jugée « bizarre »)
 
 Chaque passage de la voix enchaîne sur le suivant par une **transition qui a un sens**, d'environ 1 s, posée dans le silence entre deux phrases (`KINDS` dans `scene.js`) :
 

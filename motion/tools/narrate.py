@@ -31,6 +31,7 @@ INTENTS = {  # émotion (exaggeration), rythme (cfg : plus bas = plus posé), pr
     'prof':   dict(ex=.72, cfg=.38, temp=.8, takes=2, style='standard'),
     'recit':  dict(ex=.62, cfg=.42, temp=.75, takes=2, style='standard'),
     'elan':   dict(ex=.80, cfg=.45, temp=.8, takes=2, style='standard'),
+    'flow':   dict(ex=.80, cfg=.40, temp=.8, takes=3, style='standard'),   # explication continue (passages entiers)
 }
 if ENGINE == 'chatterbox':
     import torch
@@ -62,11 +63,33 @@ def _melody(y):
     st = 12 * np.log2(f / np.median(f)); return float(np.percentile(st, 95) - np.percentile(st, 5))
 
 
+JUDGE = None
+def judge_model():
+    global JUDGE
+    if JUDGE is None: JUDGE = WhisperModel(cfg.get('judge', 'small'), device='cpu', compute_type='int8') if cfg.get('judge', 'small') != 'small' else asr
+    return JUDGE
+
+
+def question_rises(y, words_q):
+    """Montée finale (demi-tons) sur chaque fin de question : 80e centile des 0,45 dernières secondes − médiane de la seconde d'avant."""
+    y16 = librosa.resample(y, orig_sr=SR, target_sr=16000)
+    f0, vf, _ = librosa.pyin(y16, fmin=90, fmax=500, sr=16000, frame_length=1024, hop_length=160)
+    tt = np.arange(len(f0)) * .01; ok = vf & ~np.isnan(f0)
+    if ok.sum() < 10: return [0.0 for _ in words_q]
+    st = 12 * np.log2(np.where(ok, f0, 1) / np.median(f0[ok])); out = []
+    for e in words_q:
+        a_ = (tt > e - .4) & (tt <= e + .25) & ok; b_ = (tt > e - 1.4) & (tt <= e - .45) & ok
+        out.append(float(np.percentile(st[a_], 80) - np.median(st[b_])) if a_.sum() > 3 and b_.sum() > 3 else 0.0)
+    return out
+
+
 def synth(sen, say):
     """Renvoie la phrase prononcée (48 kHz), selon le moteur choisi."""
     if ENGINE != 'chatterbox':
         a, r_ = tts.create(say, voice=cfg['voice'], speed=sen.get('speed', cfg['speed']), lang=cfg['lang'])
-        return librosa.resample(trim(np.asarray(a, dtype=np.float32), r_), orig_sr=r_, target_sr=SR).astype(np.float32)
+        y = librosa.resample(trim(np.asarray(a, dtype=np.float32), r_), orig_sr=r_, target_sr=SR).astype(np.float32)
+        if cfg.get('master', True): y = master(y, SR, INTENTS.get(sen.get('intent', 'prof'), {}).get('style', 'standard')).astype(np.float32); y = y / (np.max(np.abs(y)) + 1e-9) * .89
+        return y
     it = dict(INTENTS[sen.get('intent', cfg.get('intent', 'prof'))])
     import hashlib
     key = hashlib.sha1(json.dumps([say, it, sen.get('takes', it['takes']), os.path.getsize(REF)]).encode()).hexdigest()[:16]
@@ -79,15 +102,39 @@ def synth(sen, say):
         torch.manual_seed(1000 + 17 * k + len(say))
         w = cb.generate(say.replace('…', '...'), language_id='fr', exaggeration=it['ex'], cfg_weight=it['cfg'], temperature=it['temp'])
         y = librosa.resample(trim(w.squeeze(0).cpu().numpy().astype(np.float32), cb.sr), orig_sr=cb.sr, target_sr=SR).astype(np.float32)
-        sg, _ = asr.transcribe(librosa.resample(y, orig_sr=SR, target_sr=16000), language='fr', beam_size=5, temperature=0.0)
-        e = _wer(say, ' '.join(x.text for x in sg)); mel = _melody(y)
-        score = (e > .12, e if e > .12 else 0, -min(mel, 20) + max(0, mel - 22))  # fidèle d'abord, puis le plus expressif
-        print(f'      prise {k + 1}: écart {e:.0%}, mélodie {mel:.1f} demi-tons', flush=True)
+        sg, _ = judge_model().transcribe(librosa.resample(y, orig_sr=SR, target_sr=16000), language='fr', beam_size=5, temperature=0.0, word_timestamps=True)
+        sg = list(sg); e = _wer(say, ' '.join(x.text for x in sg)); mel = _melody(y)
+        nq = say.count('?'); qe = [w.end for x in sg for w in (x.words or []) if '?' in w.word][:nq]
+        rs = question_rises(y, qe) if qe else []; rise = (sum(min(r, 6) for r in rs) / nq - 2 * max(0, nq - len(qe))) if nq else 0.0
+        score = (e > (.02 if cfg.get('judge') else .12), e if e > (.02 if cfg.get('judge') else .12) else 0, -rise * .6 - min(mel, 20) + max(0, mel - 22))  # fidèle d'abord (sans bégaiement), puis des questions qui montent, puis le plus expressif
+        print(f'      prise {k + 1}: écart {e:.0%}, mélodie {mel:.1f} demi-tons' + (f", questions {', '.join(f'{r:+.1f}' for r in rs)}" if nq else ''), flush=True)
         if best is None or score < best[0]: best = (score, y)
     y = master(best[1], SR, it['style']).astype(np.float32)
     y = y / (np.max(np.abs(y)) + 1e-9) * .89
     sf.write(cf, y, SR)
     return y
+
+
+def shape_intonation(y, regions):
+    """Fait monter la voix (en demi-tons) sur des fenêtres précises : la fin d'une question, un mot interrogé.
+    Analyse/resynthèse WORLD, recollée seulement sur ces fenêtres (fondus de 30 ms) : le reste du son est intact."""
+    if not regions: return y
+    import pyworld as pw
+    x = y.astype(np.float64); fp = 5.0
+    f0, tp = pw.harvest(x, SR, frame_period=fp, f0_floor=80, f0_ceil=600)   # harvest : détection des parties voisées plus sûre que dio
+    sp = pw.cheaptrick(x, f0, tp, SR); ap = pw.d4c(x, f0, tp, SR); f0m = f0.copy()
+    for t0, tk, t1, st in regions:   # rampe jusqu'au pic (fin du mot), puis la hauteur tient sur la voyelle finale
+        m = (tp >= t0) & (tp <= t1); u = np.clip((tp[m] - t0) / max(1e-3, tk - t0), 0, 1)
+        f0m[m] *= 2 ** (st * u ** 1.4 / 12)
+    z = pw.synthesize(f0m, sp, ap, SR, fp)[:len(y)]
+    z = np.pad(z, (0, max(0, len(y) - len(z))))
+    out = y.astype(np.float64).copy(); fd = int(.03 * SR)
+    for t0, tk, t1, st in regions:
+        a_, b_ = max(0, int((t0 - .06) * SR)), min(len(y), int((t1 + .06) * SR))
+        if b_ - a_ <= 2 * fd: continue
+        w = np.ones(b_ - a_); w[:fd] = np.linspace(0, 1, fd); w[-fd:] = np.linspace(1, 0, fd)
+        out[a_:b_] = out[a_:b_] * (1 - w) + z[a_:b_] * w
+    return out.astype(np.float32)
 
 
 def norm_words(s):
@@ -102,8 +149,16 @@ def trim(s, sr, thr=0.01):
     return s if not len(idx) else s[max(0, idx[0] - int(.015 * sr)): min(len(s), idx[-1] + int(.08 * sr))]
 
 
-track_parts, timeline, t = [], [], float(cfg.get('lead_in', 0.5))
+units = []   # passages : phrases consécutives d'un même groupe, générées d'un seul tenant (parole continue)
 for sen in cfg['sentences']:
+    g = sen.get('group')
+    if g and units and units[-1].get('group') == g:
+        u = units[-1]; u['members'].append((sen, len(u['chunks']), len(sen['chunks']))); u['chunks'] = u['chunks'] + sen['chunks']; u['pause'] = sen.get('pause', .5)
+        if sen.get('trim_end'): u['trim_end'] = sen['trim_end']
+    else:
+        u = dict(sen); u['chunks'] = list(sen['chunks']); u['members'] = [(sen, 0, len(sen['chunks']))]; units.append(u)
+track_parts, timeline, t = [], [], float(cfg.get('lead_in', 0.5))
+for sen in units:
     chunks = [{'display': c[0], 'say': c[1] if len(c) > 1 and c[1] else c[0]} for c in sen['chunks']]
     say = ' '.join(c['say'] for c in chunks)
     s = synth(sen, say)
@@ -170,11 +225,27 @@ for sen in cfg['sentences']:
         b_['start'] = round(max(b_['start'], a_['end'] - 0.05), 3)
     cks[-1]['end'] = round(t + dur, 3)
     match = sum(blk.size for blk in sm.get_matching_blocks()) / max(1, len(sw))
-    timeline.append({'id': sen['id'], 'scene': sen['scene'], 'start': round(t, 3), 'end': round(t + dur, 3),
-                     'display': ' '.join(c['display'] for c in chunks), 'say': say, 'heard': ' '.join(h[0] for h in heard).strip(),
-                     'match': round(match, 3), 'words': words, 'chunks': cks})
+    regions = []
+    for m, base, n in sen['members']:   # chaque phrase reprend sa place dans le minutage
+        mw = [dict(w, chunk=w['chunk'] - base) for w in words if base <= w['chunk'] < base + n]
+        mc = cks[base:base + n]
+        timeline.append({'id': m['id'], 'scene': m['scene'], 'start': mc[0]['start'], 'end': mc[-1]['end'],
+                         'display': ' '.join(c[0] for c in m['chunks']), 'say': ' '.join(c[1] if len(c) > 1 and c[1] else c[0] for c in m['chunks']),
+                         'heard': ' '.join(h[0] for h in heard).strip(), 'match': round(match, 3), 'words': mw, 'chunks': mc})
+        target = m.get('question_rise', cfg.get('question_rise', 0))
+        want = [(wi, st) for wi, st in m.get('rise_words', [])]
+        if m['chunks'][-1][0].rstrip().endswith('?') and target: want.append((len(mw) - 1, target))
+        if want:
+            got = question_rises(s, [mw[wi]['end'] - t for wi, _ in want])
+            for (wi, st), g_ in zip(want, got):
+                add = float(np.clip(st - g_, 0, 5))
+                if add >= 1.0: w = mw[wi]; regions.append((max(0, w['start'] - t - .15), w['end'] - t + .05, min(len(s) / SR, w['end'] - t + .28), round(add, 1)))   # pic sur la fin du mot, tenu jusqu'au bout de la voyelle
+                print(f"      « {mw[wi]['w']} » : montée naturelle {g_:+.1f} demi-tons" + (f', ajout {add:+.1f}' if add >= 1.0 else ' (suffisante)'), flush=True)
+    if regions:
+        s = shape_intonation(s, regions)
+        print('      intonation : ' + ', '.join(f'+{st:g} demi-tons à {a + t:.2f} s' for a, k, b, st in regions), flush=True)
     track_parts.append((t, s))
-    print(f"{sen['id']}  {t:6.2f} → {t + dur:6.2f}  ({dur:4.2f} s, mots reconnus {match:.0%})  « {' '.join(h[0] for h in heard).strip()} »", flush=True)
+    print(f"{'+'.join(m['id'] for m, _, _ in sen['members'])}  {t:6.2f} → {t + dur:6.2f}  ({dur:4.2f} s, mots reconnus {match:.0%})  « {' '.join(h[0] for h in heard).strip()} »", flush=True)
     t += dur + sen.get('pause', 0.5)
 
 total = timeline[-1]['end'] + float(cfg.get('tail', 3.0))

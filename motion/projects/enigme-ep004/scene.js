@@ -240,8 +240,11 @@
     // personnages
     const fl = { x: 470, y: GND - 6, s: 1.55, up: st.up || 0 };
     rimmed(c, cc => fallenPath(cc, fl), { body: '#06070a', rim: C.sodium, rimA: .55, dx: -2.5, dy: 2 });
-    if (st.A) { if (st.A.kneel) rimmed(c, cc => kneelPath(cc, st.A), { body: '#07080b', rim: mix(C.lamp, '#FFE7B8', .3), rimA: .85, dx: -3.2 }); else rimmed(c, cc => personPath(cc, st.A), { body: '#07080b', rim: C.lamp, rimA: .85, dx: -3.2 }); }
-    if (st.B) { if (st.B.kneel) rimmed(c, cc => kneelPath(cc, Object.assign({ coat: true }, st.B)), { body: '#07080b', rim: '#BFD3F2', rimA: .85, dx: 3.2 }); else rimmed(c, cc => { personPath(cc, st.B); coatPath(cc, st.B); }, { body: '#07080b', rim: '#BFD3F2', rimA: .85, dx: 3.2 }); }
+    const drawP = (P, coat, rim, dx, al) => { if (!P || al <= .001) return;
+      if (P.kneel) rimmed(c, cc => kneelPath(cc, coat ? Object.assign({ coat: true }, P) : P), { body: '#07080b', rim, rimA: .85, dx, alpha: al });
+      else rimmed(c, cc => { personPath(cc, P); if (coat) coatPath(cc, P); }, { body: '#07080b', rim, rimA: .85, dx, alpha: al }); };
+    drawP(st.A, false, C.lamp, -3.2, st.Aal == null ? 1 : st.Aal); drawP(st.A2, false, mix(C.lamp, '#FFE7B8', .3), -3.2, st.A2al || 0);
+    drawP(st.B, true, '#BFD3F2', 3.2, st.Bal == null ? 1 : st.Bal); drawP(st.B2, true, '#BFD3F2', 3.2, st.B2al || 0);
     if (st.hands > 0) for (const h of st.handPts || []) { glow(c, h[0], h[1], 130, '#FFE9C0', .55 * st.hands); c.fillStyle = rgba('#FFF6E0', .9 * st.hands); c.beginPath(); c.arc(h[0], h[1], 5, 0, 6.283); c.fill(); }
     // pluie
     if (st.rain > 0) { c.save(); c.strokeStyle = rgba('#CFE0F2', .28 * st.rain); c.lineWidth = 1.6; for (const d of rain) { const y = ((d.y + d.v * t) % (H + 80)) - 40, x = d.x - y * .08; c.beginPath(); c.moveTo(x, y); c.lineTo(x - d.l * .08, y + d.l); c.stroke(); } c.restore(); }
@@ -259,12 +262,14 @@
     const z = lerp(1.18, 1.0, prog(t, .3, T.passants, 'inOutSine')) + prog(t, T.arretent, T.s2, 'inOutSine') * .08;
     camSafe(c, z, 540, lerp(1000, 1080, prog(t, T.s1b, T.arretent, 'inOutSine')) + prog(t, T.arretent, T.s2, 'inOutSine') * 120);
     const wa = prog(t, T.s1b - .3, T.arretent + .2, 'linear'), kn = prog(t, T.arretent, T.arretent + .6, 'inOutCubic');
-    const ax = lerp(-90, 360, Math.min(1, wa * 1.05)), bx = lerp(1170, 640, Math.min(1, wa * 1.05));
+    const ax = lerp(-90, 355, Math.min(1, wa * 1.05)), bx = lerp(1170, 650, Math.min(1, wa * 1.05));
     const reach = prog(t, T.aider - .2, T.aider + .6, 'inOutCubic');
-    const A = kn > .5 ? { kneel: true, x: 330, y: GND, s: 1.65, f: 1, lean: lerp(.1, .55, reach), reach: [lerp(420, 455, reach), lerp(GND - 120, GND - 70, reach)] } : { x: ax, y: GND, s: 1.65, f: 1, walk: wa < 1 ? t * 6.2 : null, phone: 0 };
-    const B = kn > .5 ? { kneel: true, x: 690, y: GND, s: 1.65, f: -1, lean: lerp(.1, .5, reach), reach: [lerp(610, 560, reach), lerp(GND - 120, GND - 92, reach)] } : { x: bx, y: GND, s: 1.65, f: -1, walk: wa < 1 ? t * 6.0 + 1 : null, phone: 0 };
+    const A = { x: ax, y: GND, s: 1.65, f: 1, walk: wa < 1 ? t * 6.2 : null, phone: 0 }, B = { x: bx, y: GND, s: 1.65, f: -1, walk: wa < 1 ? t * 6.0 + 1 : null, phone: 0 };
+    const A2 = { kneel: true, x: 350, y: GND, s: 1.65, f: 1, lean: lerp(.1, .55, reach), reach: [lerp(430, 455, reach), lerp(GND - 120, GND - 70, reach)] };
+    const B2 = { kneel: true, x: 655, y: GND, s: 1.65, f: -1, lean: lerp(.1, .5, reach), reach: [lerp(600, 560, reach), lerp(GND - 120, GND - 92, reach)] };
     const hands = prog(t, T.geste - .1, T.geste + .5, 'outCubic');
-    drawStreet(c, t, { dawn: 0, rain: 1, car: prog(t, T.inconnu, T.arretent, 'inOutSine'), carA: 1 - .7 * prog(t, T.arretent, T.aider, 'linear'), up: prog(t, T.aider + .2, T.s2, 'inOutSine') * .25, A, B, hands, handPts: [A.reach || [0, 0], B.reach || [0, 0]] });
+    drawStreet(c, t, { dawn: 0, rain: 1, car: prog(t, T.inconnu, T.arretent, 'inOutSine'), carA: 1 - .7 * prog(t, T.arretent, T.aider, 'linear'), up: prog(t, T.aider + .2, T.s2, 'inOutSine') * .25,
+      A, B, A2, B2, Aal: 1 - kn, Bal: 1 - kn, A2al: kn, B2al: kn, hands, handPts: [A2.reach, B2.reach] });
     c.setTransform(1, 0, 0, 1, 0, 0);
     topShade(c, '#05070c', .5 + .3 * prog(t, T.geste, T.moins, 'linear'), 900); // place pour le texte
     balance(c, 540, 900, 1, prog(t, T.moins - .1, T.moins + .7, 'outCubic'), prog(t, T.chez - .1, T.autre2 + .3, 'inOutSine'));
@@ -485,8 +490,8 @@
     vignette(c, .55, '#020203');
   }
   function scene7a(c, t) {
-    camSafe(c, 1.0, 540, 1500 + Math.sin(t * .3) * 6);
-    drawTree(c, t, { night: 1, line: .4, bloom: 1, roots: 1, deep: 1, godL: prog(t, T.dieu7 - .2, T.dieu7 + .6, 'outCubic') * (.75 + .25 * Math.sin(t * 1.3)), reaL: prog(t, T.raison7 - .2, T.raison7 + .6, 'outCubic') * (.75 + .25 * Math.sin(t * 1.3 + 1)) });
+    camSafe(c, 1.0, 540, lerp(820, 1500, prog(t, T.tranche - .2, T.q + .2, 'inOutCubic')));
+    drawTree(c, t, { night: 1, line: 1 - prog(t, T.tranche, T.fondement, 'linear') * .6, bloom: 1, roots: 1, pair: 1, pairGlow: 1, deep: prog(t, T.fondement - .2, T.ultime + .9, 'inOutSine'), godL: prog(t, T.dieu7 - .2, T.dieu7 + .6, 'outCubic') * (.75 + .25 * Math.sin(t * 1.3)), reaL: prog(t, T.raison7 - .2, T.raison7 + .6, 'outCubic') * (.75 + .25 * Math.sin(t * 1.3 + 1)) });
     c.setTransform(1, 0, 0, 1, 0, 0);
     topShade(c, '#020204', .5, 900);
     vignette(c, .6, '#010102');
@@ -508,45 +513,36 @@
   const BA = off(W, H), bax = BA.getContext('2d'), BB = off(W, H), bbx = BB.getContext('2d');
   function paint(x, fn, t) { x.setTransform(1, 0, 0, 1, 0, 0); x.globalAlpha = 1; x.filter = 'none'; x.globalCompositeOperation = 'source-over'; fn(x, t); x.setTransform(1, 0, 0, 1, 0, 0); x.globalAlpha = 1; x.filter = 'none'; x.globalCompositeOperation = 'source-over'; }
   const ease = p => p < .5 ? 4 * p * p * p : 1 - Math.pow(-2 * p + 2, 3) / 2;
+  const sstep = (a, b, x) => { const u = clamp((x - a) / (b - a)); return u * u * (3 - 2 * u); };
+  function drawScaled(c, img, sc, dx, dy, al) { c.save(); c.globalAlpha = al; c.translate(W / 2 + dx, H / 2 + dy); c.scale(sc, sc); c.drawImage(img, -W / 2, -H / 2); c.restore(); }
   const KINDS = {
-    descend(c, p, o) { // la caméra plonge sous le trottoir ; la ligne du sol fait le raccord
-      const e = ease(p), blur = Math.sin(p * Math.PI) * 7;
-      c.save(); c.filter = `blur(${blur.toFixed(1)}px)`; c.drawImage(BA, 0, -H * e); c.drawImage(BB, 0, H * (1 - e)); c.restore();
-      const y = H * (1 - e); c.save(); c.globalCompositeOperation = 'screen'; const g = c.createLinearGradient(0, y - 60, 0, y + 60); g.addColorStop(0, 'rgba(255,226,168,0)'); g.addColorStop(.5, `rgba(255,226,168,${(.7 * Math.sin(p * Math.PI)).toFixed(3)})`); g.addColorStop(1, 'rgba(255,226,168,0)'); c.fillStyle = g; c.fillRect(0, y - 60, W, 120); c.restore();
+    tilt(c, p, o) { // la caméra continue son mouvement (vers le bas, ou vers le haut) pendant le fondu
+      const e = ease(p), d = o.dir || 1, mix_ = sstep(.18, .82, p);
+      drawScaled(c, BA, 1, 0, -d * 260 * e, 1); drawScaled(c, BB, 1, 0, d * 260 * (1 - e), mix_);
     },
-    rise(c, p) { const e = ease(p), blur = Math.sin(p * Math.PI) * 7; c.save(); c.filter = `blur(${blur.toFixed(1)}px)`; c.drawImage(BA, 0, H * e); c.drawImage(BB, 0, -H * (1 - e)); c.restore();
-      const y = H * e; c.save(); c.globalCompositeOperation = 'screen'; const g = c.createLinearGradient(0, y - 60, 0, y + 60); g.addColorStop(0, 'rgba(255,226,168,0)'); g.addColorStop(.5, `rgba(255,226,168,${(.7 * Math.sin(p * Math.PI)).toFixed(3)})`); g.addColorStop(1, 'rgba(255,226,168,0)'); c.fillStyle = g; c.fillRect(0, y - 60, W, 120); c.restore(); },
-    light(c, p, o) { // on traverse une lumière : le fruit devient le vitrail
-      if (p < .5) { const q = ease(p * 2), s = 1 + q * 3.5; c.save(); c.translate(o.ax, o.ay); c.scale(s, s); c.translate(-o.ax, -o.ay); c.drawImage(BA, 0, 0); c.restore(); flash(c, '#FFF4DC', q * .95); glow(c, o.ax, o.ay, 300 + q * 900, '#FFFFFF', q); }
-      else { const q = ease((p - .5) * 2), s = 1.35 - .35 * q; c.save(); c.translate(o.bx, o.by); c.scale(s, s); c.translate(-o.bx, -o.by); c.drawImage(BB, 0, 0); c.restore(); flash(c, '#FFF4DC', (1 - q) * .95); }
+    dissolve(c, p) { // fondu enchaîné, léger travelling avant
+      const e = ease(p), mix_ = sstep(.15, .85, p);
+      drawScaled(c, BA, 1 + .05 * e, 0, 0, 1); drawScaled(c, BB, 1.05 - .05 * e, 0, 0, mix_);
     },
-    whip(c, p) { // panoramique filé : une colonnade chasse l'autre
-      const e = ease(p), v = Math.sin(p * Math.PI);
-      for (let k = 0; k < 7; k++) { const d = (k - 3) * v * 26; c.globalAlpha = k === 3 ? 1 : .16; c.drawImage(BA, -W * e + d, 0); c.drawImage(BB, W * (1 - e) + d, 0); }
-      c.globalAlpha = 1;
+    warm(c, p) { // fondu à travers une lumière chaude (sans flash blanc)
+      const e = ease(p), mix_ = sstep(.2, .8, p);
+      drawScaled(c, BA, 1 + .06 * e, 0, -30 * e, 1); drawScaled(c, BB, 1.06 - .06 * e, 0, 30 * (1 - e), mix_);
+      glow(c, W / 2, H * .4, 1100, '#FFE2A8', .28 * Math.sin(p * Math.PI));
     },
-    star(c, p, o) { // l'étoile géométrique s'ouvre et révèle la boussole
-      const e = ease(p); c.drawImage(BA, 0, 0);
-      c.save(); star8(c, o.x, o.y, e * 1500, e * 1500 * .62); c.clip(); c.translate(o.x, o.y); c.rotate((1 - e) * .6); c.scale(1.2 - .2 * e, 1.2 - .2 * e); c.translate(-o.x, -o.y); c.drawImage(BB, 0, 0); c.restore();
-      c.save(); c.strokeStyle = `rgba(255,217,160,${(.9 * Math.sin(p * Math.PI)).toFixed(3)})`; c.lineWidth = 4; c.shadowColor = '#FFD98A'; c.shadowBlur = 20; star8(c, o.x, o.y, e * 1500, e * 1500 * .62); c.stroke(); c.restore();
-    },
-    page(c, p) { // la page tourne
-      const e = ease(p), fx = lerp(W + 260, -260, e), sl = 220; c.drawImage(BB, 0, 0);
-      c.save(); c.beginPath(); c.moveTo(-10, -10); c.lineTo(fx + sl, -10); c.lineTo(fx - sl, H + 10); c.lineTo(-10, H + 10); c.closePath(); c.clip(); c.drawImage(BA, 0, 0); c.restore();
-      const fw = Math.min(260, (W + 260 - fx) * .5);
-      c.save(); c.beginPath(); c.moveTo(fx + sl, -10); c.lineTo(fx + sl - fw, -10); c.lineTo(fx - sl - fw, H + 10); c.lineTo(fx - sl, H + 10); c.closePath();
-      const g = c.createLinearGradient(fx, 0, fx - fw, 0); g.addColorStop(0, '#CDBB98'); g.addColorStop(.6, '#F2E6CC'); g.addColorStop(1, '#B8A47E'); c.fillStyle = g; c.shadowColor = 'rgba(0,0,0,.6)'; c.shadowBlur = 30; c.fill(); c.restore();
+    drift(c, p) { // fondu avec un glissement latéral doux
+      const e = ease(p), mix_ = sstep(.15, .85, p);
+      drawScaled(c, BA, 1, -70 * e, 0, 1); drawScaled(c, BB, 1, 70 * (1 - e), 0, mix_);
     },
   };
   /* ---------- montage ---------- */
   const SCN = [[0, T.s2, scene1], [T.s2, T.s3, scene2], [T.s3, T.s4, scene3], [T.s4, T.s5, scene4], [T.s5, T.s6, scene5], [T.s6, T.q - .1, scene6], [T.q - .1, T.rise, scene7a], [T.rise, DUR + 1, scene7b]];
   const TRS = [
-    { at: T.s2, d: 1.0, kind: 'descend', a: scene1, b: scene2 },
-    { at: T.s3, d: 1.0, kind: 'light', a: scene2, b: scene3, o: { ax: 640, ay: 520, bx: 540, by: 720 } },
-    { at: T.s4, d: .8, kind: 'whip', a: scene3, b: scene4 },
-    { at: T.s5, d: 1.0, kind: 'star', a: scene4, b: scene5, o: { x: 540, y: 900 } },
-    { at: T.s6, d: 1.0, kind: 'page', a: scene5, b: scene6 },
-    { at: T.rise, d: 1.1, kind: 'rise', a: scene7a, b: scene7b },
+    { at: T.s2, d: 1.1, kind: 'tilt', a: scene1, b: scene2, o: { dir: 1 } },
+    { at: T.s3, d: 1.1, kind: 'warm', a: scene2, b: scene3 },
+    { at: T.s4, d: 1.0, kind: 'drift', a: scene3, b: scene4 },
+    { at: T.s5, d: 1.0, kind: 'dissolve', a: scene4, b: scene5 },
+    { at: T.s6, d: 1.0, kind: 'dissolve', a: scene5, b: scene6 },
+    { at: T.rise, d: 1.2, kind: 'tilt', a: scene7a, b: scene7b, o: { dir: -1 } },
   ];
   function render(t) {
     const f = Math.round(t * 30);
@@ -564,7 +560,7 @@
     wipe(tQa, t, T.personne - .1, q1, .8, .3); fade(tQb, t, T.peut - .05, q1, .45, 14, .3); slam(tQc, t, T.bien - .25, q1, .3);
     // étiquettes au-dessus des passants (elles les suivent)
     const wa = prog(t, T.s1b - .3, T.arretent + .2, 'linear'), kn = prog(t, T.arretent, T.arretent + .6, 'inOutCubic');
-    const xa = kn > .5 ? 330 : lerp(-90, 360, Math.min(1, wa * 1.05)), xb = kn > .5 ? 690 : lerp(1170, 640, Math.min(1, wa * 1.05));
+    const xa = lerp(lerp(-90, 355, Math.min(1, wa * 1.05)), 350, kn), xb = lerp(lerp(1170, 650, Math.min(1, wa * 1.05)), 655, kn);
     const camz = 1 + prog(t, T.arretent, T.s2, 'inOutSine') * .08, camy = lerp(1000, 1080, prog(t, T.s1b, T.arretent, 'inOutSine')) + prog(t, T.arretent, T.s2, 'inOutSine') * 120;
     const camyC = clamp(camy, 960 / camz - LM, H - 960 / camz + LM), scr = (x, y) => [540 + (x - 540) * camz, 960 + (y - camyC) * camz];
     const pa = scr(xa, GND - 340), pb = scr(xb, GND - 340);

@@ -1,5 +1,7 @@
 # L'Énigme humaine : direction de la voix off (voice design)
 
+> **Mise à jour du 22/11/2026 (retour sur l'ép. 004) : explication CONTINUE.** Chaque passage (une scène) est généré **d'un seul tenant** (`"group"` dans `narration.json`), sans silence entre les phrases. Cela supprime les micro-bégaiements aux coupes et rend le ton d'une vraie explication. Les questions doivent **monter** : la meilleure prise est choisie aussi sur la montée finale, et s'il manque de la hauteur, elle est ajoutée seulement sur le mot concerné (`"question_rise"`, `"rise_words"` ; analyse/resynthèse WORLD). Les prises sont jugées par Whisper « medium » (`"judge": "medium"`), et toute répétition ou bégaiement élimine la prise.
+
 > **Choix validé le 21/11/2026 : version C, expressive.** Elle est le standard de la série à partir de l'épisode 002. Ton : un professeur qui explique sa logique à un élève, avec chaleur, en posant les choses et en marquant les mots clés.
 
 La voix porte l'épisode. Ce document fixe la méthode pour qu'elle soit **expressive, crédible et constante** d'un épisode à l'autre.
@@ -21,6 +23,7 @@ Chaque phrase reçoit une **intention** :
 
 | Intention | Usage | Débit | Émotion (C) | Silence après |
 |---|---|---|---|---|
+| **flow** *(standard depuis le 22/11)* | passages entiers, explication continue | naturel (0,40) | 0,80 | 0,2 s entre deux passages seulement |
 | **intime** | ouverture, question finale | posé (rythme 0,33) | 0,78 | 0,7–1,0 s |
 | **grave** | la question centrale, la nuance | très posé (0,30) | 0,85 | 1,0 s (avec coupure de la musique) |
 | **prof** *(par défaut)* | les explications, la logique d'une tradition | posé et clair (0,38) | 0,72 | 0,4–0,8 s |
