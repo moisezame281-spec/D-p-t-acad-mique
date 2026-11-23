@@ -44,10 +44,66 @@ Le format court fait **58 à 60 s** ; le format long peut aller **jusqu'à 2 min
 **Autres constantes**
 
 - **Personnage :** la même silhouette dans tous les épisodes (cheveux courts, sweat à capuche, téléphone), avec un double éclairage : froid côté écran, chaud côté lampe.
-- **Ouverture :** grand titre « L'Énigme humaine » en Instrument Serif rose, avec le numéro de l'épisode.
-- **Clôture :** le miroir vide, la lumière qui monte, puis « L'ÉNIGME HUMAINE. » et « Fais ta propre réflexion. »
+- **Ouverture :** épisodes 001 à 008, grand titre « L'Énigme humaine » avec le numéro de l'épisode. **À partir de l'EP009 : plus de carton-titre** ; la question dès la première image et le logo qui s'allume en haut (voir § 2 bis).
+- **Clôture :** épisodes 001 à 008, « L'ÉNIGME HUMAINE. » et « Fais ta propre réflexion. ». **À partir de l'EP009 : le carton de fin avec le logo** (voir § 2 bis).
 - **Son (depuis le 22/11) :** **une seule musique de fond continue**, du début à la fin : nappe de cordes, basse, arpège de piano régulier et pulsation douce, avec une énergie qui suit le propos. Elle n'a ni coupure ni silence, elle reste présente sous la voix (atténuée d'environ 4 dB) et finit par le thème de fin de la série. La voix reste toujours devant.
 - **Voix :** la **version C, expressive**, avec le ton d'un professeur qui explique (voir `VOICE_DESIGN.md`).
+
+## 2 bis. Habillage et logo (à partir de l'EP009, validé le 23/11/2026)
+
+**Logo retenu : B, « la serrure humaine ».** Une silhouette en trou de serrure, avec une tête et des épaules, traversée par une lumière dorée, dans un anneau d'or.
+- Dessin par code : `motion/lib/enigme.js` (`EH.icon`, `EH.wordmark`, `EH.bug`, `EH.endCard`).
+- Fichiers prêts à l'emploi : `series/enigme-humaine/logo/` (voir son `LISEZMOI.md`).
+
+**Pourquoi ce changement :**
+- Sur TikTok, on décide en une seconde si on regarde.
+- La vidéo commence donc directement par l'image et la question, sans carton-titre.
+- Le nom de la série reste visible grâce au logo.
+
+| Moment | Ce qu'on voit | Ce qu'on entend |
+|---|---|---|
+| **0 → 0,45 s** | L'image est là dès la première image, sans ouverture au noir. Le logo s'allume en haut à gauche : l'anneau se trace, la lumière traverse la serrure, puis un éclat. Le nom « L'Énigme humaine » glisse à côté. | **Signature sonore** : deux notes qui montent comme une question (la, puis mi) |
+| **0,3 s →** | La question d'ouverture s'écrit mot à mot, **à partir de y = 290 px**, sur un voile discret | La voix commence (`"lead_in": 0.3`) |
+| **3,4 s → fin** | Le nom se replie : il ne reste que le logo rond, discret, en haut à gauche | |
+| **Fin de la question finale + 0,65 s** | **Carton de fin :** le fond s'assombrit, le logo s'allume au centre, puis le nom, la devise et l'appel « Suis la série / une nouvelle question chaque semaine » | La même signature, qui ouvre le thème de fin |
+
+**Zones réservées (image 1080 × 1920) :**
+- **Le logo en haut :** x 40 → 420, y 150 → 262 pendant les 3,4 premières secondes ; ensuite x 40 → 145 seulement.
+  - Aucun grand titre ne commence au-dessus de y = 270, sauf s'il fait moins de 860 px de large.
+  - Cette zone évite le bouton LIVE de TikTok, en haut à gauche, et les onglets centrés.
+- **Les sous-titres :** y 1280 → 1430, comme avant.
+- **Les boutons de TikTok :** bande de droite (x > 940) entre y 900 et 1700, et bas de l'écran (y > 1500). On n'y place rien d'important.
+
+**Mise en œuvre dans un épisode (copie du dernier épisode, puis) :**
+1. `index.html` : ajouter `<script src="/lib/enigme.js"></script>` après `cine.js`.
+2. `scene.js` :
+   - **Ouverture :**
+     - pas de `flash` noir au début ;
+     - le carton-titre de la série est supprimé ;
+     - la question d'ouverture est placée à partir de y = 290 ;
+     - elle est révélée avec `revealWords(tQ1, t, 0, …)`.
+   - **Fin :** pas de « L'ÉNIGME HUMAINE. » ni de devise en texte DOM (le carton de fin les remplace).
+   - **Dans `render(t)`, après `grain()` :**
+     ```js
+     EH.bug(ctx, t, { out: T.fin - .35 });
+     EH.endCard(ctx, t, T.fin);
+     ```
+     Avec `T.fin = fin de la question finale + .65`.
+   - **Signature sonore :** `sfx('signature', 0); sfx('signature', T.fin);`
+   - **Couverture :** le logo en petit au-dessus du titre (`EH.icon`).
+3. `narration.json` : `"lead_in": 0.3` et `"tail"` d'au moins **4,0 s**, pour que l'appel reste lisible au moins 2 s.
+4. `score.py` : la signature s'ajoute **après** le mixage et avant le limiteur, pour ne pas être atténuée sous la voix.
+   ```python
+   sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), '../../tools'))
+   from brand_audio import signature
+   SIG = signature(SR)
+   for e in [e for e in ev['sfx'] if e['type'] == 'signature']: add(out, e['t'], SIG * .7)
+   ```
+   Le thème de fin (ré majeur) commence sur le **la** de la signature.
+
+**Un aperçu** de cet habillage, appliqué au début et à la fin de l'épisode 008 : `series/enigme-humaine/logo/EH_habillage_apercu.mp4`.
+
+**Avec chaque épisode, un kit de publication** : voir `KIT_PUBLICATION_modele.md`.
 
 ## 3. Bibliothèque de décors (déjà construits, réutilisables)
 

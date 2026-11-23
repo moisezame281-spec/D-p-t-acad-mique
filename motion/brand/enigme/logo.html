@@ -13,6 +13,7 @@
 <body>
 <canvas id="cv"></canvas>
 <script src="/lib/cine.js"></script>
+<script src="/lib/enigme.js"></script>
 <script>
 /* Logo de la série « L'Énigme humaine » — trois propositions (A, B, C), dessinées par code.
    Couleurs de la série : charbon #111216, ivoire #F2EFE8, or #C0A16A, rose #E8949A, bordeaux #541D2A. */
@@ -28,15 +29,8 @@ function iconA(c, x, y, r, bg) {
     c.font = 'italic 400 190px Instrument'; c.textAlign = 'center'; c.textBaseline = 'middle'; c.fillStyle = gold(c, 120, 100, 230, 260); c.fillText('?', 170, 200); c.restore(); })();
   c.restore(); ring(c, x, y, r, r * .045);
 }
-// B — « la serrure humaine » : une silhouette en trou de serrure, traversée par la lumière
-function iconB(c, x, y, r, bg) {
-  c.save(); c.fillStyle = bg; c.beginPath(); c.arc(x, y, r, 0, 6.283); c.fill();
-  const hr = r * .25, hy = y - r * .2, g = c.createLinearGradient(0, hy - hr, 0, y + r * .62); g.addColorStop(0, '#FFF8EA'); g.addColorStop(.6, '#F3DFA8'); g.addColorStop(1, '#C0A16A');
-  c.shadowColor = 'rgba(243,223,168,.7)'; c.shadowBlur = r * .18; c.fillStyle = g;
-  c.beginPath(); c.arc(x, hy, hr, 0, 6.283); c.fill();
-  c.beginPath(); c.moveTo(x - hr * .55, hy + hr * .7); c.lineTo(x + hr * .55, hy + hr * .7); c.lineTo(x + hr * 1.25, y + r * .6); c.quadraticCurveTo(x, y + r * .66, x - hr * 1.25, y + r * .6); c.closePath(); c.fill();
-  c.restore(); ring(c, x, y, r, r * .045);
-}
+// B — « la serrure humaine » (RETENU le 23/11/2026) : le dessin définitif est dans /lib/enigme.js (EH.icon)
+function iconB(c, x, y, r) { EH.icon(c, x, y, r); }
 // C — « le monogramme É ? » : le É de la série, dont l'accent devient un point d'interrogation
 function iconC(c, x, y, r, bg) {
   c.save(); c.fillStyle = bg; c.beginPath(); c.arc(x, y, r, 0, 6.283); c.fill();
@@ -61,9 +55,16 @@ window.draw = function (mode, which) {
       ICONS[k](c, 960, y0 + 120, 58, C.coal); c.font = '500 18px Fraunces'; c.fillStyle = 'rgba(242,239,232,.6)'; c.textAlign = 'center'; c.fillText('photo de profil', 960, y0 + 205); });
     return;
   }
+  if (mode === 'frame') { // contrôle : un plan 1080×1920 avec le logo en haut (t) ou le carton de fin
+    cv.width = 1080; cv.height = 1920; const g = c.createLinearGradient(0, 0, 0, 1920); g.addColorStop(0, '#E9DCC6'); g.addColorStop(1, '#B8A486'); c.fillStyle = g; c.fillRect(0, 0, 1080, 1920);
+    const t = +which; if (t < 100) EH.bug(c, t); else { EH.bug(c, t - 100, { out: 1 }); EH.endCard(c, t - 100, 0); } return;
+  }
   cv.width = 1080; cv.height = 1080; c.clearRect(0, 0, 1080, 1080);
   if (mode === 'icon') ICONS[which](c, 540, 540, 500, C.coal);
-  if (mode === 'lockup') { c.fillStyle = C.coal; c.fillRect(0, 0, 1080, 1080); ICONS[which](c, 540, 400, 250, C.coal); wordmark(c, 540, 820, 1, false); }
+  if (mode === 'profile') { c.fillStyle = C.coal; c.fillRect(0, 0, 1080, 1080); EH.icon(c, 540, 540, 470); } // photo de profil (TikTok la recadre en cercle)
+  if (mode === 'lockup') { c.fillStyle = C.coal; c.fillRect(0, 0, 1080, 1080); ICONS[which](c, 540, 400, 250, C.coal); EH.wordmark(c, 540, 820, 1); }
+  if (mode === 'lockup-light') { c.fillStyle = '#F2EFE8'; c.fillRect(0, 0, 1080, 1080); EH.icon(c, 540, 400, 250); EH.wordmark(c, 540, 820, 1, { light: true }); }
+  if (mode === 'wide') { cv.width = 1920; cv.height = 1080; c.fillStyle = C.coal; c.fillRect(0, 0, 1920, 1080); const v = c.createRadialGradient(960, 540, 40, 960, 540, 900); v.addColorStop(0, 'rgba(84,29,42,.4)'); v.addColorStop(1, 'rgba(84,29,42,0)'); c.fillStyle = v; c.fillRect(0, 0, 1920, 1080); EH.icon(c, 560, 540, 230); EH.wordmark(c, 830, 560, 1.05, { align: 'left' }); }
 };
 document.fonts.load('italic 400 40px Instrument').then(() => document.fonts.load('900 40px Bodoni')).then(() => document.fonts.load('600 40px Fraunces')).then(() => { window.__ready = true; });
 </script>
