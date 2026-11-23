@@ -59,7 +59,7 @@ def _wer(ref, hyp):
 
 def _melody(y):
     y16 = librosa.resample(y, orig_sr=SR, target_sr=16000)
-    f0, vf, _ = librosa.pyin(y16, fmin=90, fmax=500, sr=16000, frame_length=1024)
+    f0, vf, _ = librosa.pyin(y16, fmin=60, fmax=500, sr=16000, frame_length=1024)
     f = f0[vf & ~np.isnan(f0)]
     if len(f) < 5: return 0.0
     st = 12 * np.log2(f / np.median(f)); return float(np.percentile(st, 95) - np.percentile(st, 5))
@@ -75,7 +75,7 @@ def judge_model():
 def question_rises(y, words_q):
     """Montée finale (demi-tons) sur chaque fin de question : 80e centile des 0,45 dernières secondes − médiane de la seconde d'avant."""
     y16 = librosa.resample(y, orig_sr=SR, target_sr=16000)
-    f0, vf, _ = librosa.pyin(y16, fmin=90, fmax=500, sr=16000, frame_length=1024, hop_length=160)
+    f0, vf, _ = librosa.pyin(y16, fmin=60, fmax=500, sr=16000, frame_length=1024, hop_length=160)
     tt = np.arange(len(f0)) * .01; ok = vf & ~np.isnan(f0)
     if ok.sum() < 10: return [0.0 for _ in words_q]
     st = 12 * np.log2(np.where(ok, f0, 1) / np.median(f0[ok])); out = []

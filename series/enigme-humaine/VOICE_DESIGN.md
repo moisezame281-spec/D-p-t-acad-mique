@@ -1,5 +1,7 @@
 # L'Énigme humaine : direction de la voix off (voice design)
 
+> **Choix du 23/11/2026 : voix C en version homme, timbre B (grave), à partir de l'épisode 009.** Même moteur (Chatterbox), même jeu, même méthode. Seule la référence de timbre change : `series/enigme-humaine/voix_homme/Voix_homme_B_reference.wav` (timbre synthétique, voir `voix_homme/LISEZMOI.md`). Dans `narration.json` : `"ref": "../../../series/enigme-humaine/voix_homme/Voix_homme_B_reference.wav"`. Les épisodes 001 à 008 restent en voix C féminine.
+
 > **Mise à jour du 22/11/2026 (retour sur l'ép. 004) : explication CONTINUE.** Chaque passage (une scène) est généré **d'un seul tenant** (`"group"` dans `narration.json`), sans silence entre les phrases. Cela supprime les micro-bégaiements aux coupes et rend le ton d'une vraie explication. Les questions doivent **monter** : la meilleure prise est choisie aussi sur la montée finale, et s'il manque de la hauteur, elle est ajoutée seulement sur le mot concerné (`"question_rise"`, `"rise_words"` ; analyse/resynthèse WORLD). Les prises sont jugées par Whisper « medium » (`"judge": "medium"`), et toute répétition ou bégaiement élimine la prise.
 
 > **Choix validé le 21/11/2026 : version C, expressive.** Elle est le standard de la série à partir de l'épisode 002. Ton : un professeur qui explique sa logique à un élève, avec chaleur, en posant les choses et en marquant les mots clés.
