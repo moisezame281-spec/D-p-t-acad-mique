@@ -267,16 +267,28 @@
       "id": "s7a",
       "scene": 7,
       "group": "g7",
-      "pause": 0,
+      "pause": 0.12,
       "intent": "flow_slow",
-      "takes": 6,
+      "takes": 4,
       "chunks": [
         [
           "Si personne ne pouvait admirer,"
         ],
         [
           "envier ou même voir ce que nous poursuivons,"
-        ],
+        ]
+      ],
+      "pace": 2.4,
+      "max_syl": 5.0
+    },
+    {
+      "id": "s7b",
+      "scene": 7,
+      "group": "g7b",
+      "pause": 0,
+      "intent": "flow_slow",
+      "takes": 6,
+      "chunks": [
         [
           "continuerions-nous à le désirer ?"
         ]

@@ -33,7 +33,7 @@
     s5: SEN('s5a').start - .3, algorithmes: cue('s5a', 'algorithmes'), personnalisent: cue('s5a', 'personnalisent'), interactions: cue('s5a', 'interactions'),
     s5b: SEN('s5b').start, choisissent: cue('s5b', 'choisissent'), place: cue('s5b', 'place'), faconner: cue('s5b', 'faconner'), univers: cue('s5b', 'univers'), attention: cue('s5b', 'attention'),
     s6: SEN('s6a').start - .3, vertige: cue('s6a', 'vertige'),
-    s7: SEN('s7a').start - .3, q7: SEN('s7a').start, admirer: cue('s7a', 'admirer'), envier: cue('s7a', 'envier'), voir: cue('s7a', 'voir'), poursuivons: cue('s7a', 'poursuivons'), desirer: cue('s7a', 'desirer'), qEnd: SEN('s7a').end,
+    s7: SEN('s7a').start - .3, q7: SEN('s7a').start, admirer: cue('s7a', 'admirer'), envier: cue('s7a', 'envier'), voir: cue('s7a', 'voir'), poursuivons: cue('s7a', 'poursuivons'), desirer: cue('s7b', 'desirer'), qEnd: SEN('s7b').end,
   };
   T.title = T.qEnd + .55;
 
@@ -87,7 +87,7 @@
     return lines.map(([ws, fs, y, col]) => fit(tx(ws.map(w => { const idx = wi; wi += keysOf(w).length;
       return `<span class="qw" data-t="${words[Math.min(idx, words.length - 1)].start}" style="display:inline-block;margin:0 .12em">${w}</span>`; }).join(''), 'instrument', Object.assign({ top: y + 'px', fontStyle: 'italic', fontSize: fs + 'px', color: col, opacity: 1 }, CENTER)), 1010));
   }
-  const tQ1 = wordLines(Q1, ['s1a']), tQ7 = wordLines(Q7, ['s7a']);
+  const tQ1 = wordLines(Q1, ['s1a']), tQ7 = wordLines(Q7, ['s7a', 's7b']);
   const tTitle = tx('L’ÉNIGME<br>HUMAINE.', 'bodoni', Object.assign({ top: '560px', paddingTop: '44px', textShadow: 'none', fontWeight: 900, fontSize: '138px', lineHeight: '.98', whiteSpace: 'normal',
     background: `linear-gradient(100deg, ${C.gold} 0%, #F6E7C1 45%, ${C.ivory} 55%, ${C.gold} 100%)`, backgroundSize: '250% 100%', webkitBackgroundClip: 'text', backgroundClip: 'text', color: 'transparent' }, CENTER));
   const tSlogan = tx('Fais ta propre réflexion.', 'instrument', Object.assign({ top: '910px', fontStyle: 'italic', fontSize: '58px', color: C.rose }, CENTER));
@@ -95,7 +95,7 @@
   const tCovA = ital('Qui a choisi', 300, 104), tCovB = big('CE QUE TU DÉSIRES&#8239;?', 410, 90, ROSE); // couverture seulement
 
   /* ---------- sous-titres ---------- */
-  const NOSUB = new Set(['s1a', 's6a', 's7a']);
+  const NOSUB = new Set(['s1a', 's6a', 's7a', 's7b']);
   const CHUNKS = TL.sentences.flatMap(s => s.chunks.map(c => Object.assign(c, { sid: s.id })));
   CHUNKS.forEach((c, i) => { const nx = CHUNKS[i + 1]; c.show = Math.min(c.end + .3, nx ? nx.start - .02 : c.end + .6); });
   const chunkAt = t => CHUNKS.find(k => t >= k.start - .03 && t <= k.show);
