@@ -77,7 +77,7 @@ Un halo clair derrière chaque personnage et un liseré de lumière renforcent l
 | Durée | ✅ 69,9 s |
 | Décodage intégral | ✅ Sans erreur |
 | Transcription du master, modèle « medium » | ✅ **Aucune erreur réelle** : 0,5 % d'écart, uniquement l'homophone « modèle » / « modèles » |
-| Niveaux | ✅ __NIVEAUX__ |
+| Niveaux | ✅ Parole -10,4 dBFS, musique seule -15,2 dBFS, crête -0,6 dBFS |
 | Sources | ✅ René Girard (site de l'Association Recherches Mimétiques : biographie, bibliographie, présentation de la théorie), SN 56.11 (SuttaCentral, Bhikkhu Bodhi et pāli), TikTok Newsroom (18 juin 2020) |
 | Respect des traditions | ✅ Aucune représentation du Bouddha ni d'objet de culte ; synthèse « soif et attachement » expliquée dans les références |
 | Marques | ✅ Montre, objets et affiches génériques, sans aucun logo |
