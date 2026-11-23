@@ -1,0 +1,287 @@
+{
+  "title": "L'Énigme humaine — Épisode 008 — Qui a choisi ce que tu désires ?",
+  "voice": "ff_siwis",
+  "lang": "fr-fr",
+  "speed": 0.9,
+  "note": "Style validé : explication continue, questions qui montent, prises jugées par Whisper medium. Ouverture et questions plus posées (demande du 23/11) : flow_slow + débit maximal (max_syl) avec étirement automatique. Texte fourni conservé à l'identique.",
+  "lead_in": 0.6,
+  "tail": 3.8,
+  "engine": "chatterbox",
+  "ref": "../../../series/enigme-humaine/voix_reference.flac",
+  "intent": "flow",
+  "judge": "medium",
+  "question_rise": 4.5,
+  "sentences": [
+    {
+      "id": "s1a",
+      "scene": 1,
+      "group": "g1",
+      "pause": 0.3,
+      "intent": "flow_slow",
+      "takes": 4,
+      "chunks": [
+        [
+          "Et si certains de nos désirs"
+        ],
+        [
+          "ne nous appartenaient pas"
+        ],
+        [
+          "autant que nous le croyons ?"
+        ]
+      ],
+      "pace": 2.4,
+      "max_syl": 5.0
+    },
+    {
+      "id": "s2a",
+      "scene": 2,
+      "group": "g2",
+      "pause": 0,
+      "intent": "flow_slow",
+      "takes": 4,
+      "chunks": [
+        [
+          "Une montre, un métier, une silhouette, une relation…"
+        ]
+      ],
+      "pace": 2.35
+    },
+    {
+      "id": "s2b",
+      "scene": 2,
+      "group": "g2",
+      "pause": 0,
+      "intent": "flow_slow",
+      "takes": 4,
+      "chunks": [
+        [
+          "Parfois, l’objet ne change pas."
+        ]
+      ],
+      "pace": 2.35
+    },
+    {
+      "id": "s2c",
+      "scene": 2,
+      "group": "g2",
+      "pause": 0.3,
+      "intent": "flow_slow",
+      "takes": 4,
+      "chunks": [
+        [
+          "C’est le regard des autres"
+        ],
+        [
+          "qui lui donne soudain de la valeur."
+        ]
+      ],
+      "pace": 2.35
+    },
+    {
+      "id": "s3a",
+      "scene": 3,
+      "group": "g3",
+      "pause": 0,
+      "intent": "flow",
+      "takes": 3,
+      "chunks": [
+        [
+          "Le philosophe René Girard"
+        ],
+        [
+          "a développé une idée fascinante :"
+        ]
+      ]
+    },
+    {
+      "id": "s3b",
+      "scene": 3,
+      "group": "g3",
+      "pause": 0,
+      "intent": "flow",
+      "takes": 3,
+      "chunks": [
+        [
+          "le désir mimétique."
+        ]
+      ]
+    },
+    {
+      "id": "s3c",
+      "scene": 3,
+      "group": "g3",
+      "pause": 0.15,
+      "intent": "flow",
+      "takes": 3,
+      "chunks": [
+        [
+          "Nous ne désirons pas seulement"
+        ],
+        [
+          "des choses pour elles-mêmes."
+        ]
+      ]
+    },
+    {
+      "id": "s3d",
+      "scene": 3,
+      "group": "g3b",
+      "pause": 0,
+      "intent": "flow",
+      "takes": 3,
+      "chunks": [
+        [
+          "Nous apprenons aussi à les désirer"
+        ],
+        [
+          "en observant ceux qui les possèdent."
+        ]
+      ]
+    },
+    {
+      "id": "s3e",
+      "scene": 3,
+      "group": "g3b",
+      "pause": 0,
+      "intent": "flow",
+      "takes": 3,
+      "chunks": [
+        [
+          "L’autre devient notre modèle."
+        ]
+      ]
+    },
+    {
+      "id": "s3f",
+      "scene": 3,
+      "group": "g3b",
+      "pause": 0.25,
+      "intent": "flow",
+      "takes": 3,
+      "chunks": [
+        [
+          "Et parfois, notre rival."
+        ]
+      ]
+    },
+    {
+      "id": "s4a",
+      "scene": 4,
+      "group": "g4",
+      "pause": 0,
+      "intent": "flow",
+      "takes": 3,
+      "chunks": [
+        [
+          "Mais le bouddhisme propose une autre lecture."
+        ]
+      ]
+    },
+    {
+      "id": "s4b",
+      "scene": 4,
+      "group": "g4",
+      "pause": 0.15,
+      "intent": "flow",
+      "takes": 3,
+      "chunks": [
+        [
+          "Dans la deuxième Noble Vérité,"
+        ],
+        [
+          "il identifie la soif et l’attachement"
+        ],
+        [
+          "comme des racines de la souffrance."
+        ]
+      ]
+    },
+    {
+      "id": "s4c",
+      "scene": 4,
+      "group": "g4b",
+      "pause": 0.25,
+      "intent": "flow",
+      "takes": 3,
+      "chunks": [
+        [
+          "Le problème n’est donc pas seulement ce que nous désirons,"
+        ],
+        [
+          "mais aussi la manière dont nous nous y attachons."
+        ]
+      ]
+    },
+    {
+      "id": "s5a",
+      "scene": 5,
+      "group": "g5",
+      "pause": 0,
+      "intent": "flow",
+      "takes": 3,
+      "chunks": [
+        [
+          "Aujourd’hui, les algorithmes personnalisent"
+        ],
+        [
+          "ce que nous voyons à partir de nos interactions."
+        ]
+      ]
+    },
+    {
+      "id": "s5b",
+      "scene": 5,
+      "group": "g5",
+      "pause": 0.3,
+      "intent": "flow",
+      "takes": 3,
+      "chunks": [
+        [
+          "Ils ne choisissent pas à notre place,"
+        ],
+        [
+          "mais ils contribuent à façonner"
+        ],
+        [
+          "l’univers de modèles qui attire notre attention."
+        ]
+      ]
+    },
+    {
+      "id": "s6a",
+      "scene": 6,
+      "group": "g6",
+      "pause": 0.3,
+      "intent": "flow_slow",
+      "takes": 4,
+      "chunks": [
+        [
+          "Et voici le véritable vertige :"
+        ]
+      ],
+      "pace": 2.2
+    },
+    {
+      "id": "s7a",
+      "scene": 7,
+      "group": "g7",
+      "pause": 0,
+      "intent": "flow_slow",
+      "takes": 4,
+      "chunks": [
+        [
+          "Si personne ne pouvait admirer,"
+        ],
+        [
+          "envier ou même voir ce que nous poursuivons,"
+        ],
+        [
+          "continuerions-nous à le désirer ?"
+        ]
+      ],
+      "pace": 2.4,
+      "max_syl": 5.0
+    }
+  ]
+}

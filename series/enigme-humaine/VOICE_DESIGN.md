@@ -45,6 +45,7 @@ Chaque phrase reçoit une **intention** :
 9. *(depuis l'ép. 004)* **Noms propres piégeux :** on teste une graphie phonétique et on la valide avec deux modèles de transcription (« Kant » → « Kante », sinon la voix dit « quand »). Le texte affiché reste celui du script.
 10. *(depuis l'ép. 004)* **Répétitions cachées :** toute la voix est relue par le modèle « medium ». Une répétition du moteur (« l'autre non… l'autre non ») se corrige avec `"trim_end"` (fin de prise imposée, en secondes) dans `narration.json`.
 11. *(depuis l'ép. 007)* **Une ouverture plus posée** (demande du 22/11) : les premières phrases utilisent l'intention `flow_slow` (même ton, rythme un peu plus lent) avec une cible de débit (`"pace"`, en mots par seconde). Parmi les prises correctes, on préfère la plus posée. Si la question d'ouverture reste trop rapide, `motion/tools/stretch.py` la ralentit d'environ 10 % par étirement temporel, sans changer la hauteur de la voix, et met le minutage à jour. Objectif : environ 5 syllabes par seconde sur l'ouverture, contre 5,4 à 5,8 sur le reste.
+12. *(depuis l'ép. 008)* **Les questions aussi sont posées** (demande du 23/11) : toute question (ouverture, question centrale, question finale) a le même rythme que l'ouverture. Elle est générée seule avec `flow_slow`, une cible de débit (`pace`) et un débit maximal (`"max_syl": 5.0`). Si la prise dépasse ce débit, `narrate.py` l'étire automatiquement (jamais plus de 15 %), puis vérifie qu'elle monte toujours.
 
 ## 3. Le traitement studio (`motion/tools/voice_master.py`)
 

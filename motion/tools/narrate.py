@@ -278,8 +278,22 @@ with open(os.path.join(out, 'subtitles.srt'), 'w', encoding='utf-8') as f:
             end = min(end, allc[n]['start'] - 0.04)
         f.write(f"{n}\n{ts(c['start'])} --> {ts(max(end, c['start'] + 0.3))}\n{c['text']}\n\n")
 print(f'durée totale : {total:.2f} s — narration {timeline[0]["start"]:.2f} → {timeline[-1]["end"]:.2f} s')
-# ralentissement léger d'une phrase (ex. question d'ouverture) : "stretch": 0.9 dans narration.json
+# ralentissement léger d'une phrase (ex. question) :
+#   "stretch": 0.9  → facteur imposé ;
+#   "max_syl": 5.0  → débit maximal en syllabes/s (mesuré sur le minutage), étiré si besoin, jamais au-delà de -15 %
+def _syl(w):
+    w = ''.join(c for c in unicodedata.normalize('NFD', w.lower()) if unicodedata.category(c) != 'Mn')
+    w = re.sub(r'e$', '', w) if len(w) > 3 else w
+    return max(1, len(re.findall(r'[aeiouy]+', w)))
 for sen in cfg['sentences']:
-    if sen.get('stretch'):
+    fac = sen.get('stretch')
+    if not fac and sen.get('max_syl'):
+        tl_ = json.load(open(os.path.join(out, 'timeline.json'), encoding='utf-8'))
+        s_ = next(x for x in tl_['sentences'] if x['id'] == sen['id'])
+        rate = sum(_syl(w['w']) for w in s_['words']) / max(.3, s_['words'][-1]['end'] - s_['words'][0]['start'])
+        fac = max(.85, sen['max_syl'] / rate) if rate > sen['max_syl'] else 1.0
+        print(f"      {sen['id']} : débit {rate:.2f} syllabes/s (max {sen['max_syl']}) → facteur {fac:.2f}", flush=True)
+        if fac > .97: fac = None
+    if fac:
         import subprocess
-        subprocess.run([sys.executable, os.path.join(os.path.dirname(os.path.abspath(__file__)), 'stretch.py'), out, sen['id'], str(sen['stretch'])], check=True)
+        subprocess.run([sys.executable, os.path.join(os.path.dirname(os.path.abspath(__file__)), 'stretch.py'), out, sen['id'], str(fac)], check=True)

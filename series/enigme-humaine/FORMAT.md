@@ -18,6 +18,8 @@ Le format court fait **58 à 60 s** ; le format long peut aller **jusqu'à 2 min
 
 ## 2. Identité fixe
 
+> **Règle du 23/11/2026 (retour sur l'ép. 007) : les personnages ne sont jamais sur fond noir.** Les silhouettes de la série sont sombres. Elles se placent donc toujours devant un fond clair (galerie, papier, ciel, désert de sel) ou à contre-jour (vitrine éclairée, affiche lumineuse), avec un halo clair derrière elles et un liseré de lumière. Sur les décors clairs, un voile discret derrière les sous-titres garde le texte lisible.
+
 **Couleurs**
 
 | Rôle | Nom | Valeur |
