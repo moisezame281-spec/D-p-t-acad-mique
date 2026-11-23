@@ -1,0 +1,86 @@
+L’ÉNIGME HUMAINE — ÉPISODE 008
+QUI A CHOISI CE QUE TU DÉSIRES ?
+
+Durée : 69.86 s · 1080×1920 · 30 i/s · français
+Style validé : explication continue (voix C), questions qui montent, une seule musique de fond, fondus enchaînés en mouvement.
+Ouverture et questions plus posées (demandes des 22 et 23/11). Personnages jamais sur fond noir.
+
+NARRATION (texte fourni, conservé à l’identique)
+
+« Et si certains de nos désirs ne nous appartenaient pas autant que nous le croyons ?
+
+Une montre, un métier, une silhouette, une relation… Parfois, l’objet ne change pas. C’est le regard des autres qui lui donne soudain de la valeur.
+
+Le philosophe René Girard a développé une idée fascinante : le désir mimétique. Nous ne désirons pas seulement des choses pour elles-mêmes. Nous apprenons aussi à les désirer en observant ceux qui les possèdent. L’autre devient notre modèle. Et parfois, notre rival.
+
+Mais le bouddhisme propose une autre lecture. Dans la deuxième Noble Vérité, il identifie la soif et l’attachement comme des racines de la souffrance. Le problème n’est donc pas seulement ce que nous désirons, mais aussi la manière dont nous nous y attachons.
+
+Aujourd’hui, les algorithmes personnalisent ce que nous voyons à partir de nos interactions. Ils ne choisissent pas à notre place, mais ils contribuent à façonner l’univers de modèles qui attire notre attention.
+
+Et voici le véritable vertige :
+
+Si personne ne pouvait admirer, envier ou même voir ce que nous poursuivons, continuerions-nous à le désirer ? »
+
+
+MINUTAGE PAR SCÈNE (narration · textes à l’écran · transition vers la scène suivante)
+
+
+SCÈNE 01 — LA QUESTION (la vitrine éclairée)  [00:00.50 → 00:05.20]
+  00:00.61  VOIX  Et si certains de nos désirs ne nous appartenaient pas autant que nous le croyons ?
+           ÉCRAN L’Énigme humaine · ÉPISODE 008
+           ÉCRAN Et si certains de nos désirs / ne nous appartenaient pas / autant que nous le croyons ? (mot à mot)
+           ÉCRAN une montre sur un coussin de velours, dans une vitrine très lumineuse ; trois passants à contre-jour
+           TRANSITION → fondu enchaîné
+
+SCÈNE 02 — LE REGARD DES AUTRES (la galerie claire)  [00:05.45 → 00:14.23]
+  00:05.45  VOIX  Une montre, un métier, une silhouette, une relation…
+  00:09.05  VOIX  Parfois, l’objet ne change pas.
+  00:11.48  VOIX  C’est le regard des autres qui lui donne soudain de la valeur.
+           ÉCRAN une montre · un métier · une silhouette · une relation (les objets se succèdent sur un piédestal blanc)
+           ÉCRAN l’objet ne change pas (retour à la montre)
+           ÉCRAN LE REGARD DES AUTRES / lui donne soudain de la valeur (quatre visiteurs, leurs regards en pointillés ; la montre devient dorée)
+           TRANSITION → fondu à travers une lumière chaude
+
+SCÈNE 03 — RENÉ GIRARD (le triangle mimétique)  [00:14.48 → 00:31.16]
+  00:14.48  VOIX  Le philosophe René Girard a développé une idée fascinante :
+  00:18.08  VOIX  le désir mimétique.
+  00:19.68  VOIX  Nous ne désirons pas seulement des choses pour elles-mêmes.
+  00:23.18  VOIX  Nous apprenons aussi à les désirer en observant ceux qui les possèdent.
+  00:27.16  VOIX  L’autre devient notre modèle.
+  00:28.62  VOIX  Et parfois, notre rival.
+           ÉCRAN RENÉ GIRARD · 1923 – 2015 · Mensonge romantique et vérité romanesque (1961)
+           ÉCRAN LE DÉSIR MIMÉTIQUE
+           ÉCRAN « Tout “sujet” a besoin d’un “modèle” / pour savoir “quoi” désirer. » · Association Recherches Mimétiques
+           ÉCRAN SUJET · MODÈLE · OBJET : le triangle à l’encre ; le désir passe par le modèle
+           ÉCRAN RIVAL (le lien devient rouge, les deux mains se tendent vers l’objet)
+           TRANSITION → fondu avec un glissement latéral
+
+SCÈNE 04 — LA DEUXIÈME NOBLE VÉRITÉ (la main et le sable)  [00:31.41 → 00:45.39]
+  00:31.41  VOIX  Mais le bouddhisme propose une autre lecture.
+  00:34.15  VOIX  Dans la deuxième Noble Vérité, il identifie la soif et l’attachement comme des racines de la souffrance.
+  00:40.21  VOIX  Le problème n’est donc pas seulement ce que nous désirons, mais aussi la manière dont nous nous y attachons.
+           ÉCRAN LA DEUXIÈME NOBLE VÉRITÉ
+           ÉCRAN « C’est cette soif qui conduit à une nouvelle existence, / accompagnée de plaisir et de convoitise, / cherchant son plaisir ici et là. » · Saṃyutta Nikāya 56.11 · traduction libre d’après Bhikkhu Bodhi
+           ÉCRAN la soif · l’attachement (le poing serré laisse filer le sable et prend racine ; la terre se fissure)
+           ÉCRAN pas seulement ce que nous désirons, / LA MANIÈRE / dont nous nous y attachons (la main s’ouvre, le sable repose)
+           TRANSITION → la caméra glisse vers le bas (fondu)
+
+SCÈNE 05 — LES ALGORITHMES (la ville des écrans)  [00:45.64 → 00:56.27]
+  00:45.64  VOIX  Aujourd’hui, les algorithmes personnalisent ce que nous voyons à partir de nos interactions.
+  00:50.68  VOIX  Ils ne choisissent pas à notre place, mais ils contribuent à façonner l’univers de modèles qui attire notre attention.
+           ÉCRAN LES ALGORITHMES · à partir de nos interactions (les cœurs remontent vers les affiches, qui changent)
+           ÉCRAN Selon TikTok : vidéos aimées ou partagées, comptes suivis, commentaires, contenus créés (Newsroom, 2020)
+           ÉCRAN Ils ne choisissent pas à notre place, / L’UNIVERS DE MODÈLES (les affiches se multiplient, toutes montrent un modèle et sa montre)
+           TRANSITION → fondu enchaîné
+
+SCÈNE 06 — LE VERTIGE  [00:56.52 → 00:58.83]
+  00:56.52  VOIX  Et voici le véritable vertige :
+           ÉCRAN Et voici / LE VÉRITABLE VERTIGE (une spirale d’écrans vue d’en haut, l’élève minuscule au centre)
+           TRANSITION → fondu à travers une lumière chaude
+
+SCÈNE 07 — LA QUESTION FINALE (le désert de sel)  [00:59.08 → 01:09.86]
+  00:59.08  VOIX  Si personne ne pouvait admirer, envier ou même voir ce que nous poursuivons,
+  01:03.79  VOIX  continuerions-nous à le désirer ?
+           ÉCRAN Si personne ne pouvait / admirer, envier ou même voir / ce que nous poursuivons, / continuerions-nous / à le désirer ? (mot à mot)
+           ÉCRAN les spectateurs disparaissent sur « admirer », « envier », « voir » ; l’élève reste seul avec la montre
+           ÉCRAN L’ÉNIGME HUMAINE. · Fais ta propre réflexion. · FOI · RAISON · SCIENCE · CONSCIENCE

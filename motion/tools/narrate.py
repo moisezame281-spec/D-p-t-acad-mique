@@ -289,11 +289,11 @@ for sen in cfg['sentences']:
     fac = sen.get('stretch')
     if not fac and sen.get('max_syl'):
         tl_ = json.load(open(os.path.join(out, 'timeline.json'), encoding='utf-8'))
-        s_ = next(x for x in tl_['sentences'] if x['id'] == sen['id'])
-        rate = sum(_syl(w['w']) for w in s_['words']) / max(.3, s_['words'][-1]['end'] - s_['words'][0]['start'])
+        ss_ = [x for x in tl_['sentences'] if x['id'] in sen.get('stretch_ids', [sen['id']])]   # "stretch_ids" : plusieurs phrases d'un même passage
+        rate = sum(_syl(w['w']) for s_ in ss_ for w in s_['words']) / max(.3, sum(s_['words'][-1]['end'] - s_['words'][0]['start'] for s_ in ss_))
         fac = max(.85, sen['max_syl'] / rate) if rate > sen['max_syl'] else 1.0
-        print(f"      {sen['id']} : débit {rate:.2f} syllabes/s (max {sen['max_syl']}) → facteur {fac:.2f}", flush=True)
+        print(f"      {','.join(sen.get('stretch_ids', [sen['id']]))} : débit {rate:.2f} syllabes/s (max {sen['max_syl']}) → facteur {fac:.2f}", flush=True)
         if fac > .97: fac = None
     if fac:
         import subprocess
-        subprocess.run([sys.executable, os.path.join(os.path.dirname(os.path.abspath(__file__)), 'stretch.py'), out, sen['id'], str(fac)], check=True)
+        subprocess.run([sys.executable, os.path.join(os.path.dirname(os.path.abspath(__file__)), 'stretch.py'), out, ','.join(sen.get('stretch_ids', [sen['id']])), str(fac)], check=True)

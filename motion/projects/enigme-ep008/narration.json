@@ -45,7 +45,13 @@
           "Une montre, un métier, une silhouette, une relation…"
         ]
       ],
-      "pace": 2.35
+      "pace": 2.35,
+      "max_syl": 5.1,
+      "stretch_ids": [
+        "s2a",
+        "s2b",
+        "s2c"
+      ]
     },
     {
       "id": "s2b",

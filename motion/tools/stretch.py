@@ -3,9 +3,10 @@ Usage : python3 stretch.py <dossier_voix> <id_phrase> <facteur ex. 0.9>"""
 import json, sys, os, shutil, subprocess, numpy as np, soundfile as sf
 d, sid, fac = sys.argv[1], sys.argv[2], float(sys.argv[3])
 tl = json.load(open(f'{d}/timeline.json')); y, sr = sf.read(f'{d}/voice.wav', dtype='float32')
-S = tl['sentences']; s = next(x for x in S if x['id'] == sid); i = S.index(s)
-a = s['start'] - .06; b = s['end'] + .06
-assert (i == 0 or S[i - 1]['end'] < a) and (i == len(S) - 1 or S[i + 1]['start'] > b), 'bornes hors silence'
+S = tl['sentences']; ids = sid.split(',')   # une phrase, ou plusieurs phrases consécutives (« s2a,s2b,s2c »)
+i = next(k for k, x in enumerate(S) if x['id'] == ids[0]); j = next(k for k, x in enumerate(S) if x['id'] == ids[-1])
+a = S[i]['start'] - .06; b = S[j]['end'] + .06
+assert (i == 0 or S[i - 1]['end'] < a) and (j == len(S) - 1 or S[j + 1]['start'] > b), 'bornes hors silence'
 ia, ib = int(a * sr), int(b * sr)
 sf.write(f'{d}/_seg.wav', y[ia:ib], sr)
 FF = shutil.which('ffmpeg')
