@@ -318,7 +318,7 @@
     const zp = prog(t, T.s4, T.s5, 'inOutSine');
     camSafe(c, lerp(1.06, 1.0, zp), 560, lerp(1040, 1060, zp));
     blit(c, SAFF);
-    const open = prog(t, T.maniere - .3, T.attachons + .5, 'inOutCubic');
+    const open = prog(t, T.maniere - .9, T.maniere + .4, 'inOutCubic');
     glow(c, 640, 980, 420, '#FFF4D8', .35 + .25 * open);
     const rp = prog(t, T.racines - .6, T.racines + .9, 'inOutSine') * (1 - open);
     const cr = prog(t, T.souffrance - .3, T.souffrance + .6, 'outCubic') * (1 - open);
