@@ -87,7 +87,8 @@
       "takes": 3,
       "chunks": [
         [
-          "Le philosophe René Girard"
+          "Le philosophe René Girard",
+          "Le philosophe René Jirar"
         ],
         [
           "a développé une idée fascinante :"
@@ -268,7 +269,7 @@
       "group": "g7",
       "pause": 0,
       "intent": "flow_slow",
-      "takes": 4,
+      "takes": 6,
       "chunks": [
         [
           "Si personne ne pouvait admirer,"

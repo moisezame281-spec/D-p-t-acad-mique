@@ -25,7 +25,7 @@
     q1: SEN('s1a').start, desirs: cue('s1a', 'desirs'), croyons: cue('s1a', 'croyons'), q1End: SEN('s1a').end,
     s2: SEN('s2a').start - .3, montre: cue('s2a', 'montre'), metier: cue('s2a', 'metier'), silhouette: cue('s2a', 'silhouette'), relation: cue('s2a', 'relation'),
     s2b: SEN('s2b').start, objet: cue('s2b', 'objet'), change: cue('s2b', 'change'), s2c: SEN('s2c').start, regard: cue('s2c', 'regard'), autres: cue('s2c', 'autres'), valeur: cue('s2c', 'valeur'),
-    s3: SEN('s3a').start - .3, girard: cue('s3a', 'girard'), fascinante: cue('s3a', 'fascinante'), desir3: cue('s3b', 'desir'), mimetique: cue('s3b', 'mimetique'),
+    s3: SEN('s3a').start - .3, girard: cue('s3a', 'jirar'), fascinante: cue('s3a', 'fascinante'), desir3: cue('s3b', 'desir'), mimetique: cue('s3b', 'mimetique'),
     s3c: SEN('s3c').start, choses: cue('s3c', 'choses'), s3d: SEN('s3d').start, observant: cue('s3d', 'observant'), possedent: cue('s3d', 'possedent'),
     s3e: SEN('s3e').start, modele: cue('s3e', 'modele'), s3f: SEN('s3f').start, rival: cue('s3f', 'rival'),
     s4: SEN('s4a').start - .3, bouddhisme: cue('s4a', 'bouddhisme'), s4b: SEN('s4b').start, deuxieme: cue('s4b', 'deuxieme'), soif: cue('s4b', 'soif'), attachement: cue('s4b', 'attachement'), racines: cue('s4b', 'racines'), souffrance: cue('s4b', 'souffrance'),
@@ -224,8 +224,8 @@
     const val = prog(t, T.valeur - .25, T.valeur + .5, 'outCubic');
     if (back > .5 || k === 0) watch(c, 540, 900, .95 * (back > .5 ? 1 : pop), back > .5 ? val : .1, t, .6);
     else if (k === 1) briefcase(c, 540, 930, 1.1 * pop); else if (k === 2) mannequin(c, 540, 860, 1.0 * pop); else if (k === 3) rings(c, 540, 920, 1.1 * pop);
-    if (k >= 0 && back < .5) { c.save(); c.globalAlpha = pop; c.font = 'italic 400 50px Instrument'; c.fillStyle = '#3a2e22'; c.textAlign = 'center'; c.fillText(OBJS[k][1], 540, 740); c.restore(); }
-    if (back > 0 && t < T.regard) { c.save(); c.globalAlpha = back * (1 - prog(t, T.s2c - .2, T.s2c + .2, 'linear')); c.font = 'italic 400 48px Instrument'; c.fillStyle = '#3a2e22'; c.textAlign = 'center'; c.fillText('l’objet ne change pas', 540, 740); c.restore(); }
+    if (k >= 0 && back < .5) { c.save(); c.globalAlpha = pop * (1 - 2 * back); c.font = 'italic 400 50px Instrument'; c.fillStyle = '#3a2e22'; c.textAlign = 'center'; c.fillText(OBJS[k][1], 540, 740); c.restore(); }
+    if (back > .5 && t < T.regard) { c.save(); c.globalAlpha = (back - .5) * 2 * (1 - prog(t, T.s2c - .2, T.s2c + .2, 'linear')); c.font = 'italic 400 48px Instrument'; c.fillStyle = '#3a2e22'; c.textAlign = 'center'; c.fillText('l’objet ne change pas', 540, 740); c.restore(); }
     // les regards des autres
     const ap = prog(t, T.regard - .5, T.autres + .3, 'outCubic');
     if (ap > 0) VIEW.forEach(([x, f], i) => {
@@ -295,20 +295,24 @@
     c.fillStyle = '#9a6030'; c.beginPath(); c.moveTo(-LM, 1560); c.quadraticCurveTo(540, 1520, W + LM, 1570); c.lineTo(W + LM, H + LM); c.lineTo(-LM, H + LM); c.fill(); // la terre
   }
   const SAFF = prerender(drawSaffronStatic, 1.2);
-  const ROOTS = (() => { const r = rng(23), out = []; for (let k = 0; k < 7; k++) { let x = 600 + (r() - .5) * 60, y = 1030; const pts = [[x, y]]; const dx = (r() - .5) * 2.4; for (let i = 0; i < 14; i++) { x += dx * 18 + (r() - .5) * 26; y += 38; pts.push([x, y]); } out.push(pts); } return out; })();
+  const ROOTS = (() => { const r = rng(23), out = []; for (let k = 0; k < 7; k++) { let x = 600 + (r() - .5) * 80, y = 1080; const pts = [[x, y]]; const dx = (r() - .5) * 2.4; for (let i = 0; i < 14; i++) { x += dx * 18 + (r() - .5) * 26; y += 38; pts.push([x, y]); } out.push(pts); } return out; })();
   const CRACKS = (() => { const r = rng(31), out = []; for (let k = 0; k < 9; k++) { let x = 100 + r() * 880, y = 1580 + r() * 200; const pts = [[x, y]]; for (let i = 0; i < 6; i++) { x += (r() - .5) * 110; y += 20 + r() * 30; pts.push([x, y]); } out.push(pts); } return out; })();
-  function hand(c, open, t) { // une main de profil, paume vers le haut (0 poing fermé → 1 main ouverte)
-    const body = '#2a1810';
-    const draw = cc => {
-      cc.beginPath(); cc.moveTo(1240, 920); cc.quadraticCurveTo(980, 930, 760, 945); cc.lineTo(760, 1040); cc.quadraticCurveTo(980, 1060, 1240, 1080); cc.closePath(); cc.fill(); // avant-bras
-      cc.beginPath(); cc.ellipse(690, 990, 120, 58, -.03, 0, 6.283); cc.fill(); // paume
-      for (let i = 0; i < 4; i++) { const bx = 590 + i * 4, by = 958 + i * 18, w = 34 - i * 3;
-        const a1 = lerp(Math.PI * 1.52, Math.PI + .05 - i * .04, open), a2 = a1 + lerp(1.5, .12, open), l1 = 70 - i * 6, l2 = 58 - i * 6;
-        const p1 = [bx + Math.cos(a1) * l1, by + Math.sin(a1) * l1], p2 = [p1[0] + Math.cos(a2) * l2, p1[1] + Math.sin(a2) * l2];
-        cc.lineCap = 'round'; cc.lineWidth = w; cc.beginPath(); cc.moveTo(bx, by); cc.lineTo(...p1); cc.lineTo(...p2); cc.stroke(); }
-      const ta = lerp(Math.PI * 1.32, Math.PI * 1.12, open); cc.lineWidth = 36; cc.beginPath(); cc.moveTo(700, 945); cc.lineTo(700 + Math.cos(ta) * 90, 945 + Math.sin(ta) * 90); cc.stroke(); // pouce
-    };
-    rimmed(c, draw, { body, rim: '#FFF0C8', rimA: .9, dx: 0, dy: 4 });
+  const ARM = cc => { cc.beginPath(); cc.moveTo(1240, 900); cc.quadraticCurveTo(960, 915, 700, 935); cc.lineTo(700, 1060); cc.quadraticCurveTo(960, 1085, 1240, 1110); cc.closePath(); cc.fill(); };
+  function fistPath(cc) { // le poing serré, doigts repliés vers nous
+    ARM(cc); cc.beginPath(); cc.roundRect(520, 880, 220, 200, 56); cc.fill();
+    for (let i = 0; i < 4; i++) { cc.beginPath(); cc.roundRect(492 + i * 4, 892 + i * 46, 210, 50, 25); cc.fill(); }
+    cc.lineCap = 'round'; cc.lineWidth = 46; cc.beginPath(); cc.moveTo(712, 900); cc.quadraticCurveTo(640, 868, 560, 884); cc.stroke(); // le pouce
+  }
+  function openPath(cc) { // la main ouverte, paume vers le haut
+    ARM(cc); cc.beginPath(); cc.ellipse(640, 990, 140, 74, -.08, 0, 6.283); cc.fill();
+    cc.lineCap = 'round'; [[528, 960, -2.55, 118, 34], [540, 990, -2.85, 132, 34], [552, 1020, -3.1, 124, 32], [574, 1046, 2.95, 104, 28]].forEach(([x, y, a, l, w]) => { cc.lineWidth = w; cc.beginPath(); cc.moveTo(x, y); cc.lineTo(x + Math.cos(a) * l, y + Math.sin(a) * l * .55); cc.stroke(); });
+    cc.lineWidth = 40; cc.beginPath(); cc.moveTo(640, 1040); cc.quadraticCurveTo(560, 1090, 500, 1086); cc.stroke(); // le pouce
+  }
+  function hand(c, open) {
+    if (open < 1) { rimmed(c, fistPath, { body: '#2a1810', rim: '#FFF0C8', rimA: .9, dx: 0, dy: -4, alpha: 1 - open });
+      c.save(); c.globalAlpha = (1 - open) * .55; c.strokeStyle = '#C89A6A'; c.lineWidth = 3; for (let i = 0; i < 4; i++) { c.beginPath(); c.moveTo(508 + i * 4, 892 + i * 46); c.quadraticCurveTo(600 + i * 4, 884 + i * 46, 690 + i * 4, 892 + i * 46); c.stroke(); } c.restore(); } // les plis des doigts
+    if (open > 0) { rimmed(c, openPath, { body: '#2a1810', rim: '#FFF0C8', rimA: .9, dx: 0, dy: -4, alpha: open });
+      c.save(); c.globalAlpha = open * .45; c.strokeStyle = '#C89A6A'; c.lineWidth = 3; c.beginPath(); c.moveTo(560, 1000); c.quadraticCurveTo(640, 1030, 720, 990); c.stroke(); c.restore(); } // la ligne de la paume
   }
   function scene4(c, t) {
     const zp = prog(t, T.s4, T.s5, 'inOutSine');
@@ -322,12 +326,12 @@
     if (rp > 0) ROOTS.forEach((pts, i) => { c.save(); c.strokeStyle = rgba('#3a2010', .85); c.lineWidth = 7 - i * .5; c.lineCap = 'round'; strokeProg(c, pts, clamp(rp * 1.3 - i * .05)); c.restore(); });
     // le sable qui s'écoule du poing… puis qui repose dans la main ouverte
     const r = rng(7);
-    if (open < .9) for (let i = 0; i < 70; i++) { const u = (t * (.5 + r() * .3) + r()) % 1, x = 600 + (r() - .5) * 30 + u * 6, y = 1030 + u * 520; c.fillStyle = rgba('#F6D27A', (1 - u) * .9 * (1 - open)); c.fillRect(x, y, 3, 3); }
-    if (open > 0) { c.fillStyle = rgba('#F2C860', open); c.beginPath(); c.ellipse(680, 936, 90 * open, 26 * open, 0, Math.PI, 2 * Math.PI); c.fill(); glow(c, 680, 920, 120, '#FFE8A0', .5 * open); }
-    hand(c, open, t);
+    if (open < .9) for (let i = 0; i < 70; i++) { const u = (t * (.5 + r() * .3) + r()) % 1, x = 590 + (r() - .5) * 40 + u * 6, y = 1080 + u * 470; c.fillStyle = rgba('#F6D27A', (1 - u) * .9 * (1 - open)); c.fillRect(x, y, 3, 3); }
+    hand(c, open);
+    if (open > 0) { c.fillStyle = rgba('#F2C860', open); c.beginPath(); c.ellipse(640, 952, 100 * open, 34 * open, 0, Math.PI, 2 * Math.PI); c.fill(); glow(c, 640, 930, 130, '#FFE8A0', .5 * open); }
     const wv = prog(t, T.desirons4 - .4, T.desirons4 + .4, 'outCubic');
     if (wv > 0) watch(c, 640, lerp(760, 720, open), .6, .4 * (1 - open), t, .5 + .5 * open);
-    [['la soif', 'soif', 330, 1200, [560, 1200]], ['l’attachement', 'attachement', 820, 1490, [640, 1450]]].forEach(([txt, w, x, y, [ax, ay]]) => {
+    [['la soif', 'soif', 300, 1170, [560, 1180]], ['l’attachement', 'attachement', 850, 1190, [680, 1240]]].forEach(([txt, w, x, y, [ax, ay]]) => {
       const a = prog(t, T[w] - .15, T[w] + .4, 'outCubic') * (1 - open); if (a <= 0) return;
       c.save(); c.globalAlpha = a; c.strokeStyle = 'rgba(42,24,16,.55)'; c.lineWidth = 1.5; c.beginPath(); c.moveTo(x + (x < 540 ? 70 : -90), y - 12); c.lineTo(ax, ay); c.stroke();
       c.font = 'italic 400 50px Instrument'; c.fillStyle = '#2a1810'; c.textAlign = 'center'; c.fillText(txt, x, y); c.restore(); });
