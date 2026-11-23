@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<title>L'Énigme humaine — logo</title>
+<style>
+  @font-face { font-family: 'Bodoni'; font-weight: 900; src: url(/node_modules/@fontsource/bodoni-moda/files/bodoni-moda-latin-900-normal.woff2) format('woff2'); }
+  @font-face { font-family: 'Fraunces'; font-weight: 600; src: url(/node_modules/@fontsource/fraunces/files/fraunces-latin-600-normal.woff2) format('woff2'); }
+  @font-face { font-family: 'Instrument'; font-weight: 400; font-style: italic; src: url(/node_modules/@fontsource/instrument-serif/files/instrument-serif-latin-400-italic.woff2) format('woff2'); }
+  html, body { margin: 0; background: #111216; }
+</style>
+</head>
+<body>
+<canvas id="cv"></canvas>
+<script src="/lib/cine.js"></script>
+<script>
+/* Logo de la série « L'Énigme humaine » — trois propositions (A, B, C), dessinées par code.
+   Couleurs de la série : charbon #111216, ivoire #F2EFE8, or #C0A16A, rose #E8949A, bordeaux #541D2A. */
+const C = { coal: '#111216', ivory: '#F2EFE8', gold: '#C0A16A', rose: '#E8949A', bord: '#541D2A' };
+function gold(c, x0, y0, x1, y1) { const g = c.createLinearGradient(x0, y0, x1, y1); g.addColorStop(0, '#7A5A22'); g.addColorStop(.35, '#F3DFA8'); g.addColorStop(.6, '#C0A16A'); g.addColorStop(1, '#6A4A18'); return g; }
+function ring(c, x, y, r, w) { c.lineWidth = w; c.strokeStyle = gold(c, x - r, y - r, x + r, y + r); c.beginPath(); c.arc(x, y, r, 0, 6.283); c.stroke(); c.lineWidth = w * .25; c.beginPath(); c.arc(x, y, r - w * 1.4, 0, 6.283); c.stroke(); }
+// A — « le profil-question » : un profil classique, la pensée en forme de point d'interrogation
+function iconA(c, x, y, r, bg) {
+  c.save(); c.fillStyle = bg; c.beginPath(); c.arc(x, y, r, 0, 6.283); c.fill(); c.beginPath(); c.arc(x, y, r * .93, 0, 6.283); c.clip();
+  const s = r / 300; const g = c.createLinearGradient(x - r, y - r, x + r, y + r); g.addColorStop(0, '#FFF8EE'); g.addColorStop(1, '#D8CFC0');
+  c.fillStyle = g; CINE.bust && (function () { const ox = x - 205 * s, oy = y - 215 * s; c.save(); c.translate(ox, oy); c.scale(s * 1.18, s * 1.18); const P = (a, b) => [a, b];
+    c.beginPath(); c.moveTo(205, 300); c.bezierCurveTo(214, 262, 232, 230, 228, 196); c.bezierCurveTo(226, 148, 206, 110, 162, 98); c.bezierCurveTo(128, 92, 104, 108, 98, 138); c.bezierCurveTo(96, 150, 100, 156, 96, 164); c.bezierCurveTo(88, 176, 76, 186, 80, 194); c.bezierCurveTo(84, 200, 92, 199, 92, 205); c.bezierCurveTo(86, 214, 84, 222, 80, 232); c.bezierCurveTo(70, 258, 82, 290, 110, 304); c.bezierCurveTo(126, 312, 136, 316, 138, 330); c.bezierCurveTo(126, 352, 96, 368, 86, 396); c.lineTo(80, 440); c.lineTo(290, 440); c.bezierCurveTo(286, 380, 250, 350, 222, 330); c.bezierCurveTo(210, 322, 204, 312, 205, 300); c.closePath(); c.fill();
+    c.font = 'italic 400 190px Instrument'; c.textAlign = 'center'; c.textBaseline = 'middle'; c.fillStyle = gold(c, 120, 100, 230, 260); c.fillText('?', 170, 200); c.restore(); })();
+  c.restore(); ring(c, x, y, r, r * .045);
+}
+// B — « la serrure humaine » : une silhouette en trou de serrure, traversée par la lumière
+function iconB(c, x, y, r, bg) {
+  c.save(); c.fillStyle = bg; c.beginPath(); c.arc(x, y, r, 0, 6.283); c.fill();
+  const hr = r * .25, hy = y - r * .2, g = c.createLinearGradient(0, hy - hr, 0, y + r * .62); g.addColorStop(0, '#FFF8EA'); g.addColorStop(.6, '#F3DFA8'); g.addColorStop(1, '#C0A16A');
+  c.shadowColor = 'rgba(243,223,168,.7)'; c.shadowBlur = r * .18; c.fillStyle = g;
+  c.beginPath(); c.arc(x, hy, hr, 0, 6.283); c.fill();
+  c.beginPath(); c.moveTo(x - hr * .55, hy + hr * .7); c.lineTo(x + hr * .55, hy + hr * .7); c.lineTo(x + hr * 1.25, y + r * .6); c.quadraticCurveTo(x, y + r * .66, x - hr * 1.25, y + r * .6); c.closePath(); c.fill();
+  c.restore(); ring(c, x, y, r, r * .045);
+}
+// C — « le monogramme É ? » : le É de la série, dont l'accent devient un point d'interrogation
+function iconC(c, x, y, r, bg) {
+  c.save(); c.fillStyle = bg; c.beginPath(); c.arc(x, y, r, 0, 6.283); c.fill();
+  c.font = `900 ${Math.round(r * 1.25)}px Bodoni`; c.textAlign = 'center'; c.textBaseline = 'alphabetic';
+  const g = c.createLinearGradient(0, y - r * .5, 0, y + r * .5); g.addColorStop(0, '#FFFFFF'); g.addColorStop(.6, '#F2EFE8'); g.addColorStop(1, '#D8CFC0'); c.fillStyle = g; c.fillText('E', x, y + r * .48);
+  c.save(); c.translate(x + r * .1, y - r * .52); c.rotate(.28); c.font = `italic 400 ${Math.round(r * .62)}px Instrument`; c.fillStyle = gold(c, -40, -60, 40, 40); c.textBaseline = 'middle'; c.fillText('?', 0, 0); c.restore();
+  c.restore(); ring(c, x, y, r, r * .045);
+}
+const ICONS = { A: iconA, B: iconB, C: iconC };
+function wordmark(c, x, y, s, light) {
+  c.save(); c.textAlign = 'center'; c.font = `italic 400 ${Math.round(118 * s)}px Instrument`;
+  const g = c.createLinearGradient(0, y - 90 * s, 0, y + 10 * s); g.addColorStop(0, light ? '#7A2E3A' : '#FFF7F2'); g.addColorStop(1, light ? '#541D2A' : '#EE9FA4'); c.fillStyle = g; c.fillText('L’Énigme humaine', x, y);
+  c.font = `600 ${Math.round(24 * s)}px Fraunces`; c.fillStyle = light ? '#8A6A2A' : C.gold; c.letterSpacing = `${(.32 * 24 * s).toFixed(1)}px`; c.fillText('FAIS TA PROPRE RÉFLEXION', x + 4 * s, y + 62 * s); c.restore();
+}
+window.draw = function (mode, which) {
+  const cv = document.getElementById('cv'), c = cv.getContext('2d');
+  if (mode === 'sheet') { // planche de comparaison (téléphone) : A, B, C, avec l'icône en petit (photo de profil)
+    cv.width = 1080; cv.height = 2520; c.fillStyle = C.coal; c.fillRect(0, 0, 1080, 2520);
+    ['A', 'B', 'C'].forEach((k, i) => { const y0 = i * 840; c.fillStyle = i % 2 ? '#15161b' : '#111216'; c.fillRect(0, y0, 1080, 840);
+      c.font = '600 34px Fraunces'; c.fillStyle = C.gold; c.textAlign = 'left'; c.fillText(k, 48, y0 + 70);
+      ICONS[k](c, 540, y0 + 300, 210, C.coal); wordmark(c, 540, y0 + 640, .92, false);
+      ICONS[k](c, 960, y0 + 120, 58, C.coal); c.font = '500 18px Fraunces'; c.fillStyle = 'rgba(242,239,232,.6)'; c.textAlign = 'center'; c.fillText('photo de profil', 960, y0 + 205); });
+    return;
+  }
+  cv.width = 1080; cv.height = 1080; c.clearRect(0, 0, 1080, 1080);
+  if (mode === 'icon') ICONS[which](c, 540, 540, 500, C.coal);
+  if (mode === 'lockup') { c.fillStyle = C.coal; c.fillRect(0, 0, 1080, 1080); ICONS[which](c, 540, 400, 250, C.coal); wordmark(c, 540, 820, 1, false); }
+};
+document.fonts.load('italic 400 40px Instrument').then(() => document.fonts.load('900 40px Bodoni')).then(() => document.fonts.load('600 40px Fraunces')).then(() => { window.__ready = true; });
+</script>
+</body>
+</html>
