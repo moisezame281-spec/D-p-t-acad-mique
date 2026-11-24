@@ -134,6 +134,13 @@ Le format court fait **58 à 60 s** ; le format long peut aller **jusqu'à 2 min
 25. *(ép. 007)* **Le lac à l'aube**, avec l'élève assis en tailleur sur un rocher et le mot « MOI » en pierre qui se défait en poussière
 26. *(ép. 007)* **La statue dans la brume**, entre trois marcheurs aux lanternes de couleur : elle se fissure
 27. *(ép. 007)* **La galerie des trois cadres** (passé, présent, avenir) éclairés tour à tour
+28. *(ép. 008)* **La vitrine éclairée** et les passants à contre-jour ; **la galerie claire** et le piédestal ; **le triangle mimétique** sur papier crème ; **la main et le sable** sur fond safran ; **la ville des écrans** au crépuscule ; **la spirale** du vertige ; **le désert de sel**
+29. *(ép. 009)* **Le bureau au matin** (employé assis à contre-jour devant une grande fenêtre, horloge à 8 h) et **le bureau vu de dessus** (le tampon, les dossiers et leurs portraits qui pâlissent)
+30. *(ép. 009)* **Le mur blanc et les fils** : une silhouette debout, son ombre immense, des fils dorés jusqu'aux poignets
+31. *(ép. 009)* **Le laboratoire des années 1960** (murs vert pâle, générateur générique à 30 interrupteurs, vitre dépolie, blouse grise)
+32. *(ép. 009)* **La salle d'audience claire** et sa cage de verre vide ; **la salle blanche** où des silhouettes identiques perdent leur petite lumière, sauf une
+33. *(ép. 009)* **Le livre dans le rayon de lumière** (pupitre, fenêtre haute, poussière) ; **l'arc et le moucharabieh** dont le motif d'étoiles se dessine au sol
+34. *(ép. 009)* **La rangée d'interrupteurs**, de VERTU à ABDICATION DE CONSCIENCE ; **la balance** (l'intention contre les actes) ; **le grand bureau vu d'en haut** et ses « ? » dorés qui s'éteignent
 
 ## 3 bis. Transitions (révisées le 22/11 : sobres et fluides)
 
