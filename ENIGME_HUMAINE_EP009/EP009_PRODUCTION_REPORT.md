@@ -18,7 +18,7 @@ Deux nouveautés :
 
 | Fichier | Contenu |
 |---|---|
-| `EP009_MASTER_9x16.mp4` | 1080×1920, 30 i/s, H.264, AAC 48 kHz, **80,4 s** |
+| `EP009_MASTER_9x16.mp4` | 1080×1920, 30 i/s, H.264, AAC 48 kHz, **82,0 s** |
 | `EP009_TIKTOK.mp4` / `EP009_YOUTUBE_SHORTS.mp4` | Identiques au master |
 | `EP009_PROMO_15s.mp4` | 16 s : la question « Est-elle innocente… ? », puis la question finale et le carton de fin |
 | `EP009_EXTRAIT_1_MILGRAM.mp4` · `EP009_EXTRAIT_2_ARENDT.mp4` · `EP009_EXTRAIT_3_QUESTION.mp4` | **Nouveau :** trois extraits courts, prêts à publier (voir le kit) |
@@ -41,9 +41,10 @@ Deux nouveautés :
 | Ouverture (« Imagine une personne… ») | 5,7 syllabes/s | **5,1** (ralentie de 10 %) |
 | « Est-elle innocente… ? » | 6,3 | **5,4** (ralentie de 15 %, le maximum autorisé) |
 | « Que devient notre responsabilité… ? » | 4,8 | 4,8 (déjà posée), **suivie d'un silence d'une seconde** pour lire la citation d'Arendt |
+| **Passage sur Milgram** (« des participants acceptent d'infliger… ») : il était nettement plus rapide que le reste | 7,0 | **5,9** (ralenti de 15 %, avec une respiration après les deux-points) |
 | « Mais voici le véritable problème : … abdication de conscience ? » | 5,7 | **5,0** (ralentie de 12 %) |
 | Question finale | 5,8 puis 6,6 | **5,0** puis **5,6** (ralentie de 13 % et 15 %) |
-| Explications (Milgram, Arendt, Bible, Coran) | 5,3 à 5,5 | inchangé |
+| Autres explications (Milgram, Arendt, Bible, Coran, balance) | 4,6 à 5,2 | inchangé |
 
 **Les questions montent :**
 
@@ -91,22 +92,23 @@ Deux nouveautés :
 
 | Vérification | Résultat |
 |---|---|
-| Durée | ✅ 80,4 s |
+| Durée | ✅ 82,0 s |
 | Décodage intégral | ✅ Sans erreur |
-| Transcription du master, modèle « medium » | ✅ **1,4 % d'écart**, sans erreur réelle |
-| Transcription du master, modèle « small » | 8,6 % d'écart brut (ce modèle écrit les nombres en chiffres et entend « Aran ») |
-| Niveaux | ✅ Parole -10,5 dBFS, musique seule -14,3 dBFS, crête -0,5 dBFS |
+| Transcription du master, modèle « medium » | ✅ **1,8 % d'écart**, sans erreur réelle |
+| Transcription du master, modèle « small » | 8,1 % d'écart brut (ce modèle écrit les nombres en chiffres et entend « Aran ») |
+| Niveaux | ✅ Parole -10,5 dBFS, musique seule -15,6 dBFS, crête -0,5 dBFS |
 | Sources | ✅ Milgram (Crossref, SEP « Empirical Approaches to Moral Character », Canto Ortiz et Álvaro 2015), Arendt (SEP), Actes 5:29 (Bible Gateway, LSG et SG21), Coran 5:8 (API Quran.com, Hamidullah et Saheeh International), Boisvert et Bégin 2019 (Crossref) |
 | Respect des traditions | ✅ Aucun personnage biblique ; architecture et géométrie seulement pour le Coran ; aucun arabe coranique généré |
 | Histoire | ✅ Aucun symbole nazi ni image d'archive : le procès est évoqué par une cage de verre vide |
 | Droits des images | ✅ Tout est dessiné par code, sans aucune photographie de l'expérience de Milgram |
 
-**Détail des trois mots signalés par le modèle « medium » :**
+**Détail des quatre mots signalés par le modèle « medium » :**
 - **« Anna » pour « Hannah » :** c'est la prononciation française du prénom, le *h* étant muet.
 - **« sourade » pour « sourate » et « verse » pour « verset » :** ce sont des erreurs d'orthographe de la transcription sur un mot rare.
   - Le passage isolé est bien entendu : « sourate 5, verset 8 ».
   - Trois autres graphies ont été testées. Toutes sont transcrites de la même façon, et la graphie raccourcie fait même disparaître le *t*.
   - La prononciation actuelle est donc conservée.
+- **« et » pour « mais »** dans la question finale : c'est une variation du modèle sur le fichier entier. Réécouté seul, avec et sans musique, le passage est bien entendu : « mais d'apprendre à ne plus se demander… ».
 
 ## 6. Environnement
 Pour vérifier tes références, ces sites ont été ajoutés aux sites autorisés de ton environnement :

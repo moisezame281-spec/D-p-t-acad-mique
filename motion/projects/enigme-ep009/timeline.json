@@ -1,5 +1,5 @@
 {
- "duration": 80.433,
+ "duration": 81.97,
  "sentences": [
   {
    "id": "s1a",
@@ -454,8 +454,8 @@
   {
    "id": "s3b",
    "scene": 3,
-   "start": 21.744,
-   "end": 29.364,
+   "start": 21.955,
+   "end": 30.919,
    "display": "des participants acceptent d’infliger ce qu’ils croient être des décharges électriques douloureuses à un inconnu, simplement parce qu’une autorité leur demande de continuer.",
    "say": "des participants acceptent d’infliger ce qu’ils croient être des décharges électriques douloureuses à un inconnu, simplement parce qu’une autorité leur demande de continuer.",
    "heard": "Des  participants  acceptent  d 'infliger  ce  qu 'ils  croient  être  des  décharges  électriques  douloureuses  à  un  inconnu,  simplement  parce  qu 'une  autorité  leur  demande  de  continuer.",
@@ -463,199 +463,199 @@
    "words": [
     {
      "w": "des",
-     "start": 21.744,
-     "end": 21.864,
+     "start": 21.955,
+     "end": 22.096,
      "chunk": 0
     },
     {
      "w": "participants",
-     "start": 21.864,
-     "end": 22.364,
+     "start": 22.096,
+     "end": 22.684,
      "chunk": 0
     },
     {
      "w": "acceptent",
-     "start": 22.364,
-     "end": 22.984,
+     "start": 22.684,
+     "end": 23.413,
      "chunk": 0
     },
     {
      "w": "d",
-     "start": 22.984,
-     "end": 23.084,
+     "start": 23.413,
+     "end": 23.531,
      "chunk": 0
     },
     {
      "w": "infliger",
-     "start": 23.084,
-     "end": 23.544,
+     "start": 23.531,
+     "end": 24.072,
      "chunk": 0
     },
     {
      "w": "ce",
-     "start": 23.544,
-     "end": 23.684,
+     "start": 24.072,
+     "end": 24.237,
      "chunk": 1
     },
     {
      "w": "qu",
-     "start": 23.684,
-     "end": 23.804,
+     "start": 24.237,
+     "end": 24.378,
      "chunk": 1
     },
     {
      "w": "ils",
-     "start": 23.804,
-     "end": 23.864,
+     "start": 24.378,
+     "end": 24.449,
      "chunk": 1
     },
     {
      "w": "croient",
-     "start": 23.864,
-     "end": 24.124,
+     "start": 24.449,
+     "end": 24.755,
      "chunk": 1
     },
     {
      "w": "etre",
-     "start": 24.124,
-     "end": 24.244,
+     "start": 24.755,
+     "end": 24.896,
      "chunk": 1
     },
     {
      "w": "des",
-     "start": 24.244,
-     "end": 24.424,
+     "start": 24.896,
+     "end": 25.108,
      "chunk": 2
     },
     {
      "w": "decharges",
-     "start": 24.424,
-     "end": 24.884,
+     "start": 25.108,
+     "end": 25.649,
      "chunk": 2
     },
     {
      "w": "electriques",
-     "start": 24.884,
-     "end": 25.304,
+     "start": 25.649,
+     "end": 26.143,
      "chunk": 2
     },
     {
      "w": "douloureuses",
-     "start": 25.304,
-     "end": 25.804,
+     "start": 26.143,
+     "end": 26.731,
      "chunk": 2
     },
     {
      "w": "a",
-     "start": 25.804,
-     "end": 25.884,
+     "start": 26.731,
+     "end": 26.825,
      "chunk": 3
     },
     {
      "w": "un",
-     "start": 25.884,
-     "end": 26.004,
+     "start": 26.825,
+     "end": 26.966,
      "chunk": 3
     },
     {
      "w": "inconnu",
-     "start": 26.004,
-     "end": 26.444,
+     "start": 26.966,
+     "end": 27.484,
      "chunk": 3
     },
     {
      "w": "simplement",
-     "start": 26.704,
-     "end": 27.064,
+     "start": 27.79,
+     "end": 28.213,
      "chunk": 4
     },
     {
      "w": "parce",
-     "start": 27.064,
-     "end": 27.384,
+     "start": 28.213,
+     "end": 28.59,
      "chunk": 4
     },
     {
      "w": "qu",
-     "start": 27.384,
-     "end": 27.524,
+     "start": 28.59,
+     "end": 28.755,
      "chunk": 4
     },
     {
      "w": "une",
-     "start": 27.524,
-     "end": 27.604,
+     "start": 28.755,
+     "end": 28.849,
      "chunk": 4
     },
     {
      "w": "autorite",
-     "start": 27.604,
-     "end": 28.024,
+     "start": 28.849,
+     "end": 29.343,
      "chunk": 4
     },
     {
      "w": "leur",
-     "start": 28.024,
-     "end": 28.204,
+     "start": 29.343,
+     "end": 29.555,
      "chunk": 5
     },
     {
      "w": "demande",
-     "start": 28.204,
-     "end": 28.504,
+     "start": 29.555,
+     "end": 29.908,
      "chunk": 5
     },
     {
      "w": "de",
-     "start": 28.504,
-     "end": 28.624,
+     "start": 29.908,
+     "end": 30.049,
      "chunk": 5
     },
     {
      "w": "continuer",
-     "start": 28.624,
-     "end": 29.064,
+     "start": 30.049,
+     "end": 30.566,
      "chunk": 5
     }
    ],
    "chunks": [
     {
      "text": "des participants acceptent d’infliger",
-     "start": 21.744,
-     "end": 23.544
+     "start": 21.955,
+     "end": 24.072
     },
     {
      "text": "ce qu’ils croient être",
-     "start": 23.544,
-     "end": 24.244
+     "start": 24.072,
+     "end": 24.896
     },
     {
      "text": "des décharges électriques douloureuses",
-     "start": 24.244,
-     "end": 25.804
+     "start": 24.896,
+     "end": 26.731
     },
     {
      "text": "à un inconnu,",
-     "start": 25.804,
-     "end": 26.444
+     "start": 26.731,
+     "end": 27.484
     },
     {
      "text": "simplement parce qu’une autorité",
-     "start": 26.704,
-     "end": 28.024
+     "start": 27.79,
+     "end": 29.343
     },
     {
      "text": "leur demande de continuer.",
-     "start": 28.024,
-     "end": 29.364
+     "start": 29.343,
+     "end": 30.919
     }
    ]
   },
   {
    "id": "s4a",
    "scene": 4,
-   "start": 29.664,
-   "end": 35.072,
+   "start": 31.203,
+   "end": 36.611,
    "display": "Hannah Arendt, en réfléchissant aux crimes du nazisme, soulève une question encore plus dérangeante :",
    "say": "Hannah Arènte, en réfléchissant aux crimes du nazisme, soulève une question encore plus dérangeante :",
    "heard": "Anna  Arendt,  en  réfléchissant  au  crime  du  nazisme,  soulève  une  question  encore  plus  dérangeante.",
@@ -663,112 +663,112 @@
    "words": [
     {
      "w": "hannah",
-     "start": 29.664,
-     "end": 30.194,
+     "start": 31.203,
+     "end": 31.733,
      "chunk": 0
     },
     {
      "w": "arente",
-     "start": 30.194,
-     "end": 30.724,
+     "start": 31.733,
+     "end": 32.263,
      "chunk": 0
     },
     {
      "w": "en",
-     "start": 30.724,
-     "end": 30.804,
+     "start": 32.263,
+     "end": 32.343,
      "chunk": 1
     },
     {
      "w": "reflechissant",
-     "start": 30.804,
-     "end": 31.424,
+     "start": 32.343,
+     "end": 32.963,
      "chunk": 1
     },
     {
      "w": "aux",
-     "start": 31.424,
-     "end": 31.614,
+     "start": 32.963,
+     "end": 33.153,
      "chunk": 1
     },
     {
      "w": "crimes",
-     "start": 31.614,
-     "end": 31.804,
+     "start": 33.153,
+     "end": 33.343,
      "chunk": 1
     },
     {
      "w": "du",
-     "start": 31.804,
-     "end": 31.944,
+     "start": 33.343,
+     "end": 33.483,
      "chunk": 1
     },
     {
      "w": "nazisme",
-     "start": 31.944,
-     "end": 32.524,
+     "start": 33.483,
+     "end": 34.063,
      "chunk": 1
     },
     {
      "w": "souleve",
-     "start": 32.964,
-     "end": 33.284,
+     "start": 34.503,
+     "end": 34.823,
      "chunk": 2
     },
     {
      "w": "une",
-     "start": 33.284,
-     "end": 33.404,
+     "start": 34.823,
+     "end": 34.943,
      "chunk": 2
     },
     {
      "w": "question",
-     "start": 33.404,
-     "end": 33.804,
+     "start": 34.943,
+     "end": 35.343,
      "chunk": 2
     },
     {
      "w": "encore",
-     "start": 33.804,
-     "end": 34.004,
+     "start": 35.343,
+     "end": 35.543,
      "chunk": 2
     },
     {
      "w": "plus",
-     "start": 34.004,
-     "end": 34.244,
+     "start": 35.543,
+     "end": 35.783,
      "chunk": 2
     },
     {
      "w": "derangeante",
-     "start": 34.244,
-     "end": 34.884,
+     "start": 35.783,
+     "end": 36.423,
      "chunk": 2
     }
    ],
    "chunks": [
     {
      "text": "Hannah Arendt,",
-     "start": 29.664,
-     "end": 30.724
+     "start": 31.203,
+     "end": 32.263
     },
     {
      "text": "en réfléchissant aux crimes du nazisme,",
-     "start": 30.724,
-     "end": 32.524
+     "start": 32.263,
+     "end": 34.063
     },
     {
      "text": "soulève une question encore plus dérangeante :",
-     "start": 32.964,
-     "end": 35.072
+     "start": 34.503,
+     "end": 36.611
     }
    ]
   },
   {
    "id": "s4b",
    "scene": 4,
-   "start": 35.072,
-   "end": 39.604,
+   "start": 36.611,
+   "end": 41.143,
    "display": "que devient notre responsabilité lorsque nous cessons de penser par nous-mêmes ?",
    "say": "que devient notre responsabilité lorsque nous cessons de penser par nous-mêmes ?",
    "heard": "que  devient  notre  responsabilité  lorsque  nous  cessons  de  penser  par  nous -mêmes.",
@@ -776,95 +776,95 @@
    "words": [
     {
      "w": "que",
-     "start": 35.072,
-     "end": 35.192,
+     "start": 36.611,
+     "end": 36.731,
      "chunk": 0
     },
     {
      "w": "devient",
-     "start": 35.192,
-     "end": 35.492,
+     "start": 36.731,
+     "end": 37.031,
      "chunk": 0
     },
     {
      "w": "notre",
-     "start": 35.492,
-     "end": 35.772,
+     "start": 37.031,
+     "end": 37.311,
      "chunk": 0
     },
     {
      "w": "responsabilite",
-     "start": 35.772,
-     "end": 36.992,
+     "start": 37.311,
+     "end": 38.531,
      "chunk": 0
     },
     {
      "w": "lorsque",
-     "start": 36.992,
-     "end": 37.612,
+     "start": 38.531,
+     "end": 39.151,
      "chunk": 1
     },
     {
      "w": "nous",
-     "start": 37.612,
-     "end": 37.972,
+     "start": 39.151,
+     "end": 39.511,
      "chunk": 1
     },
     {
      "w": "cessons",
-     "start": 37.972,
-     "end": 38.372,
+     "start": 39.511,
+     "end": 39.911,
      "chunk": 1
     },
     {
      "w": "de",
-     "start": 38.372,
-     "end": 38.492,
+     "start": 39.911,
+     "end": 40.031,
      "chunk": 1
     },
     {
      "w": "penser",
-     "start": 38.492,
-     "end": 38.772,
+     "start": 40.031,
+     "end": 40.311,
      "chunk": 1
     },
     {
      "w": "par",
-     "start": 38.772,
-     "end": 38.992,
+     "start": 40.311,
+     "end": 40.531,
      "chunk": 1
     },
     {
      "w": "nous",
-     "start": 38.992,
-     "end": 39.132,
+     "start": 40.531,
+     "end": 40.671,
      "chunk": 1
     },
     {
      "w": "memes",
-     "start": 39.132,
-     "end": 39.472,
+     "start": 40.671,
+     "end": 41.011,
      "chunk": 1
     }
    ],
    "chunks": [
     {
      "text": "que devient notre responsabilité",
-     "start": 35.072,
-     "end": 36.992
+     "start": 36.611,
+     "end": 38.531
     },
     {
      "text": "lorsque nous cessons de penser par nous-mêmes ?",
-     "start": 36.992,
-     "end": 39.604
+     "start": 38.531,
+     "end": 41.143
     }
    ]
   },
   {
    "id": "s5a",
    "scene": 5,
-   "start": 40.704,
-   "end": 45.884,
+   "start": 42.243,
+   "end": 47.423,
    "display": "La Bible, dans les Actes 5:29, affirme qu’il faut obéir à Dieu plutôt qu’aux hommes.",
    "say": "La Bible, dans les Actes cinq, vingt-neuf, affirme qu’il faut obéir à Dieu plutôt qu’aux hommes.",
    "heard": "La  Bible,  dans  les  actes  5,  29,  affirme  qu 'il  faut  obéir  à  Dieu  plutôt  qu 'aux  hommes.",
@@ -872,142 +872,142 @@
    "words": [
     {
      "w": "la",
-     "start": 40.703,
-     "end": 40.843,
+     "start": 42.243,
+     "end": 42.383,
      "chunk": 0
     },
     {
      "w": "bible",
-     "start": 40.843,
-     "end": 41.143,
+     "start": 42.383,
+     "end": 42.682,
      "chunk": 0
     },
     {
      "w": "dans",
-     "start": 41.423,
-     "end": 41.563,
+     "start": 42.962,
+     "end": 43.102,
      "chunk": 0
     },
     {
      "w": "les",
-     "start": 41.563,
-     "end": 41.683,
+     "start": 43.102,
+     "end": 43.222,
      "chunk": 0
     },
     {
      "w": "actes",
-     "start": 41.683,
-     "end": 42.023,
+     "start": 43.222,
+     "end": 43.563,
      "chunk": 0
     },
     {
      "w": "cinq",
-     "start": 42.023,
-     "end": 42.497,
+     "start": 43.563,
+     "end": 44.036,
      "chunk": 0
     },
     {
      "w": "vingt",
-     "start": 42.497,
-     "end": 42.97,
+     "start": 44.036,
+     "end": 44.509,
      "chunk": 0
     },
     {
      "w": "neuf",
-     "start": 42.97,
-     "end": 43.443,
+     "start": 44.509,
+     "end": 44.983,
      "chunk": 0
     },
     {
      "w": "affirme",
-     "start": 43.443,
-     "end": 43.823,
+     "start": 44.983,
+     "end": 45.362,
      "chunk": 1
     },
     {
      "w": "qu",
-     "start": 43.823,
-     "end": 43.963,
+     "start": 45.362,
+     "end": 45.502,
      "chunk": 1
     },
     {
      "w": "il",
-     "start": 43.963,
-     "end": 43.983,
+     "start": 45.502,
+     "end": 45.523,
      "chunk": 1
     },
     {
      "w": "faut",
-     "start": 43.983,
-     "end": 44.143,
+     "start": 45.523,
+     "end": 45.682,
      "chunk": 1
     },
     {
      "w": "obeir",
-     "start": 44.143,
-     "end": 44.563,
+     "start": 45.682,
+     "end": 46.102,
      "chunk": 1
     },
     {
      "w": "a",
-     "start": 44.563,
-     "end": 44.683,
+     "start": 46.102,
+     "end": 46.222,
      "chunk": 1
     },
     {
      "w": "dieu",
-     "start": 44.683,
-     "end": 44.863,
+     "start": 46.222,
+     "end": 46.402,
      "chunk": 1
     },
     {
      "w": "plutot",
-     "start": 44.863,
-     "end": 45.143,
+     "start": 46.402,
+     "end": 46.682,
      "chunk": 2
     },
     {
      "w": "qu",
-     "start": 45.143,
-     "end": 45.243,
+     "start": 46.682,
+     "end": 46.782,
      "chunk": 2
     },
     {
      "w": "aux",
-     "start": 45.243,
-     "end": 45.363,
+     "start": 46.782,
+     "end": 46.902,
      "chunk": 2
     },
     {
      "w": "hommes",
-     "start": 45.363,
-     "end": 45.584,
+     "start": 46.902,
+     "end": 47.123,
      "chunk": 2
     }
    ],
    "chunks": [
     {
      "text": "La Bible, dans les Actes 5:29,",
-     "start": 40.704,
-     "end": 43.443
+     "start": 42.243,
+     "end": 44.983
     },
     {
      "text": "affirme qu’il faut obéir à Dieu",
-     "start": 43.443,
-     "end": 44.863
+     "start": 44.983,
+     "end": 46.402
     },
     {
      "text": "plutôt qu’aux hommes.",
-     "start": 44.863,
-     "end": 45.884
+     "start": 46.402,
+     "end": 47.423
     }
    ]
   },
   {
    "id": "s5b",
    "scene": 5,
-   "start": 46.033,
-   "end": 52.86,
+   "start": 47.573,
+   "end": 54.399,
    "display": "Le Coran, en sourate 5, verset 8, rappelle que la justice ne doit pas être abandonnée, même face à ceux que l’on déteste.",
    "say": "Le Coran, en sourate cinq, verset huit, rappelle que la justice ne doit pas être abandonnée, même face à ceux que l’on déteste.",
    "heard": "Le  Coran,  en  sourat  de  5  verset  8,  rappelle  que  la  justice  ne  doit  pas  être  abandonnée,  même  face  à  ceux  que  l 'on  déteste.",
@@ -1015,177 +1015,177 @@
    "words": [
     {
      "w": "le",
-     "start": 46.033,
-     "end": 46.133,
+     "start": 47.572,
+     "end": 47.673,
      "chunk": 0
     },
     {
      "w": "coran",
-     "start": 46.133,
-     "end": 46.533,
+     "start": 47.673,
+     "end": 48.072,
      "chunk": 0
     },
     {
      "w": "en",
-     "start": 46.693,
-     "end": 46.713,
+     "start": 48.232,
+     "end": 48.252,
      "chunk": 0
     },
     {
      "w": "sourate",
-     "start": 46.713,
-     "end": 47.043,
+     "start": 48.252,
+     "end": 48.582,
      "chunk": 0
     },
     {
      "w": "cinq",
-     "start": 47.043,
-     "end": 47.373,
+     "start": 48.582,
+     "end": 48.913,
      "chunk": 0
     },
     {
      "w": "verset",
-     "start": 47.373,
-     "end": 47.873,
+     "start": 48.913,
+     "end": 49.413,
      "chunk": 0
     },
     {
      "w": "huit",
-     "start": 47.873,
-     "end": 48.333,
+     "start": 49.413,
+     "end": 49.872,
      "chunk": 0
     },
     {
      "w": "rappelle",
-     "start": 48.333,
-     "end": 48.713,
+     "start": 49.872,
+     "end": 50.252,
      "chunk": 1
     },
     {
      "w": "que",
-     "start": 48.713,
-     "end": 48.993,
+     "start": 50.252,
+     "end": 50.532,
      "chunk": 1
     },
     {
      "w": "la",
-     "start": 48.993,
-     "end": 49.113,
+     "start": 50.532,
+     "end": 50.652,
      "chunk": 1
     },
     {
      "w": "justice",
-     "start": 49.113,
-     "end": 49.453,
+     "start": 50.652,
+     "end": 50.993,
      "chunk": 1
     },
     {
      "w": "ne",
-     "start": 49.453,
-     "end": 49.753,
+     "start": 50.993,
+     "end": 51.292,
      "chunk": 2
     },
     {
      "w": "doit",
-     "start": 49.753,
-     "end": 49.873,
+     "start": 51.292,
+     "end": 51.413,
      "chunk": 2
     },
     {
      "w": "pas",
-     "start": 49.873,
-     "end": 50.053,
+     "start": 51.413,
+     "end": 51.592,
      "chunk": 2
     },
     {
      "w": "etre",
-     "start": 50.053,
-     "end": 50.233,
+     "start": 51.592,
+     "end": 51.773,
      "chunk": 2
     },
     {
      "w": "abandonnee",
-     "start": 50.233,
-     "end": 50.833,
+     "start": 51.773,
+     "end": 52.372,
      "chunk": 2
     },
     {
      "w": "meme",
-     "start": 51.073,
-     "end": 51.253,
+     "start": 52.612,
+     "end": 52.792,
      "chunk": 3
     },
     {
      "w": "face",
-     "start": 51.253,
-     "end": 51.533,
+     "start": 52.792,
+     "end": 53.072,
      "chunk": 3
     },
     {
      "w": "a",
-     "start": 51.533,
-     "end": 51.773,
+     "start": 53.072,
+     "end": 53.313,
      "chunk": 3
     },
     {
      "w": "ceux",
-     "start": 51.773,
-     "end": 51.933,
+     "start": 53.313,
+     "end": 53.472,
      "chunk": 3
     },
     {
      "w": "que",
-     "start": 51.933,
-     "end": 52.113,
+     "start": 53.472,
+     "end": 53.652,
      "chunk": 3
     },
     {
      "w": "l",
-     "start": 52.113,
-     "end": 52.153,
+     "start": 53.652,
+     "end": 53.692,
      "chunk": 3
     },
     {
      "w": "on",
-     "start": 52.153,
-     "end": 52.213,
+     "start": 53.692,
+     "end": 53.752,
      "chunk": 3
     },
     {
      "w": "deteste",
-     "start": 52.213,
-     "end": 52.733,
+     "start": 53.752,
+     "end": 54.273,
      "chunk": 3
     }
    ],
    "chunks": [
     {
      "text": "Le Coran, en sourate 5, verset 8,",
-     "start": 46.033,
-     "end": 48.333
+     "start": 47.573,
+     "end": 49.872
     },
     {
      "text": "rappelle que la justice",
-     "start": 48.333,
-     "end": 49.453
+     "start": 49.872,
+     "end": 50.993
     },
     {
      "text": "ne doit pas être abandonnée,",
-     "start": 49.453,
-     "end": 50.833
+     "start": 50.993,
+     "end": 52.372
     },
     {
      "text": "même face à ceux que l’on déteste.",
-     "start": 51.073,
-     "end": 52.86
+     "start": 52.612,
+     "end": 54.399
     }
    ]
   },
   {
    "id": "s6a",
    "scene": 6,
-   "start": 53.168,
-   "end": 55.727,
+   "start": 54.707,
+   "end": 57.266,
    "display": "Mais voici le véritable problème :",
    "say": "Mais voici le véritable problème :",
    "heard": "Mais  voici  le  véritable  problème.",
@@ -1193,48 +1193,48 @@
    "words": [
     {
      "w": "mais",
-     "start": 53.168,
-     "end": 53.465,
+     "start": 54.707,
+     "end": 55.004,
      "chunk": 0
     },
     {
      "w": "voici",
-     "start": 53.465,
-     "end": 54.15,
+     "start": 55.004,
+     "end": 55.689,
      "chunk": 0
     },
     {
      "w": "le",
-     "start": 54.15,
-     "end": 54.333,
+     "start": 55.689,
+     "end": 55.872,
      "chunk": 0
     },
     {
      "w": "veritable",
-     "start": 54.333,
-     "end": 54.835,
+     "start": 55.872,
+     "end": 56.374,
      "chunk": 0
     },
     {
      "w": "probleme",
-     "start": 54.835,
-     "end": 55.383,
+     "start": 56.374,
+     "end": 56.922,
      "chunk": 0
     }
    ],
    "chunks": [
     {
      "text": "Mais voici le véritable problème :",
-     "start": 53.168,
-     "end": 55.727
+     "start": 54.707,
+     "end": 57.266
     }
    ]
   },
   {
    "id": "s6b",
    "scene": 6,
-   "start": 55.727,
-   "end": 62.256,
+   "start": 57.266,
+   "end": 63.795,
    "display": "à partir de quel moment l’obéissance cesse-t-elle d’être une vertu et devient-elle une abdication de conscience ?",
    "say": "à partir de quel moment l’obéissance cesse-t-elle d’être une vertu et devient-elle une abdication de conscience ?",
    "heard": "À  partir  de  quel  moment  l 'obéissance,  c 'est -elle  d 'être  une  vertu  ?  Et  devient -elle  une  abdication  de  conscience  ?",
@@ -1242,154 +1242,154 @@
    "words": [
     {
      "w": "a",
-     "start": 55.727,
-     "end": 55.864,
+     "start": 57.266,
+     "end": 57.403,
      "chunk": 0
     },
     {
      "w": "partir",
-     "start": 55.864,
-     "end": 56.161,
+     "start": 57.403,
+     "end": 57.7,
      "chunk": 0
     },
     {
      "w": "de",
-     "start": 56.161,
-     "end": 56.412,
+     "start": 57.7,
+     "end": 57.951,
      "chunk": 0
     },
     {
      "w": "quel",
-     "start": 56.412,
-     "end": 56.595,
+     "start": 57.951,
+     "end": 58.134,
      "chunk": 0
     },
     {
      "w": "moment",
-     "start": 56.595,
-     "end": 56.891,
+     "start": 58.134,
+     "end": 58.43,
      "chunk": 0
     },
     {
      "w": "l",
-     "start": 56.891,
-     "end": 57.074,
+     "start": 58.43,
+     "end": 58.613,
      "chunk": 0
     },
     {
      "w": "obeissance",
-     "start": 57.074,
-     "end": 57.667,
+     "start": 58.613,
+     "end": 59.206,
      "chunk": 0
     },
     {
      "w": "cesse",
-     "start": 57.667,
-     "end": 57.976,
+     "start": 59.206,
+     "end": 59.515,
      "chunk": 1
     },
     {
      "w": "t",
-     "start": 57.976,
-     "end": 58.284,
+     "start": 59.515,
+     "end": 59.823,
      "chunk": 1
     },
     {
      "w": "elle",
-     "start": 58.284,
-     "end": 58.581,
+     "start": 59.823,
+     "end": 60.12,
      "chunk": 1
     },
     {
      "w": "d",
-     "start": 58.581,
-     "end": 58.717,
+     "start": 60.12,
+     "end": 60.257,
      "chunk": 1
     },
     {
      "w": "etre",
-     "start": 58.717,
-     "end": 58.832,
+     "start": 60.257,
+     "end": 60.371,
      "chunk": 1
     },
     {
      "w": "une",
-     "start": 58.832,
-     "end": 59.037,
+     "start": 60.371,
+     "end": 60.576,
      "chunk": 1
     },
     {
      "w": "vertu",
-     "start": 59.037,
-     "end": 59.516,
+     "start": 60.576,
+     "end": 61.055,
      "chunk": 1
     },
     {
      "w": "et",
-     "start": 59.767,
-     "end": 59.859,
+     "start": 61.306,
+     "end": 61.398,
      "chunk": 2
     },
     {
      "w": "devient",
-     "start": 59.859,
-     "end": 60.178,
+     "start": 61.398,
+     "end": 61.717,
      "chunk": 2
     },
     {
      "w": "elle",
-     "start": 60.178,
-     "end": 60.521,
+     "start": 61.717,
+     "end": 62.06,
      "chunk": 2
     },
     {
      "w": "une",
-     "start": 60.521,
-     "end": 60.681,
+     "start": 62.06,
+     "end": 62.22,
      "chunk": 2
     },
     {
      "w": "abdication",
-     "start": 60.681,
-     "end": 61.206,
+     "start": 62.22,
+     "end": 62.745,
      "chunk": 2
     },
     {
      "w": "de",
-     "start": 61.206,
-     "end": 61.479,
+     "start": 62.745,
+     "end": 63.018,
      "chunk": 2
     },
     {
      "w": "conscience",
-     "start": 61.479,
-     "end": 61.913,
+     "start": 63.018,
+     "end": 63.452,
      "chunk": 2
     }
    ],
    "chunks": [
     {
      "text": "à partir de quel moment l’obéissance",
-     "start": 55.727,
-     "end": 57.667
+     "start": 57.266,
+     "end": 59.206
     },
     {
      "text": "cesse-t-elle d’être une vertu",
-     "start": 57.667,
-     "end": 59.516
+     "start": 59.206,
+     "end": 61.055
     },
     {
      "text": "et devient-elle une abdication de conscience ?",
-     "start": 59.767,
-     "end": 62.256
+     "start": 61.306,
+     "end": 63.795
     }
    ]
   },
   {
    "id": "s7a",
    "scene": 7,
-   "start": 62.539,
-   "end": 67.835,
+   "start": 64.078,
+   "end": 69.374,
    "display": "Car ne pas avoir voulu le mal ne signifie pas toujours ne pas en être responsable.",
    "say": "Car ne pas avoir voulu le mal ne signifie pas toujours ne pas en être responsable.",
    "heard": "car  ne  pas  avoir  voulu  le  mal  ne  signifie  pas  toujours  ne  pas  en  être  responsable.",
@@ -1397,124 +1397,124 @@
    "words": [
     {
      "w": "car",
-     "start": 62.539,
-     "end": 62.679,
+     "start": 64.078,
+     "end": 64.218,
      "chunk": 0
     },
     {
      "w": "ne",
-     "start": 62.679,
-     "end": 62.799,
+     "start": 64.218,
+     "end": 64.338,
      "chunk": 0
     },
     {
      "w": "pas",
-     "start": 62.799,
-     "end": 62.979,
+     "start": 64.338,
+     "end": 64.518,
      "chunk": 0
     },
     {
      "w": "avoir",
-     "start": 62.979,
-     "end": 63.259,
+     "start": 64.518,
+     "end": 64.798,
      "chunk": 0
     },
     {
      "w": "voulu",
-     "start": 63.259,
-     "end": 63.599,
+     "start": 64.798,
+     "end": 65.138,
      "chunk": 0
     },
     {
      "w": "le",
-     "start": 63.599,
-     "end": 63.699,
+     "start": 65.138,
+     "end": 65.238,
      "chunk": 0
     },
     {
      "w": "mal",
-     "start": 63.699,
-     "end": 63.979,
+     "start": 65.238,
+     "end": 65.518,
      "chunk": 0
     },
     {
      "w": "ne",
-     "start": 63.979,
-     "end": 64.419,
+     "start": 65.518,
+     "end": 65.958,
      "chunk": 1
     },
     {
      "w": "signifie",
-     "start": 64.419,
-     "end": 64.979,
+     "start": 65.958,
+     "end": 66.518,
      "chunk": 1
     },
     {
      "w": "pas",
-     "start": 64.979,
-     "end": 65.139,
+     "start": 66.518,
+     "end": 66.678,
      "chunk": 1
     },
     {
      "w": "toujours",
-     "start": 65.139,
-     "end": 65.579,
+     "start": 66.678,
+     "end": 67.118,
      "chunk": 1
     },
     {
      "w": "ne",
-     "start": 65.579,
-     "end": 65.979,
+     "start": 67.118,
+     "end": 67.518,
      "chunk": 2
     },
     {
      "w": "pas",
-     "start": 65.979,
-     "end": 66.179,
+     "start": 67.518,
+     "end": 67.718,
      "chunk": 2
     },
     {
      "w": "en",
-     "start": 66.179,
-     "end": 66.339,
+     "start": 67.718,
+     "end": 67.878,
      "chunk": 2
     },
     {
      "w": "etre",
-     "start": 66.339,
-     "end": 66.479,
+     "start": 67.878,
+     "end": 68.018,
      "chunk": 2
     },
     {
      "w": "responsable",
-     "start": 66.479,
-     "end": 67.319,
+     "start": 68.018,
+     "end": 68.858,
      "chunk": 2
     }
    ],
    "chunks": [
     {
      "text": "Car ne pas avoir voulu le mal",
-     "start": 62.539,
-     "end": 63.979
+     "start": 64.078,
+     "end": 65.518
     },
     {
      "text": "ne signifie pas toujours",
-     "start": 63.979,
-     "end": 65.579
+     "start": 65.518,
+     "end": 67.118
     },
     {
      "text": "ne pas en être responsable.",
-     "start": 65.579,
-     "end": 67.835
+     "start": 67.118,
+     "end": 69.374
     }
    ]
   },
   {
    "id": "s8a",
    "scene": 8,
-   "start": 68.194,
-   "end": 72.285,
+   "start": 69.733,
+   "end": 73.824,
    "display": "Et si le danger le plus discret n’était pas de devenir mauvais,",
    "say": "Et si le danger le plus discret n’était pas de devenir mauvais,",
    "heard": "et  si  le  danger  le  plus  discret  n 'était  pas  de  devenir  mauvais.",
@@ -1522,101 +1522,101 @@
    "words": [
     {
      "w": "et",
-     "start": 68.194,
-     "end": 68.332,
+     "start": 69.733,
+     "end": 69.871,
      "chunk": 0
     },
     {
      "w": "si",
-     "start": 68.332,
-     "end": 68.54,
+     "start": 69.871,
+     "end": 70.079,
      "chunk": 0
     },
     {
      "w": "le",
-     "start": 68.54,
-     "end": 68.724,
+     "start": 70.079,
+     "end": 70.263,
      "chunk": 0
     },
     {
      "w": "danger",
-     "start": 68.724,
-     "end": 69.092,
+     "start": 70.263,
+     "end": 70.631,
      "chunk": 0
     },
     {
      "w": "le",
-     "start": 69.092,
-     "end": 69.323,
+     "start": 70.631,
+     "end": 70.862,
      "chunk": 0
     },
     {
      "w": "plus",
-     "start": 69.323,
-     "end": 69.553,
+     "start": 70.862,
+     "end": 71.092,
      "chunk": 0
     },
     {
      "w": "discret",
-     "start": 69.553,
-     "end": 70.221,
+     "start": 71.092,
+     "end": 71.76,
      "chunk": 0
     },
     {
      "w": "n",
-     "start": 70.221,
-     "end": 70.497,
+     "start": 71.76,
+     "end": 72.036,
      "chunk": 1
     },
     {
      "w": "etait",
-     "start": 70.497,
-     "end": 70.635,
+     "start": 72.036,
+     "end": 72.174,
      "chunk": 1
     },
     {
      "w": "pas",
-     "start": 70.635,
-     "end": 70.935,
+     "start": 72.174,
+     "end": 72.474,
      "chunk": 1
     },
     {
      "w": "de",
-     "start": 70.935,
-     "end": 71.096,
+     "start": 72.474,
+     "end": 72.635,
      "chunk": 1
     },
     {
      "w": "devenir",
-     "start": 71.096,
-     "end": 71.441,
+     "start": 72.635,
+     "end": 72.98,
      "chunk": 1
     },
     {
      "w": "mauvais",
-     "start": 71.441,
-     "end": 71.994,
+     "start": 72.98,
+     "end": 73.533,
      "chunk": 1
     }
    ],
    "chunks": [
     {
      "text": "Et si le danger le plus discret",
-     "start": 68.194,
-     "end": 70.221
+     "start": 69.733,
+     "end": 71.76
     },
     {
      "text": "n’était pas de devenir mauvais,",
-     "start": 70.221,
-     "end": 72.285
+     "start": 71.76,
+     "end": 73.824
     }
    ]
   },
   {
    "id": "s8b",
    "scene": 8,
-   "start": 72.386,
-   "end": 76.15,
+   "start": 73.923,
+   "end": 77.687,
    "display": "mais d’apprendre à ne plus se demander si ce que l’on fait est juste ?",
    "say": "mais d’apprendre à ne plus se demander si ce que l’on fait est juste ?",
    "heard": "mais  d 'apprendre  à  ne  plus  se  demander  si  ce  que  l 'on  fait  est  juste.",
@@ -1624,111 +1624,111 @@
    "words": [
     {
      "w": "mais",
-     "start": 72.386,
-     "end": 72.597,
+     "start": 73.923,
+     "end": 74.134,
      "chunk": 0
     },
     {
      "w": "d",
-     "start": 72.597,
-     "end": 72.691,
+     "start": 74.134,
+     "end": 74.228,
      "chunk": 0
     },
     {
      "w": "apprendre",
-     "start": 72.691,
-     "end": 73.068,
+     "start": 74.228,
+     "end": 74.605,
      "chunk": 0
     },
     {
      "w": "a",
-     "start": 73.068,
-     "end": 73.233,
+     "start": 74.605,
+     "end": 74.77,
      "chunk": 0
     },
     {
      "w": "ne",
-     "start": 73.233,
-     "end": 73.303,
+     "start": 74.77,
+     "end": 74.84,
      "chunk": 0
     },
     {
      "w": "plus",
-     "start": 73.303,
-     "end": 73.539,
+     "start": 74.84,
+     "end": 75.076,
      "chunk": 0
     },
     {
      "w": "se",
-     "start": 73.539,
-     "end": 73.727,
+     "start": 75.076,
+     "end": 75.264,
      "chunk": 0
     },
     {
      "w": "demander",
-     "start": 73.727,
-     "end": 74.127,
+     "start": 75.264,
+     "end": 75.664,
      "chunk": 0
     },
     {
      "w": "si",
-     "start": 74.127,
-     "end": 74.433,
+     "start": 75.664,
+     "end": 75.97,
      "chunk": 1
     },
     {
      "w": "ce",
-     "start": 74.433,
-     "end": 74.621,
+     "start": 75.97,
+     "end": 76.158,
      "chunk": 1
     },
     {
      "w": "que",
-     "start": 74.621,
-     "end": 74.786,
+     "start": 76.158,
+     "end": 76.323,
      "chunk": 1
     },
     {
      "w": "l",
-     "start": 74.786,
-     "end": 74.88,
+     "start": 76.323,
+     "end": 76.417,
      "chunk": 1
     },
     {
      "w": "on",
-     "start": 74.88,
-     "end": 74.927,
+     "start": 76.417,
+     "end": 76.464,
      "chunk": 1
     },
     {
      "w": "fait",
-     "start": 74.927,
-     "end": 75.162,
+     "start": 76.464,
+     "end": 76.699,
      "chunk": 1
     },
     {
      "w": "est",
-     "start": 75.162,
-     "end": 75.397,
+     "start": 76.699,
+     "end": 76.934,
      "chunk": 1
     },
     {
      "w": "juste",
-     "start": 75.397,
-     "end": 75.797,
+     "start": 76.934,
+     "end": 77.334,
      "chunk": 1
     }
    ],
    "chunks": [
     {
      "text": "mais d’apprendre à ne plus se demander",
-     "start": 72.386,
-     "end": 74.127
+     "start": 73.923,
+     "end": 75.664
     },
     {
      "text": "si ce que l’on fait est juste ?",
-     "start": 74.127,
-     "end": 76.15
+     "start": 75.664,
+     "end": 77.687
     }
    ]
   }

@@ -24,9 +24,9 @@ Trois fichiers prêts à publier. Chaque extrait montre le petit logo en haut et
 
 | Fichier | Début → fin dans le master | Durée | Accroche à ajouter à l'écran dans TikTok (facultatif) |
 |---|---|---|---|
-| `EP009_EXTRAIT_1_MILGRAM.mp4` | 00:15,4 → 00:30,0 | 14,6 s | *Ils croyaient faire mal… et ils ont continué.* |
-| `EP009_EXTRAIT_2_ARENDT.mp4` | 00:29,2 → 00:40,5 | 11,3 s | *Et si le mal commençait quand on arrête de penser ?* |
-| `EP009_EXTRAIT_3_QUESTION.mp4` | 00:52,7 → 01:20,4 | 27,7 s | *À partir de quand obéir devient-il une faute ?* |
+| `EP009_EXTRAIT_1_MILGRAM.mp4` | 00:15,4 → 00:31,5 | 16,2 s | *Ils croyaient faire mal… et ils ont continué.* |
+| `EP009_EXTRAIT_2_ARENDT.mp4` | 00:30,8 → 00:42,0 | 11,3 s | *Et si le mal commençait quand on arrête de penser ?* |
+| `EP009_EXTRAIT_3_QUESTION.mp4` | 00:54,3 → 01:22,0 | 27,7 s | *À partir de quand obéir devient-il une faute ?* |
 
 **Conseil :** publie un extrait deux ou trois jours après l'épisode, en renvoyant vers lui dans la légende (« L'épisode complet est sur mon profil »).
 

@@ -28,3 +28,4 @@
 |---|---|---|
 | EP007 | Es-tu encore la même personne ? | le temps, l'existence, la science |
 | EP008 | Qui a choisi ce que tu désires ? | **le désir**, la liberté, la technique |
+| EP009 | Peut-on être coupable sans avoir choisi le mal ? | le devoir, la liberté, la justice (auteure au programme : H. Arendt) |
