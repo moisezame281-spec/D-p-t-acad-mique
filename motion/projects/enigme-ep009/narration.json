@@ -141,7 +141,8 @@
       "takes": 3,
       "chunks": [
         [
-          "Hannah Arendt,"
+          "Hannah Arendt,",
+          "Hannah Arènte,"
         ],
         [
           "en réfléchissant aux crimes du nazisme,"
@@ -245,7 +246,11 @@
         ]
       ],
       "pace": 2.4,
-      "max_syl": 5.0
+      "max_syl": 5.0,
+      "stretch_ids": [
+        "s6a",
+        "s6b"
+      ]
     },
     {
       "id": "s7a",
