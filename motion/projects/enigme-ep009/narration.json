@@ -156,7 +156,7 @@
       "id": "s4b",
       "scene": 4,
       "group": "g4b",
-      "pause": 0.3,
+      "pause": 1.1,
       "intent": "flow_slow",
       "takes": 5,
       "chunks": [
