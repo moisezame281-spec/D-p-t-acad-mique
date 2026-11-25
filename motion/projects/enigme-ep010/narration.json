@@ -1,0 +1,249 @@
+{
+  "title": "L'Énigme humaine — Épisode 010 — Doit-on pardonner l'impardonnable ?",
+  "voice": "ff_siwis",
+  "lang": "fr-fr",
+  "speed": 0.9,
+  "note": "Voix C, version homme, timbre B. Style validé : explication continue, questions qui montent et posées (max_syl), ouverture posée. Habillage de la série (lead_in court, tail long). Texte fourni conservé à l'identique.",
+  "lead_in": 0.3,
+  "tail": 4.3,
+  "engine": "chatterbox",
+  "ref": "../../../series/enigme-humaine/voix_homme/Voix_homme_B_reference.wav",
+  "intent": "flow",
+  "judge": "medium",
+  "question_rise": 4.5,
+  "sentences": [
+    {
+      "id": "s1a",
+      "scene": 1,
+      "group": "g1",
+      "pause": 0.3,
+      "intent": "flow_slow",
+      "takes": 4,
+      "chunks": [
+        [
+          "On répète souvent :"
+        ],
+        [
+          "« Pardonne et tourne la page. »",
+          "Pardonne et tourne la page."
+        ]
+      ],
+      "pace": 2.4,
+      "max_syl": 5.1
+    },
+    {
+      "id": "s2a",
+      "scene": 2,
+      "group": "g2",
+      "pause": 0.4,
+      "intent": "flow_slow",
+      "takes": 5,
+      "chunks": [
+        [
+          "Mais pourquoi demander à celui qui a subi le mal"
+        ],
+        [
+          "de fermer le livre,"
+        ],
+        [
+          "alors que celui qui l’a commis"
+        ],
+        [
+          "n’a peut-être même pas reconnu sa faute ?"
+        ]
+      ],
+      "pace": 2.4,
+      "max_syl": 5.0
+    },
+    {
+      "id": "s3a",
+      "scene": 3,
+      "group": "g3",
+      "pause": 0.3,
+      "intent": "flow_slow",
+      "takes": 4,
+      "chunks": [
+        [
+          "Imagine une personne qui te blesse,"
+        ],
+        [
+          "s’excuse, puis recommence."
+        ]
+      ],
+      "pace": 2.5
+    },
+    {
+      "id": "s3b",
+      "scene": 3,
+      "group": "g3b",
+      "pause": 0.4,
+      "intent": "flow_slow",
+      "takes": 5,
+      "chunks": [
+        [
+          "À quel moment le pardon cesse-t-il"
+        ],
+        [
+          "d’être une liberté"
+        ],
+        [
+          "et devient-il une permission ?"
+        ]
+      ],
+      "pace": 2.4,
+      "max_syl": 5.0
+    },
+    {
+      "id": "s4a",
+      "scene": 4,
+      "group": "g4",
+      "pause": 0.3,
+      "intent": "flow",
+      "takes": 3,
+      "chunks": [
+        [
+          "Dans l’Évangile selon Luc, au chapitre 17,",
+          "Dans l’Évangile selon Luc, au chapitre dix-sept,"
+        ],
+        [
+          "Jésus associe la confrontation du tort,"
+        ],
+        [
+          "le repentir et le pardon."
+        ]
+      ]
+    },
+    {
+      "id": "s5a",
+      "scene": 5,
+      "group": "g5",
+      "pause": 0.3,
+      "intent": "flow",
+      "takes": 3,
+      "chunks": [
+        [
+          "Le Coran, en sourate 42, verset 40,",
+          "Le Coran, en sourate quarante-deux, verset quarante,"
+        ],
+        [
+          "reconnaît la possibilité"
+        ],
+        [
+          "d’une réponse proportionnée au mal,"
+        ],
+        [
+          "tout en valorisant le pardon"
+        ],
+        [
+          "accompagné d’une démarche de réparation."
+        ]
+      ]
+    },
+    {
+      "id": "s6a",
+      "scene": 6,
+      "group": "g6",
+      "pause": 0.25,
+      "intent": "flow",
+      "takes": 3,
+      "chunks": [
+        [
+          "Le philosophe Jacques Derrida",
+          "Le philosophe Jacques Dèrrida"
+        ],
+        [
+          "formule alors un paradoxe :"
+        ]
+      ]
+    },
+    {
+      "id": "s6b",
+      "scene": 6,
+      "group": "g6b",
+      "pause": 0.8,
+      "intent": "flow_slow",
+      "takes": 5,
+      "chunks": [
+        [
+          "pardonner uniquement ce qui est pardonnable,"
+        ],
+        [
+          "est-ce encore véritablement pardonner ?"
+        ]
+      ],
+      "pace": 2.4,
+      "max_syl": 5.0
+    },
+    {
+      "id": "s7a",
+      "scene": 7,
+      "group": "g7",
+      "pause": 0.4,
+      "intent": "flow_slow",
+      "takes": 4,
+      "chunks": [
+        [
+          "Mais pardonner n’est pas excuser,"
+        ],
+        [
+          "oublier, rendre sa confiance"
+        ],
+        [
+          "ou renoncer à la justice."
+        ]
+      ],
+      "pace": 2.5
+    },
+    {
+      "id": "s8a",
+      "scene": 8,
+      "group": "g8",
+      "pause": 0.45,
+      "intent": "flow_slow",
+      "takes": 5,
+      "chunks": [
+        [
+          "Alors, qui a le droit"
+        ],
+        [
+          "d’exiger ton pardon ?"
+        ]
+      ],
+      "pace": 2.4,
+      "max_syl": 5.0
+    },
+    {
+      "id": "s9a",
+      "scene": 9,
+      "group": "g9",
+      "pause": 0.2,
+      "intent": "flow_slow",
+      "takes": 4,
+      "chunks": [
+        [
+          "Et si le pardon ne devenait une grandeur"
+        ],
+        [
+          "que lorsqu’il est libre…"
+        ]
+      ],
+      "pace": 2.4,
+      "max_syl": 5.0
+    },
+    {
+      "id": "s9b",
+      "scene": 9,
+      "group": "g9b",
+      "pause": 0,
+      "intent": "flow_slow",
+      "takes": 6,
+      "chunks": [
+        [
+          "et jamais imposé ?"
+        ]
+      ],
+      "pace": 2.4,
+      "max_syl": 5.0
+    }
+  ]
+}
