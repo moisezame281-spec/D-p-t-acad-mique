@@ -13,9 +13,10 @@
 > | Débit pendant la parole | 4,3 à 5,5 syllabes/s | 4,9 | **4,5 à 5,4** (questions vers 4,5) |
 >
 > **Diction :**
-> - Chaque groupe de souffle est généré seul avec l'intention `explique` (émotion 1,05, débit 0,45), puis suivi d'une petite pause.
+> - Chaque groupe de souffle est généré seul avec l'intention `explique` (émotion 0,98, débit 0,45), puis suivi d'une petite pause.
 > - Les questions utilisent `explique_q` (débit 0,36, cinq prises), et leur réponse arrive juste après.
 > - Il ne faut jamais de morceau de moins de 4 à 5 mots : le moteur y répète des fins de mot.
+> - À ce niveau d'émotion, le moteur ajoute plus souvent des syllabes parasites, qui sont apparues dans l'essai du 25/11. On garde donc une émotion de 0,98, cinq à six prises par groupe et le contrôle automatique de fin de prise, et le master est toujours retranscrit en entier.
 > - Essai sur le passage Derrida de l'EP010 : on passe de 8 à 22 demi-tons d'étendue, de 9 à 15 dB de contraste et de 0 à 14 pauses par minute.
 >
 > **Écriture (si le producteur le demande) :**

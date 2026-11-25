@@ -36,8 +36,9 @@ INTENTS = {  # émotion (exaggeration), rythme (cfg : plus bas = plus posé), pr
     'flow_slower': dict(ex=.78, cfg=.22, temp=.8, takes=5, style='standard'),  # question d'ouverture : encore un peu plus posée
     # ton « explication de prof » (à partir de l'EP011, d'après la vidéo de référence analysée le 25/11/2026) :
     # chaque groupe de souffle (5 à 14 mots) est généré seul, avec plus d'émotion, puis séparé par une petite pause (0,25 à 0,45 s)
-    'explique':   dict(ex=1.05, cfg=.45, temp=.8, takes=3, style='standard'),
-    'explique_q': dict(ex=1.05, cfg=.36, temp=.8, takes=5, style='standard'),   # questions : même énergie, débit plus posé
+    # (essai du 25/11 : à 1,05 d'émotion, le moteur ajoute plus souvent des syllabes parasites → plus de prises, et le contrôle de fin de prise)
+    'explique':   dict(ex=.98, cfg=.45, temp=.8, takes=5, style='standard'),
+    'explique_q': dict(ex=.98, cfg=.36, temp=.8, takes=6, style='standard'),   # questions : même énergie, débit plus posé
 }
 if ENGINE == 'chatterbox':
     import torch
