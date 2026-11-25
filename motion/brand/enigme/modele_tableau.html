@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<title>L'Énigme humaine — modèle « tableau vivant »</title>
+<style>
+  @font-face { font-family: 'Bodoni'; font-weight: 900; src: url(/node_modules/@fontsource/bodoni-moda/files/bodoni-moda-latin-900-normal.woff2) format('woff2'); }
+  @font-face { font-family: 'Fraunces'; font-weight: 600; src: url(/node_modules/@fontsource/fraunces/files/fraunces-latin-600-normal.woff2) format('woff2'); }
+  @font-face { font-family: 'Fraunces'; font-weight: 800; src: url(/node_modules/@fontsource/fraunces/files/fraunces-latin-800-normal.woff2) format('woff2'); }
+  @font-face { font-family: 'Instrument'; font-weight: 400; font-style: italic; src: url(/node_modules/@fontsource/instrument-serif/files/instrument-serif-latin-400-italic.woff2) format('woff2'); }
+  @font-face { font-family: 'Inter'; font-weight: 800; src: url(/node_modules/@fontsource/inter/files/inter-latin-800-normal.woff2) format('woff2'); }
+  @font-face { font-family: 'Inter'; font-weight: 600; src: url(/node_modules/@fontsource/inter/files/inter-latin-600-normal.woff2) format('woff2'); }
+  html, body { margin: 0; background: #F4EFE6; }
+</style>
+</head>
+<body>
+<canvas id="cv" width="1080" height="1920"></canvas>
+<script src="/lib/cine.js"></script>
+<script src="/lib/enigme.js"></script>
+<script>
+/* Modèle « tableau vivant » : une seule grammaire, réutilisée à chaque épisode.
+   Fond papier fixe · gros mots qui « claquent » au rythme de la voix · surligneur · pictogrammes au trait · barre de progression.
+   Planche de démonstration : quatre images types (accroche, idée-clé, comparaison, citation). */
+const P = { paper: '#F4EFE6', ink: '#16131A', rose: '#D9566A', gold: '#C79A3E', blue: '#2F5DA8', soft: '#8A8378', hl: 'rgba(240,196,92,.55)' };
+const cv = document.getElementById('cv'), c = cv.getContext('2d'), W = 1080, H = 1920;
+function paper() { c.fillStyle = P.paper; c.fillRect(0, 0, W, H); const r = CINE.rng(3); c.fillStyle = 'rgba(80,60,30,.035)'; for (let i = 0; i < 2500; i++) c.fillRect(r() * W, r() * H, 2, 2); }
+function progress(p) { c.fillStyle = 'rgba(22,19,26,.08)'; c.fillRect(0, H - 14, W, 14); c.fillStyle = P.rose; c.fillRect(0, H - 14, W * p, 14); }
+function kicker(txt) { c.font = '600 30px Inter'; c.fillStyle = P.soft; c.textAlign = 'center'; c.fillText(txt, W / 2, 330); }
+function word(txt, x, y, size, col, o = {}) { // un mot qui « claque » : légère surimpression, ombre portée nette
+  c.save(); c.font = `${o.font || '900'} ${size}px ${o.family || 'Bodoni'}`; while (c.measureText(txt).width > (o.max || 940) && size > 20) { size -= 4; c.font = `${o.font || '900'} ${size}px ${o.family || 'Bodoni'}`; } c.textAlign = o.align || 'center'; c.textBaseline = 'alphabetic';
+  if (o.hl) { const w = c.measureText(txt).width; const x0 = (o.align === 'left') ? x : x - w / 2; c.fillStyle = P.hl; c.beginPath(); c.roundRect(x0 - 14, y - size * .55, w + 28, size * .62, 10); c.fill(); }
+  c.fillStyle = 'rgba(22,19,26,.12)'; c.fillText(txt, x + 5, y + 6); c.fillStyle = col; c.fillText(txt, x, y); c.restore();
+}
+function stroke(fn, col = P.ink, w = 9) { c.save(); c.strokeStyle = col; c.lineWidth = w; c.lineCap = 'round'; c.lineJoin = 'round'; c.beginPath(); fn(c); c.stroke(); c.restore(); }
+// pictogrammes au trait (une petite bibliothèque, toujours le même style)
+const ICON = {
+  porte(x, y, s) { stroke(c => { c.rect(x - 90 * s, y - 220 * s, 180 * s, 300 * s); c.moveTo(x + 50 * s, y - 70 * s); c.arc(x + 50 * s, y - 70 * s, 6 * s, 0, 6.3); }); c.save(); c.fillStyle = 'rgba(240,196,92,.45)'; c.beginPath(); c.moveTo(x + 90 * s, y + 80 * s); c.lineTo(x + 260 * s, y + 200 * s); c.lineTo(x - 60 * s, y + 200 * s); c.lineTo(x + 20 * s, y + 80 * s); c.fill(); c.restore(); },
+  bulle(x, y, s) { stroke(c => { c.roundRect(x - 110 * s, y - 80 * s, 220 * s, 130 * s, 40 * s); c.moveTo(x - 40 * s, y + 50 * s); c.lineTo(x - 70 * s, y + 100 * s); c.lineTo(x - 5 * s, y + 52 * s); }); },
+  coeur(x, y, s) { stroke(c => { c.moveTo(x, y + 70 * s); c.bezierCurveTo(x - 140 * s, y - 30 * s, x - 70 * s, y - 120 * s, x, y - 50 * s); c.bezierCurveTo(x + 70 * s, y - 120 * s, x + 140 * s, y - 30 * s, x, y + 70 * s); }, P.rose); },
+  balance(x, y, s) { stroke(c => { c.moveTo(x, y - 120 * s); c.lineTo(x, y + 90 * s); c.moveTo(x - 60 * s, y + 90 * s); c.lineTo(x + 60 * s, y + 90 * s); c.moveTo(x - 130 * s, y - 90 * s); c.lineTo(x + 130 * s, y - 90 * s); [-130, 130].forEach(d => { c.moveTo(x + d * s, y - 90 * s); c.lineTo(x + d * s - 45 * s, y - 10 * s); c.lineTo(x + d * s + 45 * s, y - 10 * s); c.closePath(); }); }); },
+};
+function card(x, y, w, h) { c.save(); c.fillStyle = 'rgba(22,19,26,.10)'; c.beginPath(); c.roundRect(x + 8, y + 10, w, h, 26); c.fill(); c.fillStyle = '#FFFDF8'; c.beginPath(); c.roundRect(x, y, w, h, 26); c.fill(); c.strokeStyle = 'rgba(22,19,26,.85)'; c.lineWidth = 5; c.stroke(); c.restore(); }
+function badge(n) { c.save(); c.fillStyle = P.ink; c.beginPath(); c.arc(130, 470, 42, 0, 6.3); c.fill(); c.fillStyle = P.paper; c.font = '800 44px Inter'; c.textAlign = 'center'; c.fillText(String(n), 130, 486); c.restore(); }
+window.draw = function (k) {
+  paper();
+  if (k === 0) { // accroche : la question, dès la première image
+    kicker('L’ÉNIGME DU JOUR'); word('DOIT-ON', W / 2, 640, 150, P.ink); word('PARDONNER', W / 2, 800, 150, P.ink); word('L’IMPARDONNABLE ?', W / 2, 960, 104, P.rose, { hl: true });
+    ICON.coeur(W / 2, 1260, 1.5); stroke(c => { c.moveTo(W / 2 - 20, 1180); c.lineTo(W / 2 + 15, 1240); c.lineTo(W / 2 - 15, 1290); c.lineTo(W / 2 + 20, 1350); }, P.ink, 7);
+    progress(.04); EH.bug(c, 2.5);
+  }
+  if (k === 1) { // idée-clé : un mot énorme, surligné, et son pictogramme
+    badge(1); c.font = '600 40px Inter'; c.fillStyle = P.soft; c.textAlign = 'left'; c.fillText('Pour comprendre, il faut d’abord savoir…', 200, 486);
+    word('LE PARDON', W / 2, 760, 170, P.ink, { hl: true }); word('c’est une liberté', W / 2, 880, 86, P.blue, { family: 'Instrument', font: 'italic 400' });
+    ICON.porte(W / 2, 1300, 1.3); progress(.22); EH.bug(c, 9);
+  }
+  if (k === 2) { // comparaison : deux colonnes qui s'opposent
+    kicker('ATTENTION'); word('PARDONNER', W / 2, 560, 120, P.ink); word('≠', W / 2, 700, 130, P.rose);
+    card(90, 780, 420, 440); card(570, 780, 420, 440); ICON.bulle(300, 960, 1); ICON.balance(780, 990, .95);
+    word('EXCUSER', 300, 1150, 62, P.ink, { family: 'Inter', font: '800' }); word('RENONCER', 780, 1130, 56, P.ink, { family: 'Inter', font: '800' }); word('À LA JUSTICE', 780, 1190, 40, P.ink, { family: 'Inter', font: '800' });
+    stroke(c => { c.moveTo(130, 1200); c.lineTo(470, 800); c.moveTo(610, 1200); c.lineTo(950, 800); }, P.rose, 10); progress(.6); EH.bug(c, 9);
+  }
+  if (k === 3) { // citation : une carte, la référence, un mot-clé surligné
+    kicker('CE QU’EN DIT DERRIDA'); card(90, 520, 900, 620);
+    c.save(); c.font = 'italic 400 76px Instrument'; c.fillStyle = P.ink; c.textAlign = 'center'; c.fillText('« Le pardon ne', W / 2, 720); c.fillText('pardonne que', W / 2, 810); c.restore();
+    word('l’impardonnable »', W / 2, 920, 82, P.rose, { family: 'Instrument', font: 'italic 400', hl: true });
+    c.font = '600 30px Inter'; c.fillStyle = P.soft; c.textAlign = 'center'; c.fillText('Jacques Derrida · traduction libre', W / 2, 1060);
+    word('Retenons ça.', W / 2, 1340, 92, P.blue, { family: 'Instrument', font: 'italic 400' }); progress(.78); EH.bug(c, 9);
+  }
+};
+window.sheet = function () { // planche : les quatre images côte à côte
+  const o = document.createElement('canvas'); o.width = 4 * 540 + 3 * 24; o.height = 960; const oc = o.getContext('2d'); oc.fillStyle = '#2a2622'; oc.fillRect(0, 0, o.width, o.height);
+  for (let k = 0; k < 4; k++) { window.draw(k); oc.drawImage(cv, k * (540 + 24), 0, 540, 960); }
+  return o.toDataURL('image/png');
+};
+Promise.all(['900 40px Bodoni', '600 40px Fraunces', 'italic 400 40px Instrument', '800 40px Inter', '600 40px Inter'].map(f => document.fonts.load(f))).then(() => { window.__ready = true; });
+</script>
+</body>
+</html>
