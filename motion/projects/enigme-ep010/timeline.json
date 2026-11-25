@@ -1,1 +1,1360 @@
-{"duration": 67.04, "sentences": [{"id": "s1a", "scene": 1, "start": 0.3, "end": 2.975, "display": "On répète souvent : « Pardonne et tourne la page. »", "words": [{"w": "on", "start": 0.3, "end": 0.53, "chunk": 0}, {"w": "repete", "start": 0.53, "end": 0.9, "chunk": 0}, {"w": "souvent", "start": 0.9, "end": 1.305, "chunk": 0}, {"w": "pardonne", "start": 1.405, "end": 1.845, "chunk": 1}, {"w": "et", "start": 1.845, "end": 2.075, "chunk": 1}, {"w": "tourne", "start": 2.075, "end": 2.445, "chunk": 1}, {"w": "la", "start": 2.445, "end": 2.675, "chunk": 1}, {"w": "page", "start": 2.675, "end": 2.975, "chunk": 1}], "chunks": [{"text": "On répète souvent :", "start": 0.3, "end": 1.305}, {"text": "« Pardonne et tourne la page. »", "start": 1.405, "end": 2.975}]}, {"id": "s2a", "scene": 2, "start": 3.375, "end": 12.29, "display": "Mais pourquoi demander à celui qui a subi le mal de fermer le livre, alors que celui qui l’a commis n’a peut-être même pas reconnu sa faute ?", "words": [{"w": "mais", "start": 3.375, "end": 3.675, "chunk": 0}, {"w": "pourquoi", "start": 3.675, "end": 4.115, "chunk": 0}, {"w": "demander", "start": 4.115, "end": 4.555, "chunk": 0}, {"w": "a", "start": 4.555, "end": 4.75, "chunk": 0}, {"w": "celui", "start": 4.75, "end": 5.085, "chunk": 0}, {"w": "qui", "start": 5.085, "end": 5.35, "chunk": 0}, {"w": "a", "start": 5.35, "end": 5.545, "chunk": 0}, {"w": "subi", "start": 5.545, "end": 5.845, "chunk": 0}, {"w": "le", "start": 5.845, "end": 6.075, "chunk": 0}, {"w": "mal", "start": 6.075, "end": 6.34, "chunk": 0}, {"w": "de", "start": 6.44, "end": 6.67, "chunk": 1}, {"w": "fermer", "start": 6.67, "end": 7.04, "chunk": 1}, {"w": "le", "start": 7.04, "end": 7.27, "chunk": 1}, {"w": "livre", "start": 7.27, "end": 7.605, "chunk": 1}, {"w": "alors", "start": 7.705, "end": 8.04, "chunk": 2}, {"w": "que", "start": 8.04, "end": 8.305, "chunk": 2}, {"w": "celui", "start": 8.305, "end": 8.64, "chunk": 2}, {"w": "qui", "start": 8.64, "end": 8.905, "chunk": 2}, {"w": "l", "start": 8.905, "end": 9.1, "chunk": 2}, {"w": "a", "start": 9.1, "end": 9.295, "chunk": 2}, {"w": "commis", "start": 9.295, "end": 9.665, "chunk": 2}, {"w": "n", "start": 9.765, "end": 9.96, "chunk": 3}, {"w": "a", "start": 9.96, "end": 10.155, "chunk": 3}, {"w": "peut", "start": 10.155, "end": 10.455, "chunk": 3}, {"w": "etre", "start": 10.455, "end": 10.755, "chunk": 3}, {"w": "meme", "start": 10.755, "end": 11.055, "chunk": 3}, {"w": "pas", "start": 11.055, "end": 11.32, "chunk": 3}, {"w": "reconnu", "start": 11.32, "end": 11.725, "chunk": 3}, {"w": "sa", "start": 11.725, "end": 11.955, "chunk": 3}, {"w": "faute", "start": 11.955, "end": 12.29, "chunk": 3}], "chunks": [{"text": "Mais pourquoi demander à celui qui a subi le mal", "start": 3.375, "end": 6.34}, {"text": "de fermer le livre,", "start": 6.44, "end": 7.605}, {"text": "alors que celui qui l’a commis", "start": 7.705, "end": 9.665}, {"text": "n’a peut-être même pas reconnu sa faute ?", "start": 9.765, "end": 12.29}]}, {"id": "s3a", "scene": 3, "start": 12.79, "end": 16.24, "display": "Imagine une personne qui te blesse, s’excuse, puis recommence.", "words": [{"w": "imagine", "start": 12.79, "end": 13.195, "chunk": 0}, {"w": "une", "start": 13.195, "end": 13.46, "chunk": 0}, {"w": "personne", "start": 13.46, "end": 13.9, "chunk": 0}, {"w": "qui", "start": 13.9, "end": 14.165, "chunk": 0}, {"w": "te", "start": 14.165, "end": 14.395, "chunk": 0}, {"w": "blesse", "start": 14.395, "end": 14.765, "chunk": 0}, {"w": "s", "start": 14.865, "end": 15.06, "chunk": 1}, {"w": "excuse", "start": 15.06, "end": 15.43, "chunk": 1}, {"w": "puis", "start": 15.43, "end": 15.73, "chunk": 1}, {"w": "recommence", "start": 15.73, "end": 16.24, "chunk": 1}], "chunks": [{"text": "Imagine une personne qui te blesse,", "start": 12.79, "end": 14.765}, {"text": "s’excuse, puis recommence.", "start": 14.865, "end": 16.24}]}, {"id": "s3b", "scene": 3, "start": 16.64, "end": 21.87, "display": "À quel moment le pardon cesse-t-il d’être une liberté et devient-il une permission ?", "words": [{"w": "a", "start": 16.64, "end": 16.835, "chunk": 0}, {"w": "quel", "start": 16.835, "end": 17.135, "chunk": 0}, {"w": "moment", "start": 17.135, "end": 17.505, "chunk": 0}, {"w": "le", "start": 17.505, "end": 17.735, "chunk": 0}, {"w": "pardon", "start": 17.735, "end": 18.105, "chunk": 0}, {"w": "cesse", "start": 18.105, "end": 18.44, "chunk": 0}, {"w": "t", "start": 18.44, "end": 18.635, "chunk": 0}, {"w": "il", "start": 18.635, "end": 18.865, "chunk": 0}, {"w": "d", "start": 18.965, "end": 19.16, "chunk": 1}, {"w": "etre", "start": 19.16, "end": 19.46, "chunk": 1}, {"w": "une", "start": 19.46, "end": 19.725, "chunk": 1}, {"w": "liberte", "start": 19.725, "end": 20.13, "chunk": 1}, {"w": "et", "start": 20.23, "end": 20.46, "chunk": 2}, {"w": "devient", "start": 20.46, "end": 20.865, "chunk": 2}, {"w": "il", "start": 20.865, "end": 21.095, "chunk": 2}, {"w": "une", "start": 21.095, "end": 21.36, "chunk": 2}, {"w": "permission", "start": 21.36, "end": 21.87, "chunk": 2}], "chunks": [{"text": "À quel moment le pardon cesse-t-il", "start": 16.64, "end": 18.865}, {"text": "d’être une liberté", "start": 18.965, "end": 20.13}, {"text": "et devient-il une permission ?", "start": 20.23, "end": 21.87}]}, {"id": "s4a", "scene": 4, "start": 22.37, "end": 28.955, "display": "Dans l’Évangile selon Luc, au chapitre 17, Jésus associe la confrontation du tort, le repentir et le pardon.", "words": [{"w": "dans", "start": 22.37, "end": 22.67, "chunk": 0}, {"w": "l", "start": 22.67, "end": 22.865, "chunk": 0}, {"w": "evangile", "start": 22.865, "end": 23.305, "chunk": 0}, {"w": "selon", "start": 23.305, "end": 23.64, "chunk": 0}, {"w": "luc", "start": 23.64, "end": 23.905, "chunk": 0}, {"w": "au", "start": 23.905, "end": 24.135, "chunk": 0}, {"w": "chapitre", "start": 24.135, "end": 24.575, "chunk": 0}, {"w": "dix", "start": 24.575, "end": 24.84, "chunk": 0}, {"w": "sept", "start": 24.84, "end": 25.14, "chunk": 0}, {"w": "jesus", "start": 25.24, "end": 25.575, "chunk": 1}, {"w": "associe", "start": 25.575, "end": 25.98, "chunk": 1}, {"w": "la", "start": 25.98, "end": 26.21, "chunk": 1}, {"w": "confrontation", "start": 26.21, "end": 26.825, "chunk": 1}, {"w": "du", "start": 26.825, "end": 27.055, "chunk": 1}, {"w": "tort", "start": 27.055, "end": 27.355, "chunk": 1}, {"w": "le", "start": 27.455, "end": 27.685, "chunk": 2}, {"w": "repentir", "start": 27.685, "end": 28.125, "chunk": 2}, {"w": "et", "start": 28.125, "end": 28.355, "chunk": 2}, {"w": "le", "start": 28.355, "end": 28.585, "chunk": 2}, {"w": "pardon", "start": 28.585, "end": 28.955, "chunk": 2}], "chunks": [{"text": "Dans l’Évangile selon Luc, au chapitre 17,", "start": 22.37, "end": 25.14}, {"text": "Jésus associe la confrontation du tort,", "start": 25.24, "end": 27.355}, {"text": "le repentir et le pardon.", "start": 27.455, "end": 28.955}]}, {"id": "s5a", "scene": 5, "start": 29.355, "end": 39.52, "display": "Le Coran, en sourate 42, verset 40, reconnaît la possibilité d’une réponse proportionnée au mal, tout en valorisant le pardon accompagné d’une démarche de réparation.", "words": [{"w": "le", "start": 29.355, "end": 29.585, "chunk": 0}, {"w": "coran", "start": 29.585, "end": 29.92, "chunk": 0}, {"w": "en", "start": 29.92, "end": 30.15, "chunk": 0}, {"w": "sourate", "start": 30.15, "end": 30.555, "chunk": 0}, {"w": "quarante", "start": 30.555, "end": 30.995, "chunk": 0}, {"w": "deux", "start": 30.995, "end": 31.295, "chunk": 0}, {"w": "verset", "start": 31.295, "end": 31.665, "chunk": 0}, {"w": "quarante", "start": 31.665, "end": 32.105, "chunk": 0}, {"w": "reconnait", "start": 32.205, "end": 32.68, "chunk": 1}, {"w": "la", "start": 32.68, "end": 32.91, "chunk": 1}, {"w": "possibilite", "start": 32.91, "end": 33.455, "chunk": 1}, {"w": "d", "start": 33.555, "end": 33.75, "chunk": 2}, {"w": "une", "start": 33.75, "end": 34.015, "chunk": 2}, {"w": "reponse", "start": 34.015, "end": 34.42, "chunk": 2}, {"w": "proportionnee", "start": 34.42, "end": 35.035, "chunk": 2}, {"w": "au", "start": 35.035, "end": 35.265, "chunk": 2}, {"w": "mal", "start": 35.265, "end": 35.53, "chunk": 2}, {"w": "tout", "start": 35.63, "end": 35.93, "chunk": 3}, {"w": "en", "start": 35.93, "end": 36.16, "chunk": 3}, {"w": "valorisant", "start": 36.16, "end": 36.67, "chunk": 3}, {"w": "le", "start": 36.67, "end": 36.9, "chunk": 3}, {"w": "pardon", "start": 36.9, "end": 37.27, "chunk": 3}, {"w": "accompagne", "start": 37.37, "end": 37.88, "chunk": 4}, {"w": "d", "start": 37.88, "end": 38.075, "chunk": 4}, {"w": "une", "start": 38.075, "end": 38.34, "chunk": 4}, {"w": "demarche", "start": 38.34, "end": 38.78, "chunk": 4}, {"w": "de", "start": 38.78, "end": 39.01, "chunk": 4}, {"w": "reparation", "start": 39.01, "end": 39.52, "chunk": 4}], "chunks": [{"text": "Le Coran, en sourate 42, verset 40,", "start": 29.355, "end": 32.105}, {"text": "reconnaît la possibilité", "start": 32.205, "end": 33.455}, {"text": "d’une réponse proportionnée au mal,", "start": 33.555, "end": 35.53}, {"text": "tout en valorisant le pardon", "start": 35.63, "end": 37.27}, {"text": "accompagné d’une démarche de réparation.", "start": 37.37, "end": 39.52}]}, {"id": "s6a", "scene": 6, "start": 39.92, "end": 42.98, "display": "Le philosophe Jacques Derrida formule alors un paradoxe :", "words": [{"w": "le", "start": 39.92, "end": 40.15, "chunk": 0}, {"w": "philosophe", "start": 40.15, "end": 40.66, "chunk": 0}, {"w": "jacques", "start": 40.66, "end": 41.065, "chunk": 0}, {"w": "derrida", "start": 41.065, "end": 41.47, "chunk": 0}, {"w": "formule", "start": 41.57, "end": 41.975, "chunk": 1}, {"w": "alors", "start": 41.975, "end": 42.31, "chunk": 1}, {"w": "un", "start": 42.31, "end": 42.54, "chunk": 1}, {"w": "paradoxe", "start": 42.54, "end": 42.98, "chunk": 1}], "chunks": [{"text": "Le philosophe Jacques Derrida", "start": 39.92, "end": 41.47}, {"text": "formule alors un paradoxe :", "start": 41.57, "end": 42.98}]}, {"id": "s6b", "scene": 6, "start": 43.33, "end": 47.675, "display": "pardonner uniquement ce qui est pardonnable, est-ce encore véritablement pardonner ?", "words": [{"w": "pardonner", "start": 43.33, "end": 43.805, "chunk": 0}, {"w": "uniquement", "start": 43.805, "end": 44.315, "chunk": 0}, {"w": "ce", "start": 44.315, "end": 44.545, "chunk": 0}, {"w": "qui", "start": 44.545, "end": 44.81, "chunk": 0}, {"w": "est", "start": 44.81, "end": 45.075, "chunk": 0}, {"w": "pardonnable", "start": 45.075, "end": 45.62, "chunk": 0}, {"w": "est", "start": 45.72, "end": 45.985, "chunk": 1}, {"w": "ce", "start": 45.985, "end": 46.215, "chunk": 1}, {"w": "encore", "start": 46.215, "end": 46.585, "chunk": 1}, {"w": "veritablement", "start": 46.585, "end": 47.2, "chunk": 1}, {"w": "pardonner", "start": 47.2, "end": 47.675, "chunk": 1}], "chunks": [{"text": "pardonner uniquement ce qui est pardonnable,", "start": 43.33, "end": 45.62}, {"text": "est-ce encore véritablement pardonner ?", "start": 45.72, "end": 47.675}]}, {"id": "s7a", "scene": 7, "start": 48.575, "end": 53.66, "display": "Mais pardonner n’est pas excuser, oublier, rendre sa confiance ou renoncer à la justice.", "words": [{"w": "mais", "start": 48.575, "end": 48.875, "chunk": 0}, {"w": "pardonner", "start": 48.875, "end": 49.35, "chunk": 0}, {"w": "n", "start": 49.35, "end": 49.545, "chunk": 0}, {"w": "est", "start": 49.545, "end": 49.81, "chunk": 0}, {"w": "pas", "start": 49.81, "end": 50.075, "chunk": 0}, {"w": "excuser", "start": 50.075, "end": 50.48, "chunk": 0}, {"w": "oublier", "start": 50.58, "end": 50.985, "chunk": 1}, {"w": "rendre", "start": 50.985, "end": 51.355, "chunk": 1}, {"w": "sa", "start": 51.355, "end": 51.585, "chunk": 1}, {"w": "confiance", "start": 51.585, "end": 52.06, "chunk": 1}, {"w": "ou", "start": 52.16, "end": 52.39, "chunk": 2}, {"w": "renoncer", "start": 52.39, "end": 52.83, "chunk": 2}, {"w": "a", "start": 52.83, "end": 53.025, "chunk": 2}, {"w": "la", "start": 53.025, "end": 53.255, "chunk": 2}, {"w": "justice", "start": 53.255, "end": 53.66, "chunk": 2}], "chunks": [{"text": "Mais pardonner n’est pas excuser,", "start": 48.575, "end": 50.48}, {"text": "oublier, rendre sa confiance", "start": 50.58, "end": 52.06}, {"text": "ou renoncer à la justice.", "start": 52.16, "end": 53.66}]}, {"id": "s8a", "scene": 8, "start": 54.16, "end": 56.82, "display": "Alors, qui a le droit d’exiger ton pardon ?", "words": [{"w": "alors", "start": 54.16, "end": 54.495, "chunk": 0}, {"w": "qui", "start": 54.495, "end": 54.76, "chunk": 0}, {"w": "a", "start": 54.76, "end": 54.955, "chunk": 0}, {"w": "le", "start": 54.955, "end": 55.185, "chunk": 0}, {"w": "droit", "start": 55.185, "end": 55.52, "chunk": 0}, {"w": "d", "start": 55.62, "end": 55.815, "chunk": 1}, {"w": "exiger", "start": 55.815, "end": 56.185, "chunk": 1}, {"w": "ton", "start": 56.185, "end": 56.45, "chunk": 1}, {"w": "pardon", "start": 56.45, "end": 56.82, "chunk": 1}], "chunks": [{"text": "Alors, qui a le droit", "start": 54.16, "end": 55.52}, {"text": "d’exiger ton pardon ?", "start": 55.62, "end": 56.82}]}, {"id": "s9a", "scene": 9, "start": 57.37, "end": 61.37, "display": "Et si le pardon ne devenait une grandeur que lorsqu’il est libre…", "words": [{"w": "et", "start": 57.37, "end": 57.6, "chunk": 0}, {"w": "si", "start": 57.6, "end": 57.83, "chunk": 0}, {"w": "le", "start": 57.83, "end": 58.06, "chunk": 0}, {"w": "pardon", "start": 58.06, "end": 58.43, "chunk": 0}, {"w": "ne", "start": 58.43, "end": 58.66, "chunk": 0}, {"w": "devenait", "start": 58.66, "end": 59.1, "chunk": 0}, {"w": "une", "start": 59.1, "end": 59.365, "chunk": 0}, {"w": "grandeur", "start": 59.365, "end": 59.805, "chunk": 0}, {"w": "que", "start": 59.905, "end": 60.17, "chunk": 1}, {"w": "lorsqu", "start": 60.17, "end": 60.54, "chunk": 1}, {"w": "il", "start": 60.54, "end": 60.77, "chunk": 1}, {"w": "est", "start": 60.77, "end": 61.035, "chunk": 1}, {"w": "libre", "start": 61.035, "end": 61.37, "chunk": 1}], "chunks": [{"text": "Et si le pardon ne devenait une grandeur", "start": 57.37, "end": 59.805}, {"text": "que lorsqu’il est libre…", "start": 59.905, "end": 61.37}]}, {"id": "s9b", "scene": 9, "start": 61.67, "end": 62.64, "display": "et jamais imposé ?", "words": [{"w": "et", "start": 61.67, "end": 61.9, "chunk": 0}, {"w": "jamais", "start": 61.9, "end": 62.27, "chunk": 0}, {"w": "impose", "start": 62.27, "end": 62.64, "chunk": 0}], "chunks": [{"text": "et jamais imposé ?", "start": 61.67, "end": 62.64}]}]}
+{
+ "duration": 67.796,
+ "sentences": [
+  {
+   "id": "s1a",
+   "scene": 1,
+   "start": 0.3,
+   "end": 2.9,
+   "display": "On répète souvent : « Pardonne et tourne la page. »",
+   "say": "On répète souvent : Pardonne et tourne la page.",
+   "heard": "on  répète  souvent,  pardonne  et  tourne  la  page.",
+   "match": 1.0,
+   "words": [
+    {
+     "w": "on",
+     "start": 0.3,
+     "end": 0.42,
+     "chunk": 0
+    },
+    {
+     "w": "repete",
+     "start": 0.42,
+     "end": 0.78,
+     "chunk": 0
+    },
+    {
+     "w": "souvent",
+     "start": 0.78,
+     "end": 1.02,
+     "chunk": 0
+    },
+    {
+     "w": "pardonne",
+     "start": 1.3,
+     "end": 1.86,
+     "chunk": 1
+    },
+    {
+     "w": "et",
+     "start": 1.86,
+     "end": 1.9,
+     "chunk": 1
+    },
+    {
+     "w": "tourne",
+     "start": 1.9,
+     "end": 2.16,
+     "chunk": 1
+    },
+    {
+     "w": "la",
+     "start": 2.16,
+     "end": 2.3,
+     "chunk": 1
+    },
+    {
+     "w": "page",
+     "start": 2.3,
+     "end": 2.68,
+     "chunk": 1
+    }
+   ],
+   "chunks": [
+    {
+     "text": "On répète souvent :",
+     "start": 0.3,
+     "end": 1.02
+    },
+    {
+     "text": "« Pardonne et tourne la page. »",
+     "start": 1.3,
+     "end": 2.9
+    }
+   ]
+  },
+  {
+   "id": "s2a",
+   "scene": 2,
+   "start": 3.211,
+   "end": 10.999,
+   "display": "Mais pourquoi demander à celui qui a subi le mal de fermer le livre, alors que celui qui l’a commis n’a peut-être même pas reconnu sa faute ?",
+   "say": "Mais pourquoi demander à celui qui a subi le mal de fermer le livre, alors que celui qui l’a commis n’a peut-être même pas reconnu sa faute ?",
+   "heard": "Mais  pourquoi  demander  à  celui  qui  a  subi  le  mal  de  fermer  le  livre,  alors  que  celui  qui  l 'a  commis  n 'a  peut -être  même  pas  reconnu  sa  faute  ?",
+   "match": 1.0,
+   "words": [
+    {
+     "w": "mais",
+     "start": 3.211,
+     "end": 3.375,
+     "chunk": 0
+    },
+    {
+     "w": "pourquoi",
+     "start": 3.375,
+     "end": 3.728,
+     "chunk": 0
+    },
+    {
+     "w": "demander",
+     "start": 3.728,
+     "end": 4.199,
+     "chunk": 0
+    },
+    {
+     "w": "a",
+     "start": 4.199,
+     "end": 4.387,
+     "chunk": 0
+    },
+    {
+     "w": "celui",
+     "start": 4.387,
+     "end": 4.646,
+     "chunk": 0
+    },
+    {
+     "w": "qui",
+     "start": 4.646,
+     "end": 4.952,
+     "chunk": 0
+    },
+    {
+     "w": "a",
+     "start": 4.952,
+     "end": 5.046,
+     "chunk": 0
+    },
+    {
+     "w": "subi",
+     "start": 5.046,
+     "end": 5.422,
+     "chunk": 0
+    },
+    {
+     "w": "le",
+     "start": 5.422,
+     "end": 5.516,
+     "chunk": 0
+    },
+    {
+     "w": "mal",
+     "start": 5.516,
+     "end": 5.752,
+     "chunk": 0
+    },
+    {
+     "w": "de",
+     "start": 5.752,
+     "end": 5.916,
+     "chunk": 1
+    },
+    {
+     "w": "fermer",
+     "start": 5.916,
+     "end": 6.293,
+     "chunk": 1
+    },
+    {
+     "w": "le",
+     "start": 6.293,
+     "end": 6.411,
+     "chunk": 1
+    },
+    {
+     "w": "livre",
+     "start": 6.411,
+     "end": 6.764,
+     "chunk": 1
+    },
+    {
+     "w": "alors",
+     "start": 7.093,
+     "end": 7.305,
+     "chunk": 2
+    },
+    {
+     "w": "que",
+     "start": 7.305,
+     "end": 7.54,
+     "chunk": 2
+    },
+    {
+     "w": "celui",
+     "start": 7.54,
+     "end": 7.846,
+     "chunk": 2
+    },
+    {
+     "w": "qui",
+     "start": 7.846,
+     "end": 8.081,
+     "chunk": 2
+    },
+    {
+     "w": "l",
+     "start": 8.081,
+     "end": 8.222,
+     "chunk": 2
+    },
+    {
+     "w": "a",
+     "start": 8.222,
+     "end": 8.246,
+     "chunk": 2
+    },
+    {
+     "w": "commis",
+     "start": 8.246,
+     "end": 8.669,
+     "chunk": 2
+    },
+    {
+     "w": "n",
+     "start": 8.669,
+     "end": 8.716,
+     "chunk": 3
+    },
+    {
+     "w": "a",
+     "start": 8.716,
+     "end": 8.834,
+     "chunk": 3
+    },
+    {
+     "w": "peut",
+     "start": 8.834,
+     "end": 8.999,
+     "chunk": 3
+    },
+    {
+     "w": "etre",
+     "start": 8.999,
+     "end": 9.211,
+     "chunk": 3
+    },
+    {
+     "w": "meme",
+     "start": 9.211,
+     "end": 9.399,
+     "chunk": 3
+    },
+    {
+     "w": "pas",
+     "start": 9.399,
+     "end": 9.611,
+     "chunk": 3
+    },
+    {
+     "w": "reconnu",
+     "start": 9.611,
+     "end": 10.034,
+     "chunk": 3
+    },
+    {
+     "w": "sa",
+     "start": 10.034,
+     "end": 10.175,
+     "chunk": 3
+    },
+    {
+     "w": "faute",
+     "start": 10.175,
+     "end": 10.646,
+     "chunk": 3
+    }
+   ],
+   "chunks": [
+    {
+     "text": "Mais pourquoi demander à celui qui a subi le mal",
+     "start": 3.211,
+     "end": 5.752
+    },
+    {
+     "text": "de fermer le livre,",
+     "start": 5.752,
+     "end": 6.764
+    },
+    {
+     "text": "alors que celui qui l’a commis",
+     "start": 7.093,
+     "end": 8.669
+    },
+    {
+     "text": "n’a peut-être même pas reconnu sa faute ?",
+     "start": 8.669,
+     "end": 10.999
+    }
+   ]
+  },
+  {
+   "id": "s3a",
+   "scene": 3,
+   "start": 11.383,
+   "end": 14.907,
+   "display": "Imagine une personne qui te blesse, s’excuse, puis recommence.",
+   "say": "Imagine une personne qui te blesse, s’excuse, puis recommence.",
+   "heard": "Imagine  une  personne  qui  te  blesse,  s 'excuse  puis  recommence.",
+   "match": 1.0,
+   "words": [
+    {
+     "w": "imagine",
+     "start": 11.383,
+     "end": 11.763,
+     "chunk": 0
+    },
+    {
+     "w": "une",
+     "start": 11.763,
+     "end": 11.963,
+     "chunk": 0
+    },
+    {
+     "w": "personne",
+     "start": 11.963,
+     "end": 12.323,
+     "chunk": 0
+    },
+    {
+     "w": "qui",
+     "start": 12.323,
+     "end": 12.583,
+     "chunk": 0
+    },
+    {
+     "w": "te",
+     "start": 12.583,
+     "end": 12.703,
+     "chunk": 0
+    },
+    {
+     "w": "blesse",
+     "start": 12.703,
+     "end": 13.103,
+     "chunk": 0
+    },
+    {
+     "w": "s",
+     "start": 13.323,
+     "end": 13.483,
+     "chunk": 1
+    },
+    {
+     "w": "excuse",
+     "start": 13.483,
+     "end": 13.983,
+     "chunk": 1
+    },
+    {
+     "w": "puis",
+     "start": 13.983,
+     "end": 14.183,
+     "chunk": 1
+    },
+    {
+     "w": "recommence",
+     "start": 14.183,
+     "end": 14.783,
+     "chunk": 1
+    }
+   ],
+   "chunks": [
+    {
+     "text": "Imagine une personne qui te blesse,",
+     "start": 11.383,
+     "end": 13.103
+    },
+    {
+     "text": "s’excuse, puis recommence.",
+     "start": 13.323,
+     "end": 14.907
+    }
+   ]
+  },
+  {
+   "id": "s3b",
+   "scene": 3,
+   "start": 15.218,
+   "end": 20.586,
+   "display": "À quel moment le pardon cesse-t-il d’être une liberté et devient-il une permission ?",
+   "say": "À quel moment le pardon cesse-t-il d’être une liberté et devient-il une permission ?",
+   "heard": "À  quel  moment  le  pardon  cesse -t -il  d 'être  une  liberté  et  devient -il  une  permission  ?",
+   "match": 1.0,
+   "words": [
+    {
+     "w": "a",
+     "start": 15.218,
+     "end": 15.335,
+     "chunk": 0
+    },
+    {
+     "w": "quel",
+     "start": 15.335,
+     "end": 15.571,
+     "chunk": 0
+    },
+    {
+     "w": "moment",
+     "start": 15.571,
+     "end": 15.9,
+     "chunk": 0
+    },
+    {
+     "w": "le",
+     "start": 15.9,
+     "end": 16.088,
+     "chunk": 0
+    },
+    {
+     "w": "pardon",
+     "start": 16.088,
+     "end": 16.559,
+     "chunk": 0
+    },
+    {
+     "w": "cesse",
+     "start": 16.559,
+     "end": 16.982,
+     "chunk": 0
+    },
+    {
+     "w": "t",
+     "start": 16.982,
+     "end": 17.123,
+     "chunk": 0
+    },
+    {
+     "w": "il",
+     "start": 17.123,
+     "end": 17.265,
+     "chunk": 0
+    },
+    {
+     "w": "d",
+     "start": 17.265,
+     "end": 17.406,
+     "chunk": 1
+    },
+    {
+     "w": "etre",
+     "start": 17.406,
+     "end": 17.547,
+     "chunk": 1
+    },
+    {
+     "w": "une",
+     "start": 17.547,
+     "end": 17.735,
+     "chunk": 1
+    },
+    {
+     "w": "liberte",
+     "start": 17.735,
+     "end": 18.206,
+     "chunk": 1
+    },
+    {
+     "w": "et",
+     "start": 18.206,
+     "end": 18.865,
+     "chunk": 2
+    },
+    {
+     "w": "devient",
+     "start": 18.865,
+     "end": 19.147,
+     "chunk": 2
+    },
+    {
+     "w": "il",
+     "start": 19.147,
+     "end": 19.5,
+     "chunk": 2
+    },
+    {
+     "w": "une",
+     "start": 19.5,
+     "end": 19.665,
+     "chunk": 2
+    },
+    {
+     "w": "permission",
+     "start": 19.665,
+     "end": 20.088,
+     "chunk": 2
+    }
+   ],
+   "chunks": [
+    {
+     "text": "À quel moment le pardon cesse-t-il",
+     "start": 15.218,
+     "end": 17.265
+    },
+    {
+     "text": "d’être une liberté",
+     "start": 17.265,
+     "end": 18.206
+    },
+    {
+     "text": "et devient-il une permission ?",
+     "start": 18.206,
+     "end": 20.586
+    }
+   ]
+  },
+  {
+   "id": "s4a",
+   "scene": 4,
+   "start": 20.957,
+   "end": 27.948,
+   "display": "Dans l’Évangile selon Luc, au chapitre 17, Jésus associe la confrontation du tort, le repentir et le pardon.",
+   "say": "Dans l’Évangile selon Luc, au chapitre dix-sept, Jésus associe la confrontation du tort, le repentir et le pardon.",
+   "heard": "Dans  l 'Évangine  selon  Luc,  au  chapitre  17,  Jésus  associe  la  confrontation  du  tort,  le  repentir  et  le  pardon.",
+   "match": 0.85,
+   "words": [
+    {
+     "w": "dans",
+     "start": 20.957,
+     "end": 21.077,
+     "chunk": 0
+    },
+    {
+     "w": "l",
+     "start": 21.077,
+     "end": 21.177,
+     "chunk": 0
+    },
+    {
+     "w": "evangile",
+     "start": 21.177,
+     "end": 21.577,
+     "chunk": 0
+    },
+    {
+     "w": "selon",
+     "start": 21.577,
+     "end": 21.817,
+     "chunk": 0
+    },
+    {
+     "w": "luc",
+     "start": 21.817,
+     "end": 22.137,
+     "chunk": 0
+    },
+    {
+     "w": "au",
+     "start": 22.417,
+     "end": 22.497,
+     "chunk": 0
+    },
+    {
+     "w": "chapitre",
+     "start": 22.497,
+     "end": 22.917,
+     "chunk": 0
+    },
+    {
+     "w": "dix",
+     "start": 22.917,
+     "end": 23.387,
+     "chunk": 0
+    },
+    {
+     "w": "sept",
+     "start": 23.387,
+     "end": 23.857,
+     "chunk": 0
+    },
+    {
+     "w": "jesus",
+     "start": 23.857,
+     "end": 24.317,
+     "chunk": 1
+    },
+    {
+     "w": "associe",
+     "start": 24.317,
+     "end": 24.817,
+     "chunk": 1
+    },
+    {
+     "w": "la",
+     "start": 24.817,
+     "end": 24.957,
+     "chunk": 1
+    },
+    {
+     "w": "confrontation",
+     "start": 24.957,
+     "end": 25.337,
+     "chunk": 1
+    },
+    {
+     "w": "du",
+     "start": 25.337,
+     "end": 25.757,
+     "chunk": 1
+    },
+    {
+     "w": "tort",
+     "start": 25.757,
+     "end": 26.097,
+     "chunk": 1
+    },
+    {
+     "w": "le",
+     "start": 26.477,
+     "end": 26.577,
+     "chunk": 2
+    },
+    {
+     "w": "repentir",
+     "start": 26.577,
+     "end": 27.157,
+     "chunk": 2
+    },
+    {
+     "w": "et",
+     "start": 27.157,
+     "end": 27.277,
+     "chunk": 2
+    },
+    {
+     "w": "le",
+     "start": 27.277,
+     "end": 27.357,
+     "chunk": 2
+    },
+    {
+     "w": "pardon",
+     "start": 27.357,
+     "end": 27.657,
+     "chunk": 2
+    }
+   ],
+   "chunks": [
+    {
+     "text": "Dans l’Évangile selon Luc, au chapitre 17,",
+     "start": 20.957,
+     "end": 23.857
+    },
+    {
+     "text": "Jésus associe la confrontation du tort,",
+     "start": 23.857,
+     "end": 26.097
+    },
+    {
+     "text": "le repentir et le pardon.",
+     "start": 26.477,
+     "end": 27.948
+    }
+   ]
+  },
+  {
+   "id": "s5a",
+   "scene": 5,
+   "start": 28.248,
+   "end": 38.168,
+   "display": "Le Coran, en sourate 42, verset 40, reconnaît la possibilité d’une réponse proportionnée au mal, tout en valorisant le pardon accompagné d’une démarche de réparation.",
+   "say": "Le Coran, en sourate quarante-deux, verset quarante, reconnaît la possibilité d’une réponse proportionnée au mal, tout en valorisant le pardon accompagné d’une démarche de réparation.",
+   "heard": "Le  Coran  en  Surat  42  verset  40  reconnaît  la  possibilité  d 'une  réponse  proportionnée  au  mal,  tout  en  valorisant  le  pardon  accompagné  d 'une  démarche  de  réparation.",
+   "match": 0.857,
+   "words": [
+    {
+     "w": "le",
+     "start": 28.248,
+     "end": 28.368,
+     "chunk": 0
+    },
+    {
+     "w": "coran",
+     "start": 28.368,
+     "end": 28.808,
+     "chunk": 0
+    },
+    {
+     "w": "en",
+     "start": 28.808,
+     "end": 29.048,
+     "chunk": 0
+    },
+    {
+     "w": "sourate",
+     "start": 29.048,
+     "end": 29.374,
+     "chunk": 0
+    },
+    {
+     "w": "quarante",
+     "start": 29.374,
+     "end": 29.701,
+     "chunk": 0
+    },
+    {
+     "w": "deux",
+     "start": 29.701,
+     "end": 30.028,
+     "chunk": 0
+    },
+    {
+     "w": "verset",
+     "start": 30.028,
+     "end": 30.568,
+     "chunk": 0
+    },
+    {
+     "w": "quarante",
+     "start": 30.568,
+     "end": 31.028,
+     "chunk": 0
+    },
+    {
+     "w": "reconnait",
+     "start": 31.028,
+     "end": 31.888,
+     "chunk": 1
+    },
+    {
+     "w": "la",
+     "start": 31.888,
+     "end": 31.968,
+     "chunk": 1
+    },
+    {
+     "w": "possibilite",
+     "start": 31.968,
+     "end": 32.628,
+     "chunk": 1
+    },
+    {
+     "w": "d",
+     "start": 32.628,
+     "end": 32.708,
+     "chunk": 2
+    },
+    {
+     "w": "une",
+     "start": 32.708,
+     "end": 32.788,
+     "chunk": 2
+    },
+    {
+     "w": "reponse",
+     "start": 32.788,
+     "end": 33.148,
+     "chunk": 2
+    },
+    {
+     "w": "proportionnee",
+     "start": 33.148,
+     "end": 33.868,
+     "chunk": 2
+    },
+    {
+     "w": "au",
+     "start": 33.868,
+     "end": 33.948,
+     "chunk": 2
+    },
+    {
+     "w": "mal",
+     "start": 33.948,
+     "end": 34.228,
+     "chunk": 2
+    },
+    {
+     "w": "tout",
+     "start": 34.528,
+     "end": 34.728,
+     "chunk": 3
+    },
+    {
+     "w": "en",
+     "start": 34.728,
+     "end": 34.908,
+     "chunk": 3
+    },
+    {
+     "w": "valorisant",
+     "start": 34.908,
+     "end": 35.448,
+     "chunk": 3
+    },
+    {
+     "w": "le",
+     "start": 35.448,
+     "end": 35.528,
+     "chunk": 3
+    },
+    {
+     "w": "pardon",
+     "start": 35.528,
+     "end": 35.848,
+     "chunk": 3
+    },
+    {
+     "w": "accompagne",
+     "start": 35.848,
+     "end": 36.508,
+     "chunk": 4
+    },
+    {
+     "w": "d",
+     "start": 36.508,
+     "end": 36.568,
+     "chunk": 4
+    },
+    {
+     "w": "une",
+     "start": 36.568,
+     "end": 36.668,
+     "chunk": 4
+    },
+    {
+     "w": "demarche",
+     "start": 36.668,
+     "end": 37.128,
+     "chunk": 4
+    },
+    {
+     "w": "de",
+     "start": 37.128,
+     "end": 37.228,
+     "chunk": 4
+    },
+    {
+     "w": "reparation",
+     "start": 37.228,
+     "end": 37.868,
+     "chunk": 4
+    }
+   ],
+   "chunks": [
+    {
+     "text": "Le Coran, en sourate 42, verset 40,",
+     "start": 28.248,
+     "end": 31.028
+    },
+    {
+     "text": "reconnaît la possibilité",
+     "start": 31.028,
+     "end": 32.628
+    },
+    {
+     "text": "d’une réponse proportionnée au mal,",
+     "start": 32.628,
+     "end": 34.228
+    },
+    {
+     "text": "tout en valorisant le pardon",
+     "start": 34.528,
+     "end": 35.848
+    },
+    {
+     "text": "accompagné d’une démarche de réparation.",
+     "start": 35.848,
+     "end": 38.168
+    }
+   ]
+  },
+  {
+   "id": "s6a",
+   "scene": 6,
+   "start": 38.468,
+   "end": 42.253,
+   "display": "Le philosophe Jacques Derrida formule alors un paradoxe :",
+   "say": "Le philosophe Jacques Dèrrida formule alors un paradoxe :",
+   "heard": "Le  philosophe  Jacques  Derrida  formule  alors  un  paradoxe.",
+   "match": 1.0,
+   "words": [
+    {
+     "w": "le",
+     "start": 38.468,
+     "end": 38.608,
+     "chunk": 0
+    },
+    {
+     "w": "philosophe",
+     "start": 38.608,
+     "end": 39.168,
+     "chunk": 0
+    },
+    {
+     "w": "jacques",
+     "start": 39.168,
+     "end": 39.328,
+     "chunk": 0
+    },
+    {
+     "w": "derrida",
+     "start": 39.328,
+     "end": 39.788,
+     "chunk": 0
+    },
+    {
+     "w": "formule",
+     "start": 39.788,
+     "end": 40.208,
+     "chunk": 1
+    },
+    {
+     "w": "alors",
+     "start": 40.208,
+     "end": 40.348,
+     "chunk": 1
+    },
+    {
+     "w": "un",
+     "start": 40.348,
+     "end": 40.548,
+     "chunk": 1
+    },
+    {
+     "w": "paradoxe",
+     "start": 40.548,
+     "end": 41.588,
+     "chunk": 1
+    }
+   ],
+   "chunks": [
+    {
+     "text": "Le philosophe Jacques Derrida",
+     "start": 38.468,
+     "end": 39.788
+    },
+    {
+     "text": "formule alors un paradoxe :",
+     "start": 39.788,
+     "end": 42.253
+    }
+   ]
+  },
+  {
+   "id": "s6b",
+   "scene": 6,
+   "start": 42.503,
+   "end": 48.661,
+   "display": "pardonner uniquement ce qui est pardonnable, est-ce encore véritablement pardonner ?",
+   "say": "pardonner uniquement ce qui est pardonnable, est-ce encore véritablement pardonner ?",
+   "heard": "pardonner  uniquement  ce  qui  est  pardonnable,  est -ce  encore  véritablement  pardonné  ?",
+   "match": 0.909,
+   "words": [
+    {
+     "w": "pardonner",
+     "start": 42.503,
+     "end": 42.943,
+     "chunk": 0
+    },
+    {
+     "w": "uniquement",
+     "start": 42.943,
+     "end": 43.463,
+     "chunk": 0
+    },
+    {
+     "w": "ce",
+     "start": 43.463,
+     "end": 43.623,
+     "chunk": 0
+    },
+    {
+     "w": "qui",
+     "start": 43.623,
+     "end": 43.783,
+     "chunk": 0
+    },
+    {
+     "w": "est",
+     "start": 43.783,
+     "end": 43.863,
+     "chunk": 0
+    },
+    {
+     "w": "pardonnable",
+     "start": 43.863,
+     "end": 44.503,
+     "chunk": 0
+    },
+    {
+     "w": "est",
+     "start": 44.843,
+     "end": 45.023,
+     "chunk": 1
+    },
+    {
+     "w": "ce",
+     "start": 45.023,
+     "end": 45.183,
+     "chunk": 1
+    },
+    {
+     "w": "encore",
+     "start": 45.183,
+     "end": 45.363,
+     "chunk": 1
+    },
+    {
+     "w": "veritablement",
+     "start": 45.363,
+     "end": 46.083,
+     "chunk": 1
+    },
+    {
+     "w": "pardonner",
+     "start": 46.083,
+     "end": 48.661,
+     "chunk": 1
+    }
+   ],
+   "chunks": [
+    {
+     "text": "pardonner uniquement ce qui est pardonnable,",
+     "start": 42.503,
+     "end": 44.503
+    },
+    {
+     "text": "est-ce encore véritablement pardonner ?",
+     "start": 44.843,
+     "end": 48.661
+    }
+   ]
+  },
+  {
+   "id": "s7a",
+   "scene": 7,
+   "start": 49.461,
+   "end": 54.701,
+   "display": "Mais pardonner n’est pas excuser, oublier, rendre sa confiance ou renoncer à la justice.",
+   "say": "Mais pardonner n’est pas excuser, oublier, rendre sa confiance ou renoncer à la justice.",
+   "heard": "Mais  pardonner  n 'est  pas  excuser,  oublier,  rendre  sa  confiance,  ou  renoncer  à  la  justice.",
+   "match": 1.0,
+   "words": [
+    {
+     "w": "mais",
+     "start": 49.461,
+     "end": 49.601,
+     "chunk": 0
+    },
+    {
+     "w": "pardonner",
+     "start": 49.601,
+     "end": 50.081,
+     "chunk": 0
+    },
+    {
+     "w": "n",
+     "start": 50.081,
+     "end": 50.141,
+     "chunk": 0
+    },
+    {
+     "w": "est",
+     "start": 50.141,
+     "end": 50.221,
+     "chunk": 0
+    },
+    {
+     "w": "pas",
+     "start": 50.221,
+     "end": 50.361,
+     "chunk": 0
+    },
+    {
+     "w": "excuser",
+     "start": 50.361,
+     "end": 51.081,
+     "chunk": 0
+    },
+    {
+     "w": "oublier",
+     "start": 51.421,
+     "end": 51.781,
+     "chunk": 1
+    },
+    {
+     "w": "rendre",
+     "start": 52.181,
+     "end": 52.401,
+     "chunk": 1
+    },
+    {
+     "w": "sa",
+     "start": 52.401,
+     "end": 52.641,
+     "chunk": 1
+    },
+    {
+     "w": "confiance",
+     "start": 52.641,
+     "end": 53.041,
+     "chunk": 1
+    },
+    {
+     "w": "ou",
+     "start": 53.441,
+     "end": 53.541,
+     "chunk": 2
+    },
+    {
+     "w": "renoncer",
+     "start": 53.541,
+     "end": 53.961,
+     "chunk": 2
+    },
+    {
+     "w": "a",
+     "start": 53.961,
+     "end": 54.061,
+     "chunk": 2
+    },
+    {
+     "w": "la",
+     "start": 54.061,
+     "end": 54.121,
+     "chunk": 2
+    },
+    {
+     "w": "justice",
+     "start": 54.121,
+     "end": 54.401,
+     "chunk": 2
+    }
+   ],
+   "chunks": [
+    {
+     "text": "Mais pardonner n’est pas excuser,",
+     "start": 49.461,
+     "end": 51.081
+    },
+    {
+     "text": "oublier, rendre sa confiance",
+     "start": 51.421,
+     "end": 53.041
+    },
+    {
+     "text": "ou renoncer à la justice.",
+     "start": 53.441,
+     "end": 54.701
+    }
+   ]
+  },
+  {
+   "id": "s8a",
+   "scene": 8,
+   "start": 55.11,
+   "end": 58.055,
+   "display": "Alors, qui a le droit d’exiger ton pardon ?",
+   "say": "Alors, qui a le droit d’exiger ton pardon ?",
+   "heard": "alors  qu 'il  y  a  le  droit  d 'exiger  ton  pardon.",
+   "match": 0.889,
+   "words": [
+    {
+     "w": "alors",
+     "start": 55.11,
+     "end": 55.478,
+     "chunk": 0
+    },
+    {
+     "w": "qui",
+     "start": 55.478,
+     "end": 56.214,
+     "chunk": 0
+    },
+    {
+     "w": "a",
+     "start": 56.214,
+     "end": 56.237,
+     "chunk": 0
+    },
+    {
+     "w": "le",
+     "start": 56.237,
+     "end": 56.376,
+     "chunk": 0
+    },
+    {
+     "w": "droit",
+     "start": 56.376,
+     "end": 56.606,
+     "chunk": 0
+    },
+    {
+     "w": "d",
+     "start": 56.606,
+     "end": 56.744,
+     "chunk": 1
+    },
+    {
+     "w": "exiger",
+     "start": 56.744,
+     "end": 57.181,
+     "chunk": 1
+    },
+    {
+     "w": "ton",
+     "start": 57.181,
+     "end": 57.365,
+     "chunk": 1
+    },
+    {
+     "w": "pardon",
+     "start": 57.365,
+     "end": 57.71,
+     "chunk": 1
+    }
+   ],
+   "chunks": [
+    {
+     "text": "Alors, qui a le droit",
+     "start": 55.11,
+     "end": 56.606
+    },
+    {
+     "text": "d’exiger ton pardon ?",
+     "start": 56.606,
+     "end": 58.055
+    }
+   ]
+  },
+  {
+   "id": "s9a",
+   "scene": 9,
+   "start": 58.5,
+   "end": 62.231,
+   "display": "Et si le pardon ne devenait une grandeur que lorsqu’il est libre…",
+   "say": "Et si le pardon ne devenait une grandeur que lorsqu’il est libre…",
+   "heard": "Et  si  le  pardon  ne  devenait  une  grandeur  que  lorsqu 'il  est  libre  ?",
+   "match": 1.0,
+   "words": [
+    {
+     "w": "et",
+     "start": 58.5,
+     "end": 58.617,
+     "chunk": 0
+    },
+    {
+     "w": "si",
+     "start": 58.617,
+     "end": 58.805,
+     "chunk": 0
+    },
+    {
+     "w": "le",
+     "start": 58.805,
+     "end": 58.947,
+     "chunk": 0
+    },
+    {
+     "w": "pardon",
+     "start": 58.947,
+     "end": 59.323,
+     "chunk": 0
+    },
+    {
+     "w": "ne",
+     "start": 59.323,
+     "end": 59.535,
+     "chunk": 0
+    },
+    {
+     "w": "devenait",
+     "start": 59.535,
+     "end": 60.076,
+     "chunk": 0
+    },
+    {
+     "w": "une",
+     "start": 60.076,
+     "end": 60.241,
+     "chunk": 0
+    },
+    {
+     "w": "grandeur",
+     "start": 60.241,
+     "end": 60.9,
+     "chunk": 0
+    },
+    {
+     "w": "que",
+     "start": 60.9,
+     "end": 61.064,
+     "chunk": 1
+    },
+    {
+     "w": "lorsqu",
+     "start": 61.064,
+     "end": 61.229,
+     "chunk": 1
+    },
+    {
+     "w": "il",
+     "start": 61.229,
+     "end": 61.535,
+     "chunk": 1
+    },
+    {
+     "w": "est",
+     "start": 61.535,
+     "end": 61.653,
+     "chunk": 1
+    },
+    {
+     "w": "libre",
+     "start": 61.653,
+     "end": 61.958,
+     "chunk": 1
+    }
+   ],
+   "chunks": [
+    {
+     "text": "Et si le pardon ne devenait une grandeur",
+     "start": 58.5,
+     "end": 60.9
+    },
+    {
+     "text": "que lorsqu’il est libre…",
+     "start": 60.9,
+     "end": 62.231
+    }
+   ]
+  },
+  {
+   "id": "s9b",
+   "scene": 9,
+   "start": 62.418,
+   "end": 63.531,
+   "display": "et jamais imposé ?",
+   "say": "et jamais imposé ?",
+   "heard": "n 'est  jamais  imposé.",
+   "match": 0.667,
+   "words": [
+    {
+     "w": "et",
+     "start": 62.418,
+     "end": 62.523,
+     "chunk": 0
+    },
+    {
+     "w": "jamais",
+     "start": 62.523,
+     "end": 62.752,
+     "chunk": 0
+    },
+    {
+     "w": "impose",
+     "start": 62.752,
+     "end": 63.418,
+     "chunk": 0
+    }
+   ],
+   "chunks": [
+    {
+     "text": "et jamais imposé ?",
+     "start": 62.418,
+     "end": 63.531
+    }
+   ]
+  }
+ ]
+}

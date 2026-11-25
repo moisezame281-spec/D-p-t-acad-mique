@@ -372,7 +372,7 @@
     c.save(); c.translate(TILE.x, TILE.y); c.transform(1, 0, 0, .42, 0, 0);
     c.fillStyle = '#EBDCC0'; c.beginPath(); c.moveTo(0, -150); c.lineTo(150, 0); c.lineTo(0, 150); c.lineTo(-150, 0); c.closePath(); c.fill(); c.strokeStyle = '#A8865A'; c.lineWidth = 6; c.stroke();
     star8(c, 0, 0, 90, 44); c.strokeStyle = '#B8965E'; c.lineWidth = 5; c.stroke();
-    const rep = prog(t, T.reparation - .4, T.reparation + .9, 'inOutSine');
+    const rep = prog(t, T.reparation - .75, T.reparation + .15, 'inOutSine');
     TCRACK.forEach(pts => { const P = pts.map(([a, b]) => [a * 1.5, b * 2.6]); c.strokeStyle = rgba('#3a2a1a', .8 * (1 - rep)); c.lineWidth = 6; strokeProg(c, P, 1); c.save(); c.strokeStyle = '#E2B85E'; c.lineWidth = 9; c.shadowColor = 'rgba(255,214,130,1)'; c.shadowBlur = 16; strokeProg(c, P, rep); c.restore(); });
     c.restore();
     const pd = prog(t, T.pardon5 - .3, T.pardon5 + .6, 'outCubic'); if (pd > 0) glow(c, 540, 1480, 360, '#FFE8B0', .35 * pd + .2 * rep);
