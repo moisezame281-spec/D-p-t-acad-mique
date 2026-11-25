@@ -106,6 +106,12 @@ def synth(sen, say):
         y = librosa.resample(trim(w.squeeze(0).cpu().numpy().astype(np.float32), cb.sr), orig_sr=cb.sr, target_sr=SR).astype(np.float32)
         sg, _ = judge_model().transcribe(librosa.resample(y, orig_sr=SR, target_sr=16000), language='fr', beam_size=5, temperature=0.0, word_timestamps=True)
         sg = list(sg); e = _wer(say, ' '.join(x.text for x in sg)); mel = _melody(y)
+        # répétition parasite en fin de prise (ex. EP010 : « …un paradoxe, alors un pa… ») : de la voix continue
+        # plus de 0,5 s après le dernier mot reconnu, sans être transcrite → la prise est écartée comme un bégaiement
+        lastw = max([w.end for x in sg for w in (x.words or [])] or [len(y) / SR])
+        tl_ = y[int(min(len(y) / SR, lastw + .12) * SR):]
+        if len(y) / SR - lastw > .5 and len(tl_) and 20 * np.log10(np.sqrt(np.mean(tl_ ** 2)) + 1e-9) > -38:
+            print(f'      prise {k + 1}: voix non reconnue après le dernier mot ({len(y) / SR - lastw:.2f} s) → écartée', flush=True); e = max(e, .5)
         nq = say.count('?'); qe = [w.end for x in sg for w in (x.words or []) if '?' in w.word][:nq]
         rs = question_rises(y, qe) if qe else []; rise = (sum(min(r, 6) for r in rs) / nq - 2 * max(0, nq - len(qe))) if nq else 0.0
         wps = len(norm_words(say)) / max(.5, len(y) / SR); pace = sen.get('pace')   # débit (mots par seconde) : sur l'ouverture, on préfère la prise la plus posée

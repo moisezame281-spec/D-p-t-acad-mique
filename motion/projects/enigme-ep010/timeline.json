@@ -1,5 +1,5 @@
 {
- "duration": 67.796,
+ "duration": 67.805,
  "sentences": [
   {
    "id": "s1a",
@@ -212,12 +212,12 @@
     {
      "w": "n",
      "start": 8.669,
-     "end": 8.716,
+     "end": 8.74,
      "chunk": 3
     },
     {
      "w": "a",
-     "start": 8.716,
+     "start": 8.74,
      "end": 8.834,
      "chunk": 3
     },
@@ -336,12 +336,12 @@
     {
      "w": "s",
      "start": 13.323,
-     "end": 13.483,
+     "end": 13.503,
      "chunk": 1
     },
     {
      "w": "excuse",
-     "start": 13.483,
+     "start": 13.503,
      "end": 13.983,
      "chunk": 1
     },
@@ -414,12 +414,12 @@
     {
      "w": "cesse",
      "start": 16.559,
-     "end": 16.982,
+     "end": 17.006,
      "chunk": 0
     },
     {
      "w": "t",
-     "start": 16.982,
+     "start": 17.006,
      "end": 17.123,
      "chunk": 0
     },
@@ -468,12 +468,12 @@
     {
      "w": "il",
      "start": 19.147,
-     "end": 19.5,
+     "end": 19.523,
      "chunk": 2
     },
     {
      "w": "une",
-     "start": 19.5,
+     "start": 19.523,
      "end": 19.665,
      "chunk": 2
     },
@@ -617,12 +617,12 @@
     {
      "w": "et",
      "start": 27.157,
-     "end": 27.277,
+     "end": 27.257,
      "chunk": 2
     },
     {
      "w": "le",
-     "start": 27.277,
+     "start": 27.257,
      "end": 27.357,
      "chunk": 2
     },
@@ -862,7 +862,7 @@
    "id": "s6a",
    "scene": 6,
    "start": 38.468,
-   "end": 42.253,
+   "end": 42.262,
    "display": "Le philosophe Jacques Derrida formule alors un paradoxe :",
    "say": "Le philosophe Jacques Dèrrida formule alors un paradoxe :",
    "heard": "Le  philosophe  Jacques  Derrida  formule  alors  un  paradoxe.",
@@ -871,49 +871,49 @@
     {
      "w": "le",
      "start": 38.468,
-     "end": 38.608,
+     "end": 38.588,
      "chunk": 0
     },
     {
      "w": "philosophe",
-     "start": 38.608,
-     "end": 39.168,
+     "start": 38.588,
+     "end": 39.188,
      "chunk": 0
     },
     {
      "w": "jacques",
-     "start": 39.168,
-     "end": 39.328,
+     "start": 39.188,
+     "end": 39.428,
      "chunk": 0
     },
     {
      "w": "derrida",
-     "start": 39.328,
-     "end": 39.788,
+     "start": 39.428,
+     "end": 39.948,
      "chunk": 0
     },
     {
      "w": "formule",
-     "start": 39.788,
-     "end": 40.208,
+     "start": 39.948,
+     "end": 40.528,
      "chunk": 1
     },
     {
      "w": "alors",
-     "start": 40.208,
-     "end": 40.348,
+     "start": 40.528,
+     "end": 40.768,
      "chunk": 1
     },
     {
      "w": "un",
-     "start": 40.348,
-     "end": 40.548,
+     "start": 40.768,
+     "end": 40.968,
      "chunk": 1
     },
     {
      "w": "paradoxe",
-     "start": 40.548,
-     "end": 41.588,
+     "start": 40.968,
+     "end": 42.048,
      "chunk": 1
     }
    ],
@@ -921,20 +921,20 @@
     {
      "text": "Le philosophe Jacques Derrida",
      "start": 38.468,
-     "end": 39.788
+     "end": 39.948
     },
     {
      "text": "formule alors un paradoxe :",
-     "start": 39.788,
-     "end": 42.253
+     "start": 39.948,
+     "end": 42.262
     }
    ]
   },
   {
    "id": "s6b",
    "scene": 6,
-   "start": 42.503,
-   "end": 48.661,
+   "start": 42.512,
+   "end": 48.67,
    "display": "pardonner uniquement ce qui est pardonnable, est-ce encore véritablement pardonner ?",
    "say": "pardonner uniquement ce qui est pardonnable, est-ce encore véritablement pardonner ?",
    "heard": "pardonner  uniquement  ce  qui  est  pardonnable,  est -ce  encore  véritablement  pardonné  ?",
@@ -942,89 +942,89 @@
    "words": [
     {
      "w": "pardonner",
-     "start": 42.503,
-     "end": 42.943,
+     "start": 42.512,
+     "end": 42.952,
      "chunk": 0
     },
     {
      "w": "uniquement",
-     "start": 42.943,
-     "end": 43.463,
+     "start": 42.952,
+     "end": 43.472,
      "chunk": 0
     },
     {
      "w": "ce",
-     "start": 43.463,
-     "end": 43.623,
+     "start": 43.472,
+     "end": 43.632,
      "chunk": 0
     },
     {
      "w": "qui",
-     "start": 43.623,
-     "end": 43.783,
+     "start": 43.632,
+     "end": 43.792,
      "chunk": 0
     },
     {
      "w": "est",
-     "start": 43.783,
-     "end": 43.863,
+     "start": 43.792,
+     "end": 43.872,
      "chunk": 0
     },
     {
      "w": "pardonnable",
-     "start": 43.863,
-     "end": 44.503,
+     "start": 43.872,
+     "end": 44.512,
      "chunk": 0
     },
     {
      "w": "est",
-     "start": 44.843,
-     "end": 45.023,
+     "start": 44.792,
+     "end": 45.032,
      "chunk": 1
     },
     {
      "w": "ce",
-     "start": 45.023,
-     "end": 45.183,
+     "start": 45.032,
+     "end": 45.192,
      "chunk": 1
     },
     {
      "w": "encore",
-     "start": 45.183,
-     "end": 45.363,
+     "start": 45.192,
+     "end": 45.372,
      "chunk": 1
     },
     {
      "w": "veritablement",
-     "start": 45.363,
-     "end": 46.083,
+     "start": 45.372,
+     "end": 46.092,
      "chunk": 1
     },
     {
      "w": "pardonner",
-     "start": 46.083,
-     "end": 48.661,
+     "start": 46.092,
+     "end": 48.67,
      "chunk": 1
     }
    ],
    "chunks": [
     {
      "text": "pardonner uniquement ce qui est pardonnable,",
-     "start": 42.503,
-     "end": 44.503
+     "start": 42.512,
+     "end": 44.512
     },
     {
      "text": "est-ce encore véritablement pardonner ?",
-     "start": 44.843,
-     "end": 48.661
+     "start": 44.792,
+     "end": 48.67
     }
    ]
   },
   {
    "id": "s7a",
    "scene": 7,
-   "start": 49.461,
-   "end": 54.701,
+   "start": 49.47,
+   "end": 54.71,
    "display": "Mais pardonner n’est pas excuser, oublier, rendre sa confiance ou renoncer à la justice.",
    "say": "Mais pardonner n’est pas excuser, oublier, rendre sa confiance ou renoncer à la justice.",
    "heard": "Mais  pardonner  n 'est  pas  excuser,  oublier,  rendre  sa  confiance,  ou  renoncer  à  la  justice.",
@@ -1032,118 +1032,118 @@
    "words": [
     {
      "w": "mais",
-     "start": 49.461,
-     "end": 49.601,
+     "start": 49.47,
+     "end": 49.61,
      "chunk": 0
     },
     {
      "w": "pardonner",
-     "start": 49.601,
-     "end": 50.081,
+     "start": 49.61,
+     "end": 50.09,
      "chunk": 0
     },
     {
      "w": "n",
-     "start": 50.081,
-     "end": 50.141,
+     "start": 50.09,
+     "end": 50.15,
      "chunk": 0
     },
     {
      "w": "est",
-     "start": 50.141,
-     "end": 50.221,
+     "start": 50.15,
+     "end": 50.23,
      "chunk": 0
     },
     {
      "w": "pas",
-     "start": 50.221,
-     "end": 50.361,
+     "start": 50.23,
+     "end": 50.37,
      "chunk": 0
     },
     {
      "w": "excuser",
-     "start": 50.361,
-     "end": 51.081,
+     "start": 50.37,
+     "end": 51.09,
      "chunk": 0
     },
     {
      "w": "oublier",
-     "start": 51.421,
-     "end": 51.781,
+     "start": 51.43,
+     "end": 51.81,
      "chunk": 1
     },
     {
      "w": "rendre",
-     "start": 52.181,
-     "end": 52.401,
+     "start": 52.21,
+     "end": 52.41,
      "chunk": 1
     },
     {
      "w": "sa",
-     "start": 52.401,
-     "end": 52.641,
+     "start": 52.41,
+     "end": 52.65,
      "chunk": 1
     },
     {
      "w": "confiance",
-     "start": 52.641,
-     "end": 53.041,
+     "start": 52.65,
+     "end": 53.05,
      "chunk": 1
     },
     {
      "w": "ou",
-     "start": 53.441,
-     "end": 53.541,
+     "start": 53.49,
+     "end": 53.55,
      "chunk": 2
     },
     {
      "w": "renoncer",
-     "start": 53.541,
-     "end": 53.961,
+     "start": 53.55,
+     "end": 53.97,
      "chunk": 2
     },
     {
      "w": "a",
-     "start": 53.961,
-     "end": 54.061,
+     "start": 53.97,
+     "end": 54.07,
      "chunk": 2
     },
     {
      "w": "la",
-     "start": 54.061,
-     "end": 54.121,
+     "start": 54.07,
+     "end": 54.13,
      "chunk": 2
     },
     {
      "w": "justice",
-     "start": 54.121,
-     "end": 54.401,
+     "start": 54.13,
+     "end": 54.41,
      "chunk": 2
     }
    ],
    "chunks": [
     {
      "text": "Mais pardonner n’est pas excuser,",
-     "start": 49.461,
-     "end": 51.081
+     "start": 49.47,
+     "end": 51.09
     },
     {
      "text": "oublier, rendre sa confiance",
-     "start": 51.421,
-     "end": 53.041
+     "start": 51.43,
+     "end": 53.05
     },
     {
      "text": "ou renoncer à la justice.",
-     "start": 53.441,
-     "end": 54.701
+     "start": 53.49,
+     "end": 54.71
     }
    ]
   },
   {
    "id": "s8a",
    "scene": 8,
-   "start": 55.11,
-   "end": 58.055,
+   "start": 55.119,
+   "end": 58.064,
    "display": "Alors, qui a le droit d’exiger ton pardon ?",
    "say": "Alors, qui a le droit d’exiger ton pardon ?",
    "heard": "alors  qu 'il  y  a  le  droit  d 'exiger  ton  pardon.",
@@ -1151,208 +1151,208 @@
    "words": [
     {
      "w": "alors",
-     "start": 55.11,
-     "end": 55.478,
+     "start": 55.119,
+     "end": 55.51,
      "chunk": 0
     },
     {
      "w": "qui",
-     "start": 55.478,
-     "end": 56.214,
+     "start": 55.51,
+     "end": 56.223,
      "chunk": 0
     },
     {
      "w": "a",
-     "start": 56.214,
-     "end": 56.237,
+     "start": 56.223,
+     "end": 56.246,
      "chunk": 0
     },
     {
      "w": "le",
-     "start": 56.237,
-     "end": 56.376,
+     "start": 56.246,
+     "end": 56.385,
      "chunk": 0
     },
     {
      "w": "droit",
-     "start": 56.376,
-     "end": 56.606,
+     "start": 56.385,
+     "end": 56.615,
      "chunk": 0
     },
     {
      "w": "d",
-     "start": 56.606,
-     "end": 56.744,
+     "start": 56.615,
+     "end": 56.753,
      "chunk": 1
     },
     {
      "w": "exiger",
-     "start": 56.744,
-     "end": 57.181,
+     "start": 56.753,
+     "end": 57.19,
      "chunk": 1
     },
     {
      "w": "ton",
-     "start": 57.181,
-     "end": 57.365,
+     "start": 57.19,
+     "end": 57.374,
      "chunk": 1
     },
     {
      "w": "pardon",
-     "start": 57.365,
-     "end": 57.71,
+     "start": 57.374,
+     "end": 57.719,
      "chunk": 1
     }
    ],
    "chunks": [
     {
      "text": "Alors, qui a le droit",
-     "start": 55.11,
-     "end": 56.606
+     "start": 55.119,
+     "end": 56.615
     },
     {
      "text": "d’exiger ton pardon ?",
-     "start": 56.606,
-     "end": 58.055
+     "start": 56.615,
+     "end": 58.064
     }
    ]
   },
   {
    "id": "s9a",
    "scene": 9,
-   "start": 58.5,
-   "end": 62.231,
+   "start": 58.509,
+   "end": 62.24,
    "display": "Et si le pardon ne devenait une grandeur que lorsqu’il est libre…",
    "say": "Et si le pardon ne devenait une grandeur que lorsqu’il est libre…",
-   "heard": "Et  si  le  pardon  ne  devenait  une  grandeur  que  lorsqu 'il  est  libre  ?",
-   "match": 1.0,
+   "heard": "et  s 'il  pardonne  devenait  une  grandeur  que  lorsqu 'il  est  libre.",
+   "match": 0.692,
    "words": [
     {
      "w": "et",
-     "start": 58.5,
-     "end": 58.617,
+     "start": 58.509,
+     "end": 58.626,
      "chunk": 0
     },
     {
      "w": "si",
-     "start": 58.617,
-     "end": 58.805,
+     "start": 58.626,
+     "end": 58.856,
      "chunk": 0
     },
     {
      "w": "le",
-     "start": 58.805,
-     "end": 58.947,
+     "start": 58.856,
+     "end": 59.085,
      "chunk": 0
     },
     {
      "w": "pardon",
-     "start": 58.947,
-     "end": 59.323,
+     "start": 59.085,
+     "end": 59.314,
      "chunk": 0
     },
     {
      "w": "ne",
-     "start": 59.323,
-     "end": 59.535,
+     "start": 59.314,
+     "end": 59.544,
      "chunk": 0
     },
     {
      "w": "devenait",
-     "start": 59.535,
-     "end": 60.076,
+     "start": 59.544,
+     "end": 60.109,
      "chunk": 0
     },
     {
      "w": "une",
-     "start": 60.076,
-     "end": 60.241,
+     "start": 60.109,
+     "end": 60.273,
      "chunk": 0
     },
     {
      "w": "grandeur",
-     "start": 60.241,
-     "end": 60.9,
+     "start": 60.273,
+     "end": 60.909,
      "chunk": 0
     },
     {
      "w": "que",
-     "start": 60.9,
-     "end": 61.064,
+     "start": 60.909,
+     "end": 61.073,
      "chunk": 1
     },
     {
      "w": "lorsqu",
-     "start": 61.064,
-     "end": 61.229,
+     "start": 61.073,
+     "end": 61.214,
      "chunk": 1
     },
     {
      "w": "il",
-     "start": 61.229,
-     "end": 61.535,
+     "start": 61.214,
+     "end": 61.544,
      "chunk": 1
     },
     {
      "w": "est",
-     "start": 61.535,
-     "end": 61.653,
+     "start": 61.544,
+     "end": 61.662,
      "chunk": 1
     },
     {
      "w": "libre",
-     "start": 61.653,
-     "end": 61.958,
+     "start": 61.662,
+     "end": 61.967,
      "chunk": 1
     }
    ],
    "chunks": [
     {
      "text": "Et si le pardon ne devenait une grandeur",
-     "start": 58.5,
-     "end": 60.9
+     "start": 58.509,
+     "end": 60.909
     },
     {
      "text": "que lorsqu’il est libre…",
-     "start": 60.9,
-     "end": 62.231
+     "start": 60.909,
+     "end": 62.24
     }
    ]
   },
   {
    "id": "s9b",
    "scene": 9,
-   "start": 62.418,
-   "end": 63.531,
+   "start": 62.427,
+   "end": 63.54,
    "display": "et jamais imposé ?",
    "say": "et jamais imposé ?",
-   "heard": "n 'est  jamais  imposé.",
-   "match": 0.667,
+   "heard": "et  jamais  imposé.",
+   "match": 1.0,
    "words": [
     {
      "w": "et",
-     "start": 62.418,
-     "end": 62.523,
+     "start": 62.427,
+     "end": 62.532,
      "chunk": 0
     },
     {
      "w": "jamais",
-     "start": 62.523,
-     "end": 62.752,
+     "start": 62.532,
+     "end": 62.761,
      "chunk": 0
     },
     {
      "w": "impose",
-     "start": 62.752,
-     "end": 63.418,
+     "start": 62.761,
+     "end": 63.427,
      "chunk": 0
     }
    ],
    "chunks": [
     {
      "text": "et jamais imposé ?",
-     "start": 62.418,
-     "end": 63.531
+     "start": 62.427,
+     "end": 63.54
     }
    ]
   }
