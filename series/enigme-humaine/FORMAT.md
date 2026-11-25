@@ -105,6 +105,54 @@ Le format court fait **58 à 60 s** ; le format long peut aller **jusqu'à 2 min
 
 **Avec chaque épisode, un kit de publication** : voir `KIT_PUBLICATION_modele.md`.
 
+## 2 ter. Modèle « tableau vivant » (à partir de l'EP011, demandé le 25/11/2026)
+
+**But :**
+- un motion design simple, constant, percutant et entraînant, accordé au ton « explication de prof » ;
+- **plus aucun décor à construire par épisode**.
+
+**Fichiers :**
+- le moteur, commun à tous les épisodes : `motion/lib/tableau.js` ;
+- un exemple complet : `motion/projects/enigme-ep011/scene.js` ;
+- la planche de démonstration : `motion/brand/enigme/modele_tableau.html`.
+
+**La grammaire (toujours la même) :**
+- **Fond papier clair, fixe**, avec un léger grain.
+- **Les mots « claquent » au rythme de la voix :** chaque mot apparaît avec un rebond à l'instant où il est prononcé. Les mots-clés sont surlignés en jaune ou écrits en rose.
+- **Les pictogrammes sont au trait et révélés de gauche à droite :**
+  - téléphone, lune, horloge, bulle, points, cœur, coche ;
+  - cube (un objet), deux personnes (une rencontre), groupe de personnes ;
+  - flèche, attention, miroir, personne, commentaire, robot.
+  
+  On en ajoute au besoin, dans le même style.
+- **Des cartes blanches à bord noir** pour les listes, les comparaisons, les sources et les chiffres.
+- **Des enchaînements secs** (0,28 s) : le temps qui s'achève glisse vers le haut, le suivant arrive du bas. Une légère avancée de caméra accompagne chaque temps.
+- **Une barre de progression rose** (y = 1470), au-dessus de la zone des boutons de TikTok.
+- **Les sous-titres sont en encre foncée.** Ils n'apparaissent que si l'écran ne montre pas déjà les mots dits.
+- **L'habillage est inchangé** : le logo, sa signature sonore et le carton de fin.
+- **La musique est plus rythmée :** pulsation à chaque temps, charleston en contretemps, un petit « tic » sur chaque mot surligné et un souffle court à chaque enchaînement.
+
+**Les types de temps :**
+
+| Type | Utilisation |
+|---|---|
+| accroche | la question de l'épisode, visible dès la première image |
+| phrase | les mots de la voix en grand, avec des mots surlignés et un pictogramme |
+| question | comme une phrase, avec la fin en rose |
+| mot-clé | un nom ou un concept en très grand, une ligne de référence et un pictogramme |
+| liste | des cartes qui se cochent une à une |
+| comparaison | deux cartes face à face (A / B), éventuellement barrées |
+| source | une carte « revue · année · auteurs », avec les chiffres qui s'allument |
+| résultat / attention | flèches ou panneau, pour un résultat et sa prudence |
+| retenons | « Retenons ça. » et deux mots-clés |
+| appel | « Dis-moi ce que tu en penses en commentaire » |
+
+**Le travail par épisode :**
+1. Adapter le texte au ton de prof.
+2. Écrire `narration.json` en groupes de souffle de 5 à 14 mots.
+3. Écrire la liste des temps dans `scene.js` : type, phrases, mots surlignés, pictogrammes. C'est la seule partie propre à l'épisode.
+4. Lancer `tools/produce.sh`.
+
 ## 3. Bibliothèque de décors (déjà construits, réutilisables)
 
 1. La chambre au miroir (lampe, rideaux, plante, tapis, horloge, post-it)

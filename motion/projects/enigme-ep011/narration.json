@@ -1,0 +1,466 @@
+{
+  "title": "L'Énigme humaine — Épisode 011 — Une machine peut-elle t'aimer ?",
+  "voice": "ff_siwis",
+  "lang": "fr-fr",
+  "speed": 0.9,
+  "note": "Nouveau ton « explication de prof » (dès l'EP011) : texte adapté du script fourni (idées, faits, références et questions conservés ; original dans EP011_SCRIPT.txt), chaque groupe de souffle généré seul (intentions explique / explique_q) puis séparé par une petite pause. Voix C homme, timbre B. Habillage de la série.",
+  "lead_in": 0.3,
+  "tail": 4.3,
+  "engine": "chatterbox",
+  "ref": "../../../series/enigme-humaine/voix_homme/Voix_homme_B_reference.wav",
+  "intent": "explique",
+  "judge": "medium",
+  "question_rise": 4.5,
+  "sentences": [
+    {
+      "id": "s01",
+      "scene": 1,
+      "group": "g_s01",
+      "pause": 0.35,
+      "intent": "explique_q",
+      "takes": 6,
+      "chunks": [
+        [
+          "Imagine : il est trois heures du matin."
+        ]
+      ],
+      "pace": 2.4
+    },
+    {
+      "id": "s02",
+      "scene": 1,
+      "group": "g_s02",
+      "pause": 0.45,
+      "intent": "explique",
+      "takes": 5,
+      "chunks": [
+        [
+          "Tu n’arrives pas à dormir,"
+        ],
+        [
+          "et tu confies tes blessures…"
+        ],
+        [
+          "à une intelligence artificielle."
+        ]
+      ]
+    },
+    {
+      "id": "s03",
+      "scene": 2,
+      "group": "g_s03",
+      "pause": 0.3,
+      "intent": "explique",
+      "takes": 5,
+      "chunks": [
+        [
+          "Elle ne s’impatiente jamais. Elle t’écoute."
+        ]
+      ]
+    },
+    {
+      "id": "s04",
+      "scene": 2,
+      "group": "g_s04",
+      "pause": 0.45,
+      "intent": "explique",
+      "takes": 5,
+      "chunks": [
+        [
+          "Elle reformule tes peurs,"
+        ],
+        [
+          "elle trouve les mots que personne"
+        ],
+        [
+          "ne semble trouver pour toi."
+        ]
+      ]
+    },
+    {
+      "id": "s05",
+      "scene": 3,
+      "group": "g_s05",
+      "pause": 0.5,
+      "intent": "explique",
+      "takes": 5,
+      "chunks": [
+        [
+          "Et petit à petit, tu ressens quelque chose :"
+        ],
+        [
+          "tu te sens compris."
+        ]
+      ]
+    },
+    {
+      "id": "s06",
+      "scene": 4,
+      "group": "g_s06",
+      "pause": 0.35,
+      "intent": "explique",
+      "takes": 5,
+      "chunks": [
+        [
+          "Alors, posons-nous une question simple."
+        ]
+      ]
+    },
+    {
+      "id": "s07",
+      "scene": 4,
+      "group": "g_s07",
+      "pause": 0.6,
+      "intent": "explique_q",
+      "takes": 6,
+      "chunks": [
+        [
+          "Être compris…"
+        ],
+        [
+          "est-ce que c’est être aimé ?"
+        ]
+      ],
+      "max_syl": 5.0
+    },
+    {
+      "id": "s08",
+      "scene": 5,
+      "group": "g_s08",
+      "pause": 0.3,
+      "intent": "explique",
+      "takes": 5,
+      "chunks": [
+        [
+          "Pour y voir clair, il faut parler de Martin Buber.",
+          "Pour y voir clair, il faut parler de Martin Boubère."
+        ]
+      ]
+    },
+    {
+      "id": "s09",
+      "scene": 5,
+      "group": "g_s09",
+      "pause": 0.45,
+      "intent": "explique",
+      "takes": 5,
+      "chunks": [
+        [
+          "En 1923, ce philosophe distingue",
+          "En mille neuf cent vingt-trois, ce philosophe distingue"
+        ],
+        [
+          "deux manières d’être en relation."
+        ]
+      ]
+    },
+    {
+      "id": "s10",
+      "scene": 6,
+      "group": "g_s10",
+      "pause": 0.25,
+      "intent": "explique",
+      "takes": 5,
+      "chunks": [
+        [
+          "La première, c’est le rapport « Je-Cela » :",
+          "La première, c’est le rapport Je, Cela :"
+        ]
+      ]
+    },
+    {
+      "id": "s11",
+      "scene": 6,
+      "group": "g_s11",
+      "pause": 0.45,
+      "intent": "explique",
+      "takes": 5,
+      "chunks": [
+        [
+          "l’autre devient un objet,"
+        ],
+        [
+          "quelque chose qu’on utilise."
+        ]
+      ]
+    },
+    {
+      "id": "s12",
+      "scene": 6,
+      "group": "g_s12",
+      "pause": 0.25,
+      "intent": "explique",
+      "takes": 5,
+      "chunks": [
+        [
+          "La seconde, c’est la rencontre « Je-Tu » :",
+          "La seconde, c’est la rencontre Je, Tu :"
+        ]
+      ]
+    },
+    {
+      "id": "s13",
+      "scene": 6,
+      "group": "g_s13",
+      "pause": 0.45,
+      "intent": "explique",
+      "takes": 5,
+      "chunks": [
+        [
+          "là, tu accueilles vraiment"
+        ],
+        [
+          "une autre présence."
+        ]
+      ]
+    },
+    {
+      "id": "s14",
+      "scene": 7,
+      "group": "g_s14",
+      "pause": 0.5,
+      "intent": "explique",
+      "takes": 5,
+      "chunks": [
+        [
+          "Retenons ça : un objet…"
+        ],
+        [
+          "ou une présence."
+        ]
+      ]
+    },
+    {
+      "id": "s15",
+      "scene": 8,
+      "group": "g_s15",
+      "pause": 0.3,
+      "intent": "explique",
+      "takes": 5,
+      "chunks": [
+        [
+          "Revenons à l’intelligence artificielle :"
+        ],
+        [
+          "elle peut reproduire les signes du réconfort."
+        ]
+      ]
+    },
+    {
+      "id": "s16",
+      "scene": 8,
+      "group": "g_s16",
+      "pause": 0.2,
+      "intent": "explique",
+      "takes": 5,
+      "chunks": [
+        [
+          "Sauf que… une réponse empathique"
+        ],
+        [
+          "ne prouve pas, à elle seule,"
+        ]
+      ]
+    },
+    {
+      "id": "s17",
+      "scene": 8,
+      "group": "g_s17",
+      "pause": 0.5,
+      "intent": "explique",
+      "takes": 5,
+      "chunks": [
+        [
+          "qu’une expérience émotionnelle existe derrière elle."
+        ]
+      ]
+    },
+    {
+      "id": "s18",
+      "scene": 9,
+      "group": "g_s18",
+      "pause": 0.3,
+      "intent": "explique",
+      "takes": 5,
+      "chunks": [
+        [
+          "Et la science, qu’est-ce qu’elle en dit ?"
+        ]
+      ]
+    },
+    {
+      "id": "s19",
+      "scene": 9,
+      "group": "g_s19",
+      "pause": 0.2,
+      "intent": "explique",
+      "takes": 5,
+      "chunks": [
+        [
+          "En 2026, des chercheurs ont suivi",
+          "En deux mille vingt-six, des chercheurs ont suivi"
+        ],
+        [
+          "plus de deux mille adultes,"
+        ]
+      ]
+    },
+    {
+      "id": "s20",
+      "scene": 9,
+      "group": "g_s20",
+      "pause": 0.4,
+      "intent": "explique",
+      "takes": 5,
+      "chunks": [
+        [
+          "dans quatre pays, pendant un an."
+        ]
+      ]
+    },
+    {
+      "id": "s21",
+      "scene": 10,
+      "group": "g_s21",
+      "pause": 0.2,
+      "intent": "explique",
+      "takes": 5,
+      "chunks": [
+        [
+          "Résultat : plus ils utilisaient des chatbots de compagnie,"
+        ]
+      ]
+    },
+    {
+      "id": "s22",
+      "scene": 10,
+      "group": "g_s22",
+      "pause": 0.45,
+      "intent": "explique",
+      "takes": 5,
+      "chunks": [
+        [
+          "plus ils se sentaient ensuite isolés émotionnellement."
+        ]
+      ]
+    },
+    {
+      "id": "s23",
+      "scene": 11,
+      "group": "g_s23",
+      "pause": 0.2,
+      "intent": "explique",
+      "takes": 5,
+      "chunks": [
+        [
+          "Mais attention : les chercheurs eux-mêmes restent prudents,"
+        ]
+      ]
+    },
+    {
+      "id": "s24",
+      "scene": 11,
+      "group": "g_s24",
+      "pause": 0.55,
+      "intent": "explique",
+      "takes": 5,
+      "chunks": [
+        [
+          "car leurs analyses sont encore exploratoires."
+        ]
+      ]
+    },
+    {
+      "id": "s25",
+      "scene": 12,
+      "group": "g_s25",
+      "pause": 0.4,
+      "intent": "explique",
+      "takes": 5,
+      "chunks": [
+        [
+          "Alors, peut-être que le danger,"
+        ],
+        [
+          "ce n’est pas de parler aux machines."
+        ]
+      ]
+    },
+    {
+      "id": "s26",
+      "scene": 13,
+      "group": "g_s26",
+      "pause": 0.25,
+      "intent": "explique",
+      "takes": 5,
+      "chunks": [
+        [
+          "Le danger, c’est de finir par préférer"
+        ],
+        [
+          "une présence qui ne te contredit jamais…"
+        ]
+      ]
+    },
+    {
+      "id": "s27",
+      "scene": 13,
+      "group": "g_s27",
+      "pause": 0.6,
+      "intent": "explique",
+      "takes": 5,
+      "chunks": [
+        [
+          "à une personne qui possède sa propre liberté."
+        ]
+      ]
+    },
+    {
+      "id": "s28",
+      "scene": 14,
+      "group": "g_s28",
+      "pause": 0.2,
+      "intent": "explique_q",
+      "takes": 6,
+      "chunks": [
+        [
+          "Et si, au fond, on ne cherchait plus"
+        ],
+        [
+          "quelqu’un pour nous comprendre…"
+        ]
+      ],
+      "max_syl": 5.0
+    },
+    {
+      "id": "s29",
+      "scene": 14,
+      "group": "g_s29",
+      "pause": 0.6,
+      "intent": "explique_q",
+      "takes": 6,
+      "chunks": [
+        [
+          "mais quelqu’un qui ne nous oblige jamais"
+        ],
+        [
+          "à rencontrer vraiment l’autre ?"
+        ]
+      ],
+      "max_syl": 5.0
+    },
+    {
+      "id": "s30",
+      "scene": 15,
+      "group": "g_s30",
+      "pause": 0,
+      "intent": "explique",
+      "takes": 5,
+      "chunks": [
+        [
+          "Dis-moi ce que tu en penses en commentaire."
+        ]
+      ]
+    }
+  ]
+}
