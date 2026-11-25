@@ -30,3 +30,4 @@
 | EP008 | Qui a choisi ce que tu désires ? | **le désir**, la liberté, la technique |
 | EP009 | Peut-on être coupable sans avoir choisi le mal ? | le devoir, la liberté, la justice (auteure au programme : H. Arendt) |
 | EP010 | Doit-on pardonner l’impardonnable ? | la justice, la liberté, la religion (Derrida n'est pas dans la liste des auteurs) |
+| EP011 | Une machine peut-elle t’aimer ? | la technique, le désir, la liberté (« autrui » et « la conscience » ne sont pas des notions du programme 2019 ; Buber n'est pas dans la liste des auteurs) |

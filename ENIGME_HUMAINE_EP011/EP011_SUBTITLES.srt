@@ -1,0 +1,188 @@
+1
+00:00:00,300 --> 00:00:02,908
+Imagine : il est trois heures du matin.
+
+2
+00:00:03,008 --> 00:00:03,888
+Tu n’arrives pas à dormir,
+
+3
+00:00:03,928 --> 00:00:05,388
+et tu confies tes blessures…
+
+4
+00:00:05,428 --> 00:00:07,354
+à une intelligence artificielle.
+
+5
+00:00:07,554 --> 00:00:09,979
+Elle ne s’impatiente jamais. Elle t’écoute.
+
+6
+00:00:10,029 --> 00:00:11,489
+Elle reformule tes peurs,
+
+7
+00:00:11,529 --> 00:00:12,969
+elle trouve les mots que personne
+
+8
+00:00:13,009 --> 00:00:14,725
+ne semble trouver pour toi.
+
+9
+00:00:14,925 --> 00:00:17,465
+Et petit à petit, tu ressens quelque chose :
+
+10
+00:00:17,505 --> 00:00:18,716
+tu te sens compris.
+
+11
+00:00:18,966 --> 00:00:21,833
+Alors, posons-nous une question simple.
+
+12
+00:00:21,933 --> 00:00:22,803
+Être compris…
+
+13
+00:00:22,893 --> 00:00:24,378
+est-ce que c’est être aimé ?
+
+14
+00:00:24,728 --> 00:00:27,397
+Pour y voir clair, il faut parler de Martin Buber.
+
+15
+00:00:27,447 --> 00:00:30,187
+En 1923, ce philosophe distingue
+
+16
+00:00:30,227 --> 00:00:31,862
+deux manières d’être en relation.
+
+17
+00:00:32,062 --> 00:00:35,295
+La première, c’est le rapport « Je-Cela » :
+
+18
+00:00:35,335 --> 00:00:36,555
+l’autre devient un objet,
+
+19
+00:00:36,595 --> 00:00:38,145
+quelque chose qu’on utilise.
+
+20
+00:00:38,345 --> 00:00:41,021
+La seconde, c’est la rencontre « Je-Tu » :
+
+21
+00:00:41,061 --> 00:00:42,221
+là, tu accueilles vraiment
+
+22
+00:00:42,261 --> 00:00:43,948
+une autre présence.
+
+23
+00:00:44,148 --> 00:00:45,508
+Retenons ça : un objet…
+
+24
+00:00:45,548 --> 00:00:47,398
+ou une présence.
+
+25
+00:00:47,648 --> 00:00:49,638
+Revenons à l’intelligence artificielle :
+
+26
+00:00:49,688 --> 00:00:51,916
+elle peut reproduire les signes du réconfort.
+
+27
+00:00:51,966 --> 00:00:53,746
+Sauf que… une réponse empathique
+
+28
+00:00:53,786 --> 00:00:55,556
+ne prouve pas, à elle seule,
+
+29
+00:00:55,596 --> 00:00:58,799
+qu’une expérience émotionnelle existe derrière elle.
+
+30
+00:00:59,049 --> 00:01:00,803
+Et la science, qu’est-ce qu’elle en dit ?
+
+31
+00:01:00,853 --> 00:01:02,913
+En 2026, des chercheurs ont suivi
+
+32
+00:01:02,953 --> 00:01:04,079
+plus de deux mille adultes,
+
+33
+00:01:04,119 --> 00:01:06,273
+dans quatre pays, pendant un an.
+
+34
+00:01:06,423 --> 00:01:09,923
+Résultat : plus ils utilisaient des chatbots de compagnie,
+
+35
+00:01:09,963 --> 00:01:13,381
+plus ils se sentaient ensuite isolés émotionnellement.
+
+36
+00:01:13,581 --> 00:01:16,516
+Mais attention : les chercheurs eux-mêmes restent prudents,
+
+37
+00:01:16,556 --> 00:01:19,266
+car leurs analyses sont encore exploratoires.
+
+38
+00:01:19,566 --> 00:01:21,516
+Alors, peut-être que le danger,
+
+39
+00:01:21,606 --> 00:01:23,455
+ce n’est pas de parler aux machines.
+
+40
+00:01:23,605 --> 00:01:25,645
+Le danger, c’est de finir par préférer
+
+41
+00:01:25,685 --> 00:01:27,942
+une présence qui ne te contredit jamais…
+
+42
+00:01:27,982 --> 00:01:30,512
+à une personne qui possède sa propre liberté.
+
+43
+00:01:30,870 --> 00:01:32,880
+Et si, au fond, on ne cherchait plus
+
+44
+00:01:32,920 --> 00:01:34,613
+quelqu’un pour nous comprendre…
+
+45
+00:01:34,653 --> 00:01:36,330
+mais quelqu’un qui ne nous oblige jamais
+
+46
+00:01:36,370 --> 00:01:38,937
+à rencontrer vraiment l’autre ?
+
+47
+00:01:39,270 --> 00:01:42,046
+Dis-moi ce que tu en penses en commentaire.
+

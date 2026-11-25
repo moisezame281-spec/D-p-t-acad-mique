@@ -25,7 +25,11 @@ La série tutoie dans la vidéo. Si tu préfères garder le même ton dans le co
 ### 6. Extraits courts
 Trois fichiers prêts à publier. Chaque extrait montre le petit logo en haut et commence et finit en fondu.
 
-__CLIPS__
+| Fichier | Début → fin dans le master | Durée | Accroche à ajouter à l'écran dans TikTok (facultatif) |
+|---|---|---|---|
+| `EP011_EXTRAIT_1_BUBER.mp4` | 00:24,3 → 00:47,7 | 23,4 s | *Tu traites l’autre comme un objet… ou comme une présence ?* |
+| `EP011_EXTRAIT_2_ETUDE.mp4` | 00:58,6 → 01:19,6 | 21,0 s | *Parler à une IA rend-il plus seul ?* |
+| `EP011_EXTRAIT_3_QUESTION.mp4` | 01:19,2 → 01:46,1 | 26,9 s | *Et si on préférait une présence qui ne nous contredit jamais ?* |
 
 ### 7. Rappels
 - **Couverture :** choisir `EP011_COVER.png`.

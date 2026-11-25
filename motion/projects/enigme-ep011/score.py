@@ -355,7 +355,7 @@ duck = 1 - .42 * np.clip(envv / active, 0, 1)   # la musique reste présente sou
 bed *= np.interp(np.arange(N), np.arange(len(duck)) * F, duck)[:, None]
 rms = lambda x: np.sqrt(np.mean(x ** 2)) + 1e-12
 musical = (~vmask) & (g > .5) & (fade > .5)
-bed *= 10 ** (-19 / 20) / rms(bed[fade > .5])   # niveau de la musique sur tout le film (bien présente sous la voix)
+bed *= 10 ** (-21 / 20) / rms(bed[fade > .5])   # niveau de la musique (EP011 : 2 dB plus bas, la pulsation est plus marquée)
 target = 10 ** (-10.4 / 20)
 bv = rms(bed[vmask]); vv = rms(vst[vmask])
 out = bed + vst * np.sqrt(max(target ** 2 - bv ** 2, (target * .5) ** 2)) / vv

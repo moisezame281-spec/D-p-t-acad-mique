@@ -126,8 +126,8 @@
     if (a > 0) {
       TB.text(c, 'PSYCHOLOGICAL SCIENCE · 2026', W / 2, 590, 'texte', 34, P.soft, { a }); TB.text(c, 'Folk & Dunn', W / 2, 670, 'ref', 50, P.ink, { a });
       const r = [['+ de 2 000 adultes', cue('s19', 'adultes')], ['4 pays', cue('s20', 'quatre')], ['12 mois', cue('s20', 'an')]];
-      r.forEach(([txt, tw], i) => TB.text(c, txt, W / 2, 800 + i * 100, 'fort', 70, i ? P.ink : P.rose, { a: prog(t, tw - .15, tw + .2) }));
-      TB.icon(c, 'personnes', W / 2, 1290, .55, prog(t, cue('s19', 'adultes') - .2, cue('s19', 'adultes') + .6));
+      r.forEach(([txt, tw], i) => TB.text(c, txt, W / 2, 780 + i * 90, 'fort', 66, i ? P.ink : P.rose, { a: prog(t, tw - .15, tw + .2) }));
+      TB.icon(c, 'personnes', W / 2, 1075, .32, prog(t, cue('s19', 'adultes') - .2, cue('s19', 'adultes') + .6));
     }
   } });
   // 11. le résultat

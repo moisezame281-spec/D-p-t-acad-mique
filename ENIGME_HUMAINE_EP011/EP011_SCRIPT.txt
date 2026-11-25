@@ -1,0 +1,147 @@
+L’ÉNIGME HUMAINE — ÉPISODE 011
+UNE MACHINE PEUT-ELLE T’AIMER ?
+
+Durée : 106.10 s · 1080×1920 · 30 i/s · français
+Nouveau : modèle « tableau vivant » (fond papier, mots qui apparaissent au rythme de la voix, pictogrammes, cartes, barre de progression)
+et ton « explication de prof » (voix C homme, timbre B, en groupes de souffle plus expressifs ; texte adapté du script fourni).
+
+SCRIPT FOURNI (ORIGINAL)
+
+Imagine qu’à trois heures du matin, tu confies tes blessures à une intelligence artificielle.
+
+Elle ne s’impatiente pas. Elle écoute, reformule tes peurs, trouve les mots que personne ne semble trouver pour toi.
+
+Et progressivement, tu commences à ressentir quelque chose : tu te sens compris.
+
+Mais voici une question vertigineuse : être compris, est-ce nécessairement être aimé ?
+
+En 1923, le philosophe Martin Buber distingue deux manières d’exister dans une relation : le rapport « Je-Cela », où l’autre devient un objet, et la rencontre « Je-Tu », dans laquelle nous accueillons véritablement une autre présence.
+
+Une intelligence artificielle peut reproduire les signes du réconfort. Mais une réponse empathique ne prouve pas, à elle seule, qu’une expérience émotionnelle existe derrière elle.
+
+Une étude longitudinale publiée en 2026, menée auprès de plus de 2 000 adultes dans quatre pays, a même relevé une association entre l’utilisation accrue de chatbots sociaux et un sentiment ultérieur d’isolement émotionnel. Les chercheurs restent toutefois prudents sur l’interprétation de ces résultats.
+
+Alors, peut-être que le danger n’est pas de parler aux machines.
+
+C’est de finir par préférer une présence qui ne nous contredit jamais à une personne qui possède sa propre liberté.
+
+Et si nous ne cherchions plus quelqu’un pour nous comprendre… mais quelqu’un qui ne nous oblige jamais à rencontrer véritablement l’autre ?
+
+
+NARRATION ADAPTÉE AU TON « EXPLICATION DE PROF » (idées, faits, références et questions conservés)
+
+Imagine : il est trois heures du matin.
+Tu n’arrives pas à dormir, et tu confies tes blessures… à une intelligence artificielle.
+Elle ne s’impatiente jamais. Elle t’écoute.
+Elle reformule tes peurs, elle trouve les mots que personne ne semble trouver pour toi.
+Et petit à petit, tu ressens quelque chose : tu te sens compris.
+Alors, posons-nous une question simple.
+Être compris… est-ce que c’est être aimé ?
+Pour y voir clair, il faut parler de Martin Buber.
+En 1923, ce philosophe distingue deux manières d’être en relation.
+La première, c’est le rapport « Je-Cela » :
+l’autre devient un objet, quelque chose qu’on utilise.
+La seconde, c’est la rencontre « Je-Tu » :
+là, tu accueilles vraiment une autre présence.
+Retenons ça : un objet… ou une présence.
+Revenons à l’intelligence artificielle : elle peut reproduire les signes du réconfort.
+Sauf que… une réponse empathique ne prouve pas, à elle seule,
+qu’une expérience émotionnelle existe derrière elle.
+Et la science, qu’est-ce qu’elle en dit ?
+En 2026, des chercheurs ont suivi plus de deux mille adultes,
+dans quatre pays, pendant un an.
+Résultat : plus ils utilisaient des chatbots de compagnie,
+plus ils se sentaient ensuite isolés émotionnellement.
+Mais attention : les chercheurs eux-mêmes restent prudents,
+car leurs analyses sont encore exploratoires.
+Alors, peut-être que le danger, ce n’est pas de parler aux machines.
+Le danger, c’est de finir par préférer une présence qui ne te contredit jamais…
+à une personne qui possède sa propre liberté.
+Et si, au fond, on ne cherchait plus quelqu’un pour nous comprendre…
+mais quelqu’un qui ne nous oblige jamais à rencontrer vraiment l’autre ?
+Dis-moi ce que tu en penses en commentaire.
+
+
+MINUTAGE PAR TEMPS (narration · ce qu’on voit)
+
+
+TEMPS 01 — L’ACCROCHE  [00:00.00 → 00:02.86]
+  00:00.30  VOIX  Imagine : il est trois heures du matin.
+           ÉCRAN dès la première image : L’ÉNIGME DU JOUR · UNE MACHINE PEUT-ELLE T’AIMER ? (le logo s’allume, signature sonore) · une horloge « 3 h du matin »
+
+TEMPS 02 — LA CONFIDENCE  [00:02.86 → 00:07.40]
+  00:03.01  VOIX  Tu n’arrives pas à dormir, et tu confies tes blessures… à une intelligence artificielle.
+           ÉCRAN les mots de la voix apparaissent un à un, « blessures… » et « intelligence artificielle » surlignés · un téléphone et une bulle de discussion
+
+TEMPS 03 — CE QUE FAIT L’IA  [00:07.40 → 00:14.78]
+  00:07.55  VOIX  Elle ne s’impatiente jamais. Elle t’écoute.
+  00:10.03  VOIX  Elle reformule tes peurs, elle trouve les mots que personne ne semble trouver pour toi.
+           ÉCRAN un petit robot ; quatre cartes qui se cochent : Elle ne s’impatiente jamais · Elle t’écoute · Elle reformule tes peurs · Elle trouve les mots
+
+TEMPS 04 — TU TE SENS COMPRIS  [00:14.78 → 00:18.82]
+  00:14.93  VOIX  Et petit à petit, tu ressens quelque chose : tu te sens compris.
+           ÉCRAN la phrase mot à mot, « compris. » en rose · un cœur au trait
+
+TEMPS 05 — LA QUESTION  [00:18.82 → 00:24.58]
+  00:18.97  VOIX  Alors, posons-nous une question simple.
+  00:21.93  VOIX  Être compris… est-ce que c’est être aimé ?
+           ÉCRAN « Posons-nous une question simple. » · Être compris… est-ce que c’est être aimé ? (mot à mot, « aimé ? » en rose)
+
+TEMPS 06 — MARTIN BUBER  [00:24.58 → 00:31.91]
+  00:24.73  VOIX  Pour y voir clair, il faut parler de Martin Buber.
+  00:27.45  VOIX  En 1923, ce philosophe distingue deux manières d’être en relation.
+           ÉCRAN Pour y voir clair… · MARTIN BUBER · 1878 – 1965 · Je et Tu (1923) · deux personnes reliées
+
+TEMPS 07 — JE-CELA / JE-TU  [00:31.91 → 00:44.00]
+  00:32.06  VOIX  La première, c’est le rapport « Je-Cela » :
+  00:35.34  VOIX  l’autre devient un objet, quelque chose qu’on utilise.
+  00:38.34  VOIX  La seconde, c’est la rencontre « Je-Tu » :
+  00:41.06  VOIX  là, tu accueilles vraiment une autre présence.
+           ÉCRAN DEUX MANIÈRES D’ÊTRE EN RELATION · carte JE – CELA (un cube : l’autre devient un objet) · carte JE – TU (deux personnes reliées : tu accueilles une présence)
+
+TEMPS 08 — RETENONS ÇA  [00:44.00 → 00:47.50]
+  00:44.15  VOIX  Retenons ça : un objet… ou une présence.
+           ÉCRAN Retenons ça. · UN OBJET · ou · UNE PRÉSENCE
+
+TEMPS 09 — LES SIGNES DU RÉCONFORT  [00:47.50 → 00:51.82]
+  00:47.65  VOIX  Revenons à l’intelligence artificielle : elle peut reproduire les signes du réconfort.
+           ÉCRAN la phrase mot à mot, « signes » surligné · une bulle et un cœur
+
+TEMPS 10 — SAUF QUE…  [00:51.82 → 00:58.90]
+  00:51.97  VOIX  Sauf que… une réponse empathique ne prouve pas, à elle seule,
+  00:55.60  VOIX  qu’une expérience émotionnelle existe derrière elle.
+           ÉCRAN « Sauf que… » · une réponse empathique ne prouve pas, à elle seule, qu’une expérience émotionnelle existe derrière elle (« ne prouve pas » surligné) · le petit robot
+
+TEMPS 11 — ET LA SCIENCE ?  [00:58.90 → 01:06.27]
+  00:59.05  VOIX  Et la science, qu’est-ce qu’elle en dit ?
+  01:00.85  VOIX  En 2026, des chercheurs ont suivi plus de deux mille adultes,
+  01:04.12  VOIX  dans quatre pays, pendant un an.
+           ÉCRAN carte PSYCHOLOGICAL SCIENCE · 2026 · Folk & Dunn · + de 2 000 adultes · 4 pays · 12 mois · un groupe de personnes
+
+TEMPS 12 — LE RÉSULTAT  [01:06.27 → 01:13.43]
+  01:06.42  VOIX  Résultat : plus ils utilisaient des chatbots de compagnie,
+  01:09.96  VOIX  plus ils se sentaient ensuite isolés émotionnellement.
+           ÉCRAN Résultat · chatbots de compagnie ↑ → isolement émotionnel ↑
+
+TEMPS 13 — LA PRUDENCE  [01:13.43 → 01:19.42]
+  01:13.58  VOIX  Mais attention : les chercheurs eux-mêmes restent prudents,
+  01:16.56  VOIX  car leurs analyses sont encore exploratoires.
+           ÉCRAN un panneau « attention » · Les chercheurs restent prudents · analyses encore exploratoires
+
+TEMPS 14 — LE DANGER  [01:19.42 → 01:23.45]
+  01:19.57  VOIX  Alors, peut-être que le danger, ce n’est pas de parler aux machines.
+           ÉCRAN la phrase mot à mot, « pas » surligné · une bulle
+
+TEMPS 15 — PRÉFÉRER…  [01:23.45 → 01:30.72]
+  01:23.61  VOIX  Le danger, c’est de finir par préférer une présence qui ne te contredit jamais…
+  01:27.98  VOIX  à une personne qui possède sa propre liberté.
+           ÉCRAN Le danger : finir par préférer… · carte « une présence qui ne te contredit jamais » (un miroir) · carte « une personne qui a sa propre liberté »
+
+TEMPS 16 — LA QUESTION FINALE  [01:30.72 → 01:39.12]
+  01:30.87  VOIX  Et si, au fond, on ne cherchait plus quelqu’un pour nous comprendre…
+  01:34.65  VOIX  mais quelqu’un qui ne nous oblige jamais à rencontrer vraiment l’autre ?
+           ÉCRAN mot à mot, « comprendre… » surligné, « l’autre ? » en rose
+
+TEMPS 17 — TA RÉPONSE  [01:39.12 → 01:46.10]
+  01:39.27  VOIX  Dis-moi ce que tu en penses en commentaire.
+           ÉCRAN une bulle de commentaire · Dis-moi ce que tu en penses en commentaire. · puis le CARTON DE FIN : le logo s’allume (signature sonore) · L’Énigme humaine · FAIS TA PROPRE RÉFLEXION · Suis la série / une nouvelle question chaque semaine

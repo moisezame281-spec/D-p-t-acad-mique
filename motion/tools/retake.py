@@ -60,6 +60,8 @@ for v in VARS:
         clean = not (tail > .45 and len(tl_) and 20 * np.log10(np.sqrt(np.mean(tl_ ** 2)) + 1e-9) > -38)
         e = np.mean([wer(disp, h) for h in H])
         print(f'[{v}] prise {k}: mots-clés {ok}/4, fin propre={clean}, écart moyen {e:.0%}, {len(y) / SR:.2f} s | ' + ' | '.join(H), flush=True)
+        # un mot en trop (répétition parasite, ex. EP011 : « je, cela, cela ») fait monter l'écart au texte : la prise n'est plus « propre »
+        if e > float(os.environ.get('MAXE', .12)): clean = False
         sc = (ok + (3 if clean else 0), -e)
         if best is None or sc > best[0]: best = (sc, y, v, k)
 print('RETENUE :', best[2], 'prise', best[3], best[0], flush=True)
