@@ -1,1 +1,2448 @@
-{"duration": 106.648, "sentences": [{"id": "s01", "scene": 1, "start": 0.3, "end": 2.31, "display": "Imagine : il est trois heures du matin.", "words": [{"w": "imagine", "start": 0.3, "end": 0.674, "chunk": 0}, {"w": "il", "start": 0.674, "end": 0.888, "chunk": 0}, {"w": "est", "start": 0.888, "end": 1.134, "chunk": 0}, {"w": "trois", "start": 1.134, "end": 1.444, "chunk": 0}, {"w": "heures", "start": 1.444, "end": 1.786, "chunk": 0}, {"w": "du", "start": 1.786, "end": 2.0, "chunk": 0}, {"w": "matin", "start": 2.0, "end": 2.31, "chunk": 0}], "chunks": [{"text": "Imagine : il est trois heures du matin.", "start": 0.3, "end": 2.31}]}, {"id": "s02", "scene": 1, "start": 2.71, "end": 7.392, "display": "Tu n’arrives pas à dormir, et tu confies tes blessures… à une intelligence artificielle.", "words": [{"w": "tu", "start": 2.71, "end": 2.924, "chunk": 0}, {"w": "n", "start": 2.924, "end": 3.106, "chunk": 0}, {"w": "arrives", "start": 3.106, "end": 3.48, "chunk": 0}, {"w": "pas", "start": 3.48, "end": 3.726, "chunk": 0}, {"w": "a", "start": 3.726, "end": 3.908, "chunk": 0}, {"w": "dormir", "start": 3.908, "end": 4.25, "chunk": 0}, {"w": "et", "start": 4.33, "end": 4.544, "chunk": 1}, {"w": "tu", "start": 4.544, "end": 4.758, "chunk": 1}, {"w": "confies", "start": 4.758, "end": 5.132, "chunk": 1}, {"w": "tes", "start": 5.132, "end": 5.378, "chunk": 1}, {"w": "blessures", "start": 5.378, "end": 5.816, "chunk": 1}, {"w": "a", "start": 5.896, "end": 6.078, "chunk": 2}, {"w": "une", "start": 6.078, "end": 6.324, "chunk": 2}, {"w": "intelligence", "start": 6.324, "end": 6.858, "chunk": 2}, {"w": "artificielle", "start": 6.858, "end": 7.392, "chunk": 2}], "chunks": [{"text": "Tu n’arrives pas à dormir,", "start": 2.71, "end": 4.25}, {"text": "et tu confies tes blessures…", "start": 4.33, "end": 5.816}, {"text": "à une intelligence artificielle.", "start": 5.896, "end": 7.392}]}, {"id": "s03", "scene": 2, "start": 7.892, "end": 10.18, "display": "Elle ne s’impatiente jamais. Elle t’écoute.", "words": [{"w": "elle", "start": 7.892, "end": 8.17, "chunk": 0}, {"w": "ne", "start": 8.17, "end": 8.384, "chunk": 0}, {"w": "s", "start": 8.384, "end": 8.566, "chunk": 0}, {"w": "impatiente", "start": 8.566, "end": 9.036, "chunk": 0}, {"w": "jamais", "start": 9.036, "end": 9.378, "chunk": 0}, {"w": "elle", "start": 9.378, "end": 9.656, "chunk": 0}, {"w": "t", "start": 9.656, "end": 9.838, "chunk": 0}, {"w": "ecoute", "start": 9.838, "end": 10.18, "chunk": 0}], "chunks": [{"text": "Elle ne s’impatiente jamais. Elle t’écoute.", "start": 7.892, "end": 10.18}]}, {"id": "s04", "scene": 2, "start": 10.53, "end": 15.212, "display": "Elle reformule tes peurs, elle trouve les mots que personne ne semble trouver pour toi.", "words": [{"w": "elle", "start": 10.53, "end": 10.808, "chunk": 0}, {"w": "reformule", "start": 10.808, "end": 11.246, "chunk": 0}, {"w": "tes", "start": 11.246, "end": 11.492, "chunk": 0}, {"w": "peurs", "start": 11.492, "end": 11.802, "chunk": 0}, {"w": "elle", "start": 11.882, "end": 12.16, "chunk": 1}, {"w": "trouve", "start": 12.16, "end": 12.502, "chunk": 1}, {"w": "les", "start": 12.502, "end": 12.748, "chunk": 1}, {"w": "mots", "start": 12.748, "end": 13.026, "chunk": 1}, {"w": "que", "start": 13.026, "end": 13.272, "chunk": 1}, {"w": "personne", "start": 13.272, "end": 13.678, "chunk": 1}, {"w": "ne", "start": 13.758, "end": 13.972, "chunk": 2}, {"w": "semble", "start": 13.972, "end": 14.314, "chunk": 2}, {"w": "trouver", "start": 14.314, "end": 14.688, "chunk": 2}, {"w": "pour", "start": 14.688, "end": 14.966, "chunk": 2}, {"w": "toi", "start": 14.966, "end": 15.212, "chunk": 2}], "chunks": [{"text": "Elle reformule tes peurs,", "start": 10.53, "end": 11.802}, {"text": "elle trouve les mots que personne", "start": 11.882, "end": 13.678}, {"text": "ne semble trouver pour toi.", "start": 13.758, "end": 15.212}]}, {"id": "s05", "scene": 3, "start": 15.712, "end": 19.16, "display": "Et petit à petit, tu ressens quelque chose : tu te sens compris.", "words": [{"w": "et", "start": 15.712, "end": 15.926, "chunk": 0}, {"w": "petit", "start": 15.926, "end": 16.236, "chunk": 0}, {"w": "a", "start": 16.236, "end": 16.418, "chunk": 0}, {"w": "petit", "start": 16.418, "end": 16.728, "chunk": 0}, {"w": "tu", "start": 16.728, "end": 16.942, "chunk": 0}, {"w": "ressens", "start": 16.942, "end": 17.316, "chunk": 0}, {"w": "quelque", "start": 17.316, "end": 17.69, "chunk": 0}, {"w": "chose", "start": 17.69, "end": 18.0, "chunk": 0}, {"w": "tu", "start": 18.08, "end": 18.294, "chunk": 1}, {"w": "te", "start": 18.294, "end": 18.508, "chunk": 1}, {"w": "sens", "start": 18.508, "end": 18.786, "chunk": 1}, {"w": "compris", "start": 18.786, "end": 19.16, "chunk": 1}], "chunks": [{"text": "Et petit à petit, tu ressens quelque chose :", "start": 15.712, "end": 18.0}, {"text": "tu te sens compris.", "start": 18.08, "end": 19.16}]}, {"id": "s06", "scene": 4, "start": 19.71, "end": 21.634, "display": "Alors, posons-nous une question simple.", "words": [{"w": "alors", "start": 19.71, "end": 20.02, "chunk": 0}, {"w": "posons", "start": 20.02, "end": 20.362, "chunk": 0}, {"w": "nous", "start": 20.362, "end": 20.64, "chunk": 0}, {"w": "une", "start": 20.64, "end": 20.886, "chunk": 0}, {"w": "question", "start": 20.886, "end": 21.292, "chunk": 0}, {"w": "simple", "start": 21.292, "end": 21.634, "chunk": 0}], "chunks": [{"text": "Alors, posons-nous une question simple.", "start": 19.71, "end": 21.634}]}, {"id": "s07", "scene": 4, "start": 22.034, "end": 24.456, "display": "Être compris… est-ce que c’est être aimé ?", "words": [{"w": "etre", "start": 22.034, "end": 22.312, "chunk": 0}, {"w": "compris", "start": 22.312, "end": 22.686, "chunk": 0}, {"w": "est", "start": 22.766, "end": 23.012, "chunk": 1}, {"w": "ce", "start": 23.012, "end": 23.226, "chunk": 1}, {"w": "que", "start": 23.226, "end": 23.472, "chunk": 1}, {"w": "c", "start": 23.472, "end": 23.654, "chunk": 1}, {"w": "est", "start": 23.654, "end": 23.9, "chunk": 1}, {"w": "etre", "start": 23.9, "end": 24.178, "chunk": 1}, {"w": "aime", "start": 24.178, "end": 24.456, "chunk": 1}], "chunks": [{"text": "Être compris…", "start": 22.034, "end": 22.686}, {"text": "est-ce que c’est être aimé ?", "start": 22.766, "end": 24.456}]}, {"id": "s08", "scene": 5, "start": 25.106, "end": 27.854, "display": "Pour y voir clair, il faut parler de Martin Buber.", "words": [{"w": "pour", "start": 25.106, "end": 25.384, "chunk": 0}, {"w": "y", "start": 25.384, "end": 25.566, "chunk": 0}, {"w": "voir", "start": 25.566, "end": 25.844, "chunk": 0}, {"w": "clair", "start": 25.844, "end": 26.154, "chunk": 0}, {"w": "il", "start": 26.154, "end": 26.368, "chunk": 0}, {"w": "faut", "start": 26.368, "end": 26.646, "chunk": 0}, {"w": "parler", "start": 26.646, "end": 26.988, "chunk": 0}, {"w": "de", "start": 26.988, "end": 27.202, "chunk": 0}, {"w": "martin", "start": 27.202, "end": 27.544, "chunk": 0}, {"w": "buber", "start": 27.544, "end": 27.854, "chunk": 0}], "chunks": [{"text": "Pour y voir clair, il faut parler de Martin Buber.", "start": 25.106, "end": 27.854}]}, {"id": "s09", "scene": 5, "start": 28.204, "end": 32.87, "display": "En 1923, ce philosophe distingue deux manières d’être en relation.", "words": [{"w": "en", "start": 28.204, "end": 28.418, "chunk": 0}, {"w": "mille", "start": 28.418, "end": 28.728, "chunk": 0}, {"w": "neuf", "start": 28.728, "end": 29.006, "chunk": 0}, {"w": "cent", "start": 29.006, "end": 29.284, "chunk": 0}, {"w": "vingt", "start": 29.284, "end": 29.594, "chunk": 0}, {"w": "trois", "start": 29.594, "end": 29.904, "chunk": 0}, {"w": "ce", "start": 29.904, "end": 30.118, "chunk": 0}, {"w": "philosophe", "start": 30.118, "end": 30.588, "chunk": 0}, {"w": "distingue", "start": 30.588, "end": 31.026, "chunk": 0}, {"w": "deux", "start": 31.106, "end": 31.384, "chunk": 1}, {"w": "manieres", "start": 31.384, "end": 31.79, "chunk": 1}, {"w": "d", "start": 31.79, "end": 31.972, "chunk": 1}, {"w": "etre", "start": 31.972, "end": 32.25, "chunk": 1}, {"w": "en", "start": 32.25, "end": 32.464, "chunk": 1}, {"w": "relation", "start": 32.464, "end": 32.87, "chunk": 1}], "chunks": [{"text": "En 1923, ce philosophe distingue", "start": 28.204, "end": 31.026}, {"text": "deux manières d’être en relation.", "start": 31.106, "end": 32.87}]}, {"id": "s10", "scene": 6, "start": 33.37, "end": 35.498, "display": "La première, c’est le rapport « Je-Cela » :", "words": [{"w": "la", "start": 33.37, "end": 33.584, "chunk": 0}, {"w": "premiere", "start": 33.584, "end": 33.99, "chunk": 0}, {"w": "c", "start": 33.99, "end": 34.172, "chunk": 0}, {"w": "est", "start": 34.172, "end": 34.418, "chunk": 0}, {"w": "le", "start": 34.418, "end": 34.632, "chunk": 0}, {"w": "rapport", "start": 34.632, "end": 35.006, "chunk": 0}, {"w": "je", "start": 35.006, "end": 35.22, "chunk": 0}, {"w": "cela", "start": 35.22, "end": 35.498, "chunk": 0}], "chunks": [{"text": "La première, c’est le rapport « Je-Cela » :", "start": 33.37, "end": 35.498}]}, {"id": "s11", "scene": 6, "start": 35.798, "end": 38.754, "display": "l’autre devient un objet, quelque chose qu’on utilise.", "words": [{"w": "l", "start": 35.798, "end": 35.98, "chunk": 0}, {"w": "autre", "start": 35.98, "end": 36.29, "chunk": 0}, {"w": "devient", "start": 36.29, "end": 36.664, "chunk": 0}, {"w": "un", "start": 36.664, "end": 36.878, "chunk": 0}, {"w": "objet", "start": 36.878, "end": 37.188, "chunk": 0}, {"w": "quelque", "start": 37.268, "end": 37.642, "chunk": 1}, {"w": "chose", "start": 37.642, "end": 37.952, "chunk": 1}, {"w": "qu", "start": 37.952, "end": 38.166, "chunk": 1}, {"w": "on", "start": 38.166, "end": 38.38, "chunk": 1}, {"w": "utilise", "start": 38.38, "end": 38.754, "chunk": 1}], "chunks": [{"text": "l’autre devient un objet,", "start": 35.798, "end": 37.188}, {"text": "quelque chose qu’on utilise.", "start": 37.268, "end": 38.754}]}, {"id": "s12", "scene": 6, "start": 39.254, "end": 41.35, "display": "La seconde, c’est la rencontre « Je-Tu » :", "words": [{"w": "la", "start": 39.254, "end": 39.468, "chunk": 0}, {"w": "seconde", "start": 39.468, "end": 39.842, "chunk": 0}, {"w": "c", "start": 39.842, "end": 40.024, "chunk": 0}, {"w": "est", "start": 40.024, "end": 40.27, "chunk": 0}, {"w": "la", "start": 40.27, "end": 40.484, "chunk": 0}, {"w": "rencontre", "start": 40.484, "end": 40.922, "chunk": 0}, {"w": "je", "start": 40.922, "end": 41.136, "chunk": 0}, {"w": "tu", "start": 41.136, "end": 41.35, "chunk": 0}], "chunks": [{"text": "La seconde, c’est la rencontre « Je-Tu » :", "start": 39.254, "end": 41.35}]}, {"id": "s13", "scene": 6, "start": 41.65, "end": 43.996, "display": "là, tu accueilles vraiment une autre présence.", "words": [{"w": "la", "start": 41.65, "end": 41.864, "chunk": 0}, {"w": "tu", "start": 41.864, "end": 42.078, "chunk": 0}, {"w": "accueilles", "start": 42.078, "end": 42.548, "chunk": 0}, {"w": "vraiment", "start": 42.548, "end": 42.954, "chunk": 0}, {"w": "une", "start": 43.034, "end": 43.28, "chunk": 1}, {"w": "autre", "start": 43.28, "end": 43.59, "chunk": 1}, {"w": "presence", "start": 43.59, "end": 43.996, "chunk": 1}], "chunks": [{"text": "là, tu accueilles vraiment", "start": 41.65, "end": 42.954}, {"text": "une autre présence.", "start": 43.034, "end": 43.996}]}, {"id": "s14", "scene": 7, "start": 44.496, "end": 46.586, "display": "Retenons ça : un objet… ou une présence.", "words": [{"w": "retenons", "start": 44.496, "end": 44.902, "chunk": 0}, {"w": "ca", "start": 44.902, "end": 45.116, "chunk": 0}, {"w": "un", "start": 45.116, "end": 45.33, "chunk": 0}, {"w": "objet", "start": 45.33, "end": 45.64, "chunk": 0}, {"w": "ou", "start": 45.72, "end": 45.934, "chunk": 1}, {"w": "une", "start": 45.934, "end": 46.18, "chunk": 1}, {"w": "presence", "start": 46.18, "end": 46.586, "chunk": 1}], "chunks": [{"text": "Retenons ça : un objet…", "start": 44.496, "end": 45.64}, {"text": "ou une présence.", "start": 45.72, "end": 46.586}]}, {"id": "s15", "scene": 8, "start": 47.136, "end": 51.32, "display": "Revenons à l’intelligence artificielle : elle peut reproduire les signes du réconfort.", "words": [{"w": "revenons", "start": 47.136, "end": 47.542, "chunk": 0}, {"w": "a", "start": 47.542, "end": 47.724, "chunk": 0}, {"w": "l", "start": 47.724, "end": 47.906, "chunk": 0}, {"w": "intelligence", "start": 47.906, "end": 48.44, "chunk": 0}, {"w": "artificielle", "start": 48.44, "end": 48.974, "chunk": 0}, {"w": "elle", "start": 49.054, "end": 49.332, "chunk": 1}, {"w": "peut", "start": 49.332, "end": 49.61, "chunk": 1}, {"w": "reproduire", "start": 49.61, "end": 50.08, "chunk": 1}, {"w": "les", "start": 50.08, "end": 50.326, "chunk": 1}, {"w": "signes", "start": 50.326, "end": 50.668, "chunk": 1}, {"w": "du", "start": 50.668, "end": 50.882, "chunk": 1}, {"w": "reconfort", "start": 50.882, "end": 51.32, "chunk": 1}], "chunks": [{"text": "Revenons à l’intelligence artificielle :", "start": 47.136, "end": 48.974}, {"text": "elle peut reproduire les signes du réconfort.", "start": 49.054, "end": 51.32}]}, {"id": "s16", "scene": 8, "start": 51.67, "end": 54.936, "display": "Sauf que… une réponse empathique ne prouve pas, à elle seule,", "words": [{"w": "sauf", "start": 51.67, "end": 51.948, "chunk": 0}, {"w": "que", "start": 51.948, "end": 52.194, "chunk": 0}, {"w": "une", "start": 52.194, "end": 52.44, "chunk": 0}, {"w": "reponse", "start": 52.44, "end": 52.814, "chunk": 0}, {"w": "empathique", "start": 52.814, "end": 53.284, "chunk": 0}, {"w": "ne", "start": 53.364, "end": 53.578, "chunk": 1}, {"w": "prouve", "start": 53.578, "end": 53.92, "chunk": 1}, {"w": "pas", "start": 53.92, "end": 54.166, "chunk": 1}, {"w": "a", "start": 54.166, "end": 54.348, "chunk": 1}, {"w": "elle", "start": 54.348, "end": 54.626, "chunk": 1}, {"w": "seule", "start": 54.626, "end": 54.936, "chunk": 1}], "chunks": [{"text": "Sauf que… une réponse empathique", "start": 51.67, "end": 53.284}, {"text": "ne prouve pas, à elle seule,", "start": 53.364, "end": 54.936}]}, {"id": "s17", "scene": 8, "start": 55.186, "end": 57.676, "display": "qu’une expérience émotionnelle existe derrière elle.", "words": [{"w": "qu", "start": 55.186, "end": 55.4, "chunk": 0}, {"w": "une", "start": 55.4, "end": 55.646, "chunk": 0}, {"w": "experience", "start": 55.646, "end": 56.116, "chunk": 0}, {"w": "emotionnelle", "start": 56.116, "end": 56.65, "chunk": 0}, {"w": "existe", "start": 56.65, "end": 56.992, "chunk": 0}, {"w": "derriere", "start": 56.992, "end": 57.398, "chunk": 0}, {"w": "elle", "start": 57.398, "end": 57.676, "chunk": 0}], "chunks": [{"text": "qu’une expérience émotionnelle existe derrière elle.", "start": 55.186, "end": 57.676}]}, {"id": "s18", "scene": 9, "start": 58.226, "end": 60.654, "display": "Et la science, qu’est-ce qu’elle en dit ?", "words": [{"w": "et", "start": 58.226, "end": 58.44, "chunk": 0}, {"w": "la", "start": 58.44, "end": 58.654, "chunk": 0}, {"w": "science", "start": 58.654, "end": 59.028, "chunk": 0}, {"w": "qu", "start": 59.028, "end": 59.242, "chunk": 0}, {"w": "est", "start": 59.242, "end": 59.488, "chunk": 0}, {"w": "ce", "start": 59.488, "end": 59.702, "chunk": 0}, {"w": "qu", "start": 59.702, "end": 59.916, "chunk": 0}, {"w": "elle", "start": 59.916, "end": 60.194, "chunk": 0}, {"w": "en", "start": 60.194, "end": 60.408, "chunk": 0}, {"w": "dit", "start": 60.408, "end": 60.654, "chunk": 0}], "chunks": [{"text": "Et la science, qu’est-ce qu’elle en dit ?", "start": 58.226, "end": 60.654}]}, {"id": "s19", "scene": 9, "start": 61.004, "end": 65.168, "display": "En 2026, des chercheurs ont suivi plus de deux mille adultes,", "words": [{"w": "en", "start": 61.004, "end": 61.218, "chunk": 0}, {"w": "deux", "start": 61.218, "end": 61.496, "chunk": 0}, {"w": "mille", "start": 61.496, "end": 61.806, "chunk": 0}, {"w": "vingt", "start": 61.806, "end": 62.116, "chunk": 0}, {"w": "six", "start": 62.116, "end": 62.362, "chunk": 0}, {"w": "des", "start": 62.362, "end": 62.608, "chunk": 0}, {"w": "chercheurs", "start": 62.608, "end": 63.078, "chunk": 0}, {"w": "ont", "start": 63.078, "end": 63.324, "chunk": 0}, {"w": "suivi", "start": 63.324, "end": 63.634, "chunk": 0}, {"w": "plus", "start": 63.714, "end": 63.992, "chunk": 1}, {"w": "de", "start": 63.992, "end": 64.206, "chunk": 1}, {"w": "deux", "start": 64.206, "end": 64.484, "chunk": 1}, {"w": "mille", "start": 64.484, "end": 64.794, "chunk": 1}, {"w": "adultes", "start": 64.794, "end": 65.168, "chunk": 1}], "chunks": [{"text": "En 2026, des chercheurs ont suivi", "start": 61.004, "end": 63.634}, {"text": "plus de deux mille adultes,", "start": 63.714, "end": 65.168}]}, {"id": "s20", "scene": 9, "start": 65.418, "end": 67.118, "display": "dans quatre pays, pendant un an.", "words": [{"w": "dans", "start": 65.418, "end": 65.696, "chunk": 0}, {"w": "quatre", "start": 65.696, "end": 66.038, "chunk": 0}, {"w": "pays", "start": 66.038, "end": 66.316, "chunk": 0}, {"w": "pendant", "start": 66.316, "end": 66.69, "chunk": 0}, {"w": "un", "start": 66.69, "end": 66.904, "chunk": 0}, {"w": "an", "start": 66.904, "end": 67.118, "chunk": 0}], "chunks": [{"text": "dans quatre pays, pendant un an.", "start": 65.418, "end": 67.118}]}, {"id": "s21", "scene": 10, "start": 67.568, "end": 70.304, "display": "Résultat : plus ils utilisaient des chatbots de compagnie,", "words": [{"w": "resultat", "start": 67.568, "end": 67.974, "chunk": 0}, {"w": "plus", "start": 67.974, "end": 68.252, "chunk": 0}, {"w": "ils", "start": 68.252, "end": 68.498, "chunk": 0}, {"w": "utilisaient", "start": 68.498, "end": 69.0, "chunk": 0}, {"w": "des", "start": 69.0, "end": 69.246, "chunk": 0}, {"w": "chatbots", "start": 69.246, "end": 69.652, "chunk": 0}, {"w": "de", "start": 69.652, "end": 69.866, "chunk": 0}, {"w": "compagnie", "start": 69.866, "end": 70.304, "chunk": 0}], "chunks": [{"text": "Résultat : plus ils utilisaient des chatbots de compagnie,", "start": 67.568, "end": 70.304}]}, {"id": "s22", "scene": 10, "start": 70.554, "end": 73.108, "display": "plus ils se sentaient ensuite isolés émotionnellement.", "words": [{"w": "plus", "start": 70.554, "end": 70.832, "chunk": 0}, {"w": "ils", "start": 70.832, "end": 71.078, "chunk": 0}, {"w": "se", "start": 71.078, "end": 71.292, "chunk": 0}, {"w": "sentaient", "start": 71.292, "end": 71.73, "chunk": 0}, {"w": "ensuite", "start": 71.73, "end": 72.104, "chunk": 0}, {"w": "isoles", "start": 72.104, "end": 72.446, "chunk": 0}, {"w": "emotionnellement", "start": 72.446, "end": 73.108, "chunk": 0}], "chunks": [{"text": "plus ils se sentaient ensuite isolés émotionnellement.", "start": 70.554, "end": 73.108}]}, {"id": "s23", "scene": 11, "start": 73.608, "end": 76.376, "display": "Mais attention : les chercheurs eux-mêmes restent prudents,", "words": [{"w": "mais", "start": 73.608, "end": 73.886, "chunk": 0}, {"w": "attention", "start": 73.886, "end": 74.324, "chunk": 0}, {"w": "les", "start": 74.324, "end": 74.57, "chunk": 0}, {"w": "chercheurs", "start": 74.57, "end": 75.04, "chunk": 0}, {"w": "eux", "start": 75.04, "end": 75.286, "chunk": 0}, {"w": "memes", "start": 75.286, "end": 75.596, "chunk": 0}, {"w": "restent", "start": 75.596, "end": 75.97, "chunk": 0}, {"w": "prudents", "start": 75.97, "end": 76.376, "chunk": 0}], "chunks": [{"text": "Mais attention : les chercheurs eux-mêmes restent prudents,", "start": 73.608, "end": 76.376}]}, {"id": "s24", "scene": 11, "start": 76.626, "end": 78.774, "display": "car leurs analyses sont encore exploratoires.", "words": [{"w": "car", "start": 76.626, "end": 76.872, "chunk": 0}, {"w": "leurs", "start": 76.872, "end": 77.182, "chunk": 0}, {"w": "analyses", "start": 77.182, "end": 77.588, "chunk": 0}, {"w": "sont", "start": 77.588, "end": 77.866, "chunk": 0}, {"w": "encore", "start": 77.866, "end": 78.208, "chunk": 0}, {"w": "exploratoires", "start": 78.208, "end": 78.774, "chunk": 0}], "chunks": [{"text": "car leurs analyses sont encore exploratoires.", "start": 76.626, "end": 78.774}]}, {"id": "s25", "scene": 12, "start": 79.374, "end": 83.218, "display": "Alors, peut-être que le danger, ce n’est pas de parler aux machines.", "words": [{"w": "alors", "start": 79.374, "end": 79.684, "chunk": 0}, {"w": "peut", "start": 79.684, "end": 79.962, "chunk": 0}, {"w": "etre", "start": 79.962, "end": 80.24, "chunk": 0}, {"w": "que", "start": 80.24, "end": 80.486, "chunk": 0}, {"w": "le", "start": 80.486, "end": 80.7, "chunk": 0}, {"w": "danger", "start": 80.7, "end": 81.042, "chunk": 0}, {"w": "ce", "start": 81.122, "end": 81.336, "chunk": 1}, {"w": "n", "start": 81.336, "end": 81.518, "chunk": 1}, {"w": "est", "start": 81.518, "end": 81.764, "chunk": 1}, {"w": "pas", "start": 81.764, "end": 82.01, "chunk": 1}, {"w": "de", "start": 82.01, "end": 82.224, "chunk": 1}, {"w": "parler", "start": 82.224, "end": 82.566, "chunk": 1}, {"w": "aux", "start": 82.566, "end": 82.812, "chunk": 1}, {"w": "machines", "start": 82.812, "end": 83.218, "chunk": 1}], "chunks": [{"text": "Alors, peut-être que le danger,", "start": 79.374, "end": 81.042}, {"text": "ce n’est pas de parler aux machines.", "start": 81.122, "end": 83.218}]}, {"id": "s26", "scene": 13, "start": 83.668, "end": 88.014, "display": "Le danger, c’est de finir par préférer une présence qui ne te contredit jamais…", "words": [{"w": "le", "start": 83.668, "end": 83.882, "chunk": 0}, {"w": "danger", "start": 83.882, "end": 84.224, "chunk": 0}, {"w": "c", "start": 84.224, "end": 84.406, "chunk": 0}, {"w": "est", "start": 84.406, "end": 84.652, "chunk": 0}, {"w": "de", "start": 84.652, "end": 84.866, "chunk": 0}, {"w": "finir", "start": 84.866, "end": 85.176, "chunk": 0}, {"w": "par", "start": 85.176, "end": 85.422, "chunk": 0}, {"w": "preferer", "start": 85.422, "end": 85.828, "chunk": 0}, {"w": "une", "start": 85.908, "end": 86.154, "chunk": 1}, {"w": "presence", "start": 86.154, "end": 86.56, "chunk": 1}, {"w": "qui", "start": 86.56, "end": 86.806, "chunk": 1}, {"w": "ne", "start": 86.806, "end": 87.02, "chunk": 1}, {"w": "te", "start": 87.02, "end": 87.234, "chunk": 1}, {"w": "contredit", "start": 87.234, "end": 87.672, "chunk": 1}, {"w": "jamais", "start": 87.672, "end": 88.014, "chunk": 1}], "chunks": [{"text": "Le danger, c’est de finir par préférer", "start": 83.668, "end": 85.828}, {"text": "une présence qui ne te contredit jamais…", "start": 85.908, "end": 88.014}]}, {"id": "s27", "scene": 13, "start": 88.314, "end": 90.698, "display": "à une personne qui possède sa propre liberté.", "words": [{"w": "a", "start": 88.314, "end": 88.496, "chunk": 0}, {"w": "une", "start": 88.496, "end": 88.742, "chunk": 0}, {"w": "personne", "start": 88.742, "end": 89.148, "chunk": 0}, {"w": "qui", "start": 89.148, "end": 89.394, "chunk": 0}, {"w": "possede", "start": 89.394, "end": 89.768, "chunk": 0}, {"w": "sa", "start": 89.768, "end": 89.982, "chunk": 0}, {"w": "propre", "start": 89.982, "end": 90.324, "chunk": 0}, {"w": "liberte", "start": 90.324, "end": 90.698, "chunk": 0}], "chunks": [{"text": "à une personne qui possède sa propre liberté.", "start": 88.314, "end": 90.698}]}, {"id": "s28", "scene": 14, "start": 91.348, "end": 95.074, "display": "Et si, au fond, on ne cherchait plus quelqu’un pour nous comprendre…", "words": [{"w": "et", "start": 91.348, "end": 91.562, "chunk": 0}, {"w": "si", "start": 91.562, "end": 91.776, "chunk": 0}, {"w": "au", "start": 91.776, "end": 91.99, "chunk": 0}, {"w": "fond", "start": 91.99, "end": 92.268, "chunk": 0}, {"w": "on", "start": 92.268, "end": 92.482, "chunk": 0}, {"w": "ne", "start": 92.482, "end": 92.696, "chunk": 0}, {"w": "cherchait", "start": 92.696, "end": 93.134, "chunk": 0}, {"w": "plus", "start": 93.134, "end": 93.412, "chunk": 0}, {"w": "quelqu", "start": 93.492, "end": 93.834, "chunk": 1}, {"w": "un", "start": 93.834, "end": 94.048, "chunk": 1}, {"w": "pour", "start": 94.048, "end": 94.326, "chunk": 1}, {"w": "nous", "start": 94.326, "end": 94.604, "chunk": 1}, {"w": "comprendre", "start": 94.604, "end": 95.074, "chunk": 1}], "chunks": [{"text": "Et si, au fond, on ne cherchait plus", "start": 91.348, "end": 93.412}, {"text": "quelqu’un pour nous comprendre…", "start": 93.492, "end": 95.074}]}, {"id": "s29", "scene": 14, "start": 95.324, "end": 99.21, "display": "mais quelqu’un qui ne nous oblige jamais à rencontrer vraiment l’autre ?", "words": [{"w": "mais", "start": 95.324, "end": 95.602, "chunk": 0}, {"w": "quelqu", "start": 95.602, "end": 95.944, "chunk": 0}, {"w": "un", "start": 95.944, "end": 96.158, "chunk": 0}, {"w": "qui", "start": 96.158, "end": 96.404, "chunk": 0}, {"w": "ne", "start": 96.404, "end": 96.618, "chunk": 0}, {"w": "nous", "start": 96.618, "end": 96.896, "chunk": 0}, {"w": "oblige", "start": 96.896, "end": 97.238, "chunk": 0}, {"w": "jamais", "start": 97.238, "end": 97.58, "chunk": 0}, {"w": "a", "start": 97.66, "end": 97.842, "chunk": 1}, {"w": "rencontrer", "start": 97.842, "end": 98.312, "chunk": 1}, {"w": "vraiment", "start": 98.312, "end": 98.718, "chunk": 1}, {"w": "l", "start": 98.718, "end": 98.9, "chunk": 1}, {"w": "autre", "start": 98.9, "end": 99.21, "chunk": 1}], "chunks": [{"text": "mais quelqu’un qui ne nous oblige jamais", "start": 95.324, "end": 97.58}, {"text": "à rencontrer vraiment l’autre ?", "start": 97.66, "end": 99.21}]}, {"id": "s30", "scene": 15, "start": 99.86, "end": 102.298, "display": "Dis-moi ce que tu en penses en commentaire.", "words": [{"w": "dis", "start": 99.86, "end": 100.106, "chunk": 0}, {"w": "moi", "start": 100.106, "end": 100.352, "chunk": 0}, {"w": "ce", "start": 100.352, "end": 100.566, "chunk": 0}, {"w": "que", "start": 100.566, "end": 100.812, "chunk": 0}, {"w": "tu", "start": 100.812, "end": 101.026, "chunk": 0}, {"w": "en", "start": 101.026, "end": 101.24, "chunk": 0}, {"w": "penses", "start": 101.24, "end": 101.582, "chunk": 0}, {"w": "en", "start": 101.582, "end": 101.796, "chunk": 0}, {"w": "commentaire", "start": 101.796, "end": 102.298, "chunk": 0}], "chunks": [{"text": "Dis-moi ce que tu en penses en commentaire.", "start": 99.86, "end": 102.298}]}]}
+{
+ "duration": 106.038,
+ "sentences": [
+  {
+   "id": "s01",
+   "scene": 1,
+   "start": 0.3,
+   "end": 2.658,
+   "display": "Imagine : il est trois heures du matin.",
+   "say": "Imagine : il est trois heures du matin.",
+   "heard": "Imagine,  il  est  trois  heures  du  matin.",
+   "match": 1.0,
+   "words": [
+    {
+     "w": "imagine",
+     "start": 0.3,
+     "end": 0.7,
+     "chunk": 0
+    },
+    {
+     "w": "il",
+     "start": 1.02,
+     "end": 1.1,
+     "chunk": 0
+    },
+    {
+     "w": "est",
+     "start": 1.1,
+     "end": 1.18,
+     "chunk": 0
+    },
+    {
+     "w": "trois",
+     "start": 1.18,
+     "end": 1.4,
+     "chunk": 0
+    },
+    {
+     "w": "heures",
+     "start": 1.4,
+     "end": 1.6,
+     "chunk": 0
+    },
+    {
+     "w": "du",
+     "start": 1.6,
+     "end": 1.72,
+     "chunk": 0
+    },
+    {
+     "w": "matin",
+     "start": 1.72,
+     "end": 1.96,
+     "chunk": 0
+    }
+   ],
+   "chunks": [
+    {
+     "text": "Imagine : il est trois heures du matin.",
+     "start": 0.3,
+     "end": 2.658
+    }
+   ]
+  },
+  {
+   "id": "s02",
+   "scene": 1,
+   "start": 3.008,
+   "end": 7.104,
+   "display": "Tu n’arrives pas à dormir, et tu confies tes blessures… à une intelligence artificielle.",
+   "say": "Tu n’arrives pas à dormir, et tu confies tes blessures… à une intelligence artificielle.",
+   "heard": "Tu  n 'arrives  pas  à  dormir  et  tu  confies  tes  blessures  à  une  intelligence  artificielle.",
+   "match": 1.0,
+   "words": [
+    {
+     "w": "tu",
+     "start": 3.008,
+     "end": 3.088,
+     "chunk": 0
+    },
+    {
+     "w": "n",
+     "start": 3.088,
+     "end": 3.188,
+     "chunk": 0
+    },
+    {
+     "w": "arrives",
+     "start": 3.188,
+     "end": 3.408,
+     "chunk": 0
+    },
+    {
+     "w": "pas",
+     "start": 3.408,
+     "end": 3.508,
+     "chunk": 0
+    },
+    {
+     "w": "a",
+     "start": 3.508,
+     "end": 3.668,
+     "chunk": 0
+    },
+    {
+     "w": "dormir",
+     "start": 3.668,
+     "end": 3.928,
+     "chunk": 0
+    },
+    {
+     "w": "et",
+     "start": 3.928,
+     "end": 4.348,
+     "chunk": 1
+    },
+    {
+     "w": "tu",
+     "start": 4.348,
+     "end": 4.448,
+     "chunk": 1
+    },
+    {
+     "w": "confies",
+     "start": 4.448,
+     "end": 4.828,
+     "chunk": 1
+    },
+    {
+     "w": "tes",
+     "start": 4.828,
+     "end": 4.868,
+     "chunk": 1
+    },
+    {
+     "w": "blessures",
+     "start": 4.868,
+     "end": 5.428,
+     "chunk": 1
+    },
+    {
+     "w": "a",
+     "start": 5.428,
+     "end": 5.628,
+     "chunk": 2
+    },
+    {
+     "w": "une",
+     "start": 5.628,
+     "end": 5.728,
+     "chunk": 2
+    },
+    {
+     "w": "intelligence",
+     "start": 5.728,
+     "end": 6.168,
+     "chunk": 2
+    },
+    {
+     "w": "artificielle",
+     "start": 6.168,
+     "end": 6.968,
+     "chunk": 2
+    }
+   ],
+   "chunks": [
+    {
+     "text": "Tu n’arrives pas à dormir,",
+     "start": 3.008,
+     "end": 3.928
+    },
+    {
+     "text": "et tu confies tes blessures…",
+     "start": 3.928,
+     "end": 5.428
+    },
+    {
+     "text": "à une intelligence artificielle.",
+     "start": 5.428,
+     "end": 7.104
+    }
+   ]
+  },
+  {
+   "id": "s03",
+   "scene": 2,
+   "start": 7.554,
+   "end": 9.729,
+   "display": "Elle ne s’impatiente jamais. Elle t’écoute.",
+   "say": "Elle ne s’impatiente jamais. Elle t’écoute.",
+   "heard": "Elle  ne  s 'impatient  jamais,  elle  t 'écoute.",
+   "match": 0.875,
+   "words": [
+    {
+     "w": "elle",
+     "start": 7.554,
+     "end": 7.674,
+     "chunk": 0
+    },
+    {
+     "w": "ne",
+     "start": 7.674,
+     "end": 7.814,
+     "chunk": 0
+    },
+    {
+     "w": "s",
+     "start": 7.814,
+     "end": 7.894,
+     "chunk": 0
+    },
+    {
+     "w": "impatiente",
+     "start": 7.894,
+     "end": 8.314,
+     "chunk": 0
+    },
+    {
+     "w": "jamais",
+     "start": 8.314,
+     "end": 8.614,
+     "chunk": 0
+    },
+    {
+     "w": "elle",
+     "start": 8.994,
+     "end": 9.074,
+     "chunk": 0
+    },
+    {
+     "w": "t",
+     "start": 9.074,
+     "end": 9.214,
+     "chunk": 0
+    },
+    {
+     "w": "ecoute",
+     "start": 9.214,
+     "end": 9.554,
+     "chunk": 0
+    }
+   ],
+   "chunks": [
+    {
+     "text": "Elle ne s’impatiente jamais. Elle t’écoute.",
+     "start": 7.554,
+     "end": 9.729
+    }
+   ]
+  },
+  {
+   "id": "s04",
+   "scene": 2,
+   "start": 10.029,
+   "end": 14.475,
+   "display": "Elle reformule tes peurs, elle trouve les mots que personne ne semble trouver pour toi.",
+   "say": "Elle reformule tes peurs, elle trouve les mots que personne ne semble trouver pour toi.",
+   "heard": "Elle  reformule  tes  peurs,  elle  trouve  les  mots  que  personne  ne  semble  trouver  pour  toi.",
+   "match": 1.0,
+   "words": [
+    {
+     "w": "elle",
+     "start": 10.029,
+     "end": 10.149,
+     "chunk": 0
+    },
+    {
+     "w": "reformule",
+     "start": 10.149,
+     "end": 10.769,
+     "chunk": 0
+    },
+    {
+     "w": "tes",
+     "start": 10.769,
+     "end": 10.909,
+     "chunk": 0
+    },
+    {
+     "w": "peurs",
+     "start": 10.909,
+     "end": 11.369,
+     "chunk": 0
+    },
+    {
+     "w": "elle",
+     "start": 11.529,
+     "end": 11.769,
+     "chunk": 1
+    },
+    {
+     "w": "trouve",
+     "start": 11.769,
+     "end": 12.089,
+     "chunk": 1
+    },
+    {
+     "w": "les",
+     "start": 12.089,
+     "end": 12.269,
+     "chunk": 1
+    },
+    {
+     "w": "mots",
+     "start": 12.269,
+     "end": 12.469,
+     "chunk": 1
+    },
+    {
+     "w": "que",
+     "start": 12.469,
+     "end": 12.629,
+     "chunk": 1
+    },
+    {
+     "w": "personne",
+     "start": 12.629,
+     "end": 13.009,
+     "chunk": 1
+    },
+    {
+     "w": "ne",
+     "start": 13.009,
+     "end": 13.249,
+     "chunk": 2
+    },
+    {
+     "w": "semble",
+     "start": 13.249,
+     "end": 13.469,
+     "chunk": 2
+    },
+    {
+     "w": "trouver",
+     "start": 13.469,
+     "end": 13.829,
+     "chunk": 2
+    },
+    {
+     "w": "pour",
+     "start": 13.829,
+     "end": 14.109,
+     "chunk": 2
+    },
+    {
+     "w": "toi",
+     "start": 14.109,
+     "end": 14.289,
+     "chunk": 2
+    }
+   ],
+   "chunks": [
+    {
+     "text": "Elle reformule tes peurs,",
+     "start": 10.029,
+     "end": 11.369
+    },
+    {
+     "text": "elle trouve les mots que personne",
+     "start": 11.529,
+     "end": 13.009
+    },
+    {
+     "text": "ne semble trouver pour toi.",
+     "start": 13.009,
+     "end": 14.475
+    }
+   ]
+  },
+  {
+   "id": "s05",
+   "scene": 3,
+   "start": 14.925,
+   "end": 18.466,
+   "display": "Et petit à petit, tu ressens quelque chose : tu te sens compris.",
+   "say": "Et petit à petit, tu ressens quelque chose : tu te sens compris.",
+   "heard": "et  petit  à  petit,  tu  ressens  quelque  chose,  tu  te  sens  compris.",
+   "match": 1.0,
+   "words": [
+    {
+     "w": "et",
+     "start": 14.925,
+     "end": 15.045,
+     "chunk": 0
+    },
+    {
+     "w": "petit",
+     "start": 15.045,
+     "end": 15.285,
+     "chunk": 0
+    },
+    {
+     "w": "a",
+     "start": 15.285,
+     "end": 15.505,
+     "chunk": 0
+    },
+    {
+     "w": "petit",
+     "start": 15.505,
+     "end": 15.825,
+     "chunk": 0
+    },
+    {
+     "w": "tu",
+     "start": 16.105,
+     "end": 16.305,
+     "chunk": 0
+    },
+    {
+     "w": "ressens",
+     "start": 16.305,
+     "end": 16.625,
+     "chunk": 0
+    },
+    {
+     "w": "quelque",
+     "start": 16.625,
+     "end": 16.765,
+     "chunk": 0
+    },
+    {
+     "w": "chose",
+     "start": 16.765,
+     "end": 17.225,
+     "chunk": 0
+    },
+    {
+     "w": "tu",
+     "start": 17.505,
+     "end": 17.605,
+     "chunk": 1
+    },
+    {
+     "w": "te",
+     "start": 17.605,
+     "end": 17.725,
+     "chunk": 1
+    },
+    {
+     "w": "sens",
+     "start": 17.725,
+     "end": 17.885,
+     "chunk": 1
+    },
+    {
+     "w": "compris",
+     "start": 17.885,
+     "end": 18.225,
+     "chunk": 1
+    }
+   ],
+   "chunks": [
+    {
+     "text": "Et petit à petit, tu ressens quelque chose :",
+     "start": 14.925,
+     "end": 17.225
+    },
+    {
+     "text": "tu te sens compris.",
+     "start": 17.505,
+     "end": 18.466
+    }
+   ]
+  },
+  {
+   "id": "s06",
+   "scene": 4,
+   "start": 18.966,
+   "end": 21.583,
+   "display": "Alors, posons-nous une question simple.",
+   "say": "Alors, posons-nous une question simple.",
+   "heard": "Alors,  posons -nous  une  question  simple.",
+   "match": 1.0,
+   "words": [
+    {
+     "w": "alors",
+     "start": 18.966,
+     "end": 19.306,
+     "chunk": 0
+    },
+    {
+     "w": "posons",
+     "start": 19.726,
+     "end": 20.146,
+     "chunk": 0
+    },
+    {
+     "w": "nous",
+     "start": 20.146,
+     "end": 20.306,
+     "chunk": 0
+    },
+    {
+     "w": "une",
+     "start": 20.306,
+     "end": 20.446,
+     "chunk": 0
+    },
+    {
+     "w": "question",
+     "start": 20.446,
+     "end": 20.846,
+     "chunk": 0
+    },
+    {
+     "w": "simple",
+     "start": 20.846,
+     "end": 21.346,
+     "chunk": 0
+    }
+   ],
+   "chunks": [
+    {
+     "text": "Alors, posons-nous une question simple.",
+     "start": 18.966,
+     "end": 21.583
+    }
+   ]
+  },
+  {
+   "id": "s07",
+   "scene": 4,
+   "start": 21.933,
+   "end": 24.128,
+   "display": "Être compris… est-ce que c’est être aimé ?",
+   "say": "Être compris… est-ce que c’est être aimé ?",
+   "heard": "Être  compris,  est -ce  que  c 'est  être  aimé  ?",
+   "match": 1.0,
+   "words": [
+    {
+     "w": "etre",
+     "start": 21.933,
+     "end": 22.173,
+     "chunk": 0
+    },
+    {
+     "w": "compris",
+     "start": 22.173,
+     "end": 22.553,
+     "chunk": 0
+    },
+    {
+     "w": "est",
+     "start": 22.893,
+     "end": 23.193,
+     "chunk": 1
+    },
+    {
+     "w": "ce",
+     "start": 23.193,
+     "end": 23.313,
+     "chunk": 1
+    },
+    {
+     "w": "que",
+     "start": 23.313,
+     "end": 23.333,
+     "chunk": 1
+    },
+    {
+     "w": "c",
+     "start": 23.333,
+     "end": 23.433,
+     "chunk": 1
+    },
+    {
+     "w": "est",
+     "start": 23.433,
+     "end": 23.513,
+     "chunk": 1
+    },
+    {
+     "w": "etre",
+     "start": 23.513,
+     "end": 23.693,
+     "chunk": 1
+    },
+    {
+     "w": "aime",
+     "start": 23.693,
+     "end": 24.013,
+     "chunk": 1
+    }
+   ],
+   "chunks": [
+    {
+     "text": "Être compris…",
+     "start": 21.933,
+     "end": 22.553
+    },
+    {
+     "text": "est-ce que c’est être aimé ?",
+     "start": 22.893,
+     "end": 24.128
+    }
+   ]
+  },
+  {
+   "id": "s08",
+   "scene": 5,
+   "start": 24.728,
+   "end": 27.147,
+   "display": "Pour y voir clair, il faut parler de Martin Buber.",
+   "say": "Pour y voir clair, il faut parler de Martin Boubère.",
+   "heard": "Pour  y  voir  clair,  il  faut  parler  de  Martin  Boubert.",
+   "match": 0.9,
+   "words": [
+    {
+     "w": "pour",
+     "start": 24.728,
+     "end": 24.848,
+     "chunk": 0
+    },
+    {
+     "w": "y",
+     "start": 24.848,
+     "end": 24.928,
+     "chunk": 0
+    },
+    {
+     "w": "voir",
+     "start": 24.928,
+     "end": 25.068,
+     "chunk": 0
+    },
+    {
+     "w": "clair",
+     "start": 25.068,
+     "end": 25.368,
+     "chunk": 0
+    },
+    {
+     "w": "il",
+     "start": 25.768,
+     "end": 25.828,
+     "chunk": 0
+    },
+    {
+     "w": "faut",
+     "start": 25.828,
+     "end": 25.948,
+     "chunk": 0
+    },
+    {
+     "w": "parler",
+     "start": 25.948,
+     "end": 26.168,
+     "chunk": 0
+    },
+    {
+     "w": "de",
+     "start": 26.168,
+     "end": 26.308,
+     "chunk": 0
+    },
+    {
+     "w": "martin",
+     "start": 26.308,
+     "end": 26.528,
+     "chunk": 0
+    },
+    {
+     "w": "boubere",
+     "start": 26.528,
+     "end": 27.147,
+     "chunk": 0
+    }
+   ],
+   "chunks": [
+    {
+     "text": "Pour y voir clair, il faut parler de Martin Buber.",
+     "start": 24.728,
+     "end": 27.147
+    }
+   ]
+  },
+  {
+   "id": "s09",
+   "scene": 5,
+   "start": 27.447,
+   "end": 31.612,
+   "display": "En 1923, ce philosophe distingue deux manières d’être en relation.",
+   "say": "En mille neuf cent vingt-trois, ce philosophe distingue deux manières d’être en relation.",
+   "heard": "En  1923,  ce  philosophe  distingue  deux  manières  d 'être  en  relation.",
+   "match": 0.667,
+   "words": [
+    {
+     "w": "en",
+     "start": 27.447,
+     "end": 27.567,
+     "chunk": 0
+    },
+    {
+     "w": "mille",
+     "start": 27.567,
+     "end": 27.855,
+     "chunk": 0
+    },
+    {
+     "w": "neuf",
+     "start": 27.855,
+     "end": 28.143,
+     "chunk": 0
+    },
+    {
+     "w": "cent",
+     "start": 28.143,
+     "end": 28.431,
+     "chunk": 0
+    },
+    {
+     "w": "vingt",
+     "start": 28.431,
+     "end": 28.719,
+     "chunk": 0
+    },
+    {
+     "w": "trois",
+     "start": 28.719,
+     "end": 29.007,
+     "chunk": 0
+    },
+    {
+     "w": "ce",
+     "start": 29.007,
+     "end": 29.207,
+     "chunk": 0
+    },
+    {
+     "w": "philosophe",
+     "start": 29.207,
+     "end": 29.727,
+     "chunk": 0
+    },
+    {
+     "w": "distingue",
+     "start": 29.727,
+     "end": 30.227,
+     "chunk": 0
+    },
+    {
+     "w": "deux",
+     "start": 30.227,
+     "end": 30.367,
+     "chunk": 1
+    },
+    {
+     "w": "manieres",
+     "start": 30.367,
+     "end": 30.747,
+     "chunk": 1
+    },
+    {
+     "w": "d",
+     "start": 30.747,
+     "end": 30.867,
+     "chunk": 1
+    },
+    {
+     "w": "etre",
+     "start": 30.867,
+     "end": 30.987,
+     "chunk": 1
+    },
+    {
+     "w": "en",
+     "start": 30.987,
+     "end": 31.127,
+     "chunk": 1
+    },
+    {
+     "w": "relation",
+     "start": 31.127,
+     "end": 31.307,
+     "chunk": 1
+    }
+   ],
+   "chunks": [
+    {
+     "text": "En 1923, ce philosophe distingue",
+     "start": 27.447,
+     "end": 30.227
+    },
+    {
+     "text": "deux manières d’être en relation.",
+     "start": 30.227,
+     "end": 31.612
+    }
+   ]
+  },
+  {
+   "id": "s10",
+   "scene": 6,
+   "start": 32.062,
+   "end": 35.028,
+   "display": "La première, c’est le rapport « Je-Cela » :",
+   "say": "La première, c’est le rapport Je, Cela :",
+   "heard": "La  première,  c 'est  le  rapport,  je...  cela...",
+   "match": 1.0,
+   "words": [
+    {
+     "w": "la",
+     "start": 32.062,
+     "end": 32.182,
+     "chunk": 0
+    },
+    {
+     "w": "premiere",
+     "start": 32.182,
+     "end": 32.562,
+     "chunk": 0
+    },
+    {
+     "w": "c",
+     "start": 32.782,
+     "end": 32.822,
+     "chunk": 0
+    },
+    {
+     "w": "est",
+     "start": 32.822,
+     "end": 32.882,
+     "chunk": 0
+    },
+    {
+     "w": "le",
+     "start": 32.882,
+     "end": 32.982,
+     "chunk": 0
+    },
+    {
+     "w": "rapport",
+     "start": 32.982,
+     "end": 33.282,
+     "chunk": 0
+    },
+    {
+     "w": "je",
+     "start": 33.482,
+     "end": 33.762,
+     "chunk": 0
+    },
+    {
+     "w": "cela",
+     "start": 33.762,
+     "end": 34.582,
+     "chunk": 0
+    }
+   ],
+   "chunks": [
+    {
+     "text": "La première, c’est le rapport « Je-Cela » :",
+     "start": 32.062,
+     "end": 35.028
+    }
+   ]
+  },
+  {
+   "id": "s11",
+   "scene": 6,
+   "start": 35.278,
+   "end": 37.837,
+   "display": "l’autre devient un objet, quelque chose qu’on utilise.",
+   "say": "l’autre devient un objet, quelque chose qu’on utilise.",
+   "heard": "L 'autre  devient  un  objet,  quelque  chose  qu 'on  utilise.",
+   "match": 1.0,
+   "words": [
+    {
+     "w": "l",
+     "start": 35.278,
+     "end": 35.418,
+     "chunk": 0
+    },
+    {
+     "w": "autre",
+     "start": 35.418,
+     "end": 35.558,
+     "chunk": 0
+    },
+    {
+     "w": "devient",
+     "start": 35.558,
+     "end": 35.878,
+     "chunk": 0
+    },
+    {
+     "w": "un",
+     "start": 35.878,
+     "end": 36.038,
+     "chunk": 0
+    },
+    {
+     "w": "objet",
+     "start": 36.038,
+     "end": 36.318,
+     "chunk": 0
+    },
+    {
+     "w": "quelque",
+     "start": 36.538,
+     "end": 36.678,
+     "chunk": 1
+    },
+    {
+     "w": "chose",
+     "start": 36.678,
+     "end": 37.038,
+     "chunk": 1
+    },
+    {
+     "w": "qu",
+     "start": 37.038,
+     "end": 37.178,
+     "chunk": 1
+    },
+    {
+     "w": "on",
+     "start": 37.178,
+     "end": 37.238,
+     "chunk": 1
+    },
+    {
+     "w": "utilise",
+     "start": 37.238,
+     "end": 37.538,
+     "chunk": 1
+    }
+   ],
+   "chunks": [
+    {
+     "text": "l’autre devient un objet,",
+     "start": 35.278,
+     "end": 36.318
+    },
+    {
+     "text": "quelque chose qu’on utilise.",
+     "start": 36.538,
+     "end": 37.837
+    }
+   ]
+  },
+  {
+   "id": "s12",
+   "scene": 6,
+   "start": 38.287,
+   "end": 40.754,
+   "display": "La seconde, c’est la rencontre « Je-Tu » :",
+   "say": "La seconde, c’est la rencontre Je, Tu :",
+   "heard": "La  seconde,  c 'est  la  rencontre  je  tue.",
+   "match": 0.875,
+   "words": [
+    {
+     "w": "la",
+     "start": 38.287,
+     "end": 38.407,
+     "chunk": 0
+    },
+    {
+     "w": "seconde",
+     "start": 38.407,
+     "end": 39.067,
+     "chunk": 0
+    },
+    {
+     "w": "c",
+     "start": 39.087,
+     "end": 39.227,
+     "chunk": 0
+    },
+    {
+     "w": "est",
+     "start": 39.227,
+     "end": 39.327,
+     "chunk": 0
+    },
+    {
+     "w": "la",
+     "start": 39.327,
+     "end": 39.427,
+     "chunk": 0
+    },
+    {
+     "w": "rencontre",
+     "start": 39.427,
+     "end": 40.027,
+     "chunk": 0
+    },
+    {
+     "w": "je",
+     "start": 40.027,
+     "end": 40.187,
+     "chunk": 0
+    },
+    {
+     "w": "tu",
+     "start": 40.187,
+     "end": 40.754,
+     "chunk": 0
+    }
+   ],
+   "chunks": [
+    {
+     "text": "La seconde, c’est la rencontre « Je-Tu » :",
+     "start": 38.287,
+     "end": 40.754
+    }
+   ]
+  },
+  {
+   "id": "s13",
+   "scene": 6,
+   "start": 41.004,
+   "end": 43.64,
+   "display": "là, tu accueilles vraiment une autre présence.",
+   "say": "là, tu accueilles vraiment une autre présence.",
+   "heard": "Là,  tu  accueilles  vraiment  une  autre  présence.",
+   "match": 1.0,
+   "words": [
+    {
+     "w": "la",
+     "start": 41.004,
+     "end": 41.224,
+     "chunk": 0
+    },
+    {
+     "w": "tu",
+     "start": 41.564,
+     "end": 41.624,
+     "chunk": 0
+    },
+    {
+     "w": "accueilles",
+     "start": 41.624,
+     "end": 41.964,
+     "chunk": 0
+    },
+    {
+     "w": "vraiment",
+     "start": 41.964,
+     "end": 42.204,
+     "chunk": 0
+    },
+    {
+     "w": "une",
+     "start": 42.204,
+     "end": 42.344,
+     "chunk": 1
+    },
+    {
+     "w": "autre",
+     "start": 42.344,
+     "end": 42.504,
+     "chunk": 1
+    },
+    {
+     "w": "presence",
+     "start": 42.504,
+     "end": 43.084,
+     "chunk": 1
+    }
+   ],
+   "chunks": [
+    {
+     "text": "là, tu accueilles vraiment",
+     "start": 41.004,
+     "end": 42.204
+    },
+    {
+     "text": "une autre présence.",
+     "start": 42.204,
+     "end": 43.64
+    }
+   ]
+  },
+  {
+   "id": "s14",
+   "scene": 7,
+   "start": 44.09,
+   "end": 47.09,
+   "display": "Retenons ça : un objet… ou une présence.",
+   "say": "Retenons ça : un objet… ou une présence.",
+   "heard": "Retenons  ça,  un  objet  ou  une  présence.",
+   "match": 1.0,
+   "words": [
+    {
+     "w": "retenons",
+     "start": 44.09,
+     "end": 44.63,
+     "chunk": 0
+    },
+    {
+     "w": "ca",
+     "start": 44.63,
+     "end": 44.87,
+     "chunk": 0
+    },
+    {
+     "w": "un",
+     "start": 45.11,
+     "end": 45.17,
+     "chunk": 0
+    },
+    {
+     "w": "objet",
+     "start": 45.17,
+     "end": 45.49,
+     "chunk": 0
+    },
+    {
+     "w": "ou",
+     "start": 45.49,
+     "end": 46.01,
+     "chunk": 1
+    },
+    {
+     "w": "une",
+     "start": 46.01,
+     "end": 46.23,
+     "chunk": 1
+    },
+    {
+     "w": "presence",
+     "start": 46.23,
+     "end": 46.79,
+     "chunk": 1
+    }
+   ],
+   "chunks": [
+    {
+     "text": "Retenons ça : un objet…",
+     "start": 44.09,
+     "end": 45.49
+    },
+    {
+     "text": "ou une présence.",
+     "start": 45.49,
+     "end": 47.09
+    }
+   ]
+  },
+  {
+   "id": "s15",
+   "scene": 8,
+   "start": 47.59,
+   "end": 51.609,
+   "display": "Revenons à l’intelligence artificielle : elle peut reproduire les signes du réconfort.",
+   "say": "Revenons à l’intelligence artificielle : elle peut reproduire les signes du réconfort.",
+   "heard": "Revenons  à  l 'intelligence  artificielle,  elle  peut  reproduire  les  signes  du  réconfort.",
+   "match": 1.0,
+   "words": [
+    {
+     "w": "revenons",
+     "start": 47.59,
+     "end": 47.99,
+     "chunk": 0
+    },
+    {
+     "w": "a",
+     "start": 47.99,
+     "end": 48.09,
+     "chunk": 0
+    },
+    {
+     "w": "l",
+     "start": 48.09,
+     "end": 48.15,
+     "chunk": 0
+    },
+    {
+     "w": "intelligence",
+     "start": 48.15,
+     "end": 48.57,
+     "chunk": 0
+    },
+    {
+     "w": "artificielle",
+     "start": 48.57,
+     "end": 49.33,
+     "chunk": 0
+    },
+    {
+     "w": "elle",
+     "start": 49.63,
+     "end": 49.73,
+     "chunk": 1
+    },
+    {
+     "w": "peut",
+     "start": 49.73,
+     "end": 49.87,
+     "chunk": 1
+    },
+    {
+     "w": "reproduire",
+     "start": 49.87,
+     "end": 50.39,
+     "chunk": 1
+    },
+    {
+     "w": "les",
+     "start": 50.39,
+     "end": 50.51,
+     "chunk": 1
+    },
+    {
+     "w": "signes",
+     "start": 50.51,
+     "end": 50.87,
+     "chunk": 1
+    },
+    {
+     "w": "du",
+     "start": 50.87,
+     "end": 50.87,
+     "chunk": 1
+    },
+    {
+     "w": "reconfort",
+     "start": 50.87,
+     "end": 51.35,
+     "chunk": 1
+    }
+   ],
+   "chunks": [
+    {
+     "text": "Revenons à l’intelligence artificielle :",
+     "start": 47.59,
+     "end": 49.33
+    },
+    {
+     "text": "elle peut reproduire les signes du réconfort.",
+     "start": 49.63,
+     "end": 51.609
+    }
+   ]
+  },
+  {
+   "id": "s16",
+   "scene": 8,
+   "start": 51.909,
+   "end": 55.338,
+   "display": "Sauf que… une réponse empathique ne prouve pas, à elle seule,",
+   "say": "Sauf que… une réponse empathique ne prouve pas, à elle seule,",
+   "heard": "Sauf  qu 'une  réponse  empathique  ne  prouve  pas  à  elle  seule.",
+   "match": 0.909,
+   "words": [
+    {
+     "w": "sauf",
+     "start": 51.909,
+     "end": 52.169,
+     "chunk": 0
+    },
+    {
+     "w": "que",
+     "start": 52.169,
+     "end": 52.349,
+     "chunk": 0
+    },
+    {
+     "w": "une",
+     "start": 52.349,
+     "end": 52.769,
+     "chunk": 0
+    },
+    {
+     "w": "reponse",
+     "start": 52.769,
+     "end": 53.109,
+     "chunk": 0
+    },
+    {
+     "w": "empathique",
+     "start": 53.109,
+     "end": 53.729,
+     "chunk": 0
+    },
+    {
+     "w": "ne",
+     "start": 53.729,
+     "end": 53.849,
+     "chunk": 1
+    },
+    {
+     "w": "prouve",
+     "start": 53.849,
+     "end": 54.129,
+     "chunk": 1
+    },
+    {
+     "w": "pas",
+     "start": 54.129,
+     "end": 54.309,
+     "chunk": 1
+    },
+    {
+     "w": "a",
+     "start": 54.309,
+     "end": 54.709,
+     "chunk": 1
+    },
+    {
+     "w": "elle",
+     "start": 54.709,
+     "end": 54.809,
+     "chunk": 1
+    },
+    {
+     "w": "seule",
+     "start": 54.809,
+     "end": 55.069,
+     "chunk": 1
+    }
+   ],
+   "chunks": [
+    {
+     "text": "Sauf que… une réponse empathique",
+     "start": 51.909,
+     "end": 53.729
+    },
+    {
+     "text": "ne prouve pas, à elle seule,",
+     "start": 53.729,
+     "end": 55.338
+    }
+   ]
+  },
+  {
+   "id": "s17",
+   "scene": 8,
+   "start": 55.538,
+   "end": 58.492,
+   "display": "qu’une expérience émotionnelle existe derrière elle.",
+   "say": "qu’une expérience émotionnelle existe derrière elle.",
+   "heard": "qu 'une  expérience  émotionnelle  existe  derrière  elle.",
+   "match": 1.0,
+   "words": [
+    {
+     "w": "qu",
+     "start": 55.538,
+     "end": 55.618,
+     "chunk": 0
+    },
+    {
+     "w": "une",
+     "start": 55.618,
+     "end": 55.718,
+     "chunk": 0
+    },
+    {
+     "w": "experience",
+     "start": 55.718,
+     "end": 56.258,
+     "chunk": 0
+    },
+    {
+     "w": "emotionnelle",
+     "start": 56.258,
+     "end": 56.998,
+     "chunk": 0
+    },
+    {
+     "w": "existe",
+     "start": 56.998,
+     "end": 57.478,
+     "chunk": 0
+    },
+    {
+     "w": "derriere",
+     "start": 57.478,
+     "end": 57.878,
+     "chunk": 0
+    },
+    {
+     "w": "elle",
+     "start": 57.878,
+     "end": 58.238,
+     "chunk": 0
+    }
+   ],
+   "chunks": [
+    {
+     "text": "qu’une expérience émotionnelle existe derrière elle.",
+     "start": 55.538,
+     "end": 58.492
+    }
+   ]
+  },
+  {
+   "id": "s18",
+   "scene": 9,
+   "start": 58.992,
+   "end": 60.495,
+   "display": "Et la science, qu’est-ce qu’elle en dit ?",
+   "say": "Et la science, qu’est-ce qu’elle en dit ?",
+   "heard": "Et  la  science,  qu 'est -ce  qu 'elle  en  dit  ?",
+   "match": 1.0,
+   "words": [
+    {
+     "w": "et",
+     "start": 58.992,
+     "end": 59.092,
+     "chunk": 0
+    },
+    {
+     "w": "la",
+     "start": 59.092,
+     "end": 59.172,
+     "chunk": 0
+    },
+    {
+     "w": "science",
+     "start": 59.172,
+     "end": 59.512,
+     "chunk": 0
+    },
+    {
+     "w": "qu",
+     "start": 59.772,
+     "end": 59.872,
+     "chunk": 0
+    },
+    {
+     "w": "est",
+     "start": 59.872,
+     "end": 59.932,
+     "chunk": 0
+    },
+    {
+     "w": "ce",
+     "start": 59.932,
+     "end": 60.032,
+     "chunk": 0
+    },
+    {
+     "w": "qu",
+     "start": 60.032,
+     "end": 60.052,
+     "chunk": 0
+    },
+    {
+     "w": "elle",
+     "start": 60.052,
+     "end": 60.132,
+     "chunk": 0
+    },
+    {
+     "w": "en",
+     "start": 60.132,
+     "end": 60.232,
+     "chunk": 0
+    },
+    {
+     "w": "dit",
+     "start": 60.232,
+     "end": 60.352,
+     "chunk": 0
+    }
+   ],
+   "chunks": [
+    {
+     "text": "Et la science, qu’est-ce qu’elle en dit ?",
+     "start": 58.992,
+     "end": 60.495
+    }
+   ]
+  },
+  {
+   "id": "s19",
+   "scene": 9,
+   "start": 60.795,
+   "end": 63.861,
+   "display": "En 2026, des chercheurs ont suivi plus de deux mille adultes,",
+   "say": "En deux mille vingt-six, des chercheurs ont suivi plus de deux mille adultes,",
+   "heard": "En  2026,  des  chercheurs  ont  suivi  plus  de  2000  adultes.",
+   "match": 0.571,
+   "words": [
+    {
+     "w": "en",
+     "start": 60.795,
+     "end": 60.895,
+     "chunk": 0
+    },
+    {
+     "w": "deux",
+     "start": 60.895,
+     "end": 61.145,
+     "chunk": 0
+    },
+    {
+     "w": "mille",
+     "start": 61.145,
+     "end": 61.395,
+     "chunk": 0
+    },
+    {
+     "w": "vingt",
+     "start": 61.395,
+     "end": 61.645,
+     "chunk": 0
+    },
+    {
+     "w": "six",
+     "start": 61.645,
+     "end": 61.895,
+     "chunk": 0
+    },
+    {
+     "w": "des",
+     "start": 61.895,
+     "end": 62.055,
+     "chunk": 0
+    },
+    {
+     "w": "chercheurs",
+     "start": 62.055,
+     "end": 62.495,
+     "chunk": 0
+    },
+    {
+     "w": "ont",
+     "start": 62.495,
+     "end": 62.615,
+     "chunk": 0
+    },
+    {
+     "w": "suivi",
+     "start": 62.615,
+     "end": 62.895,
+     "chunk": 0
+    },
+    {
+     "w": "plus",
+     "start": 62.895,
+     "end": 63.015,
+     "chunk": 1
+    },
+    {
+     "w": "de",
+     "start": 63.015,
+     "end": 63.155,
+     "chunk": 1
+    },
+    {
+     "w": "deux",
+     "start": 63.155,
+     "end": 63.255,
+     "chunk": 1
+    },
+    {
+     "w": "mille",
+     "start": 63.255,
+     "end": 63.355,
+     "chunk": 1
+    },
+    {
+     "w": "adultes",
+     "start": 63.355,
+     "end": 63.795,
+     "chunk": 1
+    }
+   ],
+   "chunks": [
+    {
+     "text": "En 2026, des chercheurs ont suivi",
+     "start": 60.795,
+     "end": 62.895
+    },
+    {
+     "text": "plus de deux mille adultes,",
+     "start": 62.895,
+     "end": 63.861
+    }
+   ]
+  },
+  {
+   "id": "s20",
+   "scene": 9,
+   "start": 64.061,
+   "end": 65.965,
+   "display": "dans quatre pays, pendant un an.",
+   "say": "dans quatre pays, pendant un an.",
+   "heard": "dans  quatre  pays  pendant  un  an.",
+   "match": 1.0,
+   "words": [
+    {
+     "w": "dans",
+     "start": 64.061,
+     "end": 64.241,
+     "chunk": 0
+    },
+    {
+     "w": "quatre",
+     "start": 64.241,
+     "end": 64.501,
+     "chunk": 0
+    },
+    {
+     "w": "pays",
+     "start": 64.501,
+     "end": 64.881,
+     "chunk": 0
+    },
+    {
+     "w": "pendant",
+     "start": 64.881,
+     "end": 65.401,
+     "chunk": 0
+    },
+    {
+     "w": "un",
+     "start": 65.401,
+     "end": 65.681,
+     "chunk": 0
+    },
+    {
+     "w": "an",
+     "start": 65.681,
+     "end": 65.821,
+     "chunk": 0
+    }
+   ],
+   "chunks": [
+    {
+     "text": "dans quatre pays, pendant un an.",
+     "start": 64.061,
+     "end": 65.965
+    }
+   ]
+  },
+  {
+   "id": "s21",
+   "scene": 10,
+   "start": 66.365,
+   "end": 69.705,
+   "display": "Résultat : plus ils utilisaient des chatbots de compagnie,",
+   "say": "Résultat : plus ils utilisaient des chatbots de compagnie,",
+   "heard": "Résultat,  plus  ils  utilisaient  des  chatbots  de  compagnie.",
+   "match": 1.0,
+   "words": [
+    {
+     "w": "resultat",
+     "start": 66.365,
+     "end": 67.005,
+     "chunk": 0
+    },
+    {
+     "w": "plus",
+     "start": 67.165,
+     "end": 67.385,
+     "chunk": 0
+    },
+    {
+     "w": "ils",
+     "start": 67.385,
+     "end": 67.745,
+     "chunk": 0
+    },
+    {
+     "w": "utilisaient",
+     "start": 67.745,
+     "end": 68.485,
+     "chunk": 0
+    },
+    {
+     "w": "des",
+     "start": 68.485,
+     "end": 68.525,
+     "chunk": 0
+    },
+    {
+     "w": "chatbots",
+     "start": 68.525,
+     "end": 69.005,
+     "chunk": 0
+    },
+    {
+     "w": "de",
+     "start": 69.005,
+     "end": 69.145,
+     "chunk": 0
+    },
+    {
+     "w": "compagnie",
+     "start": 69.145,
+     "end": 69.565,
+     "chunk": 0
+    }
+   ],
+   "chunks": [
+    {
+     "text": "Résultat : plus ils utilisaient des chatbots de compagnie,",
+     "start": 66.365,
+     "end": 69.705
+    }
+   ]
+  },
+  {
+   "id": "s22",
+   "scene": 10,
+   "start": 69.905,
+   "end": 73.073,
+   "display": "plus ils se sentaient ensuite isolés émotionnellement.",
+   "say": "plus ils se sentaient ensuite isolés émotionnellement.",
+   "heard": "Plus  il  se  sentait  en  suite  isolé  émotionnellement.",
+   "match": 0.429,
+   "words": [
+    {
+     "w": "plus",
+     "start": 69.905,
+     "end": 70.105,
+     "chunk": 0
+    },
+    {
+     "w": "ils",
+     "start": 70.105,
+     "end": 70.305,
+     "chunk": 0
+    },
+    {
+     "w": "se",
+     "start": 70.305,
+     "end": 70.465,
+     "chunk": 0
+    },
+    {
+     "w": "sentaient",
+     "start": 70.465,
+     "end": 70.972,
+     "chunk": 0
+    },
+    {
+     "w": "ensuite",
+     "start": 70.972,
+     "end": 71.479,
+     "chunk": 0
+    },
+    {
+     "w": "isoles",
+     "start": 71.479,
+     "end": 71.985,
+     "chunk": 0
+    },
+    {
+     "w": "emotionnellement",
+     "start": 71.985,
+     "end": 72.925,
+     "chunk": 0
+    }
+   ],
+   "chunks": [
+    {
+     "text": "plus ils se sentaient ensuite isolés émotionnellement.",
+     "start": 69.905,
+     "end": 73.073
+    }
+   ]
+  },
+  {
+   "id": "s23",
+   "scene": 11,
+   "start": 73.523,
+   "end": 76.299,
+   "display": "Mais attention : les chercheurs eux-mêmes restent prudents,",
+   "say": "Mais attention : les chercheurs eux-mêmes restent prudents,",
+   "heard": "Mais  attention,  les  chercheurs  eux -mêmes  restent  prudent.",
+   "match": 0.875,
+   "words": [
+    {
+     "w": "mais",
+     "start": 73.523,
+     "end": 73.703,
+     "chunk": 0
+    },
+    {
+     "w": "attention",
+     "start": 73.703,
+     "end": 74.003,
+     "chunk": 0
+    },
+    {
+     "w": "les",
+     "start": 74.503,
+     "end": 74.623,
+     "chunk": 0
+    },
+    {
+     "w": "chercheurs",
+     "start": 74.623,
+     "end": 75.123,
+     "chunk": 0
+    },
+    {
+     "w": "eux",
+     "start": 75.123,
+     "end": 75.263,
+     "chunk": 0
+    },
+    {
+     "w": "memes",
+     "start": 75.263,
+     "end": 75.503,
+     "chunk": 0
+    },
+    {
+     "w": "restent",
+     "start": 75.503,
+     "end": 75.843,
+     "chunk": 0
+    },
+    {
+     "w": "prudents",
+     "start": 75.843,
+     "end": 76.299,
+     "chunk": 0
+    }
+   ],
+   "chunks": [
+    {
+     "text": "Mais attention : les chercheurs eux-mêmes restent prudents,",
+     "start": 73.523,
+     "end": 76.299
+    }
+   ]
+  },
+  {
+   "id": "s24",
+   "scene": 11,
+   "start": 76.499,
+   "end": 78.959,
+   "display": "car leurs analyses sont encore exploratoires.",
+   "say": "car leurs analyses sont encore exploratoires.",
+   "heard": "car  leurs  analyses  sont  encore  exploratoires.",
+   "match": 1.0,
+   "words": [
+    {
+     "w": "car",
+     "start": 76.499,
+     "end": 76.619,
+     "chunk": 0
+    },
+    {
+     "w": "leurs",
+     "start": 76.619,
+     "end": 76.759,
+     "chunk": 0
+    },
+    {
+     "w": "analyses",
+     "start": 76.759,
+     "end": 77.139,
+     "chunk": 0
+    },
+    {
+     "w": "sont",
+     "start": 77.139,
+     "end": 77.439,
+     "chunk": 0
+    },
+    {
+     "w": "encore",
+     "start": 77.439,
+     "end": 77.739,
+     "chunk": 0
+    },
+    {
+     "w": "exploratoires",
+     "start": 77.739,
+     "end": 78.659,
+     "chunk": 0
+    }
+   ],
+   "chunks": [
+    {
+     "text": "car leurs analyses sont encore exploratoires.",
+     "start": 76.499,
+     "end": 78.959
+    }
+   ]
+  },
+  {
+   "id": "s25",
+   "scene": 12,
+   "start": 79.509,
+   "end": 83.148,
+   "display": "Alors, peut-être que le danger, ce n’est pas de parler aux machines.",
+   "say": "Alors, peut-être que le danger, ce n’est pas de parler aux machines.",
+   "heard": "Alors  peut -être  que  le  danger,  ce  n 'est  pas  de  parler  aux  machines.",
+   "match": 1.0,
+   "words": [
+    {
+     "w": "alors",
+     "start": 79.509,
+     "end": 79.809,
+     "chunk": 0
+    },
+    {
+     "w": "peut",
+     "start": 79.809,
+     "end": 80.309,
+     "chunk": 0
+    },
+    {
+     "w": "etre",
+     "start": 80.309,
+     "end": 80.489,
+     "chunk": 0
+    },
+    {
+     "w": "que",
+     "start": 80.489,
+     "end": 80.709,
+     "chunk": 0
+    },
+    {
+     "w": "le",
+     "start": 80.709,
+     "end": 80.829,
+     "chunk": 0
+    },
+    {
+     "w": "danger",
+     "start": 80.829,
+     "end": 81.209,
+     "chunk": 0
+    },
+    {
+     "w": "ce",
+     "start": 81.549,
+     "end": 81.709,
+     "chunk": 1
+    },
+    {
+     "w": "n",
+     "start": 81.709,
+     "end": 81.789,
+     "chunk": 1
+    },
+    {
+     "w": "est",
+     "start": 81.789,
+     "end": 81.869,
+     "chunk": 1
+    },
+    {
+     "w": "pas",
+     "start": 81.869,
+     "end": 81.989,
+     "chunk": 1
+    },
+    {
+     "w": "de",
+     "start": 81.989,
+     "end": 82.109,
+     "chunk": 1
+    },
+    {
+     "w": "parler",
+     "start": 82.109,
+     "end": 82.349,
+     "chunk": 1
+    },
+    {
+     "w": "aux",
+     "start": 82.349,
+     "end": 82.489,
+     "chunk": 1
+    },
+    {
+     "w": "machines",
+     "start": 82.489,
+     "end": 82.749,
+     "chunk": 1
+    }
+   ],
+   "chunks": [
+    {
+     "text": "Alors, peut-être que le danger,",
+     "start": 79.509,
+     "end": 81.209
+    },
+    {
+     "text": "ce n’est pas de parler aux machines.",
+     "start": 81.549,
+     "end": 83.148
+    }
+   ]
+  },
+  {
+   "id": "s26",
+   "scene": 13,
+   "start": 83.548,
+   "end": 87.675,
+   "display": "Le danger, c’est de finir par préférer une présence qui ne te contredit jamais…",
+   "say": "Le danger, c’est de finir par préférer une présence qui ne te contredit jamais…",
+   "heard": "Le  danger,  c 'est  de  finir  par  préférer  une  présence  qui  ne  te  contredit  jamais.",
+   "match": 1.0,
+   "words": [
+    {
+     "w": "le",
+     "start": 83.548,
+     "end": 83.668,
+     "chunk": 0
+    },
+    {
+     "w": "danger",
+     "start": 83.668,
+     "end": 84.048,
+     "chunk": 0
+    },
+    {
+     "w": "c",
+     "start": 84.268,
+     "end": 84.448,
+     "chunk": 0
+    },
+    {
+     "w": "est",
+     "start": 84.448,
+     "end": 84.528,
+     "chunk": 0
+    },
+    {
+     "w": "de",
+     "start": 84.528,
+     "end": 84.628,
+     "chunk": 0
+    },
+    {
+     "w": "finir",
+     "start": 84.628,
+     "end": 85.008,
+     "chunk": 0
+    },
+    {
+     "w": "par",
+     "start": 85.008,
+     "end": 85.168,
+     "chunk": 0
+    },
+    {
+     "w": "preferer",
+     "start": 85.168,
+     "end": 85.628,
+     "chunk": 0
+    },
+    {
+     "w": "une",
+     "start": 85.628,
+     "end": 85.768,
+     "chunk": 1
+    },
+    {
+     "w": "presence",
+     "start": 85.768,
+     "end": 86.308,
+     "chunk": 1
+    },
+    {
+     "w": "qui",
+     "start": 86.308,
+     "end": 86.468,
+     "chunk": 1
+    },
+    {
+     "w": "ne",
+     "start": 86.468,
+     "end": 86.588,
+     "chunk": 1
+    },
+    {
+     "w": "te",
+     "start": 86.588,
+     "end": 86.728,
+     "chunk": 1
+    },
+    {
+     "w": "contredit",
+     "start": 86.728,
+     "end": 87.188,
+     "chunk": 1
+    },
+    {
+     "w": "jamais",
+     "start": 87.188,
+     "end": 87.408,
+     "chunk": 1
+    }
+   ],
+   "chunks": [
+    {
+     "text": "Le danger, c’est de finir par préférer",
+     "start": 83.548,
+     "end": 85.628
+    },
+    {
+     "text": "une présence qui ne te contredit jamais…",
+     "start": 85.628,
+     "end": 87.675
+    }
+   ]
+  },
+  {
+   "id": "s27",
+   "scene": 13,
+   "start": 87.925,
+   "end": 90.205,
+   "display": "à une personne qui possède sa propre liberté.",
+   "say": "à une personne qui possède sa propre liberté.",
+   "heard": "à  une  personne  qui  possède  sa  propre  liberté.",
+   "match": 1.0,
+   "words": [
+    {
+     "w": "a",
+     "start": 87.925,
+     "end": 88.045,
+     "chunk": 0
+    },
+    {
+     "w": "une",
+     "start": 88.045,
+     "end": 88.165,
+     "chunk": 0
+    },
+    {
+     "w": "personne",
+     "start": 88.165,
+     "end": 88.505,
+     "chunk": 0
+    },
+    {
+     "w": "qui",
+     "start": 88.505,
+     "end": 88.745,
+     "chunk": 0
+    },
+    {
+     "w": "possede",
+     "start": 88.745,
+     "end": 89.125,
+     "chunk": 0
+    },
+    {
+     "w": "sa",
+     "start": 89.125,
+     "end": 89.245,
+     "chunk": 0
+    },
+    {
+     "w": "propre",
+     "start": 89.245,
+     "end": 89.445,
+     "chunk": 0
+    },
+    {
+     "w": "liberte",
+     "start": 89.445,
+     "end": 89.905,
+     "chunk": 0
+    }
+   ],
+   "chunks": [
+    {
+     "text": "à une personne qui possède sa propre liberté.",
+     "start": 87.925,
+     "end": 90.205
+    }
+   ]
+  },
+  {
+   "id": "s28",
+   "scene": 14,
+   "start": 90.813,
+   "end": 94.402,
+   "display": "Et si, au fond, on ne cherchait plus quelqu’un pour nous comprendre…",
+   "say": "Et si, au fond, on ne cherchait plus quelqu’un pour nous comprendre…",
+   "heard": "Et  si,  au  fond,  on  ne  cherchait  plus  quelqu 'un  pour  nous  comprendre.",
+   "match": 1.0,
+   "words": [
+    {
+     "w": "et",
+     "start": 90.813,
+     "end": 90.948,
+     "chunk": 0
+    },
+    {
+     "w": "si",
+     "start": 90.948,
+     "end": 91.196,
+     "chunk": 0
+    },
+    {
+     "w": "au",
+     "start": 91.331,
+     "end": 91.353,
+     "chunk": 0
+    },
+    {
+     "w": "fond",
+     "start": 91.353,
+     "end": 91.646,
+     "chunk": 0
+    },
+    {
+     "w": "on",
+     "start": 92.142,
+     "end": 92.255,
+     "chunk": 0
+    },
+    {
+     "w": "ne",
+     "start": 92.255,
+     "end": 92.345,
+     "chunk": 0
+    },
+    {
+     "w": "cherchait",
+     "start": 92.345,
+     "end": 92.728,
+     "chunk": 0
+    },
+    {
+     "w": "plus",
+     "start": 92.728,
+     "end": 92.863,
+     "chunk": 0
+    },
+    {
+     "w": "quelqu",
+     "start": 92.863,
+     "end": 93.089,
+     "chunk": 1
+    },
+    {
+     "w": "un",
+     "start": 93.089,
+     "end": 93.337,
+     "chunk": 1
+    },
+    {
+     "w": "pour",
+     "start": 93.337,
+     "end": 93.472,
+     "chunk": 1
+    },
+    {
+     "w": "nous",
+     "start": 93.472,
+     "end": 93.63,
+     "chunk": 1
+    },
+    {
+     "w": "comprendre",
+     "start": 93.63,
+     "end": 94.013,
+     "chunk": 1
+    }
+   ],
+   "chunks": [
+    {
+     "text": "Et si, au fond, on ne cherchait plus",
+     "start": 90.813,
+     "end": 92.863
+    },
+    {
+     "text": "quelqu’un pour nous comprendre…",
+     "start": 92.863,
+     "end": 94.402
+    }
+   ]
+  },
+  {
+   "id": "s29",
+   "scene": 14,
+   "start": 94.596,
+   "end": 98.63,
+   "display": "mais quelqu’un qui ne nous oblige jamais à rencontrer vraiment l’autre ?",
+   "say": "mais quelqu’un qui ne nous oblige jamais à rencontrer vraiment l’autre ?",
+   "heard": "mais  quelqu 'un  qui  ne  nous  oblige  jamais  à  rencontrer  vraiment  l 'autre.",
+   "match": 1.0,
+   "words": [
+    {
+     "w": "mais",
+     "start": 94.596,
+     "end": 94.76,
+     "chunk": 0
+    },
+    {
+     "w": "quelqu",
+     "start": 94.76,
+     "end": 94.925,
+     "chunk": 0
+    },
+    {
+     "w": "un",
+     "start": 94.925,
+     "end": 95.231,
+     "chunk": 0
+    },
+    {
+     "w": "qui",
+     "start": 95.231,
+     "end": 95.349,
+     "chunk": 0
+    },
+    {
+     "w": "ne",
+     "start": 95.349,
+     "end": 95.466,
+     "chunk": 0
+    },
+    {
+     "w": "nous",
+     "start": 95.466,
+     "end": 95.654,
+     "chunk": 0
+    },
+    {
+     "w": "oblige",
+     "start": 95.654,
+     "end": 96.054,
+     "chunk": 0
+    },
+    {
+     "w": "jamais",
+     "start": 96.054,
+     "end": 96.313,
+     "chunk": 0
+    },
+    {
+     "w": "a",
+     "start": 96.313,
+     "end": 96.549,
+     "chunk": 1
+    },
+    {
+     "w": "rencontrer",
+     "start": 96.549,
+     "end": 97.137,
+     "chunk": 1
+    },
+    {
+     "w": "vraiment",
+     "start": 97.137,
+     "end": 97.419,
+     "chunk": 1
+    },
+    {
+     "w": "l",
+     "start": 97.419,
+     "end": 97.701,
+     "chunk": 1
+    },
+    {
+     "w": "autre",
+     "start": 97.701,
+     "end": 97.937,
+     "chunk": 1
+    }
+   ],
+   "chunks": [
+    {
+     "text": "mais quelqu’un qui ne nous oblige jamais",
+     "start": 94.596,
+     "end": 96.313
+    },
+    {
+     "text": "à rencontrer vraiment l’autre ?",
+     "start": 96.313,
+     "end": 98.63
+    }
+   ]
+  },
+  {
+   "id": "s30",
+   "scene": 15,
+   "start": 99.213,
+   "end": 101.738,
+   "display": "Dis-moi ce que tu en penses en commentaire.",
+   "say": "Dis-moi ce que tu en penses en commentaire.",
+   "heard": "Dis -moi  ce  que  tu  en  penses  en  commentaire.",
+   "match": 1.0,
+   "words": [
+    {
+     "w": "dis",
+     "start": 99.213,
+     "end": 99.373,
+     "chunk": 0
+    },
+    {
+     "w": "moi",
+     "start": 99.373,
+     "end": 99.653,
+     "chunk": 0
+    },
+    {
+     "w": "ce",
+     "start": 99.653,
+     "end": 100.133,
+     "chunk": 0
+    },
+    {
+     "w": "que",
+     "start": 100.133,
+     "end": 100.253,
+     "chunk": 0
+    },
+    {
+     "w": "tu",
+     "start": 100.253,
+     "end": 100.373,
+     "chunk": 0
+    },
+    {
+     "w": "en",
+     "start": 100.373,
+     "end": 100.533,
+     "chunk": 0
+    },
+    {
+     "w": "penses",
+     "start": 100.533,
+     "end": 100.893,
+     "chunk": 0
+    },
+    {
+     "w": "en",
+     "start": 100.893,
+     "end": 100.973,
+     "chunk": 0
+    },
+    {
+     "w": "commentaire",
+     "start": 100.973,
+     "end": 101.533,
+     "chunk": 0
+    }
+   ],
+   "chunks": [
+    {
+     "text": "Dis-moi ce que tu en penses en commentaire.",
+     "start": 99.213,
+     "end": 101.738
+    }
+   ]
+  }
+ ]
+}

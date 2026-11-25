@@ -72,7 +72,7 @@ else: a0, hook = 0, max(s['end'] for s in S if s['scene'] == 1) + .35
 i = max(k for k, s in enumerate(S) if isq(s))   # la question finale, en entier (avec sa phrase d'amorce « … : »)
 while i > 0 and S[i - 1]['scene'] == S[i]['scene'] and not S[i - 1]['display'].rstrip().endswith(('.', '!', '?')): i -= 1
 lastq = S[i]['start'] - .15
-start = lastq if (hook - a0) + (D - lastq) <= 20 else D - (15.3 - (hook - a0))
+start = lastq if (hook - a0) + (D - lastq) <= 24 else D - (15.3 - (hook - a0))
 print(round(a0, 2), round(hook, 2), round(max(hook + 1, start), 2), round(D, 2))
 PY
 )
