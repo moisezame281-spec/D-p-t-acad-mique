@@ -1,5 +1,31 @@
 # L'Énigme humaine : direction de la voix off (voice design)
 
+> **Nouveau ton, du 25/11/2026 (pour l'EP011) : « explication de prof ».** Il est calqué sur la vidéo de référence choisie par le producteur (EasyMath, « l'hypothèse de Riemann », TikTok, 9 min). Le timbre reste la voix B de la série : **on reproduit le ton, jamais la voix d'un créateur.**
+>
+> **Mesures de la référence comparées à notre voix (EP010) :**
+>
+> | Mesure | Référence | EP010 | Cible |
+> |---|---|---|---|
+> | Mélodie de la voix (étendue, 10 à 90 %) | 14 à 19 demi-tons | 8 demi-tons | **14 demi-tons ou plus** |
+> | Contraste fort / doux (90/10 %) | 12 dB | 8 dB | **12 dB ou plus** |
+> | Pauses de 0,25 s ou plus | 18 à 19 par minute, médiane 0,4 s | 12 par minute | **16 à 20 par minute, 0,25 à 0,45 s** |
+> | Mots entre deux respirations (médiane) | 11 à 13 | 15 | **5 à 14** |
+> | Débit pendant la parole | 4,3 à 5,5 syllabes/s | 4,9 | **4,5 à 5,4** (questions vers 4,5) |
+>
+> **Diction :**
+> - Chaque groupe de souffle est généré seul avec l'intention `explique` (émotion 1,05, débit 0,45), puis suivi d'une petite pause.
+> - Les questions utilisent `explique_q` (débit 0,36, cinq prises), et leur réponse arrive juste après.
+> - Il ne faut jamais de morceau de moins de 4 à 5 mots : le moteur y répète des fins de mot.
+> - Essai sur le passage Derrida de l'EP010 : on passe de 8 à 22 demi-tons d'étendue, de 9 à 15 dB de contraste et de 0 à 14 pauses par minute.
+>
+> **Écriture (si le producteur le demande) :**
+> - Le tutoiement (« écoute bien », « réfléchis deux secondes »).
+> - Des phrases courtes.
+> - Des balises de prof : « Pour comprendre, il faut… », « Posons-nous une question simple », « Retenons ça », « C'est là que ça devient intéressant », « Sauf que… ».
+> - Une question suivie immédiatement de sa réponse, des exemples concrets et un petit récapitulatif.
+> - À la fin, une question et une invitation à commenter (« Dis-moi ce que tu en penses en commentaire »).
+> - Les faits, les références et les questions du producteur sont toujours conservés.
+
 > **Choix du 23/11/2026 : voix C en version homme, timbre B (grave), à partir de l'épisode 009.** Même moteur (Chatterbox), même jeu, même méthode. Seule la référence de timbre change : `series/enigme-humaine/voix_homme/Voix_homme_B_reference.wav` (timbre synthétique, voir `voix_homme/LISEZMOI.md`). Dans `narration.json` : `"ref": "../../../series/enigme-humaine/voix_homme/Voix_homme_B_reference.wav"`. Les épisodes 001 à 008 restent en voix C féminine.
 
 > **Mise à jour du 22/11/2026 (retour sur l'ép. 004) : explication CONTINUE.** Chaque passage (une scène) est généré **d'un seul tenant** (`"group"` dans `narration.json`), sans silence entre les phrases. Cela supprime les micro-bégaiements aux coupes et rend le ton d'une vraie explication. Les questions doivent **monter** : la meilleure prise est choisie aussi sur la montée finale, et s'il manque de la hauteur, elle est ajoutée seulement sur le mot concerné (`"question_rise"`, `"rise_words"` ; analyse/resynthèse WORLD). Les prises sont jugées par Whisper « medium » (`"judge": "medium"`), et toute répétition ou bégaiement élimine la prise.
