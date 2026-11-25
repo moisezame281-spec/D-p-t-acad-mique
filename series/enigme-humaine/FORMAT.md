@@ -141,6 +141,10 @@ Le format court fait **58 à 60 s** ; le format long peut aller **jusqu'à 2 min
 32. *(ép. 009)* **La salle d'audience claire** et sa cage de verre vide ; **la salle blanche** où des silhouettes identiques perdent leur petite lumière, sauf une
 33. *(ép. 009)* **Le livre dans le rayon de lumière** (pupitre, fenêtre haute, poussière) ; **l'arc et le moucharabieh** dont le motif d'étoiles se dessine au sol
 34. *(ép. 009)* **La rangée d'interrupteurs**, de VERTU à ABDICATION DE CONSCIENCE ; **la balance** (l'intention contre les actes) ; **le grand bureau vu d'en haut** et ses « ? » dorés qui s'éteignent
+35. *(ép. 010)* **Le livre dont on tourne la page** (la tache d'encre transparaît encore) ; **les deux silhouettes séparées** dans une longue pièce claire
+36. *(ép. 010)* **Le vase qui se fêle** (blesse, s'excuse, recommence) ; **la porte entrouverte** (liberté ou permission, la cale) ; **la porte grande ouverte**
+37. *(ép. 010)* **Le chemin des trois pierres** (reprendre, se repentir, pardonner) ; **la cour aux deux arcs et le carreau réparé d'or** ; **le bol en kintsugi**
+38. *(ép. 010)* **Les quatre objets barrés** (ce que le pardon n'est pas) ; **la chaise vide** dans un rai de lumière, entourée d'ombres qui exigent
 
 ## 3 bis. Transitions (révisées le 22/11 : sobres et fluides)
 

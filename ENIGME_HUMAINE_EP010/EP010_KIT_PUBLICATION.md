@@ -21,7 +21,11 @@
 ### 6. Extraits courts
 Trois fichiers prêts à publier. Chaque extrait montre le petit logo en haut et commence et finit en fondu.
 
-__CLIPS__
+| Fichier | Début → fin dans le master | Durée | Accroche à ajouter à l'écran dans TikTok (facultatif) |
+|---|---|---|---|
+| `EP010_EXTRAIT_1_DERRIDA.mp4` | 00:38,0 → 00:49,7 | 11,7 s | *Pardonner seulement le pardonnable… est-ce encore pardonner ?* |
+| `EP010_EXTRAIT_2_LUC_CORAN.mp4` | 00:20,5 → 00:38,7 | 18,2 s | *Ce que la Bible et le Coran disent du pardon.* |
+| `EP010_EXTRAIT_3_QUESTION.mp4` | 00:49,0 → 01:07,8 | 18,8 s | *Qui a le droit d’exiger ton pardon ?* |
 
 **Conseil :** publie un extrait deux ou trois jours après l'épisode, en renvoyant vers lui dans la légende (« L'épisode complet est sur mon profil »).
 
