@@ -1,0 +1,349 @@
+{
+  "title": "L'Énigme humaine — Épisode 012 — Qui pense en toi ?",
+  "voice": "ff_siwis",
+  "lang": "fr-fr",
+  "speed": 0.9,
+  "note": "Ton « explication de prof » et modèle « tableau vivant ». Texte adapté du script fourni (idées, faits, références et questions conservés). Moins de prises (3 et 4) pour aller plus vite.",
+  "lead_in": 0.3,
+  "tail": 4.3,
+  "engine": "chatterbox",
+  "ref": "../../../series/enigme-humaine/voix_homme/Voix_homme_B_reference.wav",
+  "intent": "explique",
+  "judge": "medium",
+  "question_rise": 4.5,
+  "sentences": [
+    {
+      "id": "s01",
+      "scene": 1,
+      "group": "g_s01",
+      "pause": 0.35,
+      "intent": "explique_q",
+      "takes": 4,
+      "chunks": [
+        [
+          "Essaie une petite expérience, là, maintenant."
+        ]
+      ]
+    },
+    {
+      "id": "s02",
+      "scene": 2,
+      "group": "g_s02",
+      "pause": 0.25,
+      "intent": "explique",
+      "takes": 3,
+      "chunks": [
+        [
+          "Choisis ta prochaine pensée."
+        ],
+        [
+          "Pas un souvenir, pas une phrase que tu vas répéter :"
+        ]
+      ]
+    },
+    {
+      "id": "s03",
+      "scene": 2,
+      "group": "g_s03",
+      "pause": 0.45,
+      "intent": "explique_q",
+      "takes": 4,
+      "chunks": [
+        [
+          "une pensée nouvelle, que tu décides avant même qu’elle arrive."
+        ],
+        [
+          "Difficile, n’est-ce pas ?"
+        ]
+      ]
+    },
+    {
+      "id": "s04",
+      "scene": 3,
+      "group": "g_s04",
+      "pause": 0.6,
+      "intent": "explique_q",
+      "takes": 4,
+      "chunks": [
+        [
+          "Alors, sommes-nous vraiment les auteurs"
+        ],
+        [
+          "de tout ce qui traverse notre esprit ?"
+        ]
+      ],
+      "max_syl": 5.0
+    },
+    {
+      "id": "s05",
+      "scene": 4,
+      "group": "g_s05",
+      "pause": 0.3,
+      "intent": "explique",
+      "takes": 3,
+      "chunks": [
+        [
+          "Pour comprendre, il faut parler de Spinoza."
+        ]
+      ]
+    },
+    {
+      "id": "s06",
+      "scene": 4,
+      "group": "g_s06",
+      "pause": 0.3,
+      "intent": "explique",
+      "takes": 3,
+      "chunks": [
+        [
+          "Au XVIIe siècle, il avance une idée dérangeante :",
+          "Au dix-septième siècle, il avance une idée dérangeante :"
+        ]
+      ]
+    },
+    {
+      "id": "s07",
+      "scene": 4,
+      "group": "g_s07",
+      "pause": 0.2,
+      "intent": "explique",
+      "takes": 3,
+      "chunks": [
+        [
+          "on se croit libres parce qu’on a conscience de nos désirs…"
+        ]
+      ]
+    },
+    {
+      "id": "s08",
+      "scene": 4,
+      "group": "g_s08",
+      "pause": 0.5,
+      "intent": "explique",
+      "takes": 3,
+      "chunks": [
+        [
+          "mais on ignore souvent les causes qui les déterminent."
+        ]
+      ]
+    },
+    {
+      "id": "s09",
+      "scene": 5,
+      "group": "g_s09",
+      "pause": 0.3,
+      "intent": "explique",
+      "takes": 3,
+      "chunks": [
+        [
+          "La neuroscience ajoute un élément troublant."
+        ]
+      ]
+    },
+    {
+      "id": "s10",
+      "scene": 5,
+      "group": "g_s10",
+      "pause": 0.2,
+      "intent": "explique",
+      "takes": 3,
+      "chunks": [
+        [
+          "Dans ses expériences, Benjamin Libet observe une activité dans le cerveau…",
+          "Dans ses expériences, Benjamin Libette observe une activité dans le cerveau…"
+        ]
+      ]
+    },
+    {
+      "id": "s11",
+      "scene": 5,
+      "group": "g_s11",
+      "pause": 0.45,
+      "intent": "explique",
+      "takes": 3,
+      "chunks": [
+        [
+          "avant même que la personne dise avoir eu l’intention de bouger."
+        ]
+      ]
+    },
+    {
+      "id": "s12",
+      "scene": 6,
+      "group": "g_s12",
+      "pause": 0.25,
+      "intent": "explique",
+      "takes": 3,
+      "chunks": [
+        [
+          "Mais attention : ça ne prouve pas que le libre arbitre est une illusion."
+        ]
+      ]
+    },
+    {
+      "id": "s13",
+      "scene": 6,
+      "group": "g_s13",
+      "pause": 0.5,
+      "intent": "explique",
+      "takes": 3,
+      "chunks": [
+        [
+          "Ces expériences portent sur des gestes très simples,"
+        ],
+        [
+          "et leur interprétation reste débattue."
+        ]
+      ]
+    },
+    {
+      "id": "s14",
+      "scene": 7,
+      "group": "g_s14",
+      "pause": 0.2,
+      "intent": "explique",
+      "takes": 3,
+      "chunks": [
+        [
+          "Le bouddhisme, dans le premier verset du Dhammapada,",
+          "Le bouddhisme, dans le premier verset du Dhamma-pada,"
+        ]
+      ]
+    },
+    {
+      "id": "s15",
+      "scene": 7,
+      "group": "g_s15",
+      "pause": 0.3,
+      "intent": "explique",
+      "takes": 3,
+      "chunks": [
+        [
+          "rappelle que l’esprit précède et façonne nos paroles et nos actes."
+        ]
+      ]
+    },
+    {
+      "id": "s16",
+      "scene": 7,
+      "group": "g_s16",
+      "pause": 0.5,
+      "intent": "explique",
+      "takes": 3,
+      "chunks": [
+        [
+          "Il invite à observer et à cultiver notre activité mentale."
+        ]
+      ]
+    },
+    {
+      "id": "s17",
+      "scene": 8,
+      "group": "g_s17",
+      "pause": 0.45,
+      "intent": "explique",
+      "takes": 3,
+      "chunks": [
+        [
+          "Retenons ça : ne pas choisir une pensée,"
+        ],
+        [
+          "ce n’est pas devoir lui obéir."
+        ]
+      ]
+    },
+    {
+      "id": "s18",
+      "scene": 9,
+      "group": "g_s18",
+      "pause": 0.3,
+      "intent": "explique",
+      "takes": 3,
+      "chunks": [
+        [
+          "Une pensée de haine ne fait pas automatiquement de toi une personne haineuse."
+        ]
+      ]
+    },
+    {
+      "id": "s19",
+      "scene": 9,
+      "group": "g_s19",
+      "pause": 0.5,
+      "intent": "explique",
+      "takes": 3,
+      "chunks": [
+        [
+          "Une pensée de peur ne t’oblige pas à lui céder."
+        ]
+      ]
+    },
+    {
+      "id": "s20",
+      "scene": 10,
+      "group": "g_s20",
+      "pause": 0.2,
+      "intent": "explique",
+      "takes": 3,
+      "chunks": [
+        [
+          "Peut-être que la liberté ne commence pas quand une pensée naît…"
+        ]
+      ]
+    },
+    {
+      "id": "s21",
+      "scene": 10,
+      "group": "g_s21",
+      "pause": 0.55,
+      "intent": "explique",
+      "takes": 3,
+      "chunks": [
+        [
+          "mais quand tu décides de lui accorder ta confiance."
+        ]
+      ]
+    },
+    {
+      "id": "s22",
+      "scene": 11,
+      "group": "g_s22",
+      "pause": 0.2,
+      "intent": "explique_q",
+      "takes": 4,
+      "chunks": [
+        [
+          "Alors, sommes-nous maîtres de nos pensées…"
+        ]
+      ],
+      "max_syl": 5.0
+    },
+    {
+      "id": "s23",
+      "scene": 11,
+      "group": "g_s23",
+      "pause": 0.6,
+      "intent": "explique_q",
+      "takes": 4,
+      "chunks": [
+        [
+          "ou seulement responsables de ce que nous en faisons ?"
+        ]
+      ],
+      "max_syl": 5.0
+    },
+    {
+      "id": "s24",
+      "scene": 12,
+      "group": "g_s24",
+      "pause": 0,
+      "intent": "explique",
+      "takes": 3,
+      "chunks": [
+        [
+          "Dis-moi ce que tu en penses en commentaire."
+        ]
+      ]
+    }
+  ]
+}
