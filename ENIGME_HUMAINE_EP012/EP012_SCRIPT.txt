@@ -1,0 +1,132 @@
+L’ÉNIGME HUMAINE — ÉPISODE 012
+QUI PENSE EN TOI ?
+
+Durée : 91.01 s · 1080×1920 · 30 i/s · français
+Modèle « tableau vivant » (fond papier, mots qui apparaissent au rythme de la voix, pictogrammes, cartes, barre de progression)
+et ton « explication de prof » (voix C homme, timbre B, en groupes de souffle plus expressifs ; texte adapté du script fourni).
+
+SCRIPT FOURNI (ORIGINAL)
+
+Essaie une expérience.
+
+Choisis maintenant ta prochaine pensée.
+
+Pas un souvenir que tu connais déjà. Pas une phrase que tu vas volontairement répéter. Une pensée nouvelle, que tu déciderais de faire apparaître avant même qu’elle arrive.
+
+Difficile, n’est-ce pas ?
+
+Alors, une question surgit : sommes-nous réellement les auteurs de tout ce qui traverse notre esprit ?
+
+Au XVIIe siècle, Spinoza avance une thèse dérangeante : les êtres humains se croient libres parce qu’ils sont conscients de leurs désirs, mais ignorent souvent les causes qui les déterminent.
+
+La neuroscience ajoute un élément troublant. Dans ses expériences, Benjamin Libet observe une activité cérébrale précédant la prise de conscience rapportée d’une intention de mouvement.
+
+Attention cependant : ces expériences ne prouvent pas que le libre arbitre est une illusion. Leur interprétation reste débattue, notamment parce qu’elles portent sur des mouvements simples.
+
+Le bouddhisme, dans le premier verset du Dhammapada, rappelle également que l’esprit précède et façonne nos paroles et nos actes. Il invite à observer et à cultiver notre activité mentale.
+
+Mais voici la distinction essentielle : ne pas choisir toutes les pensées qui apparaissent ne signifie pas devoir leur obéir.
+
+Une pensée de haine ne fait pas automatiquement de quelqu’un une personne haineuse. Une pensée de peur ne signifie pas qu’il doit lui céder.
+
+Peut-être que la liberté ne commence pas au moment où une pensée naît, mais au moment où nous décidons de lui accorder notre confiance.
+
+Alors, sommes-nous maîtres de nos pensées, ou seulement responsables de ce que nous en faisons ?
+
+
+NARRATION ADAPTÉE AU TON « EXPLICATION DE PROF » (idées, faits, références et questions conservés)
+
+Essaie une petite expérience, là, maintenant.
+Choisis ta prochaine pensée. Pas un souvenir, pas une phrase que tu vas répéter :
+une pensée nouvelle, que tu décides avant même qu’elle arrive. Difficile, n’est-ce pas ?
+Alors, sommes-nous vraiment les auteurs de tout ce qui traverse notre esprit ?
+Pour comprendre, il faut parler de Spinoza.
+Au XVIIe siècle, il avance une idée dérangeante :
+on se croit libres parce qu’on a conscience de nos désirs…
+mais on ignore souvent les causes qui les déterminent.
+La neuroscience ajoute un élément troublant.
+Dans ses expériences, Benjamin Libet observe une activité dans le cerveau…
+avant même que la personne dise avoir eu l’intention de bouger.
+Mais attention : ça ne prouve pas que le libre arbitre est une illusion.
+Ces expériences portent sur des gestes très simples, et leur interprétation reste débattue.
+Le bouddhisme, dans le premier verset du Dhammapada,
+rappelle que l’esprit précède et façonne nos paroles et nos actes.
+Il invite à observer et à cultiver notre activité mentale.
+Retenons ça : ne pas choisir une pensée, ce n’est pas devoir lui obéir.
+Une pensée de haine ne fait pas automatiquement de toi une personne haineuse.
+Une pensée de peur ne t’oblige pas à lui céder.
+Peut-être que la liberté ne commence pas quand une pensée naît…
+mais quand tu décides de lui accorder ta confiance.
+Alors, sommes-nous maîtres de nos pensées…
+ou seulement responsables de ce que nous en faisons ?
+Dis-moi ce que tu en penses en commentaire.
+
+
+MINUTAGE PAR TEMPS (narration · ce qu’on voit)
+
+
+TEMPS 01 — L’ACCROCHE  [00:00.00 → 00:02.95]
+  00:00.30  VOIX  Essaie une petite expérience, là, maintenant.
+           ÉCRAN dès la première image : L’ÉNIGME DU JOUR · QUI PENSE EN TOI ? (le logo s’allume, signature sonore) · une personne et une bulle de pensée
+
+TEMPS 02 — L’EXPÉRIENCE  [00:02.95 → 00:07.78]
+  00:03.10  VOIX  Choisis ta prochaine pensée. Pas un souvenir, pas une phrase que tu vas répéter :
+           ÉCRAN les mots de la voix apparaissent un à un, « prochaine pensée » surligné
+
+TEMPS 03 — DIFFICILE  [00:07.78 → 00:12.80]
+  00:07.93  VOIX  une pensée nouvelle, que tu décides avant même qu’elle arrive. Difficile, n’est-ce pas ?
+           ÉCRAN la phrase mot à mot, « nouvelle » surligné, « Difficile » en rose · une horloge
+
+TEMPS 04 — LA QUESTION  [00:12.80 → 00:17.51]
+  00:12.95  VOIX  Alors, sommes-nous vraiment les auteurs de tout ce qui traverse notre esprit ?
+           ÉCRAN « Alors, posons la question. » · sommes-nous vraiment les auteurs de tout ce qui traverse notre esprit ? (« auteurs » en rose)
+
+TEMPS 05 — SPINOZA  [00:17.51 → 00:23.21]
+  00:17.66  VOIX  Pour comprendre, il faut parler de Spinoza.
+  00:20.23  VOIX  Au XVIIe siècle, il avance une idée dérangeante :
+           ÉCRAN Pour comprendre… · SPINOZA · 1632 – 1677 · Éthique · une idée dérangeante
+
+TEMPS 06 — LA THÈSE  [00:23.21 → 00:29.39]
+  00:23.36  VOIX  on se croit libres parce qu’on a conscience de nos désirs…
+  00:26.62  VOIX  mais on ignore souvent les causes qui les déterminent.
+           ÉCRAN On se croit libres… · carte « conscients de nos désirs » · mais · carte « ignorants des causes »
+
+TEMPS 07 — LIBET  [00:29.39 → 00:40.16]
+  00:29.54  VOIX  La neuroscience ajoute un élément troublant.
+  00:32.02  VOIX  Dans ses expériences, Benjamin Libet observe une activité dans le cerveau…
+  00:36.81  VOIX  avant même que la personne dise avoir eu l’intention de bouger.
+           ÉCRAN Et la neuroscience ? · carte Benjamin Libet · une courbe d’activité se trace : repère « activité du cerveau », puis repère « je veux bouger » (schéma illustratif, sans échelle)
+
+TEMPS 08 — MAIS ATTENTION  [00:40.16 → 00:49.52]
+  00:40.31  VOIX  Mais attention : ça ne prouve pas que le libre arbitre est une illusion.
+  00:44.02  VOIX  Ces expériences portent sur des gestes très simples, et leur interprétation reste débattue.
+           ÉCRAN un panneau « attention » · pas une preuve que le libre arbitre est une illusion · des gestes très simples · une interprétation débattue
+
+TEMPS 09 — LE DHAMMAPADA  [00:49.52 → 01:00.05]
+  00:49.67  VOIX  Le bouddhisme, dans le premier verset du Dhammapada,
+  00:52.80  VOIX  rappelle que l’esprit précède et façonne nos paroles et nos actes.
+  00:56.35  VOIX  Il invite à observer et à cultiver notre activité mentale.
+           ÉCRAN Le bouddhisme · carte DHAMMAPADA · VERSET 1 : « L’esprit précède et façonne nos paroles et nos actes. » (traduction libre) · observer · cultiver
+
+TEMPS 10 — RETENONS ÇA  [01:00.05 → 01:04.88]
+  01:00.20  VOIX  Retenons ça : ne pas choisir une pensée, ce n’est pas devoir lui obéir.
+           ÉCRAN Retenons ça. · NE PAS CHOISIR une pensée ≠ LUI OBÉIR
+
+TEMPS 11 — DEUX EXEMPLES  [01:04.88 → 01:12.06]
+  01:05.03  VOIX  Une pensée de haine ne fait pas automatiquement de toi une personne haineuse.
+  01:09.72  VOIX  Une pensée de peur ne t’oblige pas à lui céder.
+           ÉCRAN une pensée de haine ≠ une personne haineuse · une pensée de peur ≠ devoir lui céder
+
+TEMPS 12 — LA LIBERTÉ  [01:12.06 → 01:18.32]
+  01:12.21  VOIX  Peut-être que la liberté ne commence pas quand une pensée naît…
+  01:15.52  VOIX  mais quand tu décides de lui accorder ta confiance.
+           ÉCRAN la phrase mot à mot, « liberté » en rose, « confiance » surligné
+
+TEMPS 13 — LA QUESTION FINALE  [01:18.32 → 01:24.58]
+  01:18.47  VOIX  Alors, sommes-nous maîtres de nos pensées…
+  01:21.02  VOIX  ou seulement responsables de ce que nous en faisons ?
+           ÉCRAN mot à mot, « maîtres » et « responsables » en rose
+
+TEMPS 14 — TA RÉPONSE  [01:24.58 → 01:31.01]
+  01:24.73  VOIX  Dis-moi ce que tu en penses en commentaire.
+           ÉCRAN une bulle de commentaire · Dis-moi ce que tu en penses en commentaire. · puis le CARTON DE FIN : le logo s’allume (signature sonore) · L’Énigme humaine · FAIS TA PROPRE RÉFLEXION · Suis la série / une nouvelle question chaque semaine

@@ -22,7 +22,7 @@
     ids.forEach(id => {
       const s = SEN(id);
       s.chunks.forEach((ch, ci) => {
-        const ws = s.words.filter(w => w.chunk === ci), disp = ch.text.split(/\s+/).filter(Boolean);
+        const ws = s.words.filter(w => w.chunk === ci), disp = ch.text.split(/\s+/).filter(Boolean).reduce((a, w) => { if (!keysOf(w).length && a.length) a[a.length - 1] += '\u00a0' + w; else a.push(w); return a; }, []);   // « ? » et « : » restent collés au mot précédent
         const nk = disp.reduce((a, w) => a + Math.max(1, keysOf(w).length), 0);
         let wi = 0;
         disp.forEach((w, j) => {
@@ -64,7 +64,7 @@
   } });
   // 3. la question
   beat({ id: 'q1', start: ST('s04'), sids: ['s04'], nosub: true, question: SEN('s04').start, draw(t) {
-    TB.text(c, 'Alors, posons la question.', W / 2, 400, 'ital', 60, P.blue, { a: prog(t, ST('s04'), ST('s04') + .4) });
+    TB.text(c, 'Posons-nous une question.', W / 2, 400, 'ital', 60, P.blue, { a: prog(t, ST('s04'), ST('s04') + .4) });
     const LL = lay('q1', () => TB.fit(c, toks(['s04'], { hl: ['auteurs'], rose: ['auteurs'] }), 'titre', 110, 940, 600, 1.1));
     TB.words(c, LL, W / 2, 540, t);
   } });

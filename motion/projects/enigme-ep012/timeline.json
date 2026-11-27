@@ -1,0 +1,2022 @@
+{
+ "duration": 91.014,
+ "sentences": [
+  {
+   "id": "s01",
+   "scene": 1,
+   "start": 0.3,
+   "end": 2.749,
+   "display": "Essaie une petite expérience, là, maintenant.",
+   "say": "Essaie une petite expérience, là, maintenant.",
+   "heard": "Et  c 'est  une  petite  expérience,  là,  maintenant.",
+   "match": 0.833,
+   "words": [
+    {
+     "w": "essaie",
+     "start": 0.3,
+     "end": 0.62,
+     "chunk": 0
+    },
+    {
+     "w": "une",
+     "start": 0.62,
+     "end": 0.72,
+     "chunk": 0
+    },
+    {
+     "w": "petite",
+     "start": 0.72,
+     "end": 0.88,
+     "chunk": 0
+    },
+    {
+     "w": "experience",
+     "start": 0.88,
+     "end": 1.58,
+     "chunk": 0
+    },
+    {
+     "w": "la",
+     "start": 1.74,
+     "end": 2.0,
+     "chunk": 0
+    },
+    {
+     "w": "maintenant",
+     "start": 2.24,
+     "end": 2.5,
+     "chunk": 0
+    }
+   ],
+   "chunks": [
+    {
+     "text": "Essaie une petite expérience, là, maintenant.",
+     "start": 0.3,
+     "end": 2.749
+    }
+   ]
+  },
+  {
+   "id": "s02",
+   "scene": 2,
+   "start": 3.099,
+   "end": 7.685,
+   "display": "Choisis ta prochaine pensée. Pas un souvenir, pas une phrase que tu vas répéter :",
+   "say": "Choisis ta prochaine pensée. Pas un souvenir, pas une phrase que tu vas répéter :",
+   "heard": "Choisis  ta  prochaine  pensée,  pas  un  souvenir,  pas  une  phrase  que  tu  vas  répéter.",
+   "match": 1.0,
+   "words": [
+    {
+     "w": "choisis",
+     "start": 3.099,
+     "end": 3.539,
+     "chunk": 0
+    },
+    {
+     "w": "ta",
+     "start": 3.539,
+     "end": 3.639,
+     "chunk": 0
+    },
+    {
+     "w": "prochaine",
+     "start": 3.639,
+     "end": 3.979,
+     "chunk": 0
+    },
+    {
+     "w": "pensee",
+     "start": 3.979,
+     "end": 4.539,
+     "chunk": 0
+    },
+    {
+     "w": "pas",
+     "start": 4.719,
+     "end": 4.859,
+     "chunk": 1
+    },
+    {
+     "w": "un",
+     "start": 4.859,
+     "end": 5.039,
+     "chunk": 1
+    },
+    {
+     "w": "souvenir",
+     "start": 5.039,
+     "end": 5.459,
+     "chunk": 1
+    },
+    {
+     "w": "pas",
+     "start": 5.719,
+     "end": 5.819,
+     "chunk": 1
+    },
+    {
+     "w": "une",
+     "start": 5.819,
+     "end": 6.019,
+     "chunk": 1
+    },
+    {
+     "w": "phrase",
+     "start": 6.019,
+     "end": 6.259,
+     "chunk": 1
+    },
+    {
+     "w": "que",
+     "start": 6.259,
+     "end": 6.439,
+     "chunk": 1
+    },
+    {
+     "w": "tu",
+     "start": 6.439,
+     "end": 6.559,
+     "chunk": 1
+    },
+    {
+     "w": "vas",
+     "start": 6.559,
+     "end": 6.659,
+     "chunk": 1
+    },
+    {
+     "w": "repeter",
+     "start": 6.659,
+     "end": 7.099,
+     "chunk": 1
+    }
+   ],
+   "chunks": [
+    {
+     "text": "Choisis ta prochaine pensée.",
+     "start": 3.099,
+     "end": 4.539
+    },
+    {
+     "text": "Pas un souvenir, pas une phrase que tu vas répéter :",
+     "start": 4.719,
+     "end": 7.685
+    }
+   ]
+  },
+  {
+   "id": "s03",
+   "scene": 2,
+   "start": 7.935,
+   "end": 12.499,
+   "display": "une pensée nouvelle, que tu décides avant même qu’elle arrive. Difficile, n’est-ce pas ?",
+   "say": "une pensée nouvelle, que tu décides avant même qu’elle arrive. Difficile, n’est-ce pas ?",
+   "heard": "une  pensée  nouvelle  que  tu  décides  avant  même  qu 'elle  arrive.  Difficile,  n 'est -ce  pas  ?",
+   "match": 1.0,
+   "words": [
+    {
+     "w": "une",
+     "start": 7.935,
+     "end": 8.075,
+     "chunk": 0
+    },
+    {
+     "w": "pensee",
+     "start": 8.075,
+     "end": 8.395,
+     "chunk": 0
+    },
+    {
+     "w": "nouvelle",
+     "start": 8.395,
+     "end": 8.695,
+     "chunk": 0
+    },
+    {
+     "w": "que",
+     "start": 8.695,
+     "end": 9.215,
+     "chunk": 0
+    },
+    {
+     "w": "tu",
+     "start": 9.215,
+     "end": 9.355,
+     "chunk": 0
+    },
+    {
+     "w": "decides",
+     "start": 9.355,
+     "end": 9.835,
+     "chunk": 0
+    },
+    {
+     "w": "avant",
+     "start": 9.835,
+     "end": 10.075,
+     "chunk": 0
+    },
+    {
+     "w": "meme",
+     "start": 10.075,
+     "end": 10.375,
+     "chunk": 0
+    },
+    {
+     "w": "qu",
+     "start": 10.375,
+     "end": 10.535,
+     "chunk": 0
+    },
+    {
+     "w": "elle",
+     "start": 10.535,
+     "end": 10.595,
+     "chunk": 0
+    },
+    {
+     "w": "arrive",
+     "start": 10.595,
+     "end": 10.935,
+     "chunk": 0
+    },
+    {
+     "w": "difficile",
+     "start": 11.655,
+     "end": 11.975,
+     "chunk": 1
+    },
+    {
+     "w": "n",
+     "start": 12.035,
+     "end": 12.095,
+     "chunk": 1
+    },
+    {
+     "w": "est",
+     "start": 12.095,
+     "end": 12.195,
+     "chunk": 1
+    },
+    {
+     "w": "ce",
+     "start": 12.195,
+     "end": 12.255,
+     "chunk": 1
+    },
+    {
+     "w": "pas",
+     "start": 12.255,
+     "end": 12.375,
+     "chunk": 1
+    }
+   ],
+   "chunks": [
+    {
+     "text": "une pensée nouvelle, que tu décides avant même qu’elle arrive.",
+     "start": 7.935,
+     "end": 10.935
+    },
+    {
+     "text": "Difficile, n’est-ce pas ?",
+     "start": 11.655,
+     "end": 12.499
+    }
+   ]
+  },
+  {
+   "id": "s04",
+   "scene": 3,
+   "start": 12.953,
+   "end": 17.075,
+   "display": "Alors, sommes-nous vraiment les auteurs de tout ce qui traverse notre esprit ?",
+   "say": "Alors, sommes-nous vraiment les auteurs de tout ce qui traverse notre esprit ?",
+   "heard": "Alors,  sommes -nous  vraiment  les  auteurs  de  tout  ce  qui  traverse  notre  esprit  ?",
+   "match": 1.0,
+   "words": [
+    {
+     "w": "alors",
+     "start": 12.953,
+     "end": 13.318,
+     "chunk": 0
+    },
+    {
+     "w": "sommes",
+     "start": 13.662,
+     "end": 13.898,
+     "chunk": 0
+    },
+    {
+     "w": "nous",
+     "start": 13.898,
+     "end": 14.113,
+     "chunk": 0
+    },
+    {
+     "w": "vraiment",
+     "start": 14.113,
+     "end": 14.392,
+     "chunk": 0
+    },
+    {
+     "w": "les",
+     "start": 14.392,
+     "end": 14.628,
+     "chunk": 0
+    },
+    {
+     "w": "auteurs",
+     "start": 14.628,
+     "end": 15.079,
+     "chunk": 0
+    },
+    {
+     "w": "de",
+     "start": 15.079,
+     "end": 15.208,
+     "chunk": 1
+    },
+    {
+     "w": "tout",
+     "start": 15.208,
+     "end": 15.379,
+     "chunk": 1
+    },
+    {
+     "w": "ce",
+     "start": 15.379,
+     "end": 15.53,
+     "chunk": 1
+    },
+    {
+     "w": "qui",
+     "start": 15.53,
+     "end": 15.658,
+     "chunk": 1
+    },
+    {
+     "w": "traverse",
+     "start": 15.658,
+     "end": 16.045,
+     "chunk": 1
+    },
+    {
+     "w": "notre",
+     "start": 16.045,
+     "end": 16.238,
+     "chunk": 1
+    },
+    {
+     "w": "esprit",
+     "start": 16.238,
+     "end": 16.753,
+     "chunk": 1
+    }
+   ],
+   "chunks": [
+    {
+     "text": "Alors, sommes-nous vraiment les auteurs",
+     "start": 12.953,
+     "end": 15.079
+    },
+    {
+     "text": "de tout ce qui traverse notre esprit ?",
+     "start": 15.079,
+     "end": 17.075
+    }
+   ]
+  },
+  {
+   "id": "s05",
+   "scene": 4,
+   "start": 17.657,
+   "end": 19.926,
+   "display": "Pour comprendre, il faut parler de Spinoza.",
+   "say": "Pour comprendre, il faut parler de Spinoza.",
+   "heard": "Pour  comprendre,  il  faut  parler  de  Spinoza.",
+   "match": 1.0,
+   "words": [
+    {
+     "w": "pour",
+     "start": 17.657,
+     "end": 17.757,
+     "chunk": 0
+    },
+    {
+     "w": "comprendre",
+     "start": 17.757,
+     "end": 18.177,
+     "chunk": 0
+    },
+    {
+     "w": "il",
+     "start": 18.657,
+     "end": 18.737,
+     "chunk": 0
+    },
+    {
+     "w": "faut",
+     "start": 18.737,
+     "end": 18.897,
+     "chunk": 0
+    },
+    {
+     "w": "parler",
+     "start": 18.897,
+     "end": 19.157,
+     "chunk": 0
+    },
+    {
+     "w": "de",
+     "start": 19.157,
+     "end": 19.317,
+     "chunk": 0
+    },
+    {
+     "w": "spinoza",
+     "start": 19.317,
+     "end": 19.757,
+     "chunk": 0
+    }
+   ],
+   "chunks": [
+    {
+     "text": "Pour comprendre, il faut parler de Spinoza.",
+     "start": 17.657,
+     "end": 19.926
+    }
+   ]
+  },
+  {
+   "id": "s06",
+   "scene": 4,
+   "start": 20.226,
+   "end": 23.062,
+   "display": "Au XVIIe siècle, il avance une idée dérangeante :",
+   "say": "Au dix-septième siècle, il avance une idée dérangeante :",
+   "heard": "Au  XVIIe  siècle,  il  avance  une  idée  dérangeante.",
+   "match": 0.778,
+   "words": [
+    {
+     "w": "au",
+     "start": 20.226,
+     "end": 20.326,
+     "chunk": 0
+    },
+    {
+     "w": "dix",
+     "start": 20.326,
+     "end": 20.606,
+     "chunk": 0
+    },
+    {
+     "w": "septieme",
+     "start": 20.606,
+     "end": 20.886,
+     "chunk": 0
+    },
+    {
+     "w": "siecle",
+     "start": 20.886,
+     "end": 21.166,
+     "chunk": 0
+    },
+    {
+     "w": "il",
+     "start": 21.446,
+     "end": 21.546,
+     "chunk": 0
+    },
+    {
+     "w": "avance",
+     "start": 21.546,
+     "end": 21.906,
+     "chunk": 0
+    },
+    {
+     "w": "une",
+     "start": 21.906,
+     "end": 22.086,
+     "chunk": 0
+    },
+    {
+     "w": "idee",
+     "start": 22.086,
+     "end": 22.286,
+     "chunk": 0
+    },
+    {
+     "w": "derangeante",
+     "start": 22.286,
+     "end": 22.886,
+     "chunk": 0
+    }
+   ],
+   "chunks": [
+    {
+     "text": "Au XVIIe siècle, il avance une idée dérangeante :",
+     "start": 20.226,
+     "end": 23.062
+    }
+   ]
+  },
+  {
+   "id": "s07",
+   "scene": 4,
+   "start": 23.362,
+   "end": 26.416,
+   "display": "on se croit libres parce qu’on a conscience de nos désirs…",
+   "say": "on se croit libres parce qu’on a conscience de nos désirs…",
+   "heard": "On  se  croit  libre  parce  qu 'on  a  conscience  de  nos  désirs.",
+   "match": 0.917,
+   "words": [
+    {
+     "w": "on",
+     "start": 23.362,
+     "end": 23.462,
+     "chunk": 0
+    },
+    {
+     "w": "se",
+     "start": 23.462,
+     "end": 23.582,
+     "chunk": 0
+    },
+    {
+     "w": "croit",
+     "start": 23.582,
+     "end": 23.902,
+     "chunk": 0
+    },
+    {
+     "w": "libres",
+     "start": 23.902,
+     "end": 24.222,
+     "chunk": 0
+    },
+    {
+     "w": "parce",
+     "start": 24.222,
+     "end": 24.682,
+     "chunk": 0
+    },
+    {
+     "w": "qu",
+     "start": 24.682,
+     "end": 24.782,
+     "chunk": 0
+    },
+    {
+     "w": "on",
+     "start": 24.782,
+     "end": 24.842,
+     "chunk": 0
+    },
+    {
+     "w": "a",
+     "start": 24.842,
+     "end": 24.962,
+     "chunk": 0
+    },
+    {
+     "w": "conscience",
+     "start": 24.962,
+     "end": 25.322,
+     "chunk": 0
+    },
+    {
+     "w": "de",
+     "start": 25.322,
+     "end": 25.562,
+     "chunk": 0
+    },
+    {
+     "w": "nos",
+     "start": 25.562,
+     "end": 25.682,
+     "chunk": 0
+    },
+    {
+     "w": "desirs",
+     "start": 25.682,
+     "end": 26.242,
+     "chunk": 0
+    }
+   ],
+   "chunks": [
+    {
+     "text": "on se croit libres parce qu’on a conscience de nos désirs…",
+     "start": 23.362,
+     "end": 26.416
+    }
+   ]
+  },
+  {
+   "id": "s08",
+   "scene": 4,
+   "start": 26.616,
+   "end": 29.041,
+   "display": "mais on ignore souvent les causes qui les déterminent.",
+   "say": "mais on ignore souvent les causes qui les déterminent.",
+   "heard": "mais  on  ignore  souvent  les  causes  qui  les  déterminent.",
+   "match": 1.0,
+   "words": [
+    {
+     "w": "mais",
+     "start": 26.616,
+     "end": 26.736,
+     "chunk": 0
+    },
+    {
+     "w": "on",
+     "start": 26.736,
+     "end": 26.836,
+     "chunk": 0
+    },
+    {
+     "w": "ignore",
+     "start": 26.836,
+     "end": 27.076,
+     "chunk": 0
+    },
+    {
+     "w": "souvent",
+     "start": 27.076,
+     "end": 27.476,
+     "chunk": 0
+    },
+    {
+     "w": "les",
+     "start": 27.476,
+     "end": 27.656,
+     "chunk": 0
+    },
+    {
+     "w": "causes",
+     "start": 27.656,
+     "end": 27.956,
+     "chunk": 0
+    },
+    {
+     "w": "qui",
+     "start": 27.956,
+     "end": 28.136,
+     "chunk": 0
+    },
+    {
+     "w": "les",
+     "start": 28.136,
+     "end": 28.236,
+     "chunk": 0
+    },
+    {
+     "w": "determinent",
+     "start": 28.236,
+     "end": 28.896,
+     "chunk": 0
+    }
+   ],
+   "chunks": [
+    {
+     "text": "mais on ignore souvent les causes qui les déterminent.",
+     "start": 26.616,
+     "end": 29.041
+    }
+   ]
+  },
+  {
+   "id": "s09",
+   "scene": 5,
+   "start": 29.541,
+   "end": 31.721,
+   "display": "La neuroscience ajoute un élément troublant.",
+   "say": "La neuroscience ajoute un élément troublant.",
+   "heard": "La  neuro -science  ajoute  un  élément  troublant,",
+   "match": 0.833,
+   "words": [
+    {
+     "w": "la",
+     "start": 29.541,
+     "end": 29.661,
+     "chunk": 0
+    },
+    {
+     "w": "neuroscience",
+     "start": 29.661,
+     "end": 30.241,
+     "chunk": 0
+    },
+    {
+     "w": "ajoute",
+     "start": 30.241,
+     "end": 30.641,
+     "chunk": 0
+    },
+    {
+     "w": "un",
+     "start": 30.641,
+     "end": 30.761,
+     "chunk": 0
+    },
+    {
+     "w": "element",
+     "start": 30.761,
+     "end": 31.061,
+     "chunk": 0
+    },
+    {
+     "w": "troublant",
+     "start": 31.061,
+     "end": 31.501,
+     "chunk": 0
+    }
+   ],
+   "chunks": [
+    {
+     "text": "La neuroscience ajoute un élément troublant.",
+     "start": 29.541,
+     "end": 31.721
+    }
+   ]
+  },
+  {
+   "id": "s10",
+   "scene": 5,
+   "start": 32.021,
+   "end": 36.611,
+   "display": "Dans ses expériences, Benjamin Libet observe une activité dans le cerveau…",
+   "say": "Dans ses expériences, Benjamin Libette observe une activité dans le cerveau…",
+   "heard": "Dans  ses  expériences,  Benjamin  Libet  observe  une  activité  dans  le  cerveau.",
+   "match": 0.909,
+   "words": [
+    {
+     "w": "dans",
+     "start": 32.021,
+     "end": 32.121,
+     "chunk": 0
+    },
+    {
+     "w": "ses",
+     "start": 32.121,
+     "end": 32.261,
+     "chunk": 0
+    },
+    {
+     "w": "experiences",
+     "start": 32.261,
+     "end": 33.021,
+     "chunk": 0
+    },
+    {
+     "w": "benjamin",
+     "start": 33.241,
+     "end": 33.661,
+     "chunk": 0
+    },
+    {
+     "w": "libette",
+     "start": 33.661,
+     "end": 34.221,
+     "chunk": 0
+    },
+    {
+     "w": "observe",
+     "start": 34.221,
+     "end": 34.661,
+     "chunk": 0
+    },
+    {
+     "w": "une",
+     "start": 34.661,
+     "end": 34.921,
+     "chunk": 0
+    },
+    {
+     "w": "activite",
+     "start": 34.921,
+     "end": 35.421,
+     "chunk": 0
+    },
+    {
+     "w": "dans",
+     "start": 35.421,
+     "end": 35.541,
+     "chunk": 0
+    },
+    {
+     "w": "le",
+     "start": 35.541,
+     "end": 35.661,
+     "chunk": 0
+    },
+    {
+     "w": "cerveau",
+     "start": 35.661,
+     "end": 36.101,
+     "chunk": 0
+    }
+   ],
+   "chunks": [
+    {
+     "text": "Dans ses expériences, Benjamin Libet observe une activité dans le cerveau…",
+     "start": 32.021,
+     "end": 36.611
+    }
+   ]
+  },
+  {
+   "id": "s11",
+   "scene": 5,
+   "start": 36.811,
+   "end": 39.863,
+   "display": "avant même que la personne dise avoir eu l’intention de bouger.",
+   "say": "avant même que la personne dise avoir eu l’intention de bouger.",
+   "heard": "avant  même  que  la  personne  dise  avoir  eu  l 'intention  de  bouger.",
+   "match": 1.0,
+   "words": [
+    {
+     "w": "avant",
+     "start": 36.811,
+     "end": 37.011,
+     "chunk": 0
+    },
+    {
+     "w": "meme",
+     "start": 37.011,
+     "end": 37.231,
+     "chunk": 0
+    },
+    {
+     "w": "que",
+     "start": 37.231,
+     "end": 37.391,
+     "chunk": 0
+    },
+    {
+     "w": "la",
+     "start": 37.391,
+     "end": 37.491,
+     "chunk": 0
+    },
+    {
+     "w": "personne",
+     "start": 37.491,
+     "end": 37.911,
+     "chunk": 0
+    },
+    {
+     "w": "dise",
+     "start": 37.911,
+     "end": 38.151,
+     "chunk": 0
+    },
+    {
+     "w": "avoir",
+     "start": 38.151,
+     "end": 38.431,
+     "chunk": 0
+    },
+    {
+     "w": "eu",
+     "start": 38.431,
+     "end": 38.631,
+     "chunk": 0
+    },
+    {
+     "w": "l",
+     "start": 38.631,
+     "end": 38.731,
+     "chunk": 0
+    },
+    {
+     "w": "intention",
+     "start": 38.731,
+     "end": 39.151,
+     "chunk": 0
+    },
+    {
+     "w": "de",
+     "start": 39.151,
+     "end": 39.311,
+     "chunk": 0
+    },
+    {
+     "w": "bouger",
+     "start": 39.311,
+     "end": 39.751,
+     "chunk": 0
+    }
+   ],
+   "chunks": [
+    {
+     "text": "avant même que la personne dise avoir eu l’intention de bouger.",
+     "start": 36.811,
+     "end": 39.863
+    }
+   ]
+  },
+  {
+   "id": "s12",
+   "scene": 6,
+   "start": 40.313,
+   "end": 43.765,
+   "display": "Mais attention : ça ne prouve pas que le libre arbitre est une illusion.",
+   "say": "Mais attention : ça ne prouve pas que le libre arbitre est une illusion.",
+   "heard": "Mais  attention,  ça  ne  prouve  pas  que  le  libre -arbitre  est  une  illusion.",
+   "match": 1.0,
+   "words": [
+    {
+     "w": "mais",
+     "start": 40.313,
+     "end": 40.433,
+     "chunk": 0
+    },
+    {
+     "w": "attention",
+     "start": 40.433,
+     "end": 40.773,
+     "chunk": 0
+    },
+    {
+     "w": "ca",
+     "start": 41.233,
+     "end": 41.373,
+     "chunk": 0
+    },
+    {
+     "w": "ne",
+     "start": 41.373,
+     "end": 41.493,
+     "chunk": 0
+    },
+    {
+     "w": "prouve",
+     "start": 41.493,
+     "end": 41.793,
+     "chunk": 0
+    },
+    {
+     "w": "pas",
+     "start": 41.793,
+     "end": 41.933,
+     "chunk": 0
+    },
+    {
+     "w": "que",
+     "start": 41.933,
+     "end": 42.073,
+     "chunk": 0
+    },
+    {
+     "w": "le",
+     "start": 42.073,
+     "end": 42.193,
+     "chunk": 0
+    },
+    {
+     "w": "libre",
+     "start": 42.193,
+     "end": 42.393,
+     "chunk": 0
+    },
+    {
+     "w": "arbitre",
+     "start": 42.393,
+     "end": 42.793,
+     "chunk": 0
+    },
+    {
+     "w": "est",
+     "start": 42.793,
+     "end": 42.913,
+     "chunk": 0
+    },
+    {
+     "w": "une",
+     "start": 42.913,
+     "end": 43.093,
+     "chunk": 0
+    },
+    {
+     "w": "illusion",
+     "start": 43.093,
+     "end": 43.373,
+     "chunk": 0
+    }
+   ],
+   "chunks": [
+    {
+     "text": "Mais attention : ça ne prouve pas que le libre arbitre est une illusion.",
+     "start": 40.313,
+     "end": 43.765
+    }
+   ]
+  },
+  {
+   "id": "s13",
+   "scene": 6,
+   "start": 44.015,
+   "end": 49.175,
+   "display": "Ces expériences portent sur des gestes très simples, et leur interprétation reste débattue.",
+   "say": "Ces expériences portent sur des gestes très simples, et leur interprétation reste débattue.",
+   "heard": "Ces  expériences  portent  sur  des  gestes  très  simples  et  leur  interprétation  reste  débattue.",
+   "match": 1.0,
+   "words": [
+    {
+     "w": "ces",
+     "start": 44.015,
+     "end": 44.155,
+     "chunk": 0
+    },
+    {
+     "w": "experiences",
+     "start": 44.155,
+     "end": 44.955,
+     "chunk": 0
+    },
+    {
+     "w": "portent",
+     "start": 44.955,
+     "end": 45.455,
+     "chunk": 0
+    },
+    {
+     "w": "sur",
+     "start": 45.455,
+     "end": 45.555,
+     "chunk": 0
+    },
+    {
+     "w": "des",
+     "start": 45.555,
+     "end": 45.775,
+     "chunk": 0
+    },
+    {
+     "w": "gestes",
+     "start": 45.775,
+     "end": 46.135,
+     "chunk": 0
+    },
+    {
+     "w": "tres",
+     "start": 46.135,
+     "end": 46.315,
+     "chunk": 0
+    },
+    {
+     "w": "simples",
+     "start": 46.315,
+     "end": 46.735,
+     "chunk": 0
+    },
+    {
+     "w": "et",
+     "start": 46.735,
+     "end": 47.175,
+     "chunk": 1
+    },
+    {
+     "w": "leur",
+     "start": 47.175,
+     "end": 47.315,
+     "chunk": 1
+    },
+    {
+     "w": "interpretation",
+     "start": 47.315,
+     "end": 48.115,
+     "chunk": 1
+    },
+    {
+     "w": "reste",
+     "start": 48.115,
+     "end": 48.415,
+     "chunk": 1
+    },
+    {
+     "w": "debattue",
+     "start": 48.415,
+     "end": 49.055,
+     "chunk": 1
+    }
+   ],
+   "chunks": [
+    {
+     "text": "Ces expériences portent sur des gestes très simples,",
+     "start": 44.015,
+     "end": 46.735
+    },
+    {
+     "text": "et leur interprétation reste débattue.",
+     "start": 46.735,
+     "end": 49.175
+    }
+   ]
+  },
+  {
+   "id": "s14",
+   "scene": 7,
+   "start": 49.675,
+   "end": 52.605,
+   "display": "Le bouddhisme, dans le premier verset du Dhammapada,",
+   "say": "Le bouddhisme, dans le premier verset du Dhamma-pada,",
+   "heard": "le  bouddhisme  dans  le  premier  verset  du  Dhammapada.",
+   "match": 0.778,
+   "words": [
+    {
+     "w": "le",
+     "start": 49.675,
+     "end": 49.815,
+     "chunk": 0
+    },
+    {
+     "w": "bouddhisme",
+     "start": 49.815,
+     "end": 50.375,
+     "chunk": 0
+    },
+    {
+     "w": "dans",
+     "start": 50.375,
+     "end": 50.895,
+     "chunk": 0
+    },
+    {
+     "w": "le",
+     "start": 50.895,
+     "end": 51.035,
+     "chunk": 0
+    },
+    {
+     "w": "premier",
+     "start": 51.035,
+     "end": 51.335,
+     "chunk": 0
+    },
+    {
+     "w": "verset",
+     "start": 51.335,
+     "end": 51.775,
+     "chunk": 0
+    },
+    {
+     "w": "du",
+     "start": 51.775,
+     "end": 51.875,
+     "chunk": 0
+    },
+    {
+     "w": "dhamma",
+     "start": 51.875,
+     "end": 52.24,
+     "chunk": 0
+    },
+    {
+     "w": "pada",
+     "start": 52.24,
+     "end": 52.605,
+     "chunk": 0
+    }
+   ],
+   "chunks": [
+    {
+     "text": "Le bouddhisme, dans le premier verset du Dhammapada,",
+     "start": 49.675,
+     "end": 52.605
+    }
+   ]
+  },
+  {
+   "id": "s15",
+   "scene": 7,
+   "start": 52.805,
+   "end": 56.046,
+   "display": "rappelle que l’esprit précède et façonne nos paroles et nos actes.",
+   "say": "rappelle que l’esprit précède et façonne nos paroles et nos actes.",
+   "heard": "rappelle  que  l 'esprit  précède  et  façonne  nos  paroles  et  nos  actes.",
+   "match": 1.0,
+   "words": [
+    {
+     "w": "rappelle",
+     "start": 52.805,
+     "end": 53.065,
+     "chunk": 0
+    },
+    {
+     "w": "que",
+     "start": 53.065,
+     "end": 53.265,
+     "chunk": 0
+    },
+    {
+     "w": "l",
+     "start": 53.265,
+     "end": 53.385,
+     "chunk": 0
+    },
+    {
+     "w": "esprit",
+     "start": 53.385,
+     "end": 53.625,
+     "chunk": 0
+    },
+    {
+     "w": "precede",
+     "start": 53.625,
+     "end": 54.185,
+     "chunk": 0
+    },
+    {
+     "w": "et",
+     "start": 54.185,
+     "end": 54.345,
+     "chunk": 0
+    },
+    {
+     "w": "faconne",
+     "start": 54.345,
+     "end": 54.745,
+     "chunk": 0
+    },
+    {
+     "w": "nos",
+     "start": 54.745,
+     "end": 54.825,
+     "chunk": 0
+    },
+    {
+     "w": "paroles",
+     "start": 54.825,
+     "end": 55.245,
+     "chunk": 0
+    },
+    {
+     "w": "et",
+     "start": 55.245,
+     "end": 55.425,
+     "chunk": 0
+    },
+    {
+     "w": "nos",
+     "start": 55.425,
+     "end": 55.545,
+     "chunk": 0
+    },
+    {
+     "w": "actes",
+     "start": 55.545,
+     "end": 55.965,
+     "chunk": 0
+    }
+   ],
+   "chunks": [
+    {
+     "text": "rappelle que l’esprit précède et façonne nos paroles et nos actes.",
+     "start": 52.805,
+     "end": 56.046
+    }
+   ]
+  },
+  {
+   "id": "s16",
+   "scene": 7,
+   "start": 56.346,
+   "end": 59.695,
+   "display": "Il invite à observer et à cultiver notre activité mentale.",
+   "say": "Il invite à observer et à cultiver notre activité mentale.",
+   "heard": "Il  invite  à  observer  et  à  cultiver  notre  activité  mentale.",
+   "match": 1.0,
+   "words": [
+    {
+     "w": "il",
+     "start": 56.346,
+     "end": 56.466,
+     "chunk": 0
+    },
+    {
+     "w": "invite",
+     "start": 56.466,
+     "end": 56.726,
+     "chunk": 0
+    },
+    {
+     "w": "a",
+     "start": 56.726,
+     "end": 56.866,
+     "chunk": 0
+    },
+    {
+     "w": "observer",
+     "start": 56.866,
+     "end": 57.346,
+     "chunk": 0
+    },
+    {
+     "w": "et",
+     "start": 57.346,
+     "end": 57.866,
+     "chunk": 0
+    },
+    {
+     "w": "a",
+     "start": 57.866,
+     "end": 57.946,
+     "chunk": 0
+    },
+    {
+     "w": "cultiver",
+     "start": 57.946,
+     "end": 58.426,
+     "chunk": 0
+    },
+    {
+     "w": "notre",
+     "start": 58.426,
+     "end": 58.566,
+     "chunk": 0
+    },
+    {
+     "w": "activite",
+     "start": 58.566,
+     "end": 59.126,
+     "chunk": 0
+    },
+    {
+     "w": "mentale",
+     "start": 59.126,
+     "end": 59.606,
+     "chunk": 0
+    }
+   ],
+   "chunks": [
+    {
+     "text": "Il invite à observer et à cultiver notre activité mentale.",
+     "start": 56.346,
+     "end": 59.695
+    }
+   ]
+  },
+  {
+   "id": "s17",
+   "scene": 8,
+   "start": 60.195,
+   "end": 64.582,
+   "display": "Retenons ça : ne pas choisir une pensée, ce n’est pas devoir lui obéir.",
+   "say": "Retenons ça : ne pas choisir une pensée, ce n’est pas devoir lui obéir.",
+   "heard": "Retenons  ça,  ne  pas  choisir  une  pensée,  ce  n 'est  pas  devoir  lui  obéir.",
+   "match": 1.0,
+   "words": [
+    {
+     "w": "retenons",
+     "start": 60.195,
+     "end": 60.635,
+     "chunk": 0
+    },
+    {
+     "w": "ca",
+     "start": 60.635,
+     "end": 60.855,
+     "chunk": 0
+    },
+    {
+     "w": "ne",
+     "start": 61.155,
+     "end": 61.175,
+     "chunk": 0
+    },
+    {
+     "w": "pas",
+     "start": 61.175,
+     "end": 61.355,
+     "chunk": 0
+    },
+    {
+     "w": "choisir",
+     "start": 61.355,
+     "end": 61.755,
+     "chunk": 0
+    },
+    {
+     "w": "une",
+     "start": 61.755,
+     "end": 61.875,
+     "chunk": 0
+    },
+    {
+     "w": "pensee",
+     "start": 61.875,
+     "end": 62.355,
+     "chunk": 0
+    },
+    {
+     "w": "ce",
+     "start": 62.615,
+     "end": 62.855,
+     "chunk": 1
+    },
+    {
+     "w": "n",
+     "start": 62.855,
+     "end": 62.915,
+     "chunk": 1
+    },
+    {
+     "w": "est",
+     "start": 62.915,
+     "end": 62.995,
+     "chunk": 1
+    },
+    {
+     "w": "pas",
+     "start": 62.995,
+     "end": 63.095,
+     "chunk": 1
+    },
+    {
+     "w": "devoir",
+     "start": 63.095,
+     "end": 63.355,
+     "chunk": 1
+    },
+    {
+     "w": "lui",
+     "start": 63.355,
+     "end": 63.535,
+     "chunk": 1
+    },
+    {
+     "w": "obeir",
+     "start": 63.535,
+     "end": 64.015,
+     "chunk": 1
+    }
+   ],
+   "chunks": [
+    {
+     "text": "Retenons ça : ne pas choisir une pensée,",
+     "start": 60.195,
+     "end": 62.355
+    },
+    {
+     "text": "ce n’est pas devoir lui obéir.",
+     "start": 62.615,
+     "end": 64.582
+    }
+   ]
+  },
+  {
+   "id": "s18",
+   "scene": 9,
+   "start": 65.032,
+   "end": 69.423,
+   "display": "Une pensée de haine ne fait pas automatiquement de toi une personne haineuse.",
+   "say": "Une pensée de haine ne fait pas automatiquement de toi une personne haineuse.",
+   "heard": "Une  pensée  de  haine  ne  fait  pas  automatiquement  de  toi,  une  personne  haineuse.",
+   "match": 1.0,
+   "words": [
+    {
+     "w": "une",
+     "start": 65.032,
+     "end": 65.172,
+     "chunk": 0
+    },
+    {
+     "w": "pensee",
+     "start": 65.172,
+     "end": 65.632,
+     "chunk": 0
+    },
+    {
+     "w": "de",
+     "start": 65.632,
+     "end": 65.772,
+     "chunk": 0
+    },
+    {
+     "w": "haine",
+     "start": 65.772,
+     "end": 66.192,
+     "chunk": 0
+    },
+    {
+     "w": "ne",
+     "start": 66.192,
+     "end": 66.512,
+     "chunk": 0
+    },
+    {
+     "w": "fait",
+     "start": 66.512,
+     "end": 66.672,
+     "chunk": 0
+    },
+    {
+     "w": "pas",
+     "start": 66.672,
+     "end": 66.892,
+     "chunk": 0
+    },
+    {
+     "w": "automatiquement",
+     "start": 66.892,
+     "end": 67.552,
+     "chunk": 0
+    },
+    {
+     "w": "de",
+     "start": 67.552,
+     "end": 67.712,
+     "chunk": 0
+    },
+    {
+     "w": "toi",
+     "start": 67.712,
+     "end": 67.972,
+     "chunk": 0
+    },
+    {
+     "w": "une",
+     "start": 68.292,
+     "end": 68.432,
+     "chunk": 0
+    },
+    {
+     "w": "personne",
+     "start": 68.432,
+     "end": 68.732,
+     "chunk": 0
+    },
+    {
+     "w": "haineuse",
+     "start": 68.732,
+     "end": 69.292,
+     "chunk": 0
+    }
+   ],
+   "chunks": [
+    {
+     "text": "Une pensée de haine ne fait pas automatiquement de toi une personne haineuse.",
+     "start": 65.032,
+     "end": 69.423
+    }
+   ]
+  },
+  {
+   "id": "s19",
+   "scene": 9,
+   "start": 69.723,
+   "end": 71.708,
+   "display": "Une pensée de peur ne t’oblige pas à lui céder.",
+   "say": "Une pensée de peur ne t’oblige pas à lui céder.",
+   "heard": "Une  pensée  de  peur  ne  t 'oblige  pas  à  lui  céder.",
+   "match": 1.0,
+   "words": [
+    {
+     "w": "une",
+     "start": 69.723,
+     "end": 69.843,
+     "chunk": 0
+    },
+    {
+     "w": "pensee",
+     "start": 69.843,
+     "end": 70.203,
+     "chunk": 0
+    },
+    {
+     "w": "de",
+     "start": 70.203,
+     "end": 70.283,
+     "chunk": 0
+    },
+    {
+     "w": "peur",
+     "start": 70.283,
+     "end": 70.423,
+     "chunk": 0
+    },
+    {
+     "w": "ne",
+     "start": 70.423,
+     "end": 70.583,
+     "chunk": 0
+    },
+    {
+     "w": "t",
+     "start": 70.583,
+     "end": 70.703,
+     "chunk": 0
+    },
+    {
+     "w": "oblige",
+     "start": 70.703,
+     "end": 70.923,
+     "chunk": 0
+    },
+    {
+     "w": "pas",
+     "start": 70.923,
+     "end": 71.083,
+     "chunk": 0
+    },
+    {
+     "w": "a",
+     "start": 71.083,
+     "end": 71.183,
+     "chunk": 0
+    },
+    {
+     "w": "lui",
+     "start": 71.183,
+     "end": 71.263,
+     "chunk": 0
+    },
+    {
+     "w": "ceder",
+     "start": 71.263,
+     "end": 71.583,
+     "chunk": 0
+    }
+   ],
+   "chunks": [
+    {
+     "text": "Une pensée de peur ne t’oblige pas à lui céder.",
+     "start": 69.723,
+     "end": 71.708
+    }
+   ]
+  },
+  {
+   "id": "s20",
+   "scene": 10,
+   "start": 72.208,
+   "end": 75.321,
+   "display": "Peut-être que la liberté ne commence pas quand une pensée naît…",
+   "say": "Peut-être que la liberté ne commence pas quand une pensée naît…",
+   "heard": "Peut -être  que  la  liberté  ne  commence  pas  quand  une  pensée  naît.",
+   "match": 1.0,
+   "words": [
+    {
+     "w": "peut",
+     "start": 72.208,
+     "end": 72.408,
+     "chunk": 0
+    },
+    {
+     "w": "etre",
+     "start": 72.408,
+     "end": 72.608,
+     "chunk": 0
+    },
+    {
+     "w": "que",
+     "start": 72.608,
+     "end": 72.848,
+     "chunk": 0
+    },
+    {
+     "w": "la",
+     "start": 72.848,
+     "end": 72.948,
+     "chunk": 0
+    },
+    {
+     "w": "liberte",
+     "start": 72.948,
+     "end": 73.348,
+     "chunk": 0
+    },
+    {
+     "w": "ne",
+     "start": 73.348,
+     "end": 73.568,
+     "chunk": 0
+    },
+    {
+     "w": "commence",
+     "start": 73.568,
+     "end": 73.868,
+     "chunk": 0
+    },
+    {
+     "w": "pas",
+     "start": 73.868,
+     "end": 74.188,
+     "chunk": 0
+    },
+    {
+     "w": "quand",
+     "start": 74.188,
+     "end": 74.388,
+     "chunk": 0
+    },
+    {
+     "w": "une",
+     "start": 74.388,
+     "end": 74.588,
+     "chunk": 0
+    },
+    {
+     "w": "pensee",
+     "start": 74.588,
+     "end": 75.028,
+     "chunk": 0
+    },
+    {
+     "w": "nait",
+     "start": 75.028,
+     "end": 75.248,
+     "chunk": 0
+    }
+   ],
+   "chunks": [
+    {
+     "text": "Peut-être que la liberté ne commence pas quand une pensée naît…",
+     "start": 72.208,
+     "end": 75.321
+    }
+   ]
+  },
+  {
+   "id": "s21",
+   "scene": 10,
+   "start": 75.521,
+   "end": 77.92,
+   "display": "mais quand tu décides de lui accorder ta confiance.",
+   "say": "mais quand tu décides de lui accorder ta confiance.",
+   "heard": "mais  quand  tu  décides  de  lui  accorder  ta  confiance.",
+   "match": 1.0,
+   "words": [
+    {
+     "w": "mais",
+     "start": 75.521,
+     "end": 75.661,
+     "chunk": 0
+    },
+    {
+     "w": "quand",
+     "start": 75.661,
+     "end": 75.801,
+     "chunk": 0
+    },
+    {
+     "w": "tu",
+     "start": 75.801,
+     "end": 75.941,
+     "chunk": 0
+    },
+    {
+     "w": "decides",
+     "start": 75.941,
+     "end": 76.341,
+     "chunk": 0
+    },
+    {
+     "w": "de",
+     "start": 76.341,
+     "end": 76.461,
+     "chunk": 0
+    },
+    {
+     "w": "lui",
+     "start": 76.461,
+     "end": 76.561,
+     "chunk": 0
+    },
+    {
+     "w": "accorder",
+     "start": 76.561,
+     "end": 76.961,
+     "chunk": 0
+    },
+    {
+     "w": "ta",
+     "start": 76.961,
+     "end": 77.101,
+     "chunk": 0
+    },
+    {
+     "w": "confiance",
+     "start": 77.101,
+     "end": 77.421,
+     "chunk": 0
+    }
+   ],
+   "chunks": [
+    {
+     "text": "mais quand tu décides de lui accorder ta confiance.",
+     "start": 75.521,
+     "end": 77.92
+    }
+   ]
+  },
+  {
+   "id": "s22",
+   "scene": 11,
+   "start": 78.47,
+   "end": 80.805,
+   "display": "Alors, sommes-nous maîtres de nos pensées…",
+   "say": "Alors, sommes-nous maîtres de nos pensées…",
+   "heard": "Alors,  sommes -nous  maîtres  de  nos  pensées  ?",
+   "match": 1.0,
+   "words": [
+    {
+     "w": "alors",
+     "start": 78.47,
+     "end": 78.73,
+     "chunk": 0
+    },
+    {
+     "w": "sommes",
+     "start": 79.03,
+     "end": 79.35,
+     "chunk": 0
+    },
+    {
+     "w": "nous",
+     "start": 79.35,
+     "end": 79.55,
+     "chunk": 0
+    },
+    {
+     "w": "maitres",
+     "start": 79.55,
+     "end": 79.97,
+     "chunk": 0
+    },
+    {
+     "w": "de",
+     "start": 79.97,
+     "end": 80.09,
+     "chunk": 0
+    },
+    {
+     "w": "nos",
+     "start": 80.09,
+     "end": 80.21,
+     "chunk": 0
+    },
+    {
+     "w": "pensees",
+     "start": 80.21,
+     "end": 80.69,
+     "chunk": 0
+    }
+   ],
+   "chunks": [
+    {
+     "text": "Alors, sommes-nous maîtres de nos pensées…",
+     "start": 78.47,
+     "end": 80.805
+    }
+   ]
+  },
+  {
+   "id": "s23",
+   "scene": 11,
+   "start": 81.016,
+   "end": 84.16,
+   "display": "ou seulement responsables de ce que nous en faisons ?",
+   "say": "ou seulement responsables de ce que nous en faisons ?",
+   "heard": "ou  seulement  responsable  de  ce  que  nous  en  faisons.",
+   "match": 0.889,
+   "words": [
+    {
+     "w": "ou",
+     "start": 81.016,
+     "end": 81.157,
+     "chunk": 0
+    },
+    {
+     "w": "seulement",
+     "start": 81.157,
+     "end": 81.557,
+     "chunk": 0
+    },
+    {
+     "w": "responsables",
+     "start": 81.557,
+     "end": 82.592,
+     "chunk": 0
+    },
+    {
+     "w": "de",
+     "start": 82.592,
+     "end": 82.874,
+     "chunk": 0
+    },
+    {
+     "w": "ce",
+     "start": 82.874,
+     "end": 83.039,
+     "chunk": 0
+    },
+    {
+     "w": "que",
+     "start": 83.039,
+     "end": 83.18,
+     "chunk": 0
+    },
+    {
+     "w": "nous",
+     "start": 83.18,
+     "end": 83.345,
+     "chunk": 0
+    },
+    {
+     "w": "en",
+     "start": 83.345,
+     "end": 83.533,
+     "chunk": 0
+    },
+    {
+     "w": "faisons",
+     "start": 83.533,
+     "end": 84.004,
+     "chunk": 0
+    }
+   ],
+   "chunks": [
+    {
+     "text": "ou seulement responsables de ce que nous en faisons ?",
+     "start": 81.016,
+     "end": 84.16
+    }
+   ]
+  },
+  {
+   "id": "s24",
+   "scene": 12,
+   "start": 84.734,
+   "end": 86.714,
+   "display": "Dis-moi ce que tu en penses en commentaire.",
+   "say": "Dis-moi ce que tu en penses en commentaire.",
+   "heard": "Dis -moi  ce  que  tu  en  penses  en  commentaire.",
+   "match": 1.0,
+   "words": [
+    {
+     "w": "dis",
+     "start": 84.734,
+     "end": 84.874,
+     "chunk": 0
+    },
+    {
+     "w": "moi",
+     "start": 84.874,
+     "end": 85.034,
+     "chunk": 0
+    },
+    {
+     "w": "ce",
+     "start": 85.034,
+     "end": 85.174,
+     "chunk": 0
+    },
+    {
+     "w": "que",
+     "start": 85.174,
+     "end": 85.294,
+     "chunk": 0
+    },
+    {
+     "w": "tu",
+     "start": 85.294,
+     "end": 85.414,
+     "chunk": 0
+    },
+    {
+     "w": "en",
+     "start": 85.414,
+     "end": 85.494,
+     "chunk": 0
+    },
+    {
+     "w": "penses",
+     "start": 85.494,
+     "end": 85.814,
+     "chunk": 0
+    },
+    {
+     "w": "en",
+     "start": 85.814,
+     "end": 85.874,
+     "chunk": 0
+    },
+    {
+     "w": "commentaire",
+     "start": 85.874,
+     "end": 86.494,
+     "chunk": 0
+    }
+   ],
+   "chunks": [
+    {
+     "text": "Dis-moi ce que tu en penses en commentaire.",
+     "start": 84.734,
+     "end": 86.714
+    }
+   ]
+  }
+ ]
+}
